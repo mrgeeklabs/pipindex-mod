@@ -41,12 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="56" column="38" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="38" />
+              <first_editor relative-caret-position="201">
+                <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="collect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
+            <state relative-caret-position="-572">
               <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/loginpoc/image.php" />
         <option value="$PROJECT_DIR$/loginpoc/tnc.php" />
         <option value="$PROJECT_DIR$/loginpoc/login-hack.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/loginpoc/collect.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -289,12 +289,12 @@
       <workItem from="1475066097580" duration="9930000" />
       <workItem from="1475165781833" duration="4701000" />
       <workItem from="1475264546443" duration="24624000" />
-      <workItem from="1475486520119" duration="19982000" />
+      <workItem from="1475486520119" duration="20086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59237000" />
+    <option name="totallyTimeSpent" value="59341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1433" height="824" extended-state="6" />
@@ -547,22 +547,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="56" column="38" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="38" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="201">
+            <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

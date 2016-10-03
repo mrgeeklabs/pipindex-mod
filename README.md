@@ -9,7 +9,7 @@
 ### API Guidelines 
 --
 
-##### /loginpoc/check.php
+#### /loginpoc/check.php
 
 POST `email`
 
@@ -39,7 +39,7 @@ If email does not exist in Salesforce:
 }
 ```
 
-##### /loginpoc/collect.php
+#### /loginpoc/collect.php
 
 POST `email`, `requestForInfo`, `requestForCall`, `phoneNumber`
 
@@ -60,13 +60,6 @@ If only email is supplied and no other secondary input:
 {
   "success": false,
   "message": "No form data is supplied."
-}
-```
-
-```
-{
-  "success": false,
-  "message": "Email does not exist in records."
 }
 ```
 
