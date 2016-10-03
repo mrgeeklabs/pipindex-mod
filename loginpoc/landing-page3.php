@@ -557,8 +557,8 @@
 		});
 	});
 	$("#requestCall").click(function(event){
-		$.ajax({type:"POST",url: "check.php",data:{email:'niranjan.b@shawacademy.com'}, success: function(result){
-	       	console.log("Test Succsess "+ result.success);
+		$.ajax({type:"POST",url: "check.php",data:{email:'ali.gajani@academyft.com'}, success: function(result){
+	       	console.log("Test Success: " + result.success);
 			$('#telephone').val(result.message);
 	    }});
 		if($('#telephone').val().length>0){

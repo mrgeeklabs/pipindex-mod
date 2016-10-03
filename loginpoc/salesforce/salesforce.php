@@ -104,7 +104,7 @@ class SalseforceHelper {
 
     // Find Lead by Email
     public function FindLeadByEmail($email) {
-        $query = "SELECT Id, Event_Analytics__c, Page_Analytics__c FROM Lead WHERE Email = '" . $email . "'";
+        $query = "SELECT Id, Event_Analytics__c, Page_Analytics__c, Phone, Phone_2__c FROM Lead WHERE Email = '" . $email . "'";
         return $this->Query($query);
     }
 

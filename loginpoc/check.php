@@ -31,6 +31,9 @@ function checkInSalesforce($inboundEmail) {
         die();
     }
 
+    // @Manoj this is right but you were facing issues earlier
+    // because you overwrote my salesforce file
+
     if (($emailExists['records'][0]['Phone'] == '') && ($emailExists['records'][0]['Phone_2__c']) == '')  {
         logThis("No phone records found for: " . $inboundEmail);
         return ['status' => false ];

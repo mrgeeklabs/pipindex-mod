@@ -21,59 +21,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="utils.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginpoc/utils.php">
+      <file leaf-file-name="landing-page3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginpoc/landing-page3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-hack.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginpoc/login-hack.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="201">
-                <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-572">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tnc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginpoc/tnc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="560" column="40" selection-start-line="560" selection-start-column="40" selection-end-line="560" selection-end-column="40" />
               <folding>
-                <marker date="1475532496000" expanded="false" signature="723:775" ph="..." />
-                <marker date="1475532496000" expanded="true" signature="776:1152" ph="..." />
-                <marker date="1475532496000" expanded="true" signature="891:1142" ph="..." />
+                <marker date="1475536834000" expanded="false" signature="723:775" ph="..." />
+                <marker date="1475536834000" expanded="true" signature="776:1152" ph="..." />
+                <marker date="1475536834000" expanded="true" signature="891:1142" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginpoc/check.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesforce.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/salesforce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginpoc/events.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,15 +88,15 @@
         <option value="$PROJECT_DIR$/loginpoc/thankyou.php" />
         <option value="$PROJECT_DIR$/loginpoc/trackevents.php" />
         <option value="$PROJECT_DIR$/loginpoc/salesforce/salesforce.php" />
-        <option value="$PROJECT_DIR$/loginpoc/events.log" />
-        <option value="$PROJECT_DIR$/loginpoc/landing-page3.php" />
         <option value="$PROJECT_DIR$/loginpoc/utils.php" />
-        <option value="$PROJECT_DIR$/loginpoc/check.php" />
         <option value="$PROJECT_DIR$/loginpoc/image.php" />
         <option value="$PROJECT_DIR$/loginpoc/tnc.php" />
         <option value="$PROJECT_DIR$/loginpoc/login-hack.php" />
         <option value="$PROJECT_DIR$/loginpoc/collect.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/loginpoc/landing-page3.php" />
+        <option value="$PROJECT_DIR$/loginpoc/check.php" />
+        <option value="$PROJECT_DIR$/loginpoc/events.log" />
       </list>
     </option>
   </component>
@@ -217,7 +204,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="ut&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/utils.php&#10;check&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/check.php&#10;tnc&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/tnc.php&#10;imag&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/image.php&#10;che&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/check.php&#10;log&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/login-hack.php&#10;thank&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;sale&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/salesforce/salesforce.php&#10;tn&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/tnc.php&#10;Lan&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/landing-page3.php&#10;login&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/login.php&#10;thankyou&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;Landin&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/landing-page3.php&#10;th&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;eve&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/events.log&#10;tha&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;play&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/playground.php&#10;pla&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/playground.php" />
+    <property name="SearchEverywhereHistoryKey" value="lan&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/landing-page3.php&#10;ut&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/utils.php&#10;check&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/check.php&#10;tnc&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/tnc.php&#10;imag&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/image.php&#10;che&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/check.php&#10;log&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/login-hack.php&#10;thank&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;sale&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/salesforce/salesforce.php&#10;tn&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/tnc.php&#10;Lan&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/landing-page3.php&#10;login&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/login.php&#10;thankyou&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;Landin&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/landing-page3.php&#10;th&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;eve&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/events.log&#10;tha&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/thankyou.php&#10;play&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/playground.php&#10;pla&#9;FILE&#9;file:///Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/playground.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -289,12 +276,12 @@
       <workItem from="1475066097580" duration="9930000" />
       <workItem from="1475165781833" duration="4701000" />
       <workItem from="1475264546443" duration="24624000" />
-      <workItem from="1475486520119" duration="20086000" />
+      <workItem from="1475486520119" duration="21283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59341000" />
+    <option name="totallyTimeSpent" value="60538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1433" height="824" extended-state="6" />
@@ -403,14 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginpoc/translation_files/en/thankyou.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -443,30 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="117" column="94" selection-start-line="117" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/salesforce.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="106" column="85" selection-start-line="106" selection-start-column="85" selection-end-line="106" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/thankyou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginpoc/trackevents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1118">
@@ -483,43 +438,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/events.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/landing-page3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="559" column="43" selection-start-line="559" selection-start-column="43" selection-end-line="559" selection-end-column="43" />
-          <folding>
-            <marker date="1475532494000" expanded="false" signature="723:775" ph="..." />
-            <marker date="1475532494000" expanded="true" signature="776:1152" ph="..." />
-            <marker date="1475532494000" expanded="true" signature="891:1142" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginpoc/image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/tnc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1475532496000" expanded="false" signature="723:775" ph="..." />
-            <marker date="1475532496000" expanded="true" signature="776:1152" ph="..." />
-            <marker date="1475532496000" expanded="true" signature="891:1142" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-572">
@@ -558,11 +473,83 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="201">
-            <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <first_editor relative-caret-position="175">
+            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/thankyou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/tnc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-683">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1475532496000" expanded="false" signature="723:775" ph="..." />
+            <marker date="1475532496000" expanded="true" signature="776:1152" ph="..." />
+            <marker date="1475532496000" expanded="true" signature="891:1142" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="117" column="94" selection-start-line="117" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/landing-page3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="560" column="40" selection-start-line="560" selection-start-column="40" selection-end-line="560" selection-end-column="40" />
+          <folding>
+            <marker date="1475536834000" expanded="false" signature="723:775" ph="..." />
+            <marker date="1475536834000" expanded="true" signature="776:1152" ph="..." />
+            <marker date="1475536834000" expanded="true" signature="891:1142" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/events.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/salesforce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
