@@ -21,46 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="landing-page3.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="landing-page3.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loginpoc/landing-page3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="560" column="40" selection-start-line="560" selection-start-column="40" selection-end-line="560" selection-end-column="40" />
+            <state relative-caret-position="300">
+              <caret line="568" column="30" selection-start-line="568" selection-start-column="16" selection-end-line="568" selection-end-column="30" />
               <folding>
-                <marker date="1475536834000" expanded="false" signature="723:775" ph="..." />
-                <marker date="1475536834000" expanded="true" signature="776:1152" ph="..." />
-                <marker date="1475536834000" expanded="true" signature="891:1142" ph="..." />
+                <marker date="1475537435000" expanded="false" signature="723:775" ph="..." />
+                <marker date="1475537435000" expanded="true" signature="776:1152" ph="..." />
+                <marker date="1475537435000" expanded="true" signature="891:1142" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginpoc/check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salesforce.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/salesforce.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginpoc/events.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -87,16 +57,16 @@
         <option value="$PROJECT_DIR$/loginpoc/login.php" />
         <option value="$PROJECT_DIR$/loginpoc/thankyou.php" />
         <option value="$PROJECT_DIR$/loginpoc/trackevents.php" />
-        <option value="$PROJECT_DIR$/loginpoc/salesforce/salesforce.php" />
         <option value="$PROJECT_DIR$/loginpoc/utils.php" />
         <option value="$PROJECT_DIR$/loginpoc/image.php" />
         <option value="$PROJECT_DIR$/loginpoc/tnc.php" />
         <option value="$PROJECT_DIR$/loginpoc/login-hack.php" />
-        <option value="$PROJECT_DIR$/loginpoc/collect.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/loginpoc/landing-page3.php" />
-        <option value="$PROJECT_DIR$/loginpoc/check.php" />
         <option value="$PROJECT_DIR$/loginpoc/events.log" />
+        <option value="$PROJECT_DIR$/loginpoc/salesforce/salesforce.php" />
+        <option value="$PROJECT_DIR$/loginpoc/check.php" />
+        <option value="$PROJECT_DIR$/loginpoc/collect.php" />
+        <option value="$PROJECT_DIR$/loginpoc/landing-page3.php" />
       </list>
     </option>
   </component>
@@ -276,12 +246,12 @@
       <workItem from="1475066097580" duration="9930000" />
       <workItem from="1475165781833" duration="4701000" />
       <workItem from="1475264546443" duration="24624000" />
-      <workItem from="1475486520119" duration="21283000" />
+      <workItem from="1475486520119" duration="21805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60538000" />
+    <option name="totallyTimeSpent" value="61060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1433" height="824" extended-state="6" />
@@ -462,14 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -517,39 +479,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/landing-page3.php">
+    <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/salesforce.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="560" column="40" selection-start-line="560" selection-start-column="40" selection-end-line="560" selection-end-column="40" />
+        <state relative-caret-position="205">
+          <caret line="106" column="85" selection-start-line="106" selection-start-column="85" selection-end-line="106" selection-end-column="85" />
           <folding>
-            <marker date="1475536834000" expanded="false" signature="723:775" ph="..." />
-            <marker date="1475536834000" expanded="true" signature="776:1152" ph="..." />
-            <marker date="1475536834000" expanded="true" signature="891:1142" ph="..." />
+            <element signature="n#CreateLead#0;n#SalseforceHelper#0;n#!!top" expanded="false" />
+            <element signature="n#UpdateLead#0;n#SalseforceHelper#0;n#!!top" expanded="false" />
+            <element signature="n#GetLeadMetadata#0;n#SalseforceHelper#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/events.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loginpoc/check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="390">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginpoc/salesforce/salesforce.php">
+    <entry file="file://$PROJECT_DIR$/loginpoc/collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="-527">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/events.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginpoc/landing-page3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="568" column="30" selection-start-line="568" selection-start-column="16" selection-end-line="568" selection-end-column="30" />
+          <folding>
+            <marker date="1475537435000" expanded="false" signature="723:775" ph="..." />
+            <marker date="1475537435000" expanded="true" signature="776:1152" ph="..." />
+            <marker date="1475537435000" expanded="true" signature="891:1142" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
