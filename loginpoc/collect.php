@@ -3,7 +3,7 @@
 require_once('utils.php');
 require_once('salesforce/salesforce.php');
 
-if (count($_POST) > 0)
+if (count($_POST) > 1)
 {
 
     $email = isset($_POST['email']) ? trim($_POST['email']) : null;

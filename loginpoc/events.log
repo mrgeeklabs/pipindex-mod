@@ -452,3 +452,8 @@
 [2016-10-03 22:01:34] INFO: Attempting to log event: [accept-terms] for user: ali.gajani@academyft.com
 [2016-10-03 22:01:35] INFO: Email found: ali.gajani@academyft.com
 [2016-10-03 22:01:36] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 00:28:34] INFO: No phone records found for: ali.gajani@academyft.com
+[2016-10-04 00:29:38] INFO: No such emails exists in the Pipindex Salesforce: john
+[2016-10-04 00:32:10] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 00:32:11] INFO: Information collected from landing page 3 for user: ali.gajani@academyft.com
+[2016-10-04 00:32:27] INFO: Email found: ali.gajani@academyft.com
