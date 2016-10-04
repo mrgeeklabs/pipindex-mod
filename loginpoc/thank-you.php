@@ -63,7 +63,7 @@ if (!file_exists($translationsPath)) {
 			</div>
 		</div>
 		<img src="images/down-icon.png"  class="down-icon"/>
-		<a class="btn update-account-button" href="#">CLICK HERE TO GO TO YOUR NEW LOGIN</a>
+		<a class="btn update-account-button" href="https://www.etxcapital.com/account/sign-in">CLICK HERE TO GO TO YOUR NEW LOGIN</a>
 		<p class="remember">Remember your details were just sent by email</p>
 	</div>
 </div>

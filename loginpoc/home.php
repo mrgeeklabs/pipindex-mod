@@ -431,10 +431,11 @@
 	line-height: 1.3;
 	letter-spacing: 0.2px;
 	color: #6d6e71;">Enter your details below and you are all set!</h3>
-		        <form class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
-			        <input type="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;" />
-			        <input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" />
-			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat;
+		        <form class="form-group" id="request-call" style="margin-bottom: 30px;" novalidate>
+			        <input type="hidden" id="email" name="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;" />
+			        <input type="text" id="username" name="username" class="form-control"  value="" placeholder="Name"/>
+			        <input id="phoneNumber" type="tel" name="phoneNumber" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" />
+			        <button class="btn recognize" type="button" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat;
 	font-size: 16px;
 	line-height: 1.4;
 	letter-spacing: 0.2px;
@@ -512,6 +513,35 @@
 	</button> -->
 
 	<script type="text/javascript">
+
+	function createTelephoneInput(element){
+	    element.intlTelInput({
+	        initialCountry: "auto",
+	        allowExtensions: true,
+	        autoHideDialCode: true,
+	        autoFormat: true,
+	        defaultCountry: 'auto',
+	        formatOnInit:true,
+	        nationalMode: false,
+	        ipinfoToken: 'd8c7fbabb96b86',
+	        geoIpLookup: function(callback) {
+	            detectCountry(callback);
+	        },
+	        utilsScript: 'intlTelInput/js/utils.js'
+	    });
+	}
+	function markMandatory(element){
+	    element.addClass('error');
+	}
+	function detectCountry(callback){    
+        $.get('https://learn.shawacademy.com/freegeoip/json').always(function(resp) {
+            var countryCode = (resp && resp.country_code) ? resp.country_code : "";                
+            callback(countryCode);
+        });     
+	}
+
+	var contactNumber=$("#phoneNumber");
+	createTelephoneInput(contactNumber);
 	
 	$("#hours-selected-item").click(function(){
 		$('.hours-dropdown').slideToggle( "fast", function() {
@@ -568,18 +598,7 @@
 		});
 	});
 	$("#requestCall").click(function(event){
-		$.ajax({type:"POST",url: "check.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>'}, success: function(result){
-	       	if (result.success) {
-				$('#telephone').val(result.message);
-			}
-	    }});
-		if($('#telephone').val().length>0){
-						
-		} else {
-			//show telephone popup.
-			$('#myModalUnknown').modal('show');
-			event.stopPropagation();
-		}
+		$('#myModalUnknown').modal('show');
 		//console.log("hello");
 	});
 
@@ -625,29 +644,40 @@
 	    $('iframe#watch-video-player').attr('src','');
 	    $('iframe#watch-video-player').attr('src',source);
 	})
-	function createTelephoneInput(element){
-	    element.intlTelInput({
-	        initialCountry: "auto",
-	        allowExtensions: true,
-	        autoHideDialCode: true,
-	        autoFormat: true,
-	        defaultCountry: 'auto',
-	        formatOnInit:true,
-	        nationalMode: false,
-	        ipinfoToken: 'd8c7fbabb96b86',
-	        geoIpLookup: function(callback) {
-	            detectCountry(callback);
-	        },
-	        utilsScript: 'intlTelInput/js/utils.js'
-	    });
+	
+	$("#request-call button").click(function(event){
+		event.preventDefault();
+		var isFormValid = formValidate();
+		if(isFormValid) {
+			$.ajax({type:"POST",url: "collect.php",data:{email:$("#email").val(),username: $("#username").val(),phoneNumber:$("#phoneNumber").val()}, success: function(result){
+		       	$('#myModalUnknown').modal('hide');
+		       	$('#ackModal').modal('show');
+		    }});
+		}else {
+		}
+	});
+	
+	function formValidate(){
+	    var isFormValid=true;
+	    if($('#request-call input[name=username]').val() === '' ){
+	        markMandatory($('#username'));
+	        isFormValid = false;
+	    }
+	    else{
+	        $('#username').removeClass('error');
+	    }
+	    
+	    
+	    if(contactNumber.val() === '' ||  !contactNumber.intlTelInput("isValidNumber")){
+	        markMandatory($('#phoneNumber'));
+	        isFormValid = false;
+	    }
+	    else {
+	        $('#phoneNumber').removeClass('error');
+	    }  
+	    return isFormValid;
 	}
-	function detectCountry(callback){    
-        $.get('https://learn.shawacademy.com/freegeoip/json').always(function(resp) {
-            var countryCode = (resp && resp.country_code) ? resp.country_code : "";                
-            callback(countryCode);
-        });     
-	}
-	 createTelephoneInput($("#telephone"));
+	 
 	</script>
 </body>
 </html>
