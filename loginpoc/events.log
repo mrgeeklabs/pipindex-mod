@@ -1,0 +1,7 @@
+
+[2016-10-04 17:16:27] INFO: email=&eventType=page-load&pageId=login
+[2016-10-04 17:16:27] INFO: Blank email supplied.
+[2016-10-04 17:16:29] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=login
+[2016-10-04 17:16:29] INFO: Attempting to log page visit: [login] for user: ali.gajani@academyft.com
+[2016-10-04 17:16:32] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 17:16:32] INFO: Event recorded for: ali.gajani@academyft.com
