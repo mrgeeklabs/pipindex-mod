@@ -233,3 +233,47 @@
 [2016-10-04 21:39:23] INFO: Attempting to log page visit: [landing_page_3] for user: ali.gajani@academyft.com
 [2016-10-04 21:39:24] INFO: Email found: ali.gajani@academyft.com
 [2016-10-04 21:39:25] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:40:38] INFO: email=&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:40:38] INFO: Blank email supplied.
+[2016-10-04 21:41:18] INFO: email=&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:41:18] INFO: Blank email supplied.
+[2016-10-04 21:42:23] INFO: email=&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:42:23] INFO: Blank email supplied.
+[2016-10-04 21:42:41] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:42:41] INFO: Attempting to log page visit: [landing_page_3] for user: ali.gajani@academyft.com
+[2016-10-04 21:42:43] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:42:44] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:42:46] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:42:46] INFO: Attempting to log page visit: [landing_page_3] for user: ali.gajani@academyft.com
+[2016-10-04 21:42:47] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:42:47] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:43:25] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:43:25] INFO: Attempting to log page visit: [landing_page_3] for user: ali.gajani@academyft.com
+[2016-10-04 21:43:26] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:43:26] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:43:34] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:43:34] INFO: Attempting to log page visit: [landing_page_3] for user: ali.gajani@academyft.com
+[2016-10-04 21:43:35] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:43:35] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:43:37] INFO: email=&eventType=page-load&pageId=terms
+[2016-10-04 21:43:37] INFO: Blank email supplied.
+[2016-10-04 21:43:49] INFO: email=ali.gajani@academyft.com&eventType=accept-terms&pageId=
+[2016-10-04 21:43:49] INFO: Attempting to log event: [accept-terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:43:50] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:43:50] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:43:53] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:43:53] INFO: Attempting to log page visit: [landing_page_3] for user: ali.gajani@academyft.com
+[2016-10-04 21:43:54] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:43:54] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:43:56] INFO: email=&eventType=page-load&pageId=login
+[2016-10-04 21:43:56] INFO: Blank email supplied.
+[2016-10-04 21:44:01] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=terms
+[2016-10-04 21:44:01] INFO: Attempting to log page visit : [terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:44:02] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:44:03] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:44:04] INFO: email=ali.gajani@academyft.com&eventType=accept-terms&pageId=
+[2016-10-04 21:44:04] INFO: Attempting to log event: [accept-terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:44:05] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:44:05] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:44:11] INFO: email=&eventType=page-load&pageId=landing_page_3
+[2016-10-04 21:44:11] INFO: Blank email supplied.

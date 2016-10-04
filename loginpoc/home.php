@@ -27,6 +27,7 @@
 		<![endif]-->
 </head>
 <body>
+<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
 	<?php include "new_includes/header.php"; ?>
 	<div class="lp3-wrapper">
 		<div class="banner-wrapper">

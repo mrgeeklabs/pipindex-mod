@@ -24,6 +24,9 @@ if (!file_exists($translationsPath)) {
 } else {
 	include $translationsPath;
 }
+
+if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com');
+
 ?>
 <?php include "new_includes/header.php"; ?>
 <div class="thankYouContainer">
