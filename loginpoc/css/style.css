@@ -297,6 +297,9 @@ body .lp3-wrapper .features-container {
   border-top: 1px solid #f6f6f6;
   padding: 50px 0px;
 }
+.thankyou-body .lp3-wrapper .update-steps-container {
+  padding-bottom: 40px;
+}
 .thankyou-footer p {
   font-family: Montserrat Light;
   font-size: 15px;
