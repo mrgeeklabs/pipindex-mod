@@ -198,6 +198,12 @@ body .lp3-wrapper .features-container {
   bottom: 30px;
   left: 16.5%;
   top: 120px; }
+
+.tnc-content-wrapper {
+  position: static;
+  margin-top: 45px;
+  height: 570px;
+}  
   .tnc-content-wrapper .tnc-title {
     text-align: center;
     font-size: 30px;
@@ -252,6 +258,12 @@ body .lp3-wrapper .features-container {
   -moz-box-shadow: 2px 2px 10px 0 rgba(35, 31, 32, 0.15);
   box-shadow: 2px 2px 10px 0 rgba(35, 31, 32, 0.15);
   border: 0.5px solid #bcbec0; }
+
+  .tnc-button-wrapper {
+    position: static;
+    margin-bottom: 30px;
+  }
+
   .tnc-button-wrapper .activate-button {
     background: #313756 !important;
     color: #fff !important;
@@ -1145,3 +1157,42 @@ body .lp3-wrapper .features-container {
     text-align: center;
     color: #808285;
     padding-bottom: 55px; }
+
+.trackingPixel {
+  position: absolute;
+}    
+
+/*-------------- Footer Css Starts --------------*/
+
+footer {
+  background: #262626;
+  padding: 35px;
+}
+
+.main-footer {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+.social a {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.social a img {
+  width: 100%;
+}
+
+.social a:hover img {
+  margin-top: -25px;
+}
+
+/*-------------- Footer Css Ends --------------*/   
