@@ -17,7 +17,7 @@ if(isset($_POST['sub'])){
         $_SESSION['auth_token'] = $response['token'];
         // appending auth_token as a parameter
         // to show token is received correctly
-        header('LOCATION: terms-and-condition.php');
+        header('LOCATION: terms-and-condition.php?email=' . $username);
     }
 
 
