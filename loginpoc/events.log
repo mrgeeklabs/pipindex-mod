@@ -11,3 +11,7 @@
 [2016-10-04 22:15:19] INFO: Attempting to log event: [accept-terms] for user: ali.gajani@academyft.com
 [2016-10-04 22:15:20] INFO: Email found: ali.gajani@academyft.com
 [2016-10-04 22:15:20] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 22:28:40] INFO: email=ali.gajani@academyft.com&eventType=mail-open&pageId=
+[2016-10-04 22:28:40] INFO: Attempting to log event: [mail-open] for user: ali.gajani@academyft.com
+[2016-10-04 22:28:42] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 22:28:42] INFO: Event recorded for: ali.gajani@academyft.com

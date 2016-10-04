@@ -2,7 +2,7 @@
 
 
 require_once('new_includes/utils.php');
-echo '<img src="'. baseURL() .'loginpoc/trackevents.php?email=' .getEmailFromCookie() .'&eventType=mail-open"/>';
+echo '<img src="'. baseURL() .'trackevents.php?email=' .getEmailFromCookie() .'&eventType=mail-open"/>';
 
 require_once('new_includes/salesforce/salesforce.php');
 $salesforce = new SalseforceHelper();
