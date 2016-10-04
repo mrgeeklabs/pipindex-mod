@@ -87,7 +87,7 @@
 					<p>1.12000</p>
 				</div>
 				<div class="ratio">
-					<span>Spreads as low as 0.8 pip </span>
+					<span>Spreads as low as 0.8 </span>
 				</div>
 					<p class="feature-title">LOWER TRANSACTIONAL COSTS</p>
 			</div>
