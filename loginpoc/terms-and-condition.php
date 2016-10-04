@@ -152,6 +152,8 @@
 				$('#reason').css('border-color', 'red')
 			}
 		})
+
+		$('.tnc-content-wrapper').css('height', window.innerHeight - 220);
 	</script>
 </body>
 </html>

@@ -9,6 +9,10 @@
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<script type="text/javascript" src="intlTelInput/js/intlTelInput.min.js" ></script>
+	  	<link rel="stylesheet" type="text/css" href="intlTelInput/css/intlTelInput.css">
+	  	
+	  	
 	  	<link rel="stylesheet" href="css/style.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -281,7 +285,7 @@
 				<p id="ask-question">Ask any question and we will get back to you</p>
 			</div>
 			<textarea rows="5" placeholder="Type your question here"></textarea>
-			
+
 			<div style="margin-top: 30px;">
 				<a id="query-submit-button" data-toggle="modal" data-target="#ackModal">SUBMIT</a>
 			</div>
@@ -445,13 +449,13 @@
 	    </div>
 	  </div>
 	</div>
+
 	<footer>
 		<div class="main-footer">
             <p style="margin-top:-10px; font-size:13px; color:#e6e6e6; margin-top:10px;">RISK WARNING: Trading leveraged products carries a high risk to your capital and it is possible to lose more than your initial investment. These products may not be suitable for all investors, therefore ensure you fully understand the risks involved, and seek independent advice if necessary.  <a href="http://www.pipindex.com/risk-warning.html"><span style="color:#fff">Click here</span></a> to view the full risk warning.<br /><br>
             <span style="font-size:11px">PipIndex Capital Markets Limited is an appointed representative of Finsa Europe Ltd which is authorised and regulated by the Financial Conduct Authority (under firm reference number 525164) and whose registered office is: Tower Bridge Business Centre, 46-48 East Smithfield, London. E1W 1AW. United Kingdom. Finsa Europe Ltd is a company registered in England and Wales under number 07073413. PipIndex and PipIndex Capital Markets are registered trading names of Finsa Europe Ltd. This website is owned and operated by Finsa Europe Limited, UK<br /><br />PipIndex Capital Markets Limited and the Academy of Financial Trading (<a href="http://www.academyft.com/" target="_blank"><span style="color:#fff">www.academyft.com</span></a>) share the same beneficial owners.<br />PipIndex Capital Markets Limited derives its revenue from the trading activity of its customers only.</span>
             </p><br><br>
 			<div class="social">
-
 				<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
 
 				<a href="https://twitter.com/PipIndex" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
@@ -511,6 +515,35 @@
 	</button> -->
 
 	<script type="text/javascript">
+
+	function createTelephoneInput(element){
+	    element.intlTelInput({
+	        initialCountry: "auto",
+	        allowExtensions: true,
+	        autoHideDialCode: true,
+	        autoFormat: true,
+	        defaultCountry: 'auto',
+	        formatOnInit:true,
+	        nationalMode: false,
+	        ipinfoToken: 'd8c7fbabb96b86',
+	        geoIpLookup: function(callback) {
+	            detectCountry(callback);
+	        },
+	        utilsScript: 'intlTelInput/js/utils.js'
+	    });
+	}
+	function markMandatory(element){
+	    element.addClass('error');
+	}
+	function detectCountry(callback){    
+        $.get('https://learn.shawacademy.com/freegeoip/json').always(function(resp) {
+            var countryCode = (resp && resp.country_code) ? resp.country_code : "";                
+            callback(countryCode);
+        });     
+	}
+
+	var contactNumber=$("#phoneNumber");
+	createTelephoneInput(contactNumber);
 	
 	$("#hours-selected-item").click(function(){
 		$('.hours-dropdown').slideToggle( "fast", function() {
@@ -567,18 +600,7 @@
 		});
 	});
 	$("#requestCall").click(function(event){
-		$.ajax({type:"POST",url: "check.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>'}, success: function(result){
-	       	if (result.success) {
-				$('#telephone').val(result.message);
-			}
-	    }});
-		if($('#telephone').val().length>0){
-						
-		} else {
-			//show telephone popup.
-			$('#myModalUnknown').modal('show');
-			event.stopPropagation();
-		}
+		$('#myModalUnknown').modal('show');
 		//console.log("hello");
 	});
 
@@ -601,9 +623,12 @@
 	//  	return false;
 	// });
 
+	var global = {};
+	global.src = null;
 	$('.watch-video-wrapper').click(function(){
 		$('#watchVideoModal').modal('show');
 		var source = $('iframe#watch-video-player').attr('src');
+		global.src = source;
 		source = source+'&autoplay=1';
 		$('iframe#watch-video-player').attr('src',source);
 	});
@@ -617,11 +642,44 @@
 	// } 
 
 	$('#watchVideoModal').on('hidden.bs.modal', function () {
-	    var source = $('iframe#watch-video-player').attr('src');
+	    var source = global.src ;
 	    $('iframe#watch-video-player').attr('src','');
 	    $('iframe#watch-video-player').attr('src',source);
 	})
-
+	
+	$("#request-call button").click(function(event){
+		event.preventDefault();
+		var isFormValid = formValidate();
+		if(isFormValid) {
+			$.ajax({type:"POST",url: "collect.php",data:{email:$("#email").val(),username: $("#username").val(),phoneNumber:$("#phoneNumber").val()}, success: function(result){
+		       	$('#myModalUnknown').modal('hide');
+		       	$('#ackModal').modal('show');
+		    }});
+		}else {
+		}
+	});
+	
+	function formValidate(){
+	    var isFormValid=true;
+	    if($('#request-call input[name=username]').val() === '' ){
+	        markMandatory($('#username'));
+	        isFormValid = false;
+	    }
+	    else{
+	        $('#username').removeClass('error');
+	    }
+	    
+	    
+	    if(contactNumber.val() === '' ||  !contactNumber.intlTelInput("isValidNumber")){
+	        markMandatory($('#phoneNumber'));
+	        isFormValid = false;
+	    }
+	    else {
+	        $('#phoneNumber').removeClass('error');
+	    }  
+	    return isFormValid;
+	}
+	 
 	</script>
 </body>
 </html>
