@@ -26,8 +26,8 @@
 	<?php
 		require_once('new_includes/utils.php');
 		$lang = 'en';
-		$defaultTranslationsPath = 'new_includes/translation_files/en/terms-and-condition.php';
-		$translationsPath = 'new_includes/translation_files/' . $lang . '/terms-and-condition.php';
+		$defaultTranslationsPath = 'new_includes/translation_files/en/terms-and-conditions.php';
+		$translationsPath = 'new_includes/translation_files/' . $lang . '/terms-and-conditions.php';
 
 		if (!file_exists($translationsPath)) {
 		    include $defaultTranslationsPath;

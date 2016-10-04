@@ -16,8 +16,8 @@
 <?php
 require_once('new_includes/utils.php');
 $lang = 'en';
-$defaultTranslationsPath = 'new_includes/translation_files/en/thank-you.php';
-$translationsPath = 'new_includes/translation_files/' . $lang . '/thank-you.php';
+$defaultTranslationsPath = 'new_includes/translation_files/en/thankyou.php';
+$translationsPath = 'new_includes/translation_files/' . $lang . '/thankyou.php';
 
 if (!file_exists($translationsPath)) {
 	include $defaultTranslationsPath;
