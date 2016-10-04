@@ -3,17 +3,17 @@
 		<head>
 		<title>Terms & Condition | PipIndex Capital Markets</title>
 		<meta charset="utf-8">
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="new-static/images/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="new-static/images/favicon.ico" type="image/x-icon" />
   		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  	<script type="text/javascript" src="intlTelInput/js/intlTelInput.min.js" ></script>
-	  	<link rel="stylesheet" type="text/css" href="intlTelInput/css/intlTelInput.css">
+	  	<link rel="stylesheet" type="text/css" href="new-static/intlTelInput/css/intlTelInput.css">
 	  	
 	  	
-	  	<link rel="stylesheet" href="css/style.css">
+	  	<link rel="stylesheet" href="new-static/css/style.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -23,17 +23,17 @@
 		<![endif]-->
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js"></script>
-			<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
 <body>
-	<?php include "header.php"; ?>
+	<?php include "new_includes/header.php"; ?>
 	<div class="lp3-wrapper">
 		<div class="banner-wrapper">
 			<div class="banner-text-wrapper">
 				<div class="banner-left">
 					<div class="watch-video-wrapper">
-						<img src="images/play-video.svg">
+						<img src="new-static/images/play-video.svg">
 						<p>WATCH VIDEO</p>
 					</div>
 				</div>
@@ -41,7 +41,7 @@
 					<p id="account-better">Your Account Just Got Better!</p>
 					<h2 id="welcome-title">WELCOME TO ETX</h2>
 					<p id="welcome-text">Improve your trading with lower costs and a wider range of markets, across multiple platforms, with phenomenal support.</p>
-					<a id="banner-button" href="tnc.php">UPDATE YOUR ACCOUNT</a>
+					<a id="banner-button" href="terms-and-condition.php">UPDATE YOUR ACCOUNT</a>
 				</div>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 		</div>
 		<div class="update-steps-container">
 			<div id="update-steps-wrapper">
-				<img src="images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+				<img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
 				<div style="display: flex;">
 					<div class="steps">
 						<p class="step-title">STEP 1</p>
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 
-			<a class="btn update-account-button" href="tnc.php">UPDATE YOUR ACCOUNT</a>
+			<a class="btn update-account-button" href="terms-and-condition.php">UPDATE YOUR ACCOUNT</a>
 		</div>
 		<div class="prize-container">
 			<p id="prize-amount">£10,000</p>
@@ -100,49 +100,49 @@
 				<p class="feature-title">HUGE RANGE OF MARKETS</p>
 			</div>
 			<div class="update-wrapper">
-				<a class="btn update-account-button" href="tnc.php">UPDATE YOUR ACCOUNT</a>
+				<a class="btn update-account-button" href="terms-and-condition.php">UPDATE YOUR ACCOUNT</a>
 			</div>
 		</div>
 		<div class="scholars-section-container">
 			<div class="row">
 			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="images/regulation.svg"  width="134px" height="133px">
-				<img src="images/regulation-white.svg" alt="image"
+				<img class="unhovered" src="new-static/images/regulation.svg"  width="134px" height="133px">
+				<img src="new-static/images/regulation-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL UK FCA REGULATION</p>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="images/award.svg"  width="134px" height="133px">
-				<img src="images/award-white.svg" alt="image"
+				<img class="unhovered" src="new-static/images/award.svg"  width="134px" height="133px">
+				<img src="new-static/images/award-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>£10k First Trade Prize</p>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="images/manager.svg"  width="134px" height="133px">
-				<img src="images/manager-white.svg" alt="image"
+				<img class="unhovered" src="new-static/images/manager.svg"  width="134px" height="133px">
+				<img src="new-static/images/manager-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>DEDICATED SUPPORT MANAGER</p>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="images/languages.svg"  width="134px" height="133px">
-				<img src="images/languages-white.svg" alt="image"
+				<img class="unhovered" src="new-static/images/languages.svg"  width="134px" height="133px">
+				<img src="new-static/images/languages-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>COUNTLESS LANGUAGES</p>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="images/platform.svg"  width="134px" height="133px">
-				<img src="images/platform-white.svg" alt="image"
+				<img class="unhovered" src="new-static/images/platform.svg"  width="134px" height="133px">
+				<img src="new-static/images/platform-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL MT4 TRADING PLATFORM</p>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="images/mobile.svg"  width="134px" height="133px">
-				<img src="images/mobile-white.svg" alt="image"
+				<img class="unhovered" src="new-static/images/mobile.svg"  width="134px" height="133px">
+				<img src="new-static/images/mobile-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL RANGE OF MOBILE PLATFORMS</p>
 			</div>
 			<div class="col-md-12 col-sm-12">
-				<a href="tnc.php" class="button">UPDATE YOUR ACCOUNT</a>
+				<a href="terms-and-condition.php" class="button">UPDATE YOUR ACCOUNT</a>
 			</div>
 			</div>
 		</div>
@@ -173,7 +173,7 @@
 				<p >More reliability with greater support</p>
 				<p>Place 1 trade and you could win £10,000</p>
 			</div>
-			<a href="tnc.php" class="button">UPDATE YOUR ACCOUNT</a>
+			<a href="terms-and-condition.php" class="button">UPDATE YOUR ACCOUNT</a>
 		</div>
 		<div class="have-query">
 			<p id="query-title">Have any queries?</p>
@@ -417,7 +417,7 @@
 	    <div class="modal-content">
 	      <!-- <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	        	<img src="images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
 	        </button>
 	      </div> -->
 	      <div class="modal-body">
@@ -456,20 +456,20 @@
             <span style="font-size:11px">PipIndex Capital Markets Limited is an appointed representative of Finsa Europe Ltd which is authorised and regulated by the Financial Conduct Authority (under firm reference number 525164) and whose registered office is: Tower Bridge Business Centre, 46-48 East Smithfield, London. E1W 1AW. United Kingdom. Finsa Europe Ltd is a company registered in England and Wales under number 07073413. PipIndex and PipIndex Capital Markets are registered trading names of Finsa Europe Ltd. This website is owned and operated by Finsa Europe Limited, UK<br /><br />PipIndex Capital Markets Limited and the Academy of Financial Trading (<a href="http://www.academyft.com/" target="_blank"><span style="color:#fff">www.academyft.com</span></a>) share the same beneficial owners.<br />PipIndex Capital Markets Limited derives its revenue from the trading activity of its customers only.</span>
             </p><br><br>
 			<div class="social">
-				<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
+				<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="new-static/images/fb.png" alt="facebook icon"></a>
 
-				<a href="https://twitter.com/PipIndex" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+				<a href="https://twitter.com/PipIndex" target="_blank"><img src="new-static/images/twitter.png" alt="twitter icon"></a>
 
-				<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="images/linkdn.png" alt="linkedin icon"></a>
+				<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="new-static/images/linkdn.png" alt="linkedin icon"></a>
 
-				<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="images/gplus.png" alt="google plus icon"></a>
+				<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="new-static/images/gplus.png" alt="google plus icon"></a>
 
 			</div>
 
 			<p style="width:100%; margin:0 auto; text-align:right; color:#fff; margin-top:10px">PipIndex Capital Markets<br>&copy; 2016 |  PipIndex Capital Markets</p>
 		</div>
 	</footer>
-	<?php require_once('utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
+	<?php require_once('new_includes/utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
 
 	<!-- Acknowldge -->
 	<div class="modal fade" id="ackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -477,7 +477,7 @@
 	    <div class="modal-content">
 	      <!-- <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	        	<img src="images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
 	        </button>
 	      </div> -->
 	      <div class="modal-body">
@@ -499,7 +499,7 @@
 	    <div class="modal-content">
 	      <!-- <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	        	<img src="images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
 	        </button>
 	      </div> -->
 	      <div class="modal-body">

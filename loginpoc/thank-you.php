@@ -3,21 +3,21 @@
 <head>
 	<title>Thank You</title>
 	<meta charset="utf-8">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="new-static/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="new-static/images/favicon.ico" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="new-static/css/style.css">
 
 </head>
 <body class="thankyou-body">
 <?php
-require_once('utils.php');
+require_once('new_includes/utils.php');
 $lang = 'en';
-$defaultTranslationsPath = 'translation_files/en/thank-you.php';
-$translationsPath = 'translation_files/' . $lang . '/thank-you.php';
+$defaultTranslationsPath = 'new_includes/translation_files/en/thank-you.php';
+$translationsPath = 'new_includes/translation_files/' . $lang . '/thank-you.php';
 
 if (!file_exists($translationsPath)) {
 	include $defaultTranslationsPath;
@@ -25,7 +25,7 @@ if (!file_exists($translationsPath)) {
 	include $translationsPath;
 }
 ?>
-<?php include "header.php"; ?>
+<?php include "new_includes/header.php"; ?>
 <div class="thankYouContainer">
 	<div class="rightTick">
 		<img src="https://s3-eu-west-1.amazonaws.com/shawaftassets/img/website/green-tick.svg" />
@@ -43,13 +43,13 @@ if (!file_exists($translationsPath)) {
 </div>
 <div class="whathappennext">
 	<h3>What happens next?</h3>
-	<img src="images/email.svg" height="41px" width="45px" />
+	<img src="new-static/images/email.svg" height="41px" width="45px" />
 	<h4>An email has been sent with your new account login details</h4>
 </div>
 <div class="lp3-wrapper">
 	<div class="update-steps-container">
 		<div id="update-steps-wrapper">
-			<img src="images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+			<img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
 			<div style="display: flex;">
 				<div class="steps">
 					<p class="step-info">Simply follow the steps to login and update some information</p>
@@ -62,7 +62,7 @@ if (!file_exists($translationsPath)) {
 				</div>
 			</div>
 		</div>
-		<img src="images/down-icon.png"  class="down-icon"/>
+		<img src="new-static/images/down-icon.png"  class="down-icon"/>
 		<a class="btn update-account-button" href="https://www.etxcapital.com/account/sign-in">CLICK HERE TO GO TO YOUR NEW LOGIN</a>
 		<p class="remember">Remember your details were just sent by email</p>
 	</div>
@@ -78,13 +78,13 @@ if (!file_exists($translationsPath)) {
         </p><br><br>
 		<div class="social">
 
-			<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
+			<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="new-static/images/fb.png" alt="facebook icon"></a>
 
-			<a href="https://twitter.com/PipIndex" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+			<a href="https://twitter.com/PipIndex" target="_blank"><img src="new-static/images/twitter.png" alt="twitter icon"></a>
 
-			<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="images/linkdn.png" alt="linkedin icon"></a>
+			<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="new-static/images/linkdn.png" alt="linkedin icon"></a>
 
-			<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="images/gplus.png" alt="google plus icon"></a>
+			<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="new-static/images/gplus.png" alt="google plus icon"></a>
 
 		</div>
 

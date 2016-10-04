@@ -131,3 +131,27 @@
 [2016-10-04 20:49:37] INFO: Attempting to log page visit : [terms] for user: ali.gajani@academyft.com
 [2016-10-04 20:49:40] INFO: Email found: ali.gajani@academyft.com
 [2016-10-04 20:49:41] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:11:00] INFO: email=&eventType=page-load&pageId=login
+[2016-10-04 21:11:00] INFO: Blank email supplied.
+[2016-10-04 21:11:15] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=terms
+[2016-10-04 21:11:15] INFO: Attempting to log page visit : [terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:11:18] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:11:19] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:12:23] INFO: email=&eventType=page-load&pageId=login
+[2016-10-04 21:12:23] INFO: Blank email supplied.
+[2016-10-04 21:12:28] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=terms
+[2016-10-04 21:12:28] INFO: Attempting to log page visit : [terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:12:31] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:12:32] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:12:37] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=terms
+[2016-10-04 21:12:37] INFO: Attempting to log page visit : [terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:12:40] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:12:40] INFO: email=ali.gajani@academyft.com&eventType=accept-terms&pageId=
+[2016-10-04 21:12:40] INFO: Attempting to log event: [accept-terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:12:41] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:12:43] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:12:44] INFO: Event recorded for: ali.gajani@academyft.com
+[2016-10-04 21:13:43] INFO: email=ali.gajani@academyft.com&eventType=page-load&pageId=terms
+[2016-10-04 21:13:43] INFO: Attempting to log page visit : [terms] for user: ali.gajani@academyft.com
+[2016-10-04 21:13:46] INFO: Email found: ali.gajani@academyft.com
+[2016-10-04 21:13:47] INFO: Event recorded for: ali.gajani@academyft.com

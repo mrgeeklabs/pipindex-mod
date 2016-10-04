@@ -3,13 +3,13 @@
 		<head>
 		<title>Terms & Condition | PipIndex Capital Markets</title>
 		<meta charset="utf-8">
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="new-static/images/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="new-static/images/favicon.ico" type="image/x-icon" />
   		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	  	<link rel="stylesheet" href="css/style.css">
+	  	<link rel="stylesheet" href="new-static/css/style.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -19,15 +19,15 @@
 		<![endif]-->
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js"></script>
-			<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
 <body style="color: #36393e">
 	<?php
-		require_once('utils.php');
+		require_once('new_includes/utils.php');
 		$lang = 'en';
-		$defaultTranslationsPath = 'translation_files/en/terms-and-condition.php';
-		$translationsPath = 'translation_files/' . $lang . '/terms-and-condition.php';
+		$defaultTranslationsPath = 'new_includes/translation_files/en/terms-and-condition.php';
+		$translationsPath = 'new_includes/translation_files/' . $lang . '/terms-and-condition.php';
 
 		if (!file_exists($translationsPath)) {
 		    include $defaultTranslationsPath;
@@ -38,7 +38,7 @@
 		if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 		if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com');
 	?>
-	<?php include "header.php"; ?>
+	<?php include "new_includes/header.php"; ?>
 	<div class="tnc-content-wrapper">
 		<h2 class="tnc-title"><?= translateLabel("tncTitle", $translations) ?></h2>
 		<p class="tnc-message"><?= translateLabel("tncMessage", $translations) ?></p>
@@ -91,7 +91,7 @@
 	</div>
 	<div class="tnc-button-wrapper" style="">
 		<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
-		<a href="/thankyou.php" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
+		<a href="/thank-you.php" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
 	</div>
 	<footer>
 		<div class="main-footer">
@@ -100,13 +100,13 @@
             </p><br><br>
 			<div class="social">
 
-				<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
+				<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="new-static/images/fb.png" alt="facebook icon"></a>
 
-				<a href="https://twitter.com/PipIndex" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+				<a href="https://twitter.com/PipIndex" target="_blank"><img src="new-static/images/twitter.png" alt="twitter icon"></a>
 
-				<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="images/linkdn.png" alt="linkedin icon"></a>
+				<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="new-static/images/linkdn.png" alt="linkedin icon"></a>
 
-				<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="images/gplus.png" alt="google plus icon"></a>
+				<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="new-static/images/gplus.png" alt="google plus icon"></a>
 
 			</div>
 

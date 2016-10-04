@@ -1,7 +1,7 @@
 <?php
 
-require_once('utils.php');
-require_once('salesforce/salesforce.php');
+require_once('new_includes/utils.php');
+require_once('new_includes/salesforce/salesforce.php');
 
 /*
 *   trackevents.php

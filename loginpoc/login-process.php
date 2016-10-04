@@ -5,7 +5,7 @@ if(isset($_POST['sub'])){
     $response = makeApiRequest();
 
     if (isset($response['non_field_errors'])) {
-        header('LOCATION:login.php?error=true');
+        header('LOCATION: login.php?error=true');
     }
 
     $username = $_POST['username']; $password = $_POST['password'];
