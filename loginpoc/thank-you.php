@@ -72,7 +72,7 @@ if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:h
 </div>
 <div class="thankyou-footer">
 	<p>From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.</p>
-	<p>As a parting gift, don’t forget to place that first trade by Monday 2pm on October 17th 2016 BST, to be in with a chance to win £10,000</p>
+	<p>As a parting gift, don’t forget to place that first trade by Monday 2pm on October 17th 2016 BST, to be in with a chance to win <span>£10,000</span></p>
 </div>
 <footer>
 	<div class="main-footer">

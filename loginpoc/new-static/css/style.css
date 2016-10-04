@@ -554,7 +554,9 @@ body .lp3-wrapper .features-container .feature .feature-title {
       padding-top: 30px; }
       .lp3-wrapper .update-steps-container #update-steps-wrapper .steps {
         width: 33.33%;
-        text-align: center; }
+        text-align: center; 
+        padding: 0 10px;
+      }
         .lp3-wrapper .update-steps-container #update-steps-wrapper .steps .step-title {
           font-family: 'Montserrat Light';
           font-size: 15px;
@@ -690,17 +692,18 @@ body .lp3-wrapper .features-container .feature .feature-title {
       margin: 0 auto;
       margin-top: 60px; }
     #reasonModal .modal-content{
-      height: 500px;
+      height: 420px;
       text-align: center;
+      margin-top: 150px;
     }
     #reasonModal .heading{
       font-family: 'Montserrat Light';
-      font-size: 30px;
+      font-size: 23px;
       font-weight: 300;
       line-height: 0.8;
       letter-spacing: 0.3px;
       text-align: center;
-      margin-top: 30px;
+      margin-top: 50px;
     }
     #reasonModal .subHeading{
       margin-top: 52px;
@@ -717,6 +720,13 @@ body .lp3-wrapper .features-container .feature .feature-title {
       width: 726px;
       height: 142px;
       resize: none;
+      padding: 10px 20px;
+      margin-top: 50px;
+      letter-spacing: .5px;
+    }
+
+    #reasonModal textarea:active, #reasonModal textarea:focus {
+      outline: none;
     }
 
     #reasonModal textarea+button{
@@ -1175,6 +1185,12 @@ body .lp3-wrapper .features-container .feature .feature-title {
 .clear-both {
   clear: both; }
 
+.thankyou-footer p span {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 @media (max-width: 768px) {
   .tnc-content-wrapper {
     width: 90%;
@@ -1194,7 +1210,12 @@ body .lp3-wrapper .features-container .feature .feature-title {
   .thankYouContainer {
     padding: 0 10px; }
     .thankYouContainer .rightTick {
-      padding-top: 40px; } }
+      padding-top: 40px; } 
+
+  .lp3-wrapper .update-steps-container #update-steps-wrapper .steps {
+    padding: 0;
+  }
+}
 @media (max-width: 480px) {
   .tnc-content-wrapper {
     padding: 0 10px;

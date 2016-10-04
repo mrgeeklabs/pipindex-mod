@@ -120,11 +120,10 @@
 	<div id="reasonModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
-				<div class="heading">Are you sure you don’t want to upgrade your account?</div>
-				<div class="subHeading">Please let us know your reason</div>
+				<div class="heading">Please let us know your reason to not upgrade your account</div>
 <!--				<input type="hidden" name="email" value="--><?php //echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?><!--">-->
 <!--				<input type="hidden" name="requestForCall" value="true">-->
-				<textarea id="reason" name="reason" cols="30" rows="10" required></textarea>
+				<textarea id="reason" name="reason" cols="30" rows="10" required placeholder="Type your reason here"></textarea>
 				<button class="btn" id="submitReasonbtn">Submit</button>
 			</div>
 		</div>
