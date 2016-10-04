@@ -36,7 +36,7 @@
 				<div class="banner-right">
 					<p id="account-better">Your Account Just Got Better!</p>
 					<h2 id="welcome-title">WELCOME TO ETX</h2>
-					<p id="welcome-text">Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support.</p>
+					<p id="welcome-text">Improve your trading with lower costs and a wider range of markets, across multiple platforms, with phenomenal support.</p>
 					<a id="banner-button" href="tnc.php">UPDATE YOUR ACCOUNT</a>
 				</div>
 			</div>
@@ -73,16 +73,16 @@
 		</div>
 		<div class="features-container">
 			<div class="feature">
-				<h3>EUR/USD</h3>
+				<h3>EURUSD</h3>
 				<div>
 					<h4><b>Sell</b></h4>
-					<p>1.12000</p>
+					<p>0.8</p>
 				</div>
 				<div>
 					<h4><b>Buy</b></h4>
-					<p>1.12008</p>
+					<p>0.8</p>
 				</div>
-					<p class="feature-title">LOWER TRANSACTIONAL COST</p>
+					<p class="feature-title">LOWER TRANSACTIONAL COSTS</p>
 			</div>
 	<!--		<div class="seperator">
 				<hr>
@@ -156,11 +156,11 @@
 			<div class="desktop-bullet-points">
 				<p class="type-a"></p>
 				<p class="type-b">Click to Update Your Account</p>
-				<p class="type-a">You will be upgraded to the ETX MT4Trading Platform within X hours</p>
+				<p class="type-a">Update some basic information</p>
 				<p class="type-b"></p>
 				<p class="type-a"></p>
-				<p class="type-b">One of the ETX team will call to welcome youand offer support within YYYY hours</p>
-				<p class="type-a">Free Education will be provided on MT4</p>
+				<p class="type-b">You will be upgraded to the ETX MT4Trading Platform</p>
+				<p class="type-a">One of the ETX team will call to welcome youand offer support</p>
 				<p class="type-b"></p>
 				<p class="type-a"></p>
 				<p class="type-b">Trade more markets for less</p>
