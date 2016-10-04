@@ -17,7 +17,7 @@ if(isset($_POST['sub'])){
         $_SESSION['auth_token'] = $response['token'];
         // appending auth_token as a parameter
         // to show token is received correctly
-        header('LOCATION:/loginpoc/tnc.php');
+        header('LOCATION:/loginpoc/terms-and-condition.php');
     }
 
 

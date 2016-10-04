@@ -26,8 +26,8 @@
 	<?php
 		require_once('utils.php');
 		$lang = 'en';
-		$defaultTranslationsPath = 'translation_files/en/tnc.php';
-		$translationsPath = 'translation_files/' . $lang . '/tnc.php';
+		$defaultTranslationsPath = 'translation_files/en/terms-and-condition.php';
+		$translationsPath = 'translation_files/' . $lang . '/terms-and-condition.php';
 
 		if (!file_exists($translationsPath)) {
 		    include $defaultTranslationsPath;
