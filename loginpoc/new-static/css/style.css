@@ -687,17 +687,18 @@ body .lp3-wrapper .features-container .feature .feature-title {
       margin: 0 auto;
       margin-top: 60px; }
     #reasonModal .modal-content{
-      height: 500px;
+      height: 420px;
       text-align: center;
+      margin-top: 150px;
     }
     #reasonModal .heading{
       font-family: 'Montserrat Light';
-      font-size: 30px;
+      font-size: 23px;
       font-weight: 300;
       line-height: 0.8;
       letter-spacing: 0.3px;
       text-align: center;
-      margin-top: 30px;
+      margin-top: 50px;
     }
     #reasonModal .subHeading{
       margin-top: 52px;
@@ -714,6 +715,13 @@ body .lp3-wrapper .features-container .feature .feature-title {
       width: 726px;
       height: 142px;
       resize: none;
+      padding: 10px 20px;
+      margin-top: 50px;
+      letter-spacing: .5px;
+    }
+
+    #reasonModal textarea:active, #reasonModal textarea:focus {
+      outline: none;
     }
 
     #reasonModal textarea+button{
