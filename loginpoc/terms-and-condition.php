@@ -39,59 +39,61 @@
 		if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com');
 	?>
 	<?php include "new_includes/header.php"; ?>
-	<div class="tnc-content-wrapper">
-		<h2 class="tnc-title"><?= translateLabel("tncTitle", $translations) ?></h2>
-		<p class="tnc-message"><?= translateLabel("tncMessage", $translations) ?></p>
+	<div class="tnc-container">
+		<div class="tnc-content-wrapper">
+			<h2 class="tnc-title"><?= translateLabel("tncTitle", $translations) ?></h2>
+			<p class="tnc-message"><?= translateLabel("tncMessage", $translations) ?></p>
 
-		<hr size="0.7" style="color: #bcbec0;">
-		<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
-		<ul class="data-process-list">
-			<li><?= translateLabel("dataProcessList1", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList2", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList3", $translations) ?></li>
-		</ul>
-		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
-		
-		<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
-		<ul class="data-process-list">
-			<li><?= translateLabel("dataProcessList1", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList2", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList3", $translations) ?></li>
-		</ul>
-		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
-		
-		<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
-		<ul class="data-process-list">
-			<li><?= translateLabel("dataProcessList1", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList2", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList3", $translations) ?></li>
-		</ul>
-		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>		
-		<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
-		<ul class="data-process-list">
-			<li><?= translateLabel("dataProcessList1", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList2", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList3", $translations) ?></li>
-		</ul>
-		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>		
-		<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
-		<ul class="data-process-list">
-			<li><?= translateLabel("dataProcessList1", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList2", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList3", $translations) ?></li>
-		</ul>
-		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>		
-		<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
-		<ul class="data-process-list">
-			<li><?= translateLabel("dataProcessList1", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList2", $translations) ?></li>
-			<li><?= translateLabel("dataProcessList3", $translations) ?></li>
-		</ul>
-		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>		
-	</div>
-	<div class="tnc-button-wrapper" style="">
-		<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
-		<a href="/thank-you.php" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
+			<hr size="0.7" style="color: #bcbec0;">
+			<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
+			<ul class="data-process-list">
+				<li><?= translateLabel("dataProcessList1", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList2", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList3", $translations) ?></li>
+			</ul>
+			<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
+
+			<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
+			<ul class="data-process-list">
+				<li><?= translateLabel("dataProcessList1", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList2", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList3", $translations) ?></li>
+			</ul>
+			<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
+
+			<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
+			<ul class="data-process-list">
+				<li><?= translateLabel("dataProcessList1", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList2", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList3", $translations) ?></li>
+			</ul>
+			<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
+			<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
+			<ul class="data-process-list">
+				<li><?= translateLabel("dataProcessList1", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList2", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList3", $translations) ?></li>
+			</ul>
+			<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
+			<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
+			<ul class="data-process-list">
+				<li><?= translateLabel("dataProcessList1", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList2", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList3", $translations) ?></li>
+			</ul>
+			<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
+			<h3 class="data-process-title"><?= translateLabel("dataProcessTitle", $translations) ?></h3>
+			<ul class="data-process-list">
+				<li><?= translateLabel("dataProcessList1", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList2", $translations) ?></li>
+				<li><?= translateLabel("dataProcessList3", $translations) ?></li>
+			</ul>
+			<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>
+		</div>
+		<div class="tnc-button-wrapper" style="">
+			<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
+			<a href="/thank-you.php" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
+		</div>
 	</div>
 	<footer>
 		<div class="main-footer">
@@ -153,7 +155,7 @@
 			}
 		})
 
-		$('.tnc-content-wrapper').css('height', window.innerHeight - 220);
+//		$('.tnc-content-wrapper').css('height', window.innerHeight - 220);
 	</script>
 </body>
 </html>
