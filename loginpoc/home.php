@@ -98,53 +98,41 @@
 		</div>
 		<div class="scholars-section-container">
 			<div class="row">
-			<div class="col-md-3 col-sm-6">
-				<img class="unhovered" src="images/upgrade.svg"  width="134px" height="133px">
-				<img src="images/upgrade-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>SEAMLESS ACCOUNT UPGRADE</p>
-			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/regulation.svg"  width="134px" height="133px">
 				<img src="images/regulation-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL UK FCA REGULATION</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
-				<img class="unhovered" src="images/rewards.svg"  width="134px" height="133px">
-				<img src="images/rewards-white.svg" alt="image"
+			<div class="col-md-4 col-sm-6">
+				<img class="unhovered" src="images/award.svg"  width="134px" height="133px">
+				<img src="images/award-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
-				<p>LARGER REWARDS</p>
+				<p>£10k First Trade Prize</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/manager.svg"  width="134px" height="133px">
 				<img src="images/manager-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>DEDICATED SUPPORT MANAGER</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/languages.svg"  width="134px" height="133px">
 				<img src="images/languages-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>COUNTLESS LANGUAGES</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/platform.svg"  width="134px" height="133px">
 				<img src="images/platform-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL MT4 TRADING PLATFORM</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/mobile.svg"  width="134px" height="133px">
 				<img src="images/mobile-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL RANGE OF MOBILE PLATFORMS</p>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<img class="unhovered" src="images/award.svg"  width="134px" height="133px">
-				<img src="images/award-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>MULTI AWARD WINNING</p>
 			</div>
 			<div class="col-md-12 col-sm-12">
 				<a href="tnc.php" class="button">UPDATE YOUR ACCOUNT</a>
@@ -454,8 +442,27 @@
 	    </div>
 	  </div>
 	</div>
-	<?php require_once('utils.php'); echo '<img src="'. baseURL() .'loginpoc/trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
+	<footer>
+		<div class="main-footer">
+            <p style="margin-top:-10px; font-size:13px; color:#e6e6e6; margin-top:10px;">RISK WARNING: Trading leveraged products carries a high risk to your capital and it is possible to lose more than your initial investment. These products may not be suitable for all investors, therefore ensure you fully understand the risks involved, and seek independent advice if necessary.  <a href="http://www.pipindex.com/risk-warning.html"><span style="color:#fff">Click here</span></a> to view the full risk warning.<br /><br>
+            <span style="font-size:11px">PipIndex Capital Markets Limited is an appointed representative of Finsa Europe Ltd which is authorised and regulated by the Financial Conduct Authority (under firm reference number 525164) and whose registered office is: Tower Bridge Business Centre, 46-48 East Smithfield, London. E1W 1AW. United Kingdom. Finsa Europe Ltd is a company registered in England and Wales under number 07073413. PipIndex and PipIndex Capital Markets are registered trading names of Finsa Europe Ltd. This website is owned and operated by Finsa Europe Limited, UK<br /><br />PipIndex Capital Markets Limited and the Academy of Financial Trading (<a href="http://www.academyft.com/" target="_blank"><span style="color:#fff">www.academyft.com</span></a>) share the same beneficial owners.<br />PipIndex Capital Markets Limited derives its revenue from the trading activity of its customers only.</span>
+            </p><br><br>
+			<div class="social">
 
+				<a href="https://www.facebook.com/pages/Pip-Index-Capital-Markets/332922063514919" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
+
+				<a href="https://twitter.com/PipIndex" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+
+				<a href="http://www.linkedin.com/company/pip-index?trk=company_name" target="_blank"><img src="images/linkdn.png" alt="linkedin icon"></a>
+
+				<a href="https://plus.google.com/114948536588787746452" rel="publisher" target="_blank"><img src="images/gplus.png" alt="google plus icon"></a>
+
+			</div>
+
+			<p style="width:100%; margin:0 auto; text-align:right; color:#fff; margin-top:10px">PipIndex Capital Markets<br>&copy; 2016 |  PipIndex Capital Markets</p>
+		</div>
+	</footer>
+	<?php require_once('utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
 
 	<!-- Acknowldge -->
 	<div class="modal fade" id="ackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -489,7 +496,7 @@
 	        </button>
 	      </div> -->
 	      <div class="modal-body">
-	        	<iframe id="watch-video-player" src="//player.vimeo.com/video/161598421?portrait=0&color=333" width="565" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	        	<iframe style="width:100%;" id="watch-video-player" src="//player.vimeo.com/video/161598421?portrait=0&color=333" width="565" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	      </div>
 	    </div>
 	  </div>
@@ -593,6 +600,9 @@
 
 	$('.watch-video-wrapper').click(function(){
 		$('#watchVideoModal').modal('show');
+		var source = $('iframe#watch-video-player').attr('src');
+		source = source+'&autoplay=1';
+		$('iframe#watch-video-player').attr('src',source);
 	});
 
 	// function handleBrowserCloseButton(event) { 

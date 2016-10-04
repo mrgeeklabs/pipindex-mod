@@ -1,5 +1,8 @@
 <?php
 
+require_once('Mail/sendEmail.php');
+dispatchTo("aligajani@gmail.com");
+
 //require_once('utils.php');
 //echo '<img src="'. baseURL() .'loginpoc/trackevents.php?email=' .getEmailFromCookie() .'&eventType=mail-open"/>';
 
