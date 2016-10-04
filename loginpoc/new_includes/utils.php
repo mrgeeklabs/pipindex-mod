@@ -22,6 +22,11 @@
     }
 
     function getEmailFromCookie() {
+
+        if (isset($_GET['email'])) {
+            return trim($_GET['email']);
+        }
+
         if (isset($_COOKIE['user_email'])) {
             return trim($_COOKIE['user_email']);
         }

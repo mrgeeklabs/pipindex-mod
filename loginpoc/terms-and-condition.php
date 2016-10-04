@@ -92,7 +92,7 @@
 		</div>
 		<div class="tnc-button-wrapper" style="">
 			<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
-			<a href="/thank-you.php" id="agree-button" class="action-button activate-button"><?= translateLabel("I AGREE", $translations) ?></a>
+			<a href="/thank-you.php?email=<?php echo getEmailFromCookie(); ?>" id="agree-button" class="action-button activate-button"><?= translateLabel("I AGREE", $translations) ?></a>
 		</div>
 	</div>
 	<footer>
@@ -136,7 +136,7 @@
 
 		$('#submitReasonbtn').click(function (evt) {
 			if($('#reason').val()){
-				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: "yes", reason: $('#reason').val()}, success: function(result){
+				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: "yes", requestForInfo: $('#reason').val()}, success: function(result){
 					if(result.success){
 						$('#reasonModal').modal('toggle');
 						$('#reason').val('');
