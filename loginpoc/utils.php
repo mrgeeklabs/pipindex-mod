@@ -42,7 +42,7 @@
         if (isset($_COOKIE['auth_token'])) {
             echo "https://clients.pipindex.com";
         }  else {
-            echo baseURL() . "loginpoc/login.php?email=" . $_COOKIE['user_email'];
+            echo baseURL() . "login.php?email=" . $_COOKIE['user_email'];
         }
 
     }

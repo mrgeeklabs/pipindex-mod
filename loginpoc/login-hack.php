@@ -5,7 +5,7 @@ if(isset($_POST['sub'])){
     $response = makeApiRequest();
 
     if (isset($response['non_field_errors'])) {
-        header('LOCATION:/loginpoc/login.php?error=true');
+        header('LOCATION:login.php?error=true');
     }
 
     $username = $_POST['username']; $password = $_POST['password'];
@@ -17,7 +17,7 @@ if(isset($_POST['sub'])){
         $_SESSION['auth_token'] = $response['token'];
         // appending auth_token as a parameter
         // to show token is received correctly
-        header('LOCATION:/loginpoc/terms-and-condition.php');
+        header('LOCATION: terms-and-condition.php');
     }
 
 

