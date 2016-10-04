@@ -51,23 +51,15 @@ body .lp3-wrapper .features-container {
     padding-top: 50px; }
 
 @media (max-width: 1200px) {
-  body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left {
-    padding-top: 14%; }
   body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right {
     padding-right: 25px; } }
-@media (max-width: 1000px) {
-  body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left {
-    padding-top: 16%; } }
 @media (max-width: 850px) {
   body .lp3-wrapper .features-container .feature {
     margin-right: 90px;
     margin-left: 90px; }
     body .lp3-wrapper .features-container .feature:nth-of-type(1) {
       margin-bottom: 60px; } }
-@media (min-width: 769px) and (max-width: 1200px) {
-  body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left {
-    margin-top: 0;
-  } 
+@media (min-width: 769px) and (max-width: 1200px) { 
   body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text {
     padding-top: 15px; 
     padding-bottom: 10px;} 
@@ -481,7 +473,7 @@ body .lp3-wrapper .features-container {
         width: 63%;
         float: left;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 140px;
         display: table; }
         .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left img {
           width: 58px;
