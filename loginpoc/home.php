@@ -42,7 +42,7 @@
 					<p id="account-better">Your Account Just Got Better!</p>
 					<h2 id="welcome-title">WELCOME TO ETX</h2>
 					<p id="welcome-text">Improve your trading with lower costs and a wider range of markets, across multiple platforms, with phenomenal support.</p>
-					<a id="banner-button" href="terms-and-condition.php">UPDATE YOUR ACCOUNT</a>
+					<a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>">UPDATE YOUR ACCOUNT</a>
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 				</div>
 			</div>
 
-			<a class="btn update-account-button" href="terms-and-condition.php">UPDATE YOUR ACCOUNT</a>
+			<a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>">UPDATE YOUR ACCOUNT</a>
 		</div>
 		<div class="prize-container">
 			<p id="prize-amount">£10,000</p>
@@ -101,7 +101,7 @@
 				<p class="feature-title">HUGE RANGE OF MARKETS</p>
 			</div>
 			<div class="update-wrapper">
-				<a class="btn update-account-button" href="terms-and-condition.php">UPDATE YOUR ACCOUNT</a>
+				<a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>">UPDATE YOUR ACCOUNT</a>
 			</div>
 		</div>
 		<div class="scholars-section-container">
@@ -143,7 +143,7 @@
 				<p>FULL RANGE OF MOBILE PLATFORMS</p>
 			</div>
 			<div class="col-md-12 col-sm-12">
-				<a href="terms-and-condition.php" class="button">UPDATE YOUR ACCOUNT</a>
+				<a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button">UPDATE YOUR ACCOUNT</a>
 			</div>
 			</div>
 		</div>
@@ -174,7 +174,7 @@
 				<p >More reliability with greater support</p>
 				<p>Place 1 trade and you could win £10,000</p>
 			</div>
-			<a href="terms-and-condition.php" class="button">UPDATE YOUR ACCOUNT</a>
+			<a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button">UPDATE YOUR ACCOUNT</a>
 		</div>
 		<div class="have-query">
 			<p id="query-title">Have any queries?</p>
