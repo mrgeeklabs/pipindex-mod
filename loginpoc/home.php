@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<div id="update-account">
-			Update Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win <span style="font-size: 18px;font-weight: bold;">£10,000</span> real money!
+			Update Your Account and Place 1 Trade by Monday, October 17th 2016 at 2pm BST and enter a draw to win <span style="font-size: 18px;font-weight: bold;">£10,000</span> real money!
 		</div>
 		<div class="update-steps-container">
 			<div id="update-steps-wrapper">
@@ -69,18 +69,21 @@
 			<p id="prize-amount">£10,000</p>
 			<p id="prize-text">FIRST TRADE PRIZE</p>
 			<p class="prize-info">To enter this draw, simply place one trade.</p>
-			<p class="prize-info" style="padding-bottom: 40px;">The winner will be drawn by Monday, October 10th at 6pm BST</p>
+			<p class="prize-info" style="padding-bottom: 40px;">The winner will be drawn by Monday, October 17th at 2pm BST</p>
 		</div>
 		<div class="features-container">
 			<div class="feature">
 				<h3>EURUSD</h3>
 				<div>
 					<h4><b>Sell</b></h4>
-					<p>0.8</p>
+					<p>1.12000</p>
 				</div>
 				<div>
 					<h4><b>Buy</b></h4>
-					<p>0.8</p>
+					<p>1.12000</p>
+				</div>
+				<div class="ratio">
+					<span>Spreads as low as 0.8 pip </span>
 				</div>
 					<p class="feature-title">LOWER TRANSACTIONAL COSTS</p>
 			</div>
@@ -421,7 +424,7 @@
 	letter-spacing: 0.4px;
 	text-align: center;
 	color: #292728;">We could not recognize you</h1>
-		        <h3 style="font-family: Montserrat;
+		        <h3 style="font-family: Montserrat Light;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.3;
@@ -430,7 +433,7 @@
 		        <form class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
 			        <input type="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;" />
 			        <input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" />
-			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat;
+			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light;
 	font-size: 16px;
 	line-height: 1.4;
 	letter-spacing: 0.2px;

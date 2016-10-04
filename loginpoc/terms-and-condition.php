@@ -90,7 +90,7 @@
 		<p class="tnc-text"><?= translateLabel("Depending on your account settings, some of this data may be associated with your Pipindex Account and we treat this data as personal information. This is a dummy text and needs to change to original", $translations) ?></p>		
 	</div>
 	<div class="tnc-button-wrapper" style="">
-		<a href="http://pipindex.com" id="cancel-button" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
+		<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
 		<a href="/thankyou.php" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
 	</div>
 	<footer>
@@ -115,6 +115,19 @@
 	</footer>
 	<?php echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .getEmailFromCookie() .'&eventType=page-load&pageId=terms"/>'; ?>
 
+	<div id="reasonModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="heading">Are you sure you don’t want to upgrade your account?</div>
+				<div class="subHeading">Please let us know your reason</div>
+<!--				<input type="hidden" name="email" value="--><?php //echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?><!--">-->
+<!--				<input type="hidden" name="requestForCall" value="true">-->
+				<textarea id="reason" name="reason" cols="30" rows="10" required></textarea>
+				<button class="btn" id="submitReasonbtn">Submit</button>
+			</div>
+		</div>
+	</div>
+
 	<script type="text/javascript">
 		$('window').bind('scroll', function() {
 
@@ -123,7 +136,21 @@
 			if($(this).scrollTop() + $(this).innerHeight()>=$(this)[0].scrollHeight){
 				$('#agree-button').addClass('activate-button');
 			}
-			console.log($(this).scrollTop());
+		})
+
+		$('#submitReasonbtn').click(function (evt) {
+			if($('#reason').val()){
+				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: true, reason: $('#reason').val()}, success: function(result){
+					if(result.success){
+						$('#reasonModal').modal('toggle');
+						$('#reason').val('');
+						$('#reason').css('border-color', 'black')
+					}
+				}});
+			}
+			else{
+				$('#reason').css('border-color', 'red')
+			}
 		})
 	</script>
 </body>

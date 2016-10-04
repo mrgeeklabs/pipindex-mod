@@ -43,7 +43,16 @@ body .lp3-wrapper .features-container {
       font-family: Montserrat; }
     body .lp3-wrapper .features-container .feature:nth-of-type(2) .feature-title {
       margin-top: 75px; }
-    body .lp3-wrapper .features-container .feature .feature-title {
+
+    body .ratio {
+      color: #6D6E71 !important;
+      margin-top: 10px;
+      text-transform: uppercase;
+    }
+    body .ratio + .feature-title{
+      margin-top: 18px !important;
+    }
+body .lp3-wrapper .features-container .feature .feature-title {
       padding: 33px 0;
       margin: 0 18px;
       border-top: 1px solid rgba(230, 230, 230, 0.8); }
@@ -645,6 +654,53 @@ body .lp3-wrapper .features-container {
       width: 600px;
       margin: 0 auto;
       margin-top: 60px; }
+    #reasonModal .modal-content{
+      height: 500px;
+      text-align: center;
+    }
+    #reasonModal .heading{
+      font-family: 'Montserrat Light';
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 0.8;
+      letter-spacing: 0.3px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    #reasonModal .subHeading{
+      margin-top: 52px;
+      font-family: 'Montserrat Light';
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.3;
+      letter-spacing: 0.2px;
+      color: #6d6e71;
+      text-align: center;
+    }
+    #reasonModal textarea{
+      margin-top: 24px;
+      width: 726px;
+      height: 142px;
+      resize: none;
+    }
+
+    #reasonModal textarea+button{
+      width: 179px;
+      height: 70px;
+      margin-top: 31px;
+      background-color: #223f6a;
+      font-family: 'Montserrat Light';
+      font-size: 16px;
+      line-height: 1.4;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    #reasonModal button:hover{
+      color: #ffffff;
+    }
+
     @media (min-width: 601px) {
       .lp3-wrapper .improve-account-container .mobile-bullet-points {
         display: none; }
@@ -829,27 +885,27 @@ body .lp3-wrapper .features-container {
     .lp3-wrapper .have-query textarea {
       color: #fff;
       padding-top: 20px;
-      /*padding-left: 20px;*/ }
+      padding-left: 20px; }
     .lp3-wrapper .have-query ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: #fff;
       padding-top: 0px;
-      padding-left: 20px; }
+    }
     .lp3-wrapper .have-query ::-moz-placeholder {
       /* Firefox 19+ */
       color: #fff;
       padding-top: 0px;
-      padding-left: 20px; }
+    }
     .lp3-wrapper .have-query :-ms-input-placeholder {
       /* IE 10+ */
       color: #fff;
       padding-top: 0px;
-      padding-left: 20px; }
+    }
     .lp3-wrapper .have-query :-moz-placeholder {
       /* Firefox 18- */
       color: #fff;
       padding-top: 0px;
-      padding-left: 20px; }
+    }
     .lp3-wrapper .have-query hr {
       margin-top: 50px; }
     .lp3-wrapper .have-query #query-title {
