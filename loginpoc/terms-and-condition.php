@@ -140,7 +140,7 @@
 
 		$('#submitReasonbtn').click(function (evt) {
 			if($('#reason').val()){
-				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: true, requestForInfo: $('#reason').val()}, success: function(result){
+				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: "yes", reason: $('#reason').val()}, success: function(result){
 					if(result.success){
 						$('#reasonModal').modal('toggle');
 						$('#reason').val('');
