@@ -92,7 +92,7 @@
 		</div>
 		<div class="tnc-button-wrapper" style="">
 			<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
-			<a href="/thank-you.php?email=<?php echo getEmailFromCookie(); ?>" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
+			<a href="/thank-you.php?email=<?php echo getEmailFromCookie(); ?>" id="agree-button" class="action-button activate-button"><?= translateLabel("I AGREE", $translations) ?></a>
 		</div>
 	</div>
 	<footer>
@@ -121,18 +121,13 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="heading">Please let us know your reason to not upgrade your account</div>
-<!--				<input type="hidden" name="email" value="--><?php //echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?><!--">-->
-<!--				<input type="hidden" name="requestForCall" value="true">-->
-				<textarea id="reason" name="reason" cols="30" rows="10" required placeholder="Type your reason here"></textarea>
+				<textarea id="reason" name="reason" cols="30" rows="10" placeholder="Type your reason here" required></textarea>
 				<button class="btn" id="submitReasonbtn">Submit</button>
 			</div>
 		</div>
 	</div>
 
 	<script type="text/javascript">
-		$('window').bind('scroll', function() {
-
-		});
 		$('.tnc-content-wrapper').bind('scroll', function() {
 			if($(this).scrollTop() + $(this).innerHeight()>=$(this)[0].scrollHeight){
 				$('#agree-button').addClass('activate-button');
