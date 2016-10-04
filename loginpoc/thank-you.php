@@ -52,13 +52,13 @@ if (!file_exists($translationsPath)) {
 			<img src="images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
 			<div style="display: flex;">
 				<div class="steps">
-					<p class="step-info">Simply follow the steps to loginand update some information</p>
+					<p class="step-info">Simply follow the steps to login and update some information</p>
 				</div>
 				<div class="steps">
-					<p class="step-info">Once updated your new dedicatedETX account manager will contact you</p>
+					<p class="step-info">Once updated your new dedicated ETX account manager will contact you</p>
 				</div>
 				<div class="steps">
-					<p class="step-info">Have access to more markets, atlower cost, with greater support</p>
+					<p class="step-info">Have access to more markets, at lower cost, with greater support</p>
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,8 @@ if (!file_exists($translationsPath)) {
 	</div>
 </div>
 <div class="thankyou-footer">
-	<p>From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.As a parting gift, don’t forget to place that first trade by Monday 2pm on October 17th 2016 BST, to be in with a chance to win £10,000</p>
+	<p>From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.</p>
+	<p>As a parting gift, don’t forget to place that first trade by Monday 2pm on October 17th 2016 BST, to be in with a chance to win £10,000</p>
 </div>
 </body>
 </html>

@@ -9,6 +9,10 @@
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<script type="text/javascript" src="intlTelInput/js/intlTelInput.min.js" ></script>
+	  	<link rel="stylesheet" type="text/css" href="intlTelInput/css/intlTelInput.css">
+	  	
+	  	
 	  	<link rel="stylesheet" href="css/style.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -442,7 +446,7 @@
 	    </div>
 	  </div>
 	</div>
-	<?php require_once('utils.php'); echo '<img src="'. baseURL() .'loginpoc/trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
+	<?php require_once('utils.php'); echo '<img src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
 
 
 	<!-- Acknowldge -->
@@ -579,9 +583,12 @@
 	//  	return false;
 	// });
 
+	var global = {};
+	global.src = null;
 	$('.watch-video-wrapper').click(function(){
 		$('#watchVideoModal').modal('show');
 		var source = $('iframe#watch-video-player').attr('src');
+		global.src = source;
 		source = source+'&autoplay=1';
 		$('iframe#watch-video-player').attr('src',source);
 	});
@@ -595,11 +602,33 @@
 	// } 
 
 	$('#watchVideoModal').on('hidden.bs.modal', function () {
-	    var source = $('iframe#watch-video-player').attr('src');
+	    var source = global.src ;
 	    $('iframe#watch-video-player').attr('src','');
 	    $('iframe#watch-video-player').attr('src',source);
 	})
-
+	function createTelephoneInput(element){
+	    element.intlTelInput({
+	        initialCountry: "auto",
+	        allowExtensions: true,
+	        autoHideDialCode: true,
+	        autoFormat: true,
+	        defaultCountry: 'auto',
+	        formatOnInit:true,
+	        nationalMode: false,
+	        ipinfoToken: 'd8c7fbabb96b86',
+	        geoIpLookup: function(callback) {
+	            detectCountry(callback);
+	        },
+	        utilsScript: 'intlTelInput/js/utils.js'
+	    });
+	}
+	function detectCountry(callback){    
+        $.get('https://learn.shawacademy.com/freegeoip/json').always(function(resp) {
+            var countryCode = (resp && resp.country_code) ? resp.country_code : "";                
+            callback(countryCode);
+        });     
+	}
+	 createTelephoneInput($("#telephone"));
 	</script>
 </body>
 </html>
