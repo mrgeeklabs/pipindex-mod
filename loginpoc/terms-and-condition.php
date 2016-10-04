@@ -92,7 +92,7 @@
 		</div>
 		<div class="tnc-button-wrapper" style="">
 			<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= translateLabel("CANCEL", $translations) ?></a>
-			<a href="/thank-you.php" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
+			<a href="/thank-you.php?email=<?php echo getEmailFromCookie(); ?>" id="agree-button" class="action-button"><?= translateLabel("I AGREE", $translations) ?></a>
 		</div>
 	</div>
 	<footer>
