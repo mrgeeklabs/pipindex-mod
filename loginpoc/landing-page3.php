@@ -98,53 +98,41 @@
 		</div>
 		<div class="scholars-section-container">
 			<div class="row">
-			<div class="col-md-3 col-sm-6">
-				<img class="unhovered" src="images/upgrade.svg"  width="134px" height="133px">
-				<img src="images/upgrade-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>SEAMLESS ACCOUNT UPGRADE</p>
-			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/regulation.svg"  width="134px" height="133px">
 				<img src="images/regulation-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL UK FCA REGULATION</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
-				<img class="unhovered" src="images/rewards.svg"  width="134px" height="133px">
-				<img src="images/rewards-white.svg" alt="image"
+			<div class="col-md-4 col-sm-6">
+				<img class="unhovered" src="images/award.svg"  width="134px" height="133px">
+				<img src="images/award-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
-				<p>LARGER REWARDS</p>
+				<p>£10k First Trade Prize</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/manager.svg"  width="134px" height="133px">
 				<img src="images/manager-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>DEDICATED SUPPORT MANAGER</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/languages.svg"  width="134px" height="133px">
 				<img src="images/languages-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>COUNTLESS LANGUAGES</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/platform.svg"  width="134px" height="133px">
 				<img src="images/platform-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL MT4 TRADING PLATFORM</p>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-sm-6">
 				<img class="unhovered" src="images/mobile.svg"  width="134px" height="133px">
 				<img src="images/mobile-white.svg" alt="image"
 				class="hovered" width="134px" height="133px"/>
 				<p>FULL RANGE OF MOBILE PLATFORMS</p>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<img class="unhovered" src="images/award.svg"  width="134px" height="133px">
-				<img src="images/award-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>MULTI AWARD WINNING</p>
 			</div>
 			<div class="col-md-12 col-sm-12">
 				<a href="tnc.php" class="button">UPDATE YOUR ACCOUNT</a>
@@ -489,7 +477,7 @@
 	        </button>
 	      </div> -->
 	      <div class="modal-body">
-	        	<iframe id="watch-video-player" src="//player.vimeo.com/video/161598421?portrait=0&color=333" width="565" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	        	<iframe style="width:100%;" id="watch-video-player" src="//player.vimeo.com/video/161598421?portrait=0&color=333" width="565" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	      </div>
 	    </div>
 	  </div>
@@ -593,6 +581,9 @@
 
 	$('.watch-video-wrapper').click(function(){
 		$('#watchVideoModal').modal('show');
+		var source = $('iframe#watch-video-player').attr('src');
+		source = source+'&autoplay=1';
+		$('iframe#watch-video-player').attr('src',source);
 	});
 
 	// function handleBrowserCloseButton(event) { 
