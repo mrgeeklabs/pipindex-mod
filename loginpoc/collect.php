@@ -13,13 +13,17 @@ if (count($_POST) > 1)
     $firstName = isset($_POST['firstName']) ? trim($_POST['firstName']) : null;
     $timeToCall = isset($_POST['timeToCall']) ? trim($_POST['timeToCall']) : null;
 
+    $initialName = extractFirstAndLastName($firstName)['firstName']; // Always overrides
+    $lastName = extractFirstAndLastName($firstName)['lastName']; // If NULL, does not override
+
 
     $packageForSalesforce = [
         'Request_To_Call_Time__c'          => $requestForCall,
         'Request_For_More_Information__c' => $requestForInfo,
         'Phone'                           => $phoneNumber,
-        'FirstName'                       => $firstName,
-        'Request_To_Call_Time_2__c'                => $timeToCall
+        'FirstName'                       => $initialName,
+        'Request_To_Call_Time_2__c'                => $timeToCall,
+        'LastName'                          => $lastName
     ];
 
     sendToSalesforce($email, array_filter($packageForSalesforce));
@@ -44,4 +48,20 @@ function sendToSalesforce($inboundEmail, $data) {
     $salesforce->UpdateLead($emailExists['records'][0]['Id'], $data);
     logThis("Information collected from landing page 3 for user: " . $inboundEmail);
     respondWithJson(200, "Information successfully captured from form.");
+}
+
+function extractFirstAndLastName($names) {
+    $parts = explode(" ", $names);
+    $firstName = trim($parts[0]);
+
+    if (count($parts) > 1){
+        $lastName = implode(" ", array_slice($parts, 1));
+    } else {
+        $lastName = null;
+    }
+    if ($lastName == "") $lastName = null;
+    return [
+        'firstName' => $firstName,
+        'lastName'  => $lastName
+    ];
 }
