@@ -28,20 +28,56 @@
 <body style="color: #36393e">
 	<?php
 		require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
-		$lang = 'en';
-		$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . '/new_includes/translation_files/en/terms-and-conditions.php';
-		$translationsPath = $_SERVER['DOCUMENT_ROOT']  . '/new_includes/translation_files/' . $lang . '/terms-and-conditions.php';
-
-		if (!file_exists($translationsPath)) {
+		$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+		$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions.php";
+		/*$translationsPath = $_SERVER['DOCUMENT_ROOT']  . '/new_includes/translation_files/' . $lang . '/terms-and-conditions.php';*/
+		include $defaultTranslationsPath;
+		/*if (!file_exists($translationsPath)) {
 		    include $defaultTranslationsPath;
 		} else {
 		    include $translationsPath;
-		}
-
+		}*/
 		if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 	?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
+	<div class="tnc-container">	
+		<div class="tnc-content-wrapper">
+			<h2 class="tnc-title"><?= $translations[$lang]["body"]["content"]["title"] ?></h2>
+			<p class="tnc-message" style="font-weight: bolder;color: #000;"><?= $translations[$lang]["body"]["content"]["message"] ?></p>
+			<hr size="0.7" style="color: #bcbec0;">
+			<?php 
+			foreach($translations[$lang]["body"]["content"]["terms"] as $term) {
+			?>
+				<h3 class="data-process-title"><?= $term["header"] ?></h3>
+			<?php 	
+				foreach($term["para"] as $para) {
+				?>						
+					<p style="color: #808285;"><?= $para ?></p>
+				<?php
+					if(count($term["list"])>0){
+					?>	
+						<ul class="data-process-list">
+						<?php
+						foreach($term["list"] as $listItem) {
+						?>
+							<li style="padding-top: 0px;"><?= $listItem ?></li>
+						<?php		
+						}
+						?>
+						</ul>
+					<?php 		
+					}
+				}
+			}
+			?>
+		</div>
+		<div class="tnc-button-wrapper" style="">
+			<a id="cancel-button" data-toggle="modal" data-target=".bs-example-modal-lg" class="action-button"><?= $translations[$lang]["text"]["cancel"]?></a>
+			<a href="/thank-you.php?email=<?php echo getEmailFromCookie(); ?>" id="agree-button" class="action-button activate-button"><?= $translations[$lang]["text"]["agree"] ?></a>
+		</div>
+	</div>		
+	<!-- 
 	<div class="tnc-container">
 		<div class="tnc-content-wrapper">
 			<h2 class="tnc-title"><?= translateLabel("tncTitle", $translations) ?></h2>
@@ -99,7 +135,9 @@
 
 			<h3 class="data-process-title">9. CONTACT</h3>
 			<p style="color: #808285;">If you have any questions regarding our privacy policy, please email:.</p>	
-			<p><a href="mailto:customerservice@etxcapital.co.uk">customerservice@etxcapital.co.uk</a></p>
+			<p>
+			<a href="mailto:customerservice@etxcapital.co.uk">customerservice@etxcapital.co.uk</a>
+			</p>
 		
 
 		</div>
@@ -108,6 +146,7 @@
 			<a href="/thank-you.php?email=<?php echo getEmailFromCookie(); ?>" id="agree-button" class="action-button activate-button"><?= translateLabel("I AGREE", $translations) ?></a>
 		</div>
 	</div>
+	-->
 	<footer>
 		<div class="main-footer">
             <p style="margin-top:-10px; font-size:13px; color:#e6e6e6; margin-top:10px;">RISK WARNING: Trading leveraged products carries a high risk to your capital and it is possible to lose more than your initial investment. These products may not be suitable for all investors, therefore ensure you fully understand the risks involved, and seek independent advice if necessary.  <a href="http://www.pipindex.com/risk-warning.html"><span style="color:#fff">Click here</span></a> to view the full risk warning.<br /><br>

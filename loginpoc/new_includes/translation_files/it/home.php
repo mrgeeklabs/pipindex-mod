@@ -18,6 +18,20 @@
             "Sell" => "Vendi",
             "Buy" => "Compra",
             "Lower Transactional Costs" => "Costi di transazione più bassi",
+            "Huge Range of Markets" => "Impressionante gamma di mercati",
+            "Tradable Instruments" => "Strumenti negoziabili",
+            "Seamless Account Upgrade" => "Aggiornamento del conto senza interruzioni",
+            "Full UK FCA Regulation" => "Regolamentato a pieno della FCA UK",
+            "Larger Rewards" => "Grandi ricompense",
+            "Dedicated Support Manager" => "Support Manager Dedicato",
+            "Countless Languages" => "Lingue innumerevoli",
+            "Full MT4 Trading Platform" => "Piattaforma di Trading MT4 completa",
+            "Full Range of Mobile Platforms" => "Gamma completa di piattaforme portatili",
+            "Multi Award Winning" => "Pluri Premiato",
+            "Improve Your Account Right Now!" => "Migliora il tuo Conto ora!",
+            "Click to Update Your Account" => "Clicca per Aggiornare il Tuo Conto",
+            "You will be upgraded to the ETX MP4 Trading Platform within X hours" => "Riceverai l'aggiornamento della piattaforma di trading ETX MT4 entro poche ore XXXX",
+            "One of the ETX team will call to welcome you and offer support within YYYY hours" => "",
     	)
     );
 ?>
