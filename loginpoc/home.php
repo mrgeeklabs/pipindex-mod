@@ -674,7 +674,8 @@
 				email:$("#emailId").val(),
 				phoneNumber:$("#phoneNumber").val(),
 				firstName: $("#firstName").val(),
-				timeToCall: localStorage.getItem('callHours') + ":" + localStorage.getItem('callMins')
+				timeToCall: localStorage.getItem('callHours') + ":" + localStorage.getItem('callMins'),
+				requestForCall: 'yes'
 			}, success: function(result){
 		       	console.log(result);
 				$('#myModalUnknown').modal('hide');
