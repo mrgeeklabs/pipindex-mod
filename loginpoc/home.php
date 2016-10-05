@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 		<head>
-		<title>Terms & Condition | PipIndex Capital Markets</title>
+		<title>Home | PipIndex Capital Markets</title>
 		<meta charset="utf-8">
 		<link rel="icon" href="new-static/images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="new-static/images/favicon.ico" type="image/x-icon" />
@@ -550,7 +550,8 @@
 
 	var contactNumber=$("#phoneNumber");
 	createTelephoneInput(contactNumber);
-	
+	localStorage.setItem('callHours', '00');
+	localStorage.setItem('callMins', '00');
 	$("#hours-selected-item").click(function(){
 		$('.hours-dropdown').slideToggle( "fast", function() {
 		});
