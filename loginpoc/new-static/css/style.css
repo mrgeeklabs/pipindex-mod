@@ -308,11 +308,12 @@ body .lp3-wrapper .features-container .feature .feature-title {
   color: #6d6e71;
 }
 .thankyou-footer {
-  border-top: 1px solid #f6f6f6;
-  padding: 50px 0px;
+  /*border-top: 1px solid #f6f6f6;*/
+  padding: 0px 0px;
+  padding-bottom: 40px;
 }
 .thankyou-body .lp3-wrapper .update-steps-container {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 @media (max-width: 768px) {
   .lp3-wrapper .have-query #hours-selected-item, .lp3-wrapper .have-query #minute-selected-item {
@@ -1215,6 +1216,18 @@ body .lp3-wrapper .features-container .feature .feature-title {
   }
 }
 @media (max-width: 480px) {
+
+  .contact-detail{
+    font-size: 12px;
+  }
+  .contact-text{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tnc-container{
+    width: 90%;
+  }
   .tnc-content-wrapper {
     padding: 0 10px;
     width: 96%;
@@ -1231,10 +1244,11 @@ body .lp3-wrapper .features-container .feature .feature-title {
     right: 2%;
     bottom: 10px; }
     .tnc-button-wrapper .action-button {
-      padding: 20px 35px; }
+      padding: 20px 30px; }
 
   .header-container {
-    text-align: left; }
+    text-align: left;
+  }
     .header-container #pipindex-logo {
       margin-left: 0;
       margin-left: 10px; }

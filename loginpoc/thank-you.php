@@ -45,7 +45,7 @@ if (!file_exists($translationsPath)) {
 <div class="whathappennext">
 	<h3>What happens next?</h3>
 	<img src="new-static/images/email.svg" height="41px" width="45px" />
-	<h4>An email has been sent with your new account login details</h4>
+	<h4>An email will be sent shortly with your new account login details</h4>
 </div>
 <div class="lp3-wrapper">
 	<div class="update-steps-container">
@@ -63,14 +63,35 @@ if (!file_exists($translationsPath)) {
 				</div>
 			</div>
 		</div>
-		<img src="new-static/images/down-icon.png"  class="down-icon"/>
-		<a class="btn update-account-button" href="https://www.etxcapital.com/account/sign-in">CLICK HERE TO GO TO YOUR NEW LOGIN</a>
-		<p class="remember">Remember your details were just sent by email</p>
+		<!-- <img src="new-static/images/down-icon.png"  class="down-icon"/> -->
+		<!-- <a class="btn update-account-button" href="https://www.etxcapital.com/account/sign-in">CLICK HERE TO GO TO YOUR NEW LOGIN</a>
+		<p class="remember">Remember your details were just sent by email</p> -->
 	</div>
 </div>
 <div class="thankyou-footer">
 	<p>From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.</p>
 	<p>As a parting gift, don’t forget to place that first trade by Monday 2pm on October 17th 2016 BST, to be in with a chance to win <span>£10,000</span></p>
+</div>
+<div style="background-color: #f6f6f6;font-family: Montserrat Light;text-align: center;padding-bottom: 65px;">
+	<img src="new-static/images/Asset34.svg" style="width: 25px;height: 26px;margin: 0 auto;margin-top: 35px;">
+	<p class="contact-text" style="padding-bottom: 40px;padding-top: 10px;font-size: 15px;
+	font-weight: 300;
+	line-height: 1.7;
+	text-align: center;
+	color: #6d6e71;">In the meantime should you have any questions or queries do feel free to contact us directly at ETX for further support:</p>
+
+	<div class="contact-detail-container" style="color: #333132;font-family: Montserrat Light;
+	font-size: 15px;
+	line-height: 2.1;
+	text-align: center;
+	color: #333132;">
+		<div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">UK</span> – 0207 392 1494 and Freephone 0800 138 4582</div>
+		<div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Italy</span> –   +44(0) 207 392 1400 Freephone 800 145 624</div>
+		<div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Spain</span> – +44(0) 207 392 1400  Freephone +34 900 838 621</div>
+		<div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Germany</span> –  +44(0) 207 392 1400  Freephone   0800 589 2619</div>
+		<div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Austria</span> –  +44(0) 207 392 1400  Freephone  0800 006 297</div>
+		<div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">France</span> – +44(0) 207 392 1400  Freephone  0805 111 253</div>
+	</div>
 </div>
 <footer>
 	<div class="main-footer">
