@@ -1,8 +1,16 @@
 <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
+<?php
+	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
+	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions.php";
+	include $defaultTranslationsPath;
+	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 		<head>
-		<title>Terms & Condition | PipIndex Capital Markets</title>
+		<title><?= $translations[$lang]["title"]?></title>
 		<meta charset="utf-8">
 		<link rel="icon" href="new-static/images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="new-static/images/favicon.ico" type="image/x-icon" />
@@ -26,19 +34,6 @@
 		<![endif]-->
 </head>
 <body style="color: #36393e">
-	<?php
-		require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
-		$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
-		$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions.php";
-		/*$translationsPath = $_SERVER['DOCUMENT_ROOT']  . '/new_includes/translation_files/' . $lang . '/terms-and-conditions.php';*/
-		include $defaultTranslationsPath;
-		/*if (!file_exists($translationsPath)) {
-		    include $defaultTranslationsPath;
-		} else {
-		    include $translationsPath;
-		}*/
-		if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
-	?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
 	<div class="tnc-container">	

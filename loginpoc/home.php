@@ -1,8 +1,15 @@
 <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
+<?php
+	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
+	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home.php";
+	include $defaultTranslationsPath;
+	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
+?>
 <!DOCTYPE html>
 <html lang="en">
 		<head>
-		<title>Home | PipIndex Capital Markets</title>
+		<title><?= $translations[$lang]["title"]?></title>
 		<meta charset="utf-8">
 		<link rel="icon" href="new-static/images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="new-static/images/favicon.ico" type="image/x-icon" />
@@ -38,268 +45,201 @@
 <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<div class="lp3-wrapper">
-		<div class="banner-wrapper">
-			<div class="banner-text-wrapper">
-				<div class="banner-left">
-					<div class="watch-video-wrapper">
-						<img src="new-static/images/play-video.svg">
-						<p>WATCH VIDEO</p>
-					</div>
-				</div>
-				<div class="banner-right">
-					<p id="account-better">Your Account Just Got Better!</p>
-					<h2 id="welcome-title">WELCOME TO ETX</h2>
-					<p id="welcome-text">Improve your trading with lower costs and a wider range of markets, across multiple platforms, with phenomenal support.</p>
-					<a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>">UPDATE YOUR ACCOUNT</a>
-				</div>
-			</div>
-		</div>
-		<div id="update-account">
-			Update Your Account and Place 1 Trade by Monday, October 17th 2016 at 2pm BST and enter a draw to win <span style="font-size: 18px;font-weight: bold;">£10,000</span> real money!
-		</div>
-		<div class="update-steps-container">
-			<div id="update-steps-wrapper">
-				<img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
-				<div style="display: flex;">
-					<div class="steps">
-						<p class="step-title">STEP 1</p>
-						<p class="step-info">Click ‘Update Your Account’</p>
-					</div>
-					<div class="steps">
-						<p class="step-title">STEP 2</p>
-						<p class="step-info">Review the New Terms</p>
-					</div>
-					<div class="steps">
-						<p class="step-title">STEP 3</p>
-						<p class="step-info">Update Some Basic Info</p>
-					</div>
-				</div>
-			</div>
+	    <div class="banner-wrapper">
+	        <div class="banner-text-wrapper">
+	            <div class="banner-left">
+	                <div class="watch-video-wrapper">
+	                    <img src="new-static/images/play-video.svg">
+	                    <p><?= $translations[$lang]["text"]["watch_video"]?></p>
+	                </div>
+	            </div>
+	            <div class="banner-right">
+	                <p id="account-better"><?= $translations[$lang]["banner_right"][0] ?></p>
+	                <h2 id="welcome-title"><?= $translations[$lang]["banner_right"][1] ?></h2>
+	                <p id="welcome-text"><?= $translations[$lang]["banner_right"][2] ?></p>
+	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="update-account">
+	        <?= $translations[$lang]["update-account"][0] ?> <span style="font-size: 18px;font-weight: bold;">£10,000</span> <?=$translations[$lang]["update-account"][1] ?>
+	    </div>
+	    <div class="update-steps-container">
+	        <div id="update-steps-wrapper">
+	            <img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+	            <div style="display: flex;">
+	            <?php 
+					foreach($translations[$lang]["update-steps-container"] as $step) {
+				?>
+	                <div class="steps">
+	                    <p class="step-title"><?= $step["title"] ?></p>
+	                    <p class="step-info"><?= $step["info"] ?></p>
+	                </div>				
+				<?php 		
+				}
+				?>
+	            </div>
+	        </div>
 
-			<a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>">UPDATE YOUR ACCOUNT</a>
-		</div>
-		<div class="prize-container">
-			<p id="prize-amount">£10,000</p>
-			<p id="prize-text">FIRST TRADE PRIZE</p>
-			<p class="prize-info">To enter this draw, simply place one trade.</p>
-			<p class="prize-info" style="padding-bottom: 40px;">The winner will be drawn by Monday, October 17th at 2pm BST</p>
-		</div>
-		<div class="features-container">
-			<div class="feature">
-				<h3>EURUSD</h3>
-				<div>
-					<h4><b>Sell</b></h4>
-					<p>1.12000</p>
+	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
+	    </div>
+	    <div class="prize-container">
+	        <p id="prize-amount">£10,000</p>
+	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
+	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
+	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
+	    </div>
+	    <div class="features-container">
+	        <div class="feature">
+	            <h3><?= $translations[$lang]["text"]["eurusd"]?></h3>
+	            <div>
+	                <h4><b><?= $translations[$lang]["text"]["sell"]?></b></h4>
+	                <p>1.12000</p>
+	            </div>
+	            <div>
+	                <h4><b><?= $translations[$lang]["text"]["buy"]?></b></h4>
+	                <p>1.12008</p>
+	            </div>
+	            <div class="ratio">
+	                <span><?= $translations[$lang]["features-container"][0] ?></span>
+	            </div>
+	            <p class="feature-title"><?= $translations[$lang]["features-container"][1] ?></p>
+	        </div>
+	        <!--		<div class="seperator">
+					<hr>
+				</div> -->
+	        <div class="feature">
+	            <h3>5,000+</h3>
+	            <p style="color: #6D6E71;"><?= $translations[$lang]["feature"][0] ?></p>
+	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
+	        </div>
+	        <div class="update-wrapper">
+	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
+	        </div>
+	    </div>
+	    <div class="scholars-section-container">
+	        <div class="row">
+	        	<?php 
+	        		$sectionImages=array(
+	        			"regulation",
+	        			"award",
+	        			"manager",
+	        			"languages",
+	        			"platform",
+	        			"mobile",
+	        		);
+	        		$imageIndex=0;
+					foreach($translations[$lang]["scholars-section-container"] as $row) {
+						$image=$sectionImages[$imageIndex];
+						$imageIndex=$imageIndex+1;
+				?>
+				<div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/<?= $image ?>.svg" width="134px" height="133px">
+	                <img src="new-static/images/<?= $image ?>-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p><?= $row ?></p>
+	            </div>	            			
+				<?php 		
+				}
+				?>
+
+	            <!--
+	            <div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/regulation.svg" width="134px" height="133px">
+	                <img src="new-static/images/regulation-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p>FULL UK FCA REGULATION</p>
+	            </div>
+	            <div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/award.svg" width="134px" height="133px">
+	                <img src="new-static/images/award-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p>£10k First Trade Prize</p>
+	            </div>
+	            <div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/manager.svg" width="134px" height="133px">
+	                <img src="new-static/images/manager-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p>DEDICATED SUPPORT MANAGER</p>
+	            </div>
+	            <div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/languages.svg" width="134px" height="133px">
+	                <img src="new-static/images/languages-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p>COUNTLESS LANGUAGES</p>
+	            </div>
+	            <div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/platform.svg" width="134px" height="133px">
+	                <img src="new-static/images/platform-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p>FULL MT4 TRADING PLATFORM</p>
+	            </div>
+	            <div class="col-md-4 col-sm-6">
+	                <img class="unhovered" src="new-static/images/mobile.svg" width="134px" height="133px">
+	                <img src="new-static/images/mobile-white.svg" alt="image" class="hovered" width="134px" height="133px" />
+	                <p>FULL RANGE OF MOBILE PLATFORMS</p>
+	            </div>
+	            -->
+	            <div class="col-md-12 col-sm-12">
+	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="improve-account-container">
+	        <h1><?= $translations[$lang]["improve-account-container"] ?></h1>
+	        <div class="desktop-bullet-points">
+	            <img src="new-static/images/Improve-your-account.svg" style="width: 100%;">
+	        </div>
+	        <div class="mobile-bullet-points">
+	        	<?php 
+	        		// TODO: array of unhovered images
+	        		// TODO: array of hovered images
+					foreach($translations[$lang]["mobile-bullet-points"] as $point) {
+				?>
+	                <p><?= $point ?></p>
+				<?php 		
+				}
+				?>
+	        </div>
+	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
+	    </div>
+	    <div class="have-query">
+	        <p id="query-title"><?= $translations[$lang]["have_query"][0] ?></p>
+	        <p id="query-message"><?= $translations[$lang]["have_query"][1] ?></p>
+	        <div class="custom-time-select-dropdown">
+	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
+					<ul class="hours-dropdown">
+						<?php
+						for( $i= 0 ; $i <= 23 ; $i++ ) {
+							$number= str_pad($i, 2, "0", STR_PAD_LEFT);
+							?>
+							<li data-value = "<?= $number ?>"><?= $number ?></li>	
+							<?php
+						}
+						?>
+					</ul>
+					<label  id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
+					<ul class="minutes-dropdown">
+						<?php
+						for( $i= 0 ; $i <= 59 ; $i++ ) {
+							$number= str_pad($i, 2, "0", STR_PAD_LEFT);
+							?>
+							<li data-value = "<?= $number ?>"><?= $number ?></li>	
+							<?php
+						}
+						?>
+					</ul>
+					<button id="requestCall"><?= $translations[$lang]["text"]["request_call"] ?></button>
 				</div>
-				<div>
-					<h4><b>Buy</b></h4>
-					<p>1.12008</p>
+				<!-- <div style="margin-top: 5px;padding-bottom: 40px;">
+					<a id="request-call-button">REQUEST A CALL</a>
+					<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
+					  Launch demo modal
+					</button>
+				</div> -->
+				<hr style="width: 75%;">
+				<div class="ask-question-section">
+					<p id="ask-question"><?= $translations[$lang]["ask-question-section"] ?></p>
 				</div>
-				<div class="ratio">
-					<span>Spreads as low as 0.8 </span>
+				<textarea id="customerQuestion" rows="5" placeholder="Type your question here"></textarea>
+
+				<div style="margin-top: 30px;">
+					<a id="query-submit-button"><?= $translations[$lang]["text"]["submit"] ?></a>
 				</div>
-					<p class="feature-title">LOWER TRANSACTIONAL COSTS</p>
-			</div>
-	<!--		<div class="seperator">
-				<hr>
-			</div> -->
-			<div class="feature">
-				<h3>5,000+</h3>
-				<p style="color: #6D6E71;">TRADABLE INSTRUMENTS</p>
-				<p class="feature-title">HUGE RANGE OF MARKETS</p>
-			</div>
-			<div class="update-wrapper">
-				<a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>">UPDATE YOUR ACCOUNT</a>
-			</div>
-		</div>
-		<div class="scholars-section-container">
-			<div class="row">
-			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="new-static/images/regulation.svg"  width="134px" height="133px">
-				<img src="new-static/images/regulation-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>FULL UK FCA REGULATION</p>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="new-static/images/award.svg"  width="134px" height="133px">
-				<img src="new-static/images/award-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>£10k First Trade Prize</p>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="new-static/images/manager.svg"  width="134px" height="133px">
-				<img src="new-static/images/manager-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>DEDICATED SUPPORT MANAGER</p>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="new-static/images/languages.svg"  width="134px" height="133px">
-				<img src="new-static/images/languages-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>COUNTLESS LANGUAGES</p>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="new-static/images/platform.svg"  width="134px" height="133px">
-				<img src="new-static/images/platform-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>FULL MT4 TRADING PLATFORM</p>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img class="unhovered" src="new-static/images/mobile.svg"  width="134px" height="133px">
-				<img src="new-static/images/mobile-white.svg" alt="image"
-				class="hovered" width="134px" height="133px"/>
-				<p>FULL RANGE OF MOBILE PLATFORMS</p>
-			</div>
-			<div class="col-md-12 col-sm-12">
-				<a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button">UPDATE YOUR ACCOUNT</a>
-			</div>
-			</div>
-		</div>
-		<div class="improve-account-container">
-			<h1>Improve Your Account Right Now!</h1>
-			<div class="desktop-bullet-points">
-				<img src="new-static/images/Improve-your-account.svg" style="width: 100%;">
-			</div>
-			<!-- <div class="desktop-bullet-points">
-				<p class="type-a"></p>
-				<p class="type-b">Click to Update Your Account</p>
-				<p class="type-a">Update some basic information</p>
-				<p class="type-b"></p>
-				<p class="type-a"></p>
-				<p class="type-b">You will be upgraded to the ETX MT4Trading Platform</p>
-				<p class="type-a">One of the ETX team will call to welcome youand offer support</p>
-				<p class="type-b"></p>
-				<p class="type-a"></p>
-				<p class="type-b">Trade more markets for less</p>
-				<p class="type-a">More reliability with greater support</p>
-				<p class="type-b"></p>
-				<p class="type-a"></p>
-				<p class="type-b">Place 1 trade and you could win £10,000</p>
-			</div> -->
-			<div class="mobile-bullet-points">
-				<p>Click to Update Your Account</p>
-				<p >You will be upgraded to the ETX MT4Trading Platform within X hours</p>
-				<p>One of the ETX team will call to welcome youand offer support within YYYY hours</p>
-				<p >Free Education will be provided on MT4</p>
-				<p>Trade more markets for less</p>
-				<p >More reliability with greater support</p>
-				<p>Place 1 trade and you could win £10,000</p>
-			</div>
-			<a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button">UPDATE YOUR ACCOUNT</a>
-		</div>
-		<div class="have-query">
-			<p id="query-title">Have any queries?</p>
-			<p id="query-message">Choose a suitable time and we will contact you.</p>
-			<div class="custom-time-select-dropdown">
-				<label  id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
-				<ul class="hours-dropdown">
-					<li data-value = "00">00</li>
-					<li data-value = "01">01</li>
-					<li data-value = "02">02</li>
-					<li data-value = "03">03</li>
-					<li data-value = "04">04</li>
-					<li data-value = "05">05</li>
-					<li data-value = "06">06</li>
-					<li data-value = "07">07</li>
-					<li data-value = "08">08</li>
-					<li data-value = "09">09</li>
-					<li data-value = "10">10</li>
-					<li data-value = "11">11</li>
-					<li data-value = "12">12</li>
-					<li data-value = "13">13</li>
-					<li data-value = "14">14</li>
-					<li data-value = "15">15</li>
-					<li data-value = "16">16</li>
-					<li data-value = "17">17</li>
-					<li data-value = "18">18</li>
-					<li data-value = "19">19</li>
-					<li data-value = "20">20</li>
-					<li data-value = "21">21</li>
-					<li data-value = "22">22</li>
-					<li data-value = "23">23</li>
-				</ul>
-				<label  id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
-				<ul class="minutes-dropdown">
-					<li data-value = "00">00</li>
-					<li data-value="01">01</li>
-					<li data-value="02">02</li>
-					<li data-value="03">03</li>
-					<li data-value="04">04</li>
-					<li data-value="05">05</li>
-					<li data-value="06">06</li>
-					<li data-value="07">07</li>
-					<li data-value="08">08</li>
-					<li data-value="09">09</li>
-					<li data-value="10">10</li>
-					<li data-value="11">11</li>
-					<li data-value="12">12</li>
-					<li data-value="13">13</li>
-					<li data-value="14">14</li>
-					<li data-value="15">15</li>
-					<li data-value="16">16</li>
-					<li data-value="17">17</li>
-					<li data-value="18">18</li>
-					<li data-value="19">19</li>
-					<li data-value="20">20</li>
-					<li data-value="21">21</li>
-					<li data-value="22">22</li>
-					<li data-value="23">23</li>
-					<li data-value="24">24</li>
-					<li data-value="25">25</li>
-					<li data-value="26">26</li>
-					<li data-value="27">27</li>
-					<li data-value="28">28</li>
-					<li data-value="29">29</li>
-					<li data-value="30">30</li>
-					<li data-value="31">31</li>
-					<li data-value="32">32</li>
-					<li data-value="33">33</li>
-					<li data-value="34">34</li>
-					<li data-value="35">35</li>
-					<li data-value="36">36</li>
-					<li data-value="37">37</li>
-					<li data-value="38">38</li>
-					<li data-value="39">39</li>
-					<li data-value="40">40</li>
-					<li data-value="41">41</li>
-					<li data-value="42">42</li>
-					<li data-value="43">43</li>
-					<li data-value="44">44</li>
-					<li data-value="45">45</li>
-					<li data-value="46">46</li>
-					<li data-value="47">47</li>
-					<li data-value="48">48</li>
-					<li data-value="49">49</li>
-					<li data-value="50">50</li>
-					<li data-value="51">51</li>
-					<li data-value="52">52</li>
-					<li data-value="53">53</li>
-					<li data-value="54">54</li>
-					<li data-value="55">55</li>
-					<li data-value="56">56</li>
-					<li data-value="57">57</li>
-					<li data-value="58">58</li>
-					<li data-value="59">59</li>
-
-				</ul>
-				<button id="requestCall">REQUEST A CALL</button>
-			</div>
-			<!-- <div style="margin-top: 5px;padding-bottom: 40px;">
-				<a id="request-call-button">REQUEST A CALL</a>
-				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
-				  Launch demo modal
-				</button>
-			</div> -->
-
-			<hr style="width: 75%;">
-
-			<div class="ask-question-section">
-				<p id="ask-question">Ask any question and we will get back to you</p>
-			</div>
-			<textarea id="customerQuestion" rows="5" placeholder="Type your question here"></textarea>
-
-			<div style="margin-top: 30px;">
-				<a id="query-submit-button">SUBMIT</a>
 			</div>
 		</div>
 	</div>
@@ -318,102 +258,34 @@
 	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
 	      </div> -->
 	      <div class="modal-body have-query-body">
-	        <h1>Have any queries?</h1>
-	        <h3>Choose a suitable time and we will contact you</h3>
+	        <h1><?= $translations[$lang]["have_query"][0] ?></h1>
+	        <h3><?= $translations[$lang]["have_query"][1] ?></h3>
 	        <div class="custom-time-select-dropdown">
 				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 				<ul class="popup-hours-dropdown">
-					<li data-value = "00">00</li>
-					<li data-value = "01">01</li>
-					<li data-value = "02">02</li>
-					<li data-value = "03">03</li>
-					<li data-value = "04">04</li>
-					<li data-value = "05">05</li>
-					<li data-value = "06">06</li>
-					<li data-value = "07">07</li>
-					<li data-value = "08">08</li>
-					<li data-value = "09">09</li>
-					<li data-value = "10">10</li>
-					<li data-value = "11">11</li>
-					<li data-value = "12">12</li>
-					<li data-value = "13">13</li>
-					<li data-value = "14">14</li>
-					<li data-value = "15">15</li>
-					<li data-value = "16">16</li>
-					<li data-value = "17">17</li>
-					<li data-value = "18">18</li>
-					<li data-value = "19">19</li>
-					<li data-value = "20">20</li>
-					<li data-value = "21">21</li>
-					<li data-value = "22">22</li>
-					<li data-value = "23">23</li>
+						<?php
+						for( $i= 0 ; $i <= 23 ; $i++ ) {
+							$number= str_pad($i, 2, "0", STR_PAD_LEFT);
+							?>
+							<li data-value = "<?= $number ?>"><?= $number ?></li>	
+							<?php
+						}
+						?>
 				</ul>
 				<label  id="popup-minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
 				<ul class="popup-minutes-dropdown">
-					<li data-value = "00">00</li>
-					<li data-value="01">01</li>
-					<li data-value="02">02</li>
-					<li data-value="03">03</li>
-					<li data-value="04">04</li>
-					<li data-value="05">05</li>
-					<li data-value="06">06</li>
-					<li data-value="07">07</li>
-					<li data-value="08">08</li>
-					<li data-value="09">09</li>
-					<li data-value="10">10</li>
-					<li data-value="11">11</li>
-					<li data-value="12">12</li>
-					<li data-value="13">13</li>
-					<li data-value="14">14</li>
-					<li data-value="15">15</li>
-					<li data-value="16">16</li>
-					<li data-value="17">17</li>
-					<li data-value="18">18</li>
-					<li data-value="19">19</li>
-					<li data-value="20">20</li>
-					<li data-value="21">21</li>
-					<li data-value="22">22</li>
-					<li data-value="23">23</li>
-					<li data-value="24">24</li>
-					<li data-value="25">25</li>
-					<li data-value="26">26</li>
-					<li data-value="27">27</li>
-					<li data-value="28">28</li>
-					<li data-value="29">29</li>
-					<li data-value="30">30</li>
-					<li data-value="31">31</li>
-					<li data-value="32">32</li>
-					<li data-value="33">33</li>
-					<li data-value="34">34</li>
-					<li data-value="35">35</li>
-					<li data-value="36">36</li>
-					<li data-value="37">37</li>
-					<li data-value="38">38</li>
-					<li data-value="39">39</li>
-					<li data-value="40">40</li>
-					<li data-value="41">41</li>
-					<li data-value="42">42</li>
-					<li data-value="43">43</li>
-					<li data-value="44">44</li>
-					<li data-value="45">45</li>
-					<li data-value="46">46</li>
-					<li data-value="47">47</li>
-					<li data-value="48">48</li>
-					<li data-value="49">49</li>
-					<li data-value="50">50</li>
-					<li data-value="51">51</li>
-					<li data-value="52">52</li>
-					<li data-value="53">53</li>
-					<li data-value="54">54</li>
-					<li data-value="55">55</li>
-					<li data-value="56">56</li>
-					<li data-value="57">57</li>
-					<li data-value="58">58</li>
-					<li data-value="59">59</li>
+					<?php
+						for( $i= 0 ; $i <= 59 ; $i++ ) {
+							$number= str_pad($i, 2, "0", STR_PAD_LEFT);
+							?>
+							<li data-value = "<?= $number ?>"><?= $number ?></li>	
+							<?php
+						}
+						?>
 
 				</ul>
 			</div>
-	        <button>REQUEST A CALL</button>
+	        <button><?= $translations[$lang]["text"]["request_call"] ?></button>
 	      </div>
 	      <!-- <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -434,28 +306,13 @@
 	      </div> -->
 	      <div class="modal-body">
 	        <div style="text-align: center;">
-		        <h1 style="font-size: 36px;
-	font-weight: 300;
-	line-height: 0.7;
-	letter-spacing: 0.4px;
-	text-align: center;
-	color: #292728;">We could not recognize you</h1>
-		        <h3 style="font-family: Montserrat Light;
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 1.3;
-	letter-spacing: 0.2px;
-	color: #6d6e71;">Enter your details below and you are all set!</h3>
+		        <h1 style="font-size: 36px; font-weight: 300; line-height: 0.7; letter-spacing: 0.4px; text-align: center; color: #292728;"><?= $translations[$lang]["text"]["not_recognize"] ?></h1>
+		        <h3 style="font-family: Montserrat Light; font-size: 18px; font-weight: 300; line-height: 1.3;letter-spacing: 0.2px; color: #6d6e71;"><?= $translations[$lang]["text"]["not_recognize_text"] ?></h3>
 		        <form id="CaptureForm" class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
 			        <input id="emailId" type="hidden" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;"/>
 					<input id="firstName" type="text" class="form-control" placeholder="Your Name" style="margin-bottom: 30px;" value="" required/>
 					<input id="phoneNumber" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" required/>
-			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light;
-	font-size: 16px;
-	line-height: 1.4;
-	letter-spacing: 0.2px;
-	text-align: center;
-	color: #ffffff;">SUBMIT</button>
+			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light; font-size: 16px; line-height: 1.4; letter-spacing: 0.2px; text-align: center; color: #ffffff;"><?= $translations[$lang]["text"]["submit"] ?></button>
 		        </form>
 	        </div>
 	      </div>
@@ -498,8 +355,8 @@
 				<div class="rightTick">
 					<img src="https://s3-eu-west-1.amazonaws.com/shawaftassets/img/website/green-tick.svg" />
 				</div>
-				<div class="thankYouTitle">Thank You</div>
-				<div class="thankYouMessage">We will get back to you shortly</div>
+				<div class="thankYouTitle"><?= $translations[$lang]["text"]["thank_you"] ?></div>
+				<div class="thankYouMessage"><?= $translations[$lang]["text"]["thank_you_message"] ?></div>
 			</div>
 	      </div>
 	    </div>
