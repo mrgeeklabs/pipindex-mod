@@ -12,6 +12,7 @@
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  	<script type="text/javascript" src="new-static/intlTelInput/js/intlTelInput.min.js" ></script>
 	  	<link rel="stylesheet" type="text/css" href="new-static/intlTelInput/css/intlTelInput.css">
+	  	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
@@ -28,6 +29,12 @@
 		<![endif]-->
 </head>
 <body>
+<div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
+	<div style="width: 100%; text-align: center;color: #fff;">
+		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
+		<!-- <p>Loading</p> -->
+	</div>
+</div>
 <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<div class="lp3-wrapper">
@@ -519,7 +526,19 @@
 	<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalUnknown">
 	  Launch demo modal
 	</button> -->
-
+	<style type="text/css">
+		.temporary-overlay {
+		    background-color: #fff;
+		    opacity: 0.6;
+		    z-index: 999;
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    display: none;
+		}​
+	</style>
 	<script type="text/javascript">
 
 	function createTelephoneInput(element){
@@ -602,7 +621,7 @@
 	});
 	$(".popup-minutes-dropdown li").click(function(){
 		var option = $(this).data('value');
-		console.log(option);
+		//console.log(option);
 		$("#popup-minute-selected-item .minutes").text(option);
 		$(".popup-minutes-dropdown").slideToggle( "fast", function() {
 		});
@@ -657,11 +676,14 @@
 
 	$("#query-submit-button").click(function(event){
 		event.preventDefault();
+		$('#loadingIndicator').css('display','block');
+
 			$.ajax({type:"POST",url: "collect.php",data:{
 				email: $("#emailId").val(),
 				requestForInfo:$("#customerQuestion").val()
 			}, success: function(result){
-				console.log(result);
+				//console.log(result);
+				$('#loadingIndicator').css('display','none');
 				$('#ackModal').modal('show');
 		       	$('#customerQuestion').val('');
 			}});
@@ -669,8 +691,11 @@
 
 	$("#CaptureForm button").click(function(event){
 		event.preventDefault();
+		//$('body').addClass("temporary-overlay");
 		var isFormValid = formValidate();
 		if(isFormValid) {
+			$('#myModalUnknown').modal('hide');
+			$('#loadingIndicator').css('display','block');
 			$.ajax({type:"POST",url: "collect.php",data:{
 				email:$("#emailId").val(),
 				phoneNumber:$("#phoneNumber").val(),
@@ -678,11 +703,13 @@
 				timeToCall: localStorage.getItem('callHours') + ":" + localStorage.getItem('callMins'),
 				requestForCall: 'yes'
 			}, success: function(result){
-		       	console.log(result);
-				$('#myModalUnknown').modal('hide');
-		       	$('#ackModal').modal('show');
+				//$('body').removeClass("temporary-overlay");
+				$('#loadingIndicator').css('display','none');
+				$('#ackModal').modal('show');
+		       	//console.log(result);
 		    }});
 		}else {
+			// return false;
 		}
 	});
 	
@@ -694,6 +721,13 @@
 	    }
 	    else{
 	        $('#username').removeClass('error');
+	    }
+	    if($('#firstName').val() === ''){
+	    	markMandatory($('#firstName'));
+	    	isFormValid = false;
+	    }
+	    else{
+	        $('#firstName').removeClass('error');
 	    }
 	    
 	    
