@@ -691,11 +691,11 @@
 
 	$("#CaptureForm button").click(function(event){
 		event.preventDefault();
-		$('#myModalUnknown').modal('hide');
 		//$('body').addClass("temporary-overlay");
-		$('#loadingIndicator').css('display','block');
 		var isFormValid = formValidate();
 		if(isFormValid) {
+			$('#myModalUnknown').modal('hide');
+			$('#loadingIndicator').css('display','block');
 			$.ajax({type:"POST",url: "collect.php",data:{
 				email:$("#emailId").val(),
 				phoneNumber:$("#phoneNumber").val(),
@@ -709,6 +709,7 @@
 		       	//console.log(result);
 		    }});
 		}else {
+			// return false;
 		}
 	});
 	
@@ -720,6 +721,13 @@
 	    }
 	    else{
 	        $('#username').removeClass('error');
+	    }
+	    if($('#firstName').val() === ''){
+	    	markMandatory($('#firstName'));
+	    	isFormValid = false;
+	    }
+	    else{
+	        $('#firstName').removeClass('error');
 	    }
 	    
 	    
