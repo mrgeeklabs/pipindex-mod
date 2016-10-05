@@ -151,6 +151,9 @@
 		<div class="improve-account-container">
 			<h1>Improve Your Account Right Now!</h1>
 			<div class="desktop-bullet-points">
+				<img src="new-static/images/Improve-your-account.svg" style="width: 100%;">
+			</div>
+			<!-- <div class="desktop-bullet-points">
 				<p class="type-a"></p>
 				<p class="type-b">Click to Update Your Account</p>
 				<p class="type-a">Update some basic information</p>
@@ -165,7 +168,7 @@
 				<p class="type-b"></p>
 				<p class="type-a"></p>
 				<p class="type-b">Place 1 trade and you could win £10,000</p>
-			</div>
+			</div> -->
 			<div class="mobile-bullet-points">
 				<p>Click to Update Your Account</p>
 				<p >You will be upgraded to the ETX MT4Trading Platform within X hours</p>
