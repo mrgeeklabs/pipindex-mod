@@ -8,8 +8,8 @@ define("EMAIL_SMTP_PORT", 587);
 define("EMAIL_SMTP_USERNAME", "ali.gajani@academyft.com");
 define("EMAIL_SMTP_PASSWORD", "246810aa");
 
-require_once('phpmailer.php');
-require_once('./utils.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Mail/phpmailer.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php');
 
 function dispatchTo($inboundEmail)
 {

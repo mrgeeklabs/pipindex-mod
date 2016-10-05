@@ -24,10 +24,10 @@
 </head>
 <body style="color: #36393e">
 	<?php
-		require_once('new_includes/utils.php');
+		require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 		$lang = 'en';
-		$defaultTranslationsPath = 'new_includes/translation_files/en/terms-and-conditions.php';
-		$translationsPath = 'new_includes/translation_files/' . $lang . '/terms-and-conditions.php';
+		$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . '/new_includes/translation_files/en/terms-and-conditions.php';
+		$translationsPath = $_SERVER['DOCUMENT_ROOT']  . '/new_includes/translation_files/' . $lang . '/terms-and-conditions.php';
 
 		if (!file_exists($translationsPath)) {
 		    include $defaultTranslationsPath;
@@ -38,7 +38,7 @@
 		if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 		if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com');
 	?>
-	<?php include "new_includes/header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<div class="tnc-container">
 		<div class="tnc-content-wrapper">
 			<h2 class="tnc-title"><?= translateLabel("tncTitle", $translations) ?></h2>

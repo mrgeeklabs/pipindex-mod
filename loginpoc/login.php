@@ -115,7 +115,7 @@
             </div>
         </div>
     </div>
-    <?php require_once('new_includes/utils.php'); echo '<img src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=login"/>'; ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=login"/>'; ?>
 </ui-view>
 <div growl="" class="ng-isolate-scope">
     <div class="growl-container growl-fixed top-right" ng-class="wrapperClasses()">

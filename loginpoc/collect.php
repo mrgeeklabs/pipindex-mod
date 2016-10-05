@@ -1,7 +1,7 @@
 <?php
 
-require_once('new_includes/utils.php');
-require_once('new_includes/salesforce/salesforce.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/salesforce/salesforce.php');
 
 if (count($_POST) > 1)
 {

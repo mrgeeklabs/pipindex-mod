@@ -14,10 +14,10 @@
 </head>
 <body class="thankyou-body">
 <?php
-require_once('new_includes/utils.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php');
 $lang = 'en';
-$defaultTranslationsPath = 'new_includes/translation_files/en/thankyou.php';
-$translationsPath = 'new_includes/translation_files/' . $lang . '/thankyou.php';
+$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . '/new_includes/translation_files/en/thankyou.php';
+$translationsPath = $_SERVER['DOCUMENT_ROOT'] . '/new_includes/translation_files/' . $lang . '/thankyou.php';
 
 if (!file_exists($translationsPath)) {
 	include $defaultTranslationsPath;
@@ -28,7 +28,7 @@ if (!file_exists($translationsPath)) {
 if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com');
 
 ?>
-<?php include "new_includes/header.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 <div class="thankYouContainer">
 	<div class="rightTick">
 		<img src="https://s3-eu-west-1.amazonaws.com/shawaftassets/img/website/green-tick.svg" />
