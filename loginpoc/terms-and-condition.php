@@ -155,7 +155,7 @@
 		        <h3 style="font-family: Montserrat Light;font-size: 18px;font-weight: 300;line-height: 1.3;letter-spacing: 0.2px;color: #6d6e71;">Enter your details below and you are all set!</h3>
 		        <form class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;" action="">
 			        <input type="email" id="emailFromPopup" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" required placeholder="Email Id" style="margin-bottom: 30px;" />
-			        <input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" />
+			        <!-- <input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" /> -->
 			        <button id="identifyUser" class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light;font-size: 16px;line-height: 1.4;letter-spacing: 0.2px;text-align: center;color: #ffffff;">SUBMIT</button>
 		        </form>
 	        </div>
