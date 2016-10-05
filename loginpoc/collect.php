@@ -11,13 +11,15 @@ if (count($_POST) > 1)
     $requestForCall = isset($_POST['requestForCall']) ? trim($_POST['requestForCall']) : null;
     $phoneNumber = isset($_POST['phoneNumber']) ? trim($_POST['phoneNumber']) : null;
     $firstName = isset($_POST['firstName']) ? trim($_POST['firstName']) : null;
+    $timeToCall = isset($_POST['timeToCall']) ? trim($_POST['timeToCall']) : null;
 
 
     $packageForSalesforce = [
         'Request_To_Call_Time__c'          => $requestForCall,
         'Request_For_More_Information__c' => $requestForInfo,
         'Phone'                           => $phoneNumber,
-        'FirstName'                       => $firstName
+        'FirstName'                       => $firstName,
+        'Request_To_Call_Time_2__c'                => $timeToCall
     ];
 
     sendToSalesforce($email, array_filter($packageForSalesforce));

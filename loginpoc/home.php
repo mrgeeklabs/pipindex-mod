@@ -565,13 +565,14 @@
 	});
 	$(".hours-dropdown li").click(function(){
 		var option = $(this).data('value');
+		localStorage.setItem('callHours', option);
 		$("#hours-selected-item .hours").text(option);
 		$(".hours-dropdown").slideToggle( "fast", function() {
 		});
 	});
 	$(".minutes-dropdown li").click(function(){
 		var option = $(this).data('value');
-		console.log(option);
+		localStorage.setItem('callMins', option);
 		$("#minute-selected-item .minutes").text(option);
 		$(".minutes-dropdown").slideToggle( "fast", function() {
 		});
@@ -671,7 +672,8 @@
 			$.ajax({type:"POST",url: "collect.php",data:{
 				email:$("#emailId").val(),
 				phoneNumber:$("#phoneNumber").val(),
-				firstName: $("#firstName").val()
+				firstName: $("#firstName").val(),
+				timeToCall: localStorage.getItem('callHours') + ":" + localStorage.getItem('callMins')
 			}, success: function(result){
 		       	console.log(result);
 				$('#myModalUnknown').modal('hide');
