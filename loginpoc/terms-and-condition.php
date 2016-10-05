@@ -1,3 +1,4 @@
+<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
 <!DOCTYPE html>
 <html lang="en">
 		<head>
@@ -36,7 +37,6 @@
 		}
 
 		if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
-		if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com');
 	?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<div class="tnc-container">

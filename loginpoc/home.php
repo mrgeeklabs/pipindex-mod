@@ -1,3 +1,4 @@
+<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
 <!DOCTYPE html>
 <html lang="en">
 		<head>
