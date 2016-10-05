@@ -439,10 +439,10 @@
 	line-height: 1.3;
 	letter-spacing: 0.2px;
 	color: #6d6e71;">Enter your details below and you are all set!</h3>
-		        <form class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
-			        <input type="hidden" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;" />
-					<input id="firstName" type="text" class="form-control" placeholder="Your Name" style="margin-bottom: 30px;" value="" />
-					<input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" />
+		        <form id="CaptureForm" class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
+			        <input type="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;"/>
+					<input id="firstName" type="text" class="form-control" placeholder="Your Name" style="margin-bottom: 30px;" value="" required/>
+					<input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" required/>
 			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light;
 	font-size: 16px;
 	line-height: 1.4;
@@ -653,11 +653,16 @@
 	    $('iframe#watch-video-player').attr('src',source);
 	})
 	
-	$("#request-call button").click(function(event){
+	$("#CaptureForm button").click(function(event){
 		event.preventDefault();
 		var isFormValid = formValidate();
 		if(isFormValid) {
-			$.ajax({type:"POST",url: "collect.php",data:{email:$("#email").val(),username: $("#username").val(),phoneNumber:$("#phoneNumber").val(), firstName: $("#firstName").val()}, success: function(result){
+			$.ajax({type:"POST",url: "collect.php",data:{
+				email:$("#email").val(),
+				username: $("#username").val(),
+				phoneNumber:$("#phoneNumber").val(),
+				firstName: $("#firstName").val()
+			}, success: function(result){
 		       	console.log(result);
 				$('#myModalUnknown').modal('hide');
 		       	$('#ackModal').modal('show');
