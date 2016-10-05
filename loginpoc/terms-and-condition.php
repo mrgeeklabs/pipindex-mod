@@ -10,6 +10,8 @@
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<script type="text/javascript" src="new-static/intlTelInput/js/intlTelInput.min.js" ></script>
+	  	<link rel="stylesheet" type="text/css" href="new-static/intlTelInput/css/intlTelInput.css">
 	  	<link rel="stylesheet" href="new-static/css/style.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -39,6 +41,7 @@
 		if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 	?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
+	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
 	<div class="tnc-container">
 		<div class="tnc-content-wrapper">
 			<h2 class="tnc-title"><?= translateLabel("tncTitle", $translations) ?></h2>
@@ -137,12 +140,69 @@
 		</div>
 	</div>
 
+	<!-- Unknown Number -->
+	<div class="modal fade" id="myModalUnknown" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <!-- <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+	        </button>
+	      </div> -->
+	      <div class="modal-body">
+	        <div style="text-align: center;">
+		        <h1 style="font-size: 36px;font-weight: 300;line-height: 0.7;letter-spacing: 0.4px;text-align: center;color: #292728;">We could not recognize you</h1>
+		        <h3 style="font-family: Montserrat Light;font-size: 18px;font-weight: 300;line-height: 1.3;letter-spacing: 0.2px;color: #6d6e71;">Enter your details below and you are all set!</h3>
+		        <form class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;" action="">
+			        <input type="email" id="emailFromPopup" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" required placeholder="Email Id" style="margin-bottom: 30px;" />
+			        <input id="telephone" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" />
+			        <button id="identifyUser" class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light;font-size: 16px;line-height: 1.4;letter-spacing: 0.2px;text-align: center;color: #ffffff;">SUBMIT</button>
+		        </form>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
 	<script type="text/javascript">
+		function createTelephoneInput(element){
+		    element.intlTelInput({
+		        initialCountry: "auto",
+		        allowExtensions: true,
+		        autoHideDialCode: true,
+		        autoFormat: true,
+		        defaultCountry: 'auto',
+		        formatOnInit:true,
+		        nationalMode: false,
+		        ipinfoToken: 'd8c7fbabb96b86',
+		        geoIpLookup: function(callback) {
+		            detectCountry(callback);
+		        },
+		        utilsScript: 'new-static/intlTelInput/js/utils.js'
+		    });
+		}
+		function markMandatory(element){
+		    element.addClass('error');
+		}
+		function detectCountry(callback){    
+	        $.get('https://learn.shawacademy.com/freegeoip/json').always(function(resp) {
+	            var countryCode = (resp && resp.country_code) ? resp.country_code : "";                
+	            callback(countryCode);
+	        });     
+		}
 		$('.tnc-content-wrapper').bind('scroll', function() {
 			if($(this).scrollTop() + $(this).innerHeight()>=$(this)[0].scrollHeight){
 				$('#agree-button').addClass('activate-button');
 			}
 		})
+		var contactNumber=$("#telephone");
+		createTelephoneInput(contactNumber);
+
+		var emailData = $('#email').val();
+		console.log("Email "+emailData);
+		if(emailData == null || emailData == ""){
+			$('#myModalUnknown').modal("show");
+		}
 
 		$('#submitReasonbtn').click(function (evt) {
 			if($('#reason').val()){
@@ -158,6 +218,12 @@
 				$('#reason').css('border-color', 'red')
 			}
 		})
+
+		$("#identifyUser").click(function(event){
+			event.stopPropagation();
+			window.location.assign ('/terms-and-condition.php?email='+$('#emailFromPopup').val());
+			return false;
+		});
 
 //		$('.tnc-content-wrapper').css('height', window.innerHeight - 220);
 	</script>

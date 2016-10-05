@@ -1259,6 +1259,14 @@ body .lp3-wrapper .features-container .feature .feature-title {
     padding: 0 10px; }
     .thankYouContainer .rightTick {
       padding-top: 40px; } }
+@media (max-width: 425px){
+  #telephone{
+    width: 53% !important;
+  }
+  #phoneNumber{
+    width: 53% !important;
+  }
+}
 @media (max-width: 375px) {
   .header-container #pipindex-logo {
     height: 16px; } }
@@ -1290,6 +1298,12 @@ body .lp3-wrapper .features-container .feature .feature-title {
   position: absolute;
 }    
 
+#telephone{
+  width: 79%;
+}
+#phoneNumber{
+  width: 79%;
+}
 /*-------------- Footer Css Starts --------------*/
 
 footer {
