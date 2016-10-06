@@ -1686,6 +1686,10 @@ footer p {
       display: none;
     }
 
+    .lp3-wrapper .update-steps-container #update-steps-wrapper #topBorder {
+      display: none;
+    }
+
     #utp .lp3-wrapper .update-steps-container #update-steps-wrapper > img {
       display: none;
     }
