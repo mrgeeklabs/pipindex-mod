@@ -1818,3 +1818,44 @@ a {
       #please-contact-text:hover{
         text-decoration: none;
       }
+
+@media (max-width: 1100px) {
+  .funded_header img#utpLogo {
+    height: 22px;
+  }
+}
+
+@media (max-width: 670px) {
+  .funded_header img#utpLogo {
+    height: 17px;
+  }
+}
+
+@media (max-width: 550px) {
+  .funded_header img#utpLogo {
+    height: 17px;
+    margin-left: 0;
+  }
+
+  div.funded_header .pipindex-lang {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 482px) {
+  .funded_header {
+    position: relative;
+    text-align: center;
+  }
+
+  .funded_header img#utpLogo {
+    height: 12px;
+    margin-left: 0;
+  }
+
+  div.funded_header .pipindex-lang {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

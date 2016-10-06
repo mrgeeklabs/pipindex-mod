@@ -25,12 +25,14 @@
             "banner_right"=> array(
                 "Your Account Just Got Better!",
                 "WELCOME TO ETX",
-                "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
+                "Open your account below and receive the",
+                "ULTIMATE TRADERS PROGRAMME",
+                "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
                 "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win ",
-                "£10,000 + New October Account Bonus ",
-                "real money!"
+                "£10,000 real money!",
+                "+ Free Ultimate Traders Programme"
             ),
             "update-steps-container"=> array(
                 array(
