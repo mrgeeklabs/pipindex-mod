@@ -1533,6 +1533,28 @@ footer p {
 
   #topBorder .steps {
     background: url("../images/border.png");
+    position: relative;
+    z-index: 10;
+  }
+
+  #topBorder .steps:nth-of-type(1):before {
+    content: '';
+    background: #fff;
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+
+  #topBorder .steps:nth-last-of-type(1):before {
+    content: '';
+    background: #fff;
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
   }
 
   #livenonutp .lp3-wrapper #update-account {
