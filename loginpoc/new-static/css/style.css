@@ -1517,6 +1517,46 @@ footer p {
     }
   }
 
+  @media (max-width: 1250px) and (min-width: 769px) {
+    #utp.nonUtp #welcome-text1 {
+      line-height: 1.4;
+      font-size: 15px;
+      padding-top: 15px;
+    }
+
+    #utp.nonUtp #welcome-text2 {
+      line-height: 1.4;
+      font-size: 18px;
+    }
+
+    #utp.nonUtp #welcome-text3 {
+      line-height: 1.4;
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #utp.nonUtp #welcome-text1 {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.4;
+      padding-top: 25px;
+    }
+
+    #utp.nonUtp #welcome-text2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.4;
+    }
+
+    #utp.nonUtp #welcome-text3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.4;
+      padding-bottom: 20px;
+    }
+  }
+
   @media (max-width: 1200px) {
     .header-container h1 {
       margin-left: 20px;
