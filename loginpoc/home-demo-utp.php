@@ -23,7 +23,7 @@
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
-	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
+	  	<link rel="stylesheet" href="new-static/css/style-utp.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -487,7 +487,7 @@
 	</div>
 
 	<?php
-		// include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
+		include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
 		// include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
 	?>
 
