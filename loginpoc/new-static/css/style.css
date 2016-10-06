@@ -545,7 +545,7 @@ body .lp3-wrapper .features-container .feature .feature-title {
     color: #333132;
     height: 80px;
     background: #f6f6f6;
-    padding: 30px 0; }
+    padding: 25px 0; }
   .lp3-wrapper .update-steps-container {
     text-align: center;
     padding-bottom: 60px; }
@@ -1692,7 +1692,7 @@ a {
     left: 50%;
     top: 15px;
     position: absolute;
-    border: 1px dashed; }
+    border: 1px dotted; }
   #timeline:after {
     content: "";
     clear: both;
@@ -1740,7 +1740,7 @@ a {
         padding: 15px;
         font-size: 14px;
         //background: #ee4d4d;
-        color: #000;
+        color: #58595b;
         margin: -20px -20px 0 -20px;
         font-weight: 300;
         -webkit-border-radius: 3px 3px 0 0;
