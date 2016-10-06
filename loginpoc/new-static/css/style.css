@@ -1338,12 +1338,14 @@ body .lp3-wrapper .features-container .feature .feature-title {
 }
 
 .new-account-bonus-container table tr th{
-  font-family: Montserrat;
+  font-family: Montserrat Light;
   font-size: 18px;
   line-height: 1.3;
   letter-spacing: 0.2px;
   color: #ffffff;
   background-color: #223f6a;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .new-account-bonus-container table tr td{
@@ -1353,6 +1355,8 @@ body .lp3-wrapper .features-container .feature .feature-title {
   line-height: 1.3;
   letter-spacing: 0.2px;
   color: #58595b;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .table-striped>tbody>tr:nth-of-type(even) {

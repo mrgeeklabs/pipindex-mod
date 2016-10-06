@@ -65,8 +65,8 @@
                 "HUGE RANGE OF MARKETS"
             ),
             "scholars-section-container" => array(
+                "SEAMLESS ACCOUNT UPGRADE",
                 "FULL UK FCA REGULATION",
-                "£10k First Trade Prize",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",

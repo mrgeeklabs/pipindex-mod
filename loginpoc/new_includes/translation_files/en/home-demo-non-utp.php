@@ -47,7 +47,7 @@
                 ),
                 array(
                     "title" => "STEP 4",
-                    "info" => "Receive your Bonus"
+                    "info" => "Receive your Bonus + Free UTP"
                 )
             ),
             "prize-container" => array(
@@ -75,7 +75,7 @@
             "bullet-points" => array(
                 "Click to Activate Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1st trade to receive your bonus and free UTP",
+                "Activate your account and place your 1st trade to receive your bonus and free UTP",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",

@@ -44,7 +44,7 @@
 	</div>
 </div>
 <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
 	        <div class="banner-text-wrapper">
@@ -69,7 +69,20 @@
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
-	            <img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+	            <div id="topBorder" style="padding-bottom: 20px">
+					<div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	            </div>
 	            <div style="display: flex;">
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
