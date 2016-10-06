@@ -1816,5 +1816,5 @@ a {
         cursor: pointer;
       }
       #please-contact-text:hover{
-        text-transform: none;
+        text-decoration: none;
       }
