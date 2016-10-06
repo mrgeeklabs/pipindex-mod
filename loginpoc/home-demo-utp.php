@@ -172,7 +172,7 @@
 				      <td>7500</td>
 				      <td>
 				      	<a id="please-contact-text" href="">
-				      		<?= $translations[$lang]["text"]["please_contact_us"] ?> <img src="new-static/images/Asset39.svg">
+				      		<span style="padding-right: 5px;"><?= $translations[$lang]["text"]["please_contact_us"] ?></span> <img src="new-static/images/Asset39.svg">
 			      		</a>
 			      	</td>
 				    </tr>

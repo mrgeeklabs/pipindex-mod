@@ -4,38 +4,38 @@
             <div class="col-sm-3 col-md-3 col-lg-3">                
                 <h5>About Us</h5>
                 <ul class="footer-links-arrow">
-                    <li><a href="/about-academy-financial-trading-online.htm">About Academy FT</a></li>
-                    <li><a href="/learn-how-to-be-a-trader-code-of-practice.htm">Code Of Practice</a></li>
-                    <li><a href="/continuing-professional-development.htm">CPD</a></li>
-                    <li><a href="/learn-how-to-trade-partnership-opportunities.htm">Partnership Opportunities</a></li>
-                    <li><a href="http://www.academyft.com/company-seeking-finance.php">VENTURE CAPITAL</a></li>
+                    <li><a href="http://www.academyft.com/about-academy-financial-trading-online.htm">About Academy FT</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-be-a-trader-code-of-practice.htm">Code Of Practice</a></li>
+                    <li><a href="http://www.academyft.com/continuing-professional-development.htm">CPD</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-trade-partnership-opportunities.htm">Partnership Opportunities</a></li>
+                    <li><a href="http://www.academyft.comhttp://www.academyft.com/company-seeking-finance.php">VENTURE CAPITAL</a></li>
                 </ul>
             </div>
             <div class="col-sm-3 col-md-3 col-lg-3">
                 <h5>Trading Courses</h5>
                 <ul class="footer-links-arrow">
-                    <li><a href="/learn-how-to-be-a-trader-foundation.htm">Foundation Trading</a></li>
-                    <li><a href="/learn-how-to-be-a-trader-ultimate.htm">Ultimate Trader</a></li>
-                    <li><a href="/learn-how-to-trade-online-testimonials.htm">Testimonials and Awards</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-be-a-trader-foundation.htm">Foundation Trading</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-be-a-trader-ultimate.htm">Ultimate Trader</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-trade-online-testimonials.htm">Testimonials and Awards</a></li>
                 </ul>
             </div>
             <div class="col-sm-3 col-md-3 col-lg-3">
                 <h5>Why Learn To Trade</h5>
                 <ul class="footer-links-arrow">
-                    <li><a href="/why-learn-to-trade.htm">Why learn to trade</a></li>
-                    <li><a href="/why-trend-trading-online.htm">Why trend trading</a></li>
-                    <li><a href="/learn-how-to-trade-forex.htm">Trading in forex</a></li>
-                    <li><a href="/learn-how-to-trade-online-money-management.htm">Money management</a></li>
+                    <li><a href="http://www.academyft.com/why-learn-to-trade.htm">Why learn to trade</a></li>
+                    <li><a href="http://www.academyft.com/why-trend-trading-online.htm">Why trend trading</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-trade-forex.htm">Trading in forex</a></li>
+                    <li><a href="http://www.academyft.com/learn-how-to-trade-online-money-management.htm">Money management</a></li>
                 </ul>
             </div>
             <div class="col-sm-3 col-md-3 col-lg-3">
                 <ul class="footer-links-wd-arrow">
-                    <li><a href="/FAQ.php">Foundation FAQ</a></li>
-                    <li><a href="/contact-academy-financial-trading-online.htm">Contact us</a></li>
-                    <li> <a href="/complaint-form.php" target="_new">Complaint Form</a></li>
-                    <li><a href="/terms.htm">Terms of Use</a></li>
-                    <li><a href="/disclaimer.htm">Disclaimer</a></li>
-                    <li><a href="/privacy-policy.htm">Privacy</a></li>
+                    <li><a href="http://www.academyft.com/FAQ.php">Foundation FAQ</a></li>
+                    <li><a href="http://www.academyft.com/contact-academy-financial-trading-online.htm">Contact us</a></li>
+                    <li> <a href="http://www.academyft.com/complaint-form.php" target="_new">Complaint Form</a></li>
+                    <li><a href="http://www.academyft.com/terms.htm">Terms of Use</a></li>
+                    <li><a href="http://www.academyft.com/disclaimer.htm">Disclaimer</a></li>
+                    <li><a href="http://www.academyft.com/privacy-policy.htm">Privacy</a></li>
                 </ul>
             </div>
         </div>

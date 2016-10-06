@@ -24,7 +24,7 @@
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
 	  	<link rel="stylesheet" href="new-static/css/style-demo-non-utp.css">
-	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
+	  	<link rel="stylesheet" href="new-static/css/style-utp.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -61,7 +61,7 @@
 	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
 	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
 	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
-	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a id="banner-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -101,7 +101,7 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount">£10,000</p>
@@ -188,7 +188,7 @@
 				      <td>7500</td>
 				      <td>
 				      	<a id="please-contact-text" href="">
-				      		<?= $translations[$lang]["text"]["please_contact_us"] ?> <img src="new-static/images/Asset39.svg">
+				      		<span style="padding-right: 5px;"><?= $translations[$lang]["text"]["please_contact_us"] ?></span> <img src="new-static/images/Asset39.svg">
 			      		</a>
 			      	</td>
 				    </tr>
@@ -221,7 +221,7 @@
 	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
 	        </div>
 	        <div class="update-wrapper">
-	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	            <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	        </div>
 	    </div>
 	    <div class="scholars-section-container">
@@ -282,7 +282,7 @@
 	            </div>
 	            -->
 	            <div class="col-md-12 col-sm-12">
-	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -377,7 +377,7 @@
 				}
 				?>
 	        </div>
-	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
@@ -503,7 +503,7 @@
 	</div>
 
 	<?php
-		//include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
+		include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
 		// include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
 	?>
 

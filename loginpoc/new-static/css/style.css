@@ -485,7 +485,7 @@ body .lp3-wrapper .features-container .feature .feature-title {
     .lp3-wrapper .banner-wrapper .banner-text-wrapper {
       display: flex; }
       .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left {
-        width: 63%;
+        width: 60%;
         float: left;
         text-align: center;
         margin-top: 140px;
@@ -1377,6 +1377,7 @@ body .lp3-wrapper .features-container .feature .feature-title {
 .new-account-bonus-container #please-contact-text img{
   width: 25px;
   height: 25px;
+  margin-bottom: 5px;
 }
 
 /*-------------- Footer Css Starts --------------*/
