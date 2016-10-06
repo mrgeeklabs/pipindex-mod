@@ -1456,7 +1456,7 @@ footer p {
   }
 
   .header-container #utpLogo {
-    height: 21px;
+    height: 30px;
     width: auto;
     margin-left: 72px; 
   }
@@ -1665,6 +1665,11 @@ footer p {
   }
 
   @media (max-width: 450px) {
+    .header-container #utpLogo {
+      height: 24px;
+      width: auto;
+      margin-left: 72px; 
+    }
     #utp .lp3-wrapper #update-account #update-account-message-wrapper{
       text-align: center;
       margin: 0 auto;
