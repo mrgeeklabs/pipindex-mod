@@ -1533,9 +1533,14 @@ footer p {
       height: 105px;
     }
 
+    #utp .header-container img {
+      margin-left: 42px;
+    }
+
     #utp .header-container h1 {
-      left: 50px;
+      left: 40px;
       top: 25px;
+      margin-left: 0;
     }
   }
 
