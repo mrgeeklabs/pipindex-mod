@@ -23,6 +23,7 @@
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
+	  	<link rel="stylesheet" href="new-static/css/style-demo-non-utp.css">
 	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -57,31 +58,33 @@
 	            <div class="banner-right">
 	                <p id="account-better"><?= $translations[$lang]["banner_right"][0] ?></p>
 	                <h2 id="welcome-title"><?= $translations[$lang]["banner_right"][1] ?></h2>
-	                <p id="welcome-text"><?= $translations[$lang]["banner_right"][2] ?></p>
+	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
+	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
+	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
 	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
 	    <div id="update-account">
-	        <?= $translations[$lang]["update-account"][0] ?> <span style="font-size: 18px;font-weight: bold;">£10,000</span> <?=$translations[$lang]["update-account"][1] ?>
-	        <h4>Free Ultimate Traders Programme</h4>
-	        <h4>+ New October Account Bonus</h4>
-	        <h4>++ Entry in to £10,000 prize draw</h4>
+	        <?= $translations[$lang]["update-account"][0] ?>
+	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+	        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+	        <h4><?=$translations[$lang]["update-account"][3] ?></h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
 					<div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	            </div>
 	            <div style="display: flex;">
@@ -107,7 +110,7 @@
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
 	    </div>
 	    <div id="strongPoints">
-	    	<img src="new-static/images/utpLogo.svg" id="utpLogo" alt="logo" height="35">
+	    	<img src="new-static/images/utpLogo2.svg" alt="logo" height="35">
 	    	<h2>Free Lifetime Membership to</h2>
 	    	<h2>Academy of Financial Trading</h2>
 	    	<ul>
@@ -225,8 +228,8 @@
 	        <div class="row">
 	        	<?php 
 	        		$sectionImages=array(
+	        			"medal",
 	        			"regulation",
-	        			"award",
 	        			"manager",
 	        			"languages",
 	        			"platform",
@@ -377,8 +380,8 @@
 	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
-	        <p id="query-title"><?= $translations[$lang]["have_query"][0] ?></p>
-	        <p id="query-message"><?= $translations[$lang]["have_query"][1] ?></p>
+	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
+	        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
 	        <div class="custom-time-select-dropdown">
 	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 					<ul class="hours-dropdown">
@@ -501,7 +504,7 @@
 
 	<?php
 		//include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
-		include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
+		// include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
 	?>
 
 	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>

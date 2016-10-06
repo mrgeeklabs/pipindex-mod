@@ -36,7 +36,7 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body>
+<body id="utp">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
 	<div style="width: 100%; text-align: center;color: #fff;">
 		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
@@ -71,16 +71,16 @@
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
 					<div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	            </div>
 	            <div style="display: flex;">
@@ -212,8 +212,8 @@
 	        <div class="row">
 	        	<?php 
 	        		$sectionImages=array(
+	        			"medal",
 	        			"regulation",
-	        			"award",
 	        			"manager",
 	        			"languages",
 	        			"platform",
@@ -364,8 +364,8 @@
 	        <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
-	        <p id="query-title"><?= $translations[$lang]["have_query"][0] ?></p>
-	        <p id="query-message"><?= $translations[$lang]["have_query"][1] ?></p>
+	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
+	        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
 	        <div class="custom-time-select-dropdown">
 	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 					<ul class="hours-dropdown">
@@ -424,8 +424,8 @@
 	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
 	      </div> -->
 	      <div class="modal-body have-query-body">
-	        <h1><?= $translations[$lang]["have_query"][0] ?></h1>
-	        <h3><?= $translations[$lang]["have_query"][1] ?></h3>
+	        <h1><?= $translations[$lang]["have-query"][0] ?></h1>
+	        <h3><?= $translations[$lang]["have-query"][1] ?></h3>
 	        <div class="custom-time-select-dropdown">
 				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 				<ul class="popup-hours-dropdown">

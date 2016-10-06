@@ -411,8 +411,8 @@
 	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
 	      </div> -->
 	      <div class="modal-body have-query-body">
-	        <h1><?= $translations[$lang]["have_query"][0] ?></h1>
-	        <h3><?= $translations[$lang]["have_query"][1] ?></h3>
+	        <h1><?= $translations[$lang]["have-query"][0] ?></h1>
+	        <h3><?= $translations[$lang]["have-query"][1] ?></h3>
 	        <div class="custom-time-select-dropdown">
 				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 				<ul class="popup-hours-dropdown">
