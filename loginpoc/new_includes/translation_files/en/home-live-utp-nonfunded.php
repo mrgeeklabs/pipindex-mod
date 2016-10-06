@@ -7,6 +7,7 @@
                 "watch_video" => "WATCH VIDEO",
                 "update_account" => "UPDATE YOUR ACCOUNT",
                 "open_your_account" => "OPEN YOUR ACCOUNT",
+                "activate_your_account" => "ACTIVATE YOUR ACCOUNT",
                 "sell" => "Sell",
                 "eurusd" => "EUR/USD",
                 "buy" => "Buy",
@@ -17,7 +18,7 @@
                 "not_recognize" => "We could not recognize you",
                 "not_recognize_text" => "Enter your details below and you are all set!",
                 "please_contact_us" => "PLEASE CONTACT US",
-                "table_header_deposite" => "DEPOSIT £ / $ / €",
+                "table_header_deposite" => "DEPOSIT £ / € / $",
                 "table_header_bonus" => "BONUS",
                 "table_header_october_bonus" => "OCTOBER BONUS",
             ),
@@ -28,14 +29,13 @@
                 "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win ",
-                "£10,000 + New October Account Bonus ",
-                "real money!"
+                "Activate Your Account and Place 1 Trade by Monday, October 17th 2016 and enter a draw to win £10,000 real money! ",
+                "+ New October Account Bonus "
             ),
             "update-steps-container"=> array(
                 array(
                     "title" => "STEP 1",
-                    "info" => "Click ‘Open Your Account’"
+                    "info" => "Click ‘Activate Your Account’"
                 ),
                 array(
                     "title" => "STEP 2",
@@ -65,8 +65,8 @@
                 "HUGE RANGE OF MARKETS"
             ),
             "scholars-section-container" => array(
+                "SEAMLESS ACCOUNT UPGRADE",
                 "FULL UK FCA REGULATION",
-                "£10k First Trade Prize",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",
@@ -75,13 +75,13 @@
             "bullet-points" => array(
                 "Click to Activate Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1st trade to receive your bonus and free UTP",
+                "Deposit funds and place your 1st trade to receive your bonus",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
                 "Place 1 trade and you could win £10,000"
             ),
-            "improve-account-container" => "Improve Your Account Right Now!",
+            "improve-account-container" => "Activate Your Account Right Now",
             "have-query" => array(
                 "Have any queries?",
                 "Choose a suitable time and we will contact you."
