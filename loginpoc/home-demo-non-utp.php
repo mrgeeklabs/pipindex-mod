@@ -72,16 +72,16 @@
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
 					<div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	                <div class="steps">
-	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
 	            </div>
 	            <div style="display: flex;">

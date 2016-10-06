@@ -1495,6 +1495,10 @@ footer p {
       display: flex;
   }
 
+  #topBorder img {
+    margin-top: -4px;
+  }
+
   #topBorder .steps {
     background: url("../images/border.png");
   }
