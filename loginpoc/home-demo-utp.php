@@ -65,7 +65,7 @@
 	    <div id="update-account">
 	        <p><?= $translations[$lang]["update-account"][0] ?></p>
 	        <!-- <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span> -->
-	        <h4><?=$translations[$lang]["update-account"][1].$translations[$lang]["update-account"][2] ?></h4>
+	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
@@ -171,7 +171,7 @@
 				      <td scope="row">100,000+</th>
 				      <td>7500</td>
 				      <td>
-				      	<a id="please-contact-text" href="">
+				      	<a id="please-contact-text">
 				      		<span style="padding-right: 5px;"><?= $translations[$lang]["text"]["please_contact_us"] ?></span> <img src="new-static/images/Asset39.svg">
 			      		</a>
 			      	</td>
@@ -720,6 +720,21 @@
 		}else {
 			// return false;
 		}
+	});
+
+	$('#please-contact-text').click(function(event){
+		event.preventDefault();
+		var callMeMessage = "Please call me";
+		$('#loadingIndicator').css('display','block');
+
+		$.ajax({type:"POST",url: "collect.php",data:{
+			email: $("#emailId").val(),
+			requestForInfo:callMeMessage
+		}, success: function(result){
+			//console.log(result);
+			$('#loadingIndicator').css('display','none');
+			$('#ackModal').modal('show');
+		}});
 	});
 	
 	function formValidate(){

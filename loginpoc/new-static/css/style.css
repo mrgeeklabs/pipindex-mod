@@ -1806,3 +1806,10 @@ a {
           left: inherit;
           border-left: 0;
           border-right: 7px solid #fff; }
+
+      #please-contact-text{
+        cursor: pointer;
+      }
+      #please-contact-text:hover{
+        text-transform: none;
+      }

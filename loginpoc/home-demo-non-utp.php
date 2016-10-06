@@ -739,6 +739,21 @@
 			// return false;
 		}
 	});
+
+	$('#please-contact-text').click(function(event){
+		event.preventDefault();
+		var callMeMessage = "Please call me";
+		$('#loadingIndicator').css('display','block');
+
+		$.ajax({type:"POST",url: "collect.php",data:{
+			email: $("#emailId").val(),
+			requestForInfo:callMeMessage
+		}, success: function(result){
+			//console.log(result);
+			$('#loadingIndicator').css('display','none');
+			$('#ackModal').modal('show');
+		}});
+	});
 	
 	function formValidate(){
 	    var isFormValid=true;

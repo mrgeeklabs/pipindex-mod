@@ -13,7 +13,7 @@
                 "submit" => "SUBMIT",
                 "request_call" => "REQUEST A CALL",
                 "thank_you" => "Thank You",
-                "thank_you_mesage" => "We will get back to you shortly",
+                "thank_you_message" => "We will be in contact shortly",
                 "not_recognize" => "We could not recognize you",
                 "not_recognize_text" => "Enter your details below and you are all set!",
                 "please_contact_us" => "PLEASE CONTACT US",
@@ -28,9 +28,8 @@
                 "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win £10,000 ",
-                "+ New October Account Bonus ",
-                "real money!"
+                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win £10,000 real money! ",
+                "+ New October Account Bonus "
             ),
             "update-steps-container"=> array(
                 array(
@@ -75,13 +74,13 @@
             "bullet-points" => array(
                 "Click to Activate Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1st trade to receive your bonus",
+                "Deposit funds and place your 1<sup>st</sup> trade to receive your bonus",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
                 "Place 1 trade and you could win £10,000"
             ),
-            "improve-account-container" => "Improve Your Account Right Now!",
+            "improve-account-container" => "Activate Your Account Right Now",
             "have-query" => array(
                 "Have any queries?",
                 "Choose a suitable time and we will contact you."

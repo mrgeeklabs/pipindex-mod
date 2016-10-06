@@ -13,7 +13,7 @@
                 "submit" => "SUBMIT",
                 "request_call" => "REQUEST A CALL",
                 "thank_you" => "Thank You",
-                "thank_you_mesage" => "We will get back to you shortly",
+                "thank_you_message" => "We will be in contact shortly",
                 "not_recognize" => "We could not recognize you",
                 "not_recognize_text" => "Enter your details below and you are all set!",
                 "please_contact_us" => "PLEASE CONTACT US",
@@ -79,7 +79,7 @@
             "bullet-points" => array(
                 "Click to Activate Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Activate your account and place your 1st trade to receive your bonus and free UTP",
+                "Activate your account and place your 1<sup>st</sup> trade to receive your bonus and free UTP",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
