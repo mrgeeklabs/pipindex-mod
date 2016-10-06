@@ -58,7 +58,7 @@
 	                <p id="account-better"><?= $translations[$lang]["banner_right"][0] ?></p>
 	                <h2 id="welcome-title"><?= $translations[$lang]["banner_right"][1] ?></h2>
 	                <p id="welcome-text"><?= $translations[$lang]["banner_right"][2] ?></p>
-	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
+	                <a id="banner-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -96,7 +96,7 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
+	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount">£10,000</p>
@@ -204,7 +204,7 @@
 	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
 	        </div>
 	        <div class="update-wrapper">
-	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
+	            <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	        </div>
 	    </div>
 	    <div class="scholars-section-container">
@@ -265,7 +265,7 @@
 	            </div>
 	            -->
 	            <div class="col-md-12 col-sm-12">
-	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
+	                <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -360,7 +360,7 @@
 				}
 				?>
 	        </div>
-	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
+	        <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>

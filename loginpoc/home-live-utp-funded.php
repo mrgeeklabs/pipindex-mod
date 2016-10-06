@@ -23,6 +23,7 @@
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
+	  	<link rel="stylesheet" href="new-static/css/style-demo-non-utp.css">
 	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -36,7 +37,7 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body>
+<body id="utp">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
 	<div style="width: 100%; text-align: center;color: #fff;">
 		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
@@ -60,14 +61,14 @@
 	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
 	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
 	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
-	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
 	    <div id="update-account">
-	        <?= $translations[$lang]["update-account"][0] ?>
-	        <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span>
-	        <?=$translations[$lang]["update-account"][2] ?>
+	        <p><?= $translations[$lang]["update-account"][0] ?></p>
+	        <!-- <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span> -->
+	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
@@ -99,88 +100,13 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["update_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount">£10,000</p>
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
-	    </div>
-	    <div class="new-account-bonus-container">
-	    	<h3 class="new-bonus-title"><?= $translations[$lang]["new-bonus-title"] ?></h3>
-	    	<div>
-	    		<table class="table table-striped table-bordered">
-				  <thead>
-				    <tr>
-				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"] ?></th>
-				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"] ?></th>
-				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <td scope="row">200 - 999</th>
-				      <td>100</td>
-				      <td>150</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">1,000 - 2,999</th>
-				      <td>250</td>
-				      <td>400</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">3,000 - 4,999</th>
-				      <td>1000</td>
-				      <td>1500</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">5,000 - 7,499</th>
-				      <td>1500</td>
-				      <td>2000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">7,500 - 9,999</th>
-				      <td>2000</td>
-				      <td>3000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">10,000 - 14,999</th>
-				      <td>2500</td>
-				      <td>4000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">15,000 - 19,999</th>
-				      <td>3000</td>
-				      <td>5000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">20,000 - 24,999</th>
-				      <td>3500</td>
-				      <td>7500</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">25,000 - 49,999</th>
-				      <td>5000</td>
-				      <td>10000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">50,000 - 99,999</th>
-				      <td>7500</td>
-				      <td>15000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">100,000+</th>
-				      <td>7500</td>
-				      <td>
-				      	<a id="please-contact-text" href="">
-				      		<?= $translations[$lang]["text"]["please_contact_us"] ?> <img src="new-static/images/Asset39.svg">
-			      		</a>
-			      	</td>
-				    </tr>
-				  </tbody>
-				</table>
-	    	</div>
 	    </div>
 	    <div class="features-container">
 	        <div class="feature">
@@ -207,7 +133,7 @@
 	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
 	        </div>
 	        <div class="update-wrapper">
-	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	        </div>
 	    </div>
 	    <div class="scholars-section-container">
@@ -268,7 +194,7 @@
 	            </div>
 	            -->
 	            <div class="col-md-12 col-sm-12">
-	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -363,7 +289,7 @@
 				}
 				?>
 	        </div>
-	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
 	    </div>
 	    <div class="have-query">
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
