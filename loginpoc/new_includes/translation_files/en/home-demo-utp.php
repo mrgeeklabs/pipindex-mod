@@ -28,8 +28,8 @@
                 "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win ",
-                "£10,000 + New October Account Bonus ",
+                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win £10,000 ",
+                "+ New October Account Bonus ",
                 "real money!"
             ),
             "update-steps-container"=> array(
@@ -75,7 +75,7 @@
             "bullet-points" => array(
                 "Click to Activate Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1st trade to receive your bonus and free UTP",
+                "Deposit funds and place your 1st trade to receive your bonus",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",

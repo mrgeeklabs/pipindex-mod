@@ -67,9 +67,11 @@
 	    </div>
 	    <div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>
-	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
-	        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
-	        <h4><?=$translations[$lang]["update-account"][3] ?></h4>
+	        <div id="update-account-message-wrapper" style="">
+		        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+		        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+		        <h4><?=$translations[$lang]["update-account"][3] ?></h4>
+	        </div>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
@@ -115,8 +117,8 @@
 	    	<h2>Academy of Financial Trading</h2>
 	    	<ul>
 	    		<li>Complete Ultimate Traders Programme</li>
-	    		<li>Custom Strategies</li>
-	    		<li>Custom Indicators</li>
+	    		<li>2 Custom Strategies</li>
+	    		<li>3 Custom Indicators</li>
 	    		<li>Risk Management Software</li>
 	    		<li>Trading Consultant for Life</li>
 	    	</ul>
@@ -134,7 +136,7 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <td scope="row">300 - 999</th>
+				      <td scope="row">200 - 999</th>
 				      <td>100</td>
 				      <td>150</td>
 				    </tr>

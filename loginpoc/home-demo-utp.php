@@ -63,9 +63,9 @@
 	        </div>
 	    </div>
 	    <div id="update-account">
-	        <?= $translations[$lang]["update-account"][0] ?>
-	        <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span>
-	        <?=$translations[$lang]["update-account"][2] ?>
+	        <p><?= $translations[$lang]["update-account"][0] ?></p>
+	        <!-- <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span> -->
+	        <h4><?=$translations[$lang]["update-account"][1].$translations[$lang]["update-account"][2] ?></h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
@@ -118,7 +118,7 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <td scope="row">300 - 999</th>
+				      <td scope="row">200 - 999</th>
 				      <td>100</td>
 				      <td>150</td>
 				    </tr>

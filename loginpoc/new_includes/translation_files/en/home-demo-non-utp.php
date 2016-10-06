@@ -85,7 +85,7 @@
                 "More reliability with greater support",
                 "Place 1 trade and you could win £10,000"
             ),
-            "improve-account-container" => "Improve Your Account Right Now!",
+            "improve-account-container" => "Activate Your Account Right Now",
             "have-query" => array(
                 "Have any queries?",
                 "Choose a suitable time and we will contact you."

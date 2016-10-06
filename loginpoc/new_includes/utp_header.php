@@ -1,6 +1,6 @@
 <header>
 	<div class="header-container">
-		<h1>OFFER EXPIRES ON <span>MONDAY 17th OCTOBER</span></h1>
+		<h1>OFFER EXPIRES <span>MONDAY 24th OCTOBER</span></h1>
 		<img src="new-static/images/utpLogo.svg" id="utpLogo" alt="no-image">		
 		<div class="pipindex-lang">
 			<img src="new-static/images/lang-icon.svg" style="width: 18px;height: 18px;color: #313756;opacity: 0.8;">

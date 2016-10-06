@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-container">
-        <div class="row footer-links">
+        <!-- <div class="row footer-links">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">                
                 <h5>About Us</h5>
                 <ul class="footer-links-arrow">
@@ -38,7 +38,7 @@
                     <li><a href="http://www.academyft.com/privacy-policy.htm">Privacy</a></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <div class="footer-tagline">
             <span style="color: #97dbe3;">© 2016</span> | <b><span style="color:#fff;">Academy of Financial Trading.</span></b> All Rights Reserved.
         </div>
