@@ -1,0 +1,624 @@
+
+footer {
+    background: url(../images/bg-8.gif) 0 0 repeat-x;
+    padding-bottom: 30px;
+}
+
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+  #Base 960 Grid
+  #Tablet (Portrait)
+  #Mobile (Portrait)
+  #Mobile (Landscape)
+  #Clearing */
+
+
+/* #Base 960 Grid
+================================================== */
+
+  .container_16{position: relative; width: 960px; margin: 0 auto; padding: 0;}
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12,
+  .grid_13,
+  .grid_14,
+  .grid_15,
+  .grid_16 {float: left; display: inline; margin-left: 10px; margin-right: 10px;}
+
+  /* Nested Column Classes */
+  .container_16 .alpha      {margin-left: 0;}
+  .container_16 .omega      {margin-right: 0;}
+
+  /* Base Grid */
+  .container_16 .grid_1     {width: 40px; }
+  .container_16 .grid_2     {width: 100px;}
+  .container_16 .grid_3     {width: 160px;}
+  .container_16 .grid_4     {width: 220px;}
+  .container_16 .grid_5     {width: 280px;}
+  .container_16 .grid_6     {width: 340px;}
+  .container_16 .grid_7     {width: 400px;}
+  .container_16 .grid_8     {width: 460px;}
+  .container_16 .grid_9     {width: 520px;}
+  .container_16 .grid_10      {width: 580px;}
+  .container_16 .grid_11      {width: 640px;}
+  .container_16 .grid_12      {width: 700px;}
+  .container_16 .grid_13      {width: 760px;}
+  .container_16 .grid_14      {width: 820px;}
+  .container_16 .grid_15      {width: 880px;}
+    .container_16 .grid_16      {width: 940px;}
+  /* Prefix Extra Space >> 16 Columns */
+  .container_16 .prefix_1     {padding-left:60px;}
+  .container_16 .prefix_2     {padding-left:120px;}
+  .container_16 .prefix_3     {padding-left:180px;}
+  .container_16 .prefix_4     {padding-left:240px;}
+  .container_16 .prefix_5     {padding-left:300px;}
+  .container_16 .prefix_6     {padding-left:360px;}
+  .container_16 .prefix_7     {padding-left:420px;}
+  .container_16 .prefix_8     {padding-left:480px;}
+  .container_16 .prefix_9     {padding-left:540px;}
+  .container_16 .prefix_10    {padding-left:600px;}
+  .container_16 .prefix_11    {padding-left:660px;}
+  .container_16 .prefix_12    {padding-left:720px;}
+  .container_16 .prefix_13    {padding-left:780px;}
+  .container_16 .prefix_14    {padding-left:840px;}
+  .container_16 .prefix_15    {padding-left:900px;}
+  /* Suffix Extra Space >> 16 Columns */
+  .container_16 .suffix_1     {padding-right:60px;}
+  .container_16 .suffix_2     {padding-right:120px;}
+  .container_16 .suffix_3     {padding-right:180px;}
+  .container_16 .suffix_4     {padding-right:240px;}
+  .container_16 .suffix_5     {padding-right:300px;}
+  .container_16 .suffix_6     {padding-right:360px;}
+  .container_16 .suffix_7     {padding-right:420px;}
+  .container_16 .suffix_8     {padding-right:480px;}
+  .container_16 .suffix_9     {padding-right:540px;}
+  .container_16 .suffix_10    {padding-right:600px;}
+  .container_16 .suffix_11    {padding-right:660px;}
+  .container_16 .suffix_12    {padding-right:720px;}
+  .container_16 .suffix_13    {padding-right:780px;}
+  .container_16 .suffix_14    {padding-right:840px;}
+  .container_16 .suffix_15    {padding-right:900px;}
+  
+/* #Tablet (Portrait)
+================================================== */
+
+  /* Note: Design for a width of 768px */
+
+  @media only screen and (max-width: 995px) {
+    .container_16       {width: 768px;}
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10,
+    .grid_11,
+    .grid_12,
+    .grid_13,
+    .grid_14,
+    .grid_15,
+    .grid_16          {margin-left: 10px; margin-right: 10px; }
+    .container_16 .grid_1     {width: 28px;}
+    .container_16 .grid_2     {width: 76px;}
+    .container_16 .grid_3     {width: 124px;}
+    .container_16 .grid_4     {width: 172px;}
+    .container_16 .grid_5     {width: 220px;}
+    .container_16 .grid_6     {width: 268px;}
+    .container_16 .grid_7     {width: 316px;}
+    .container_16 .grid_8     {width: 364px;}
+    .container_16 .grid_9     {width: 412px;}
+    .container_16 .grid_10      {width: 460px;}
+    .container_16 .grid_11      {width: 508px;}
+    .container_16 .grid_12      {width: 556px;}
+    .container_16 .grid_13      {width: 604px;}
+    .container_16 .grid_14      {width: 652px;}
+    .container_16 .grid_15      {width: 700px;}
+    .container_16 .grid_16      {width: 748px;}
+    /* Prefix Extra Space >> 16 Columns */
+    .container_16 .prefix_1     {padding-left:48px;}
+    .container_16 .prefix_2     {padding-left:96px;}
+    .container_16 .prefix_3     {padding-left:144px;}
+    .container_16 .prefix_4     {padding-left:192px;}
+    .container_16 .prefix_5     {padding-left:240px;}
+    .container_16 .prefix_6     {padding-left:288px;}
+    .container_16 .prefix_7     {padding-left:336px;}
+    .container_16 .prefix_8     {padding-left:384px;}
+    .container_16 .prefix_9     {padding-left:432px;}
+    .container_16 .prefix_10    {padding-left:480px;}
+    .container_16 .prefix_11    {padding-left:528px;}
+    .container_16 .prefix_12    {padding-left:576px;}
+    .container_16 .prefix_13    {padding-left:614px;}
+    .container_16 .prefix_14    {padding-left:672px;}
+    .container_16 .prefix_15    {padding-left:720px;}
+    /* Suffix Extra Space >> 16 Columns */
+    .container_16 .suffix_1     {padding-right:48px;}
+    .container_16 .suffix_2     {padding-right:96px;}
+    .container_16 .suffix_3     {padding-right:144px;}
+    .container_16 .suffix_4     {padding-right:192px;}
+    .container_16 .suffix_5     {padding-right:240px;}
+    .container_16 .suffix_6     {padding-right:288px;}
+    .container_16 .suffix_7     {padding-right:336px;}
+    .container_16 .suffix_8     {padding-right:384px;}
+    .container_16 .suffix_9     {padding-right:432px;}
+    .container_16 .suffix_10    {padding-right:480px;}
+    .container_16 .suffix_11    {padding-right:528px;}
+    .container_16 .suffix_12    {padding-right:576px;}
+    .container_16 .suffix_13    {padding-right:614px;}
+    .container_16 .suffix_14    {padding-right:672px;}
+    .container_16 .suffix_15    {padding-right:720px;}
+  }
+
+/*  #Mobile (Portrait)
+================================================== */
+
+  /* Note: Design for a width of 480px */
+
+  @media only screen and (max-width: 767px) {
+    .container_16 {width: 420px;}
+    .columns, .column {margin: 0;}
+    .container_16 .grid_1,
+    .container_16 .grid_2,
+    .container_16 .grid_3,
+    .container_16 .grid_4,
+    .container_16 .grid_5,
+    .container_16 .grid_6,
+    .container_16 .grid_7,
+    .container_16 .grid_8,
+    .container_16 .grid_9,
+    .container_16 .grid_10,
+    .container_16 .grid_11,
+    .container_16 .grid_12,
+    .container_16 .grid_13,
+    .container_16 .grid_14,
+    .container_16 .grid_15,
+    .container_16 .grid_16{width: 420px; margin-left:0; margin-right:0;}
+    /* Prefix Extra Space >> 12 Columns */
+    .container_16 .prefix_1,
+    .container_16 .prefix_2,
+    .container_16 .prefix_3,
+    .container_16 .prefix_4,
+    .container_16 .prefix_5,
+    .container_16 .prefix_6,
+    .container_16 .prefix_7,
+    .container_16 .prefix_8,
+    .container_16 .prefix_9,
+    .container_16 .prefix_10,
+    .container_16 .prefix_11,
+    .container_16 .prefix_12,
+    .container_16 .prefix_13,
+    .container_16 .prefix_14,
+    .container_16 .prefix_15{padding-left:0;}
+    /* Suffix Extra Space >> 12 Columns */
+    .container_16 .suffix_1,
+    .container_16 .suffix_2,
+    .container_16 .suffix_3,
+    .container_16 .suffix_4,
+    .container_16 .suffix_5,
+    .container_16 .suffix_6,
+    .container_16 .suffix_7,
+    .container_16 .suffix_8,
+    .container_16 .suffix_9,
+    .container_16 .suffix_10,
+    .container_16 .suffix_11,
+    .container_16 .suffix_12,
+    .container_16 .suffix_13,
+    .container_16 .suffix_14,
+    .container_16 .suffix_15{padding-right:0;}
+  }
+
+/* #Mobile (Landscape)
+================================================== */
+
+  /* Note: Design for a width of 320px */
+
+  @media only screen and (max-width: 479px) {
+    .container_16 {width: 300px;}
+    .container_16 .grid_1,
+    .container_16 .grid_2,
+    .container_16 .grid_3,
+    .container_16 .grid_4,
+    .container_16 .grid_5,
+    .container_16 .grid_6,
+    .container_16 .grid_7,
+    .container_16 .grid_8,
+    .container_16 .grid_9,
+    .container_16 .grid_10,
+    .container_16 .grid_11,
+    .container_16 .grid_12,
+    .container_16 .grid_13,
+    .container_16 .grid_14,
+    .container_16 .grid_15,
+    .container_16 .grid_16{width: 300px;}
+  }
+
+/* #Clearing
+================================================== */
+
+  /* Self Clearing Goodness */
+  .container_16:after {content: "\0020"; display: block; height: 0; clear: both; visibility: hidden;}
+
+  /* Use clearfix class on parent to clear nested columns,
+  or wrap each row of columns in a <div class="row"> */
+  .clearfix:before,
+  .clearfix:after,
+  .row:before,
+  .row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;}
+  .row:after,
+  .clearfix:after {clear: both;}
+  .row, .clearfix {zoom: 1;}
+
+  /* You can also use a <br class="clear" /> to clear columns */
+  .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+
+nav { 
+  position:relative; 
+  z-index: 11;
+  float:left;
+  width:160px;
+  height:40px;
+  margin-top:22px;
+  margin-right:250px;
+}
+.navigate {
+  background:#ffeec5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #25366e;
+
+text-transform: uppercase;
+color: #041652;
+font-size: 17px;
+font-family: 'Ubuntu', Trebuchet MS, Arial, sans-serif;
+font-weight: bold;
+line-height: 40px;
+cursor: pointer;
+margin: 0 auto;
+text-align: center;
+
+  }
+
+
+.navigate .navigate-on ol, ul {list-style: none;}
+
+
+.navigate-top-icon {width:160px; height:22px; background:url(http://www.academyft.com/dev3/images/dropdown-menu-top.png) no-repeat;}
+
+.navigate a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #041652;
+    font-size: 17px; 
+    font-family: 'Ubuntu', Trebuchet MS, Arial, sans-serif;
+    font-weight: bold;
+    line-height:40px;
+    cursor:point;
+    margin:0 auto;  
+    text-align:center;
+  }
+
+.sf-menu-basic {
+  left:0px;
+  top:35px;
+  width:365px;
+  height:auto;
+  z-index:99;
+  background-color: #fff;
+  border:solid 2px #001556 ;
+  border-bottom:none;
+  text-align: left;
+  padding: 15px 0px 5px 0px;
+  border-top: none; 
+  list-style: none; 
+  }
+ul .sf-menu-basic > li {list-style: none;}    
+.sf-menu-basic > li {list-style: none;} 
+.sf-menu-bottom {
+  left:0px;
+  top:35px;
+  width:365px;
+  height:35px;
+  z-index:99;
+  text-align: left;
+  /*padding: 10px 0px 10px 0px;*/
+  list-style: none; 
+  background-color: #f2f2f2;
+  border-top: none;
+  border:solid 2px #001556 ;  
+  border-top:none;  
+  }
+.sf-menu-bottom > li {list-style: none;}  
+
+
+/*.sf-menu-basic > li {float: left; list-style: none;}
+  .sf-menu-basic a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #041652;
+    font-size: 18px; 
+    font-family: 'Ubuntu', Trebuchet MS, Arial, sans-serif;
+    font-weight: bold;
+    line-height:40px;
+    cursor:point;
+  }
+    .sf-menu-basic a:hover {text-decoration: none;}
+    .sf-menu-basic li:hover span {color:#ffffff;}
+    */
+    
+/* nav .sf-menu-basic li ul { display:none; } /* Makes the Dropdown menu Hidden by default */
+
+/*nav .sf-menu-basic:hover  ul  { /* Displayes the Dropdown menu when Hovered over the specific navigation item */
+/*  z-index:99999;
+  display:list-item !important;
+  position:absolute;
+  margin-top:5px;
+  margin-left:-10px;
+  cursor:hand;
+  }*/ 
+
+/*nav .sf-menu-basic li:hover  ul li {
+  float:none;
+  } */  
+    
+nav .navigate .navigate-on { display:none; } /* Makes the Dropdown menu Hidden by default */
+
+nav .navigate:hover  .navigate-on  { /* Displayes the Dropdown menu when Hovered over the specific navigation item */
+  z-index:99999;
+  display:list-item !important;
+  position:absolute;
+  margin-top:-2px;
+  margin-left:0px;
+  cursor:hand;
+  list-style:none;
+  } 
+
+nav .navigate:hover .navigate-on ul li {
+  float:none;
+  }   
+
+
+/*================================>> 1 Level <<========================================*/
+
+.sf-menu-basic > li:first-child { background: no-repeat; }
+  .sf-menu-basic > li.current,
+  .sf-menu-basic > li:hover,
+  .sf-menu-basic > li.sfHover { background:#8a98c3; color:#ffffff; /*margin: 0px 10px;*/}
+
+  .sf-menu-basic > li > a:hover, 
+  .sf-menu-basic > li.current > a, 
+  .sf-menu-basic > li.sfHover > a {}
+/*  .sf-menu-basic > li > a > .sf-sub-indicator {
+    display: block;
+    overflow: hidden;
+    text-indent: -1000px;
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    margin-left: -6px;
+    width: 5px;
+    height: 4px;
+  }*/
+/*.circle { 
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  left: -2px;
+  top: 50%;
+}*/
+/*.sf-menu-basic > li:first-child .circle {display: none;}
+  .sf-menu-basic > li > a:hover .circle, 
+  .sf-menu-basic > li.current > a .circle, 
+  .sf-menu-basic > li.sfHover > a .circle,
+  .sf-menu-basic > li:hover + li .circle, 
+  .sf-menu-basic > li.current + li > a .circle, 
+  .sf-menu-basic > li.sfHover + li > a .circle { display: none;}*/
+
+/*================================>> 2 Level <<========================================*/
+
+
+.sf-menu-basic > li  {
+  /*display: block;*/
+  list-style: none;
+  padding:3px 20px; 
+  /*position: relative;*/
+}
+.sf-menu-bottom li { float: left; }
+
+
+.sf-menu-bottom > li  {
+  /*display: block;*/
+  list-style: none;
+  padding:2px 10px 10px 10px;
+  margin-top:10px;
+  /*position: relative;*/
+}
+
+/*
+.sf-menu-basic > li > ul > li:first-child {
+hight:22px !important; padding:0 !important
+}*/
+
+
+.sf-menu-basic li .ftp {
+  margin-top:20px;
+  font-weight:bold;
+}
+
+/*.sf-menu-basic li  {
+  list-style: none;
+}*/
+.sf-menu-basic > li  > a {
+  display: block;
+  list-style: none;
+  text-align: left;
+  font: 13px/13px 'Ubuntu Medium', Trebuchet MS, Arial, sans-serif;
+  padding:4px 0px;
+    /*width: 280px;*/
+}
+.sf-menu-bottom > li  > a {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  font: 11px/11px 'Ubuntu Medium', Trebuchet MS, Arial, sans-serif;
+  float:left;
+    /*width: 280px;*/
+}
+
+/*.sf-menu-basic  ul .col2 {
+  display: block;
+  padding:2px;
+  position: relative;
+  
+}
+
+
+.sf-menu-basic > li > ul > .col2 > a {
+  float:left;
+  width: 300px; 
+}
+*/
+
+.sf-menu-basic li a:hover, 
+.sf-menu-basic li.sfHover>a,
+.sf-menu-basic li:hover span,
+.sf-menu-basic li.sfHover span { 
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sf-menu-basic li.sfHover span {
+  color: #13a7d7;
+}
+  .sf-menu-basic > li > ul .sf-sub-indicator {
+    display: block;
+    overflow: hidden;
+    border: 3px solid;
+    border-color: transparent transparent transparent #e8eef6;
+    height: 0;
+    width: 0;
+    text-indent: -1000px;
+    position: absolute;
+    top: 14px;
+    right: 5px;
+  }
+  .sf-menu-basic > li > ul > li:hover .sf-sub-indicator,
+  .sf-menu-basic > li > ul > li.sfHover .sf-sub-indicator { border-color: transparent transparent transparent #13a7d7;}
+
+/*================================>> 3 Level <<========================================*/
+
+/*.sf-menu-basic li li ul {
+  left: 155px;
+  top: 0px;
+  width: 101px;
+  z-index:99;
+  position: absolute;
+  background: #13a7d7;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+.sf-menu-basic li li li {
+  display: block;
+  padding: 8px 0 8px 25px;
+  text-align: left;
+}
+.sf-menu-basic li li li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 12px;
+  display: inline;
+}
+.sf-menu-basic li li li:first-child a { border-top: 0px;}
+.sf-menu-basic li li li:hover {}
+  .sf-menu-basic li li li a:hover { color: #000000;}*/
+
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (min-width: 995px) and (max-width: 1138px) {
+  nav {margin-top:22px; margin-right:250px;   width:120px;  height:40px;}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+  nav {margin-top:22px; margin-right:50px;  width:120px;  height:40px;}
+  .navigate a{font-size: 16px;  }
+  .sf-menu-basic > li > a {}
+  .box-1 .text-2 { font-size: 29px;}
+  nav select {display:none !important;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  nav {margin-top:140px; margin-left:0px; background:none; margin-right:0px; border:none;}
+  .navigate {display:none;}
+  .navigate a{  display:none; font-size: 15px;  } 
+  .navigate-on .sf-menu-basic {display:none;}
+  .navigate-on-mobile {dispaly:block}
+  .sf-menu-basic { }
+  .sf-menu-basic > li > a { }
+
+  .sf-menu-basic a {    font-size: 16px;  }
+  nav select {display:block !important;}
+
+
+}
+
+
+
+@media only screen and (max-width: 479px) {
+nav { background:none; margin-top:140px; margin-left:0px; margin-right:0px; border:none;}
+nav select {width: 300px; margin-left:2px; display:block}
+.navigate {display:none;}
+
+}
+
+@media only screen and (max-width: 320px) {
+nav select {width: 260px; margin-left:5px}
+}
+
+
+
