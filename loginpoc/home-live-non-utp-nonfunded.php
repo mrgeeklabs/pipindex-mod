@@ -45,7 +45,7 @@
 	</div>
 </div>
 <?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/nonutp_nonfunded_header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
 	        <div class="banner-text-wrapper">
