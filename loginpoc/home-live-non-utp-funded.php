@@ -105,7 +105,7 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <td scope="row">300 - 999</th>
+				      <td scope="row">200 - 999</th>
 				      <td>100</td>
 				      <td>150</td>
 				    </tr>
