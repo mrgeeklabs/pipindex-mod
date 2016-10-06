@@ -35,7 +35,7 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body>
+<body id="utp">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
 	<div style="width: 100%; text-align: center;color: #fff;">
 		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
@@ -43,7 +43,7 @@
 	</div>
 </div>
 <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
 	        <div class="banner-text-wrapper">
@@ -63,10 +63,26 @@
 	    </div>
 	    <div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?> <span style="font-size: 18px;font-weight: bold;">£10,000</span> <?=$translations[$lang]["update-account"][1] ?>
+	        <h4>Free Ultimate Traders Programme</h4>
+	        <h4>+ New October Account Bonus</h4>
+	        <h4>++ Entry in to £10,000 prize draw</h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
-	            <img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+	            <div id="topBorder" style="padding-bottom: 20px">
+					<div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circle.svg" width="22" height="22">
+	                </div>	
+	            </div>
 	            <div style="display: flex;">
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
@@ -78,6 +94,10 @@
 				<?php 		
 				}
 				?>
+					<div class="steps">
+	                    <p class="step-title">STEP 4</p>
+	                    <p class="step-info">Receive your Bonus + Free UTP</p>
+	                </div>	
 	            </div>
 	        </div>
 
@@ -88,6 +108,18 @@
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
+	    </div>
+	    <div id="strongPoints">
+	    	<img src="new-static/images/utpLogo.svg" id="utpLogo" alt="logo" height="35">
+	    	<h2>Free Lifetime Membership to</h2>
+	    	<h2>Academy of Financial Trading</h2>
+	    	<ul>
+	    		<li>Complete Ultimate Traders Programme</li>
+	    		<li>Custom Strategies</li>
+	    		<li>Custom Indicators</li>
+	    		<li>Risk Management Software</li>
+	    		<li>Trading Consultant for Life</li>
+	    	</ul>
 	    </div>
 	    <div class="features-container">
 	        <div class="feature">

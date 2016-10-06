@@ -170,6 +170,7 @@ body .lp3-wrapper .features-container .feature .feature-title {
         margin: 0;
         margin-bottom: 60px; } }
 .header-container {
+  position: relative;
   height: 80px;
   text-align: center;
   line-height: 80px;
@@ -477,7 +478,9 @@ body .lp3-wrapper .features-container .feature .feature-title {
     height: 350px;
     background: url("../images/banner.png");
     background-size: cover;
-    color: #fff; }
+    color: #fff; 
+    overflow: hidden;
+  }
     .lp3-wrapper .banner-wrapper .banner-text-wrapper {
       display: flex; }
       .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left {
@@ -1190,6 +1193,12 @@ body .lp3-wrapper .features-container .feature .feature-title {
   font-size: 16px;
 }
 
+@media (min-width: 769px) and (max-width: 933px) {
+  body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right {
+    width: 40%;
+  }
+}
+
 @media (max-width: 768px) {
   .tnc-content-wrapper {
     width: 90%;
@@ -1213,6 +1222,10 @@ body .lp3-wrapper .features-container .feature .feature-title {
 
   .lp3-wrapper .update-steps-container #update-steps-wrapper .steps {
     padding: 0;
+  }
+
+  .lp3-wrapper .banner-wrapper {
+    overflow: visible;
   }
 }
 @media (max-width: 480px) {
@@ -1338,3 +1351,169 @@ footer p {
 }
 
 /*-------------- Footer Css Ends --------------*/   
+
+/*------------- UTP css starts ----------------*/
+  .header-container h1 {
+    position: absolute;
+    font-size: 12px;
+    left: 0;
+    margin: 0 0 0 50px;
+    line-height: 88px;
+    color: #223f6a;
+    letter-spacing: .4px;
+  }
+
+  .header-container h1 span {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .header-container #utpLogo {
+    height: 21px;
+    width: auto;
+    margin-left: 72px; 
+  }
+
+  #utp .lp3-wrapper #update-account {
+    height: auto;
+    padding-bottom: 25px;
+  }
+
+  #utp .lp3-wrapper #update-account h4 {
+    font-weight: bold;
+    color: #223f6a;
+  }
+
+  #utp .lp3-wrapper .update-steps-container #update-steps-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #utp .lp3-wrapper .update-steps-container #update-steps-wrapper .steps {
+    width: 25%;
+  }
+
+  #utp #strongPoints {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 74px 80px 95px;
+    color: #ffffff;
+  }
+
+  #utp #strongPoints h2 {
+    margin-top: 7px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+  }
+
+  #utp #strongPoints h2:nth-of-type(1) {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+  }
+
+  #utp #strongPoints ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: .4px;
+  }
+
+  #utp #strongPoints li {
+    margin-bottom: 33px;
+    padding-left: 37px;
+    background: url("../images/listCircle.png") no-repeat;
+  }
+
+  #topBorder {
+      display: flex;
+  }
+
+  #topBorder .steps {
+    background: url("../images/border.png");
+  }
+
+  @media (min-width: 692px) {
+    #utp #strongPoints {
+      background: url("../images/midbg.png") no-repeat;
+    }
+  }
+
+  @media (max-width: 691px) {
+    #utp #strongPoints {
+      background: url("../images/midMob.jpg") no-repeat;
+      background-size: cover;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .header-container h1 {
+      margin-left: 20px;
+      letter-spacing: .1px;
+    }
+
+    .header-container h1 span {
+      font-size: 16px;
+    }
+
+    #utp .header-container .pipindex-lang {
+      margin-right: 25px;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    #utp .header-container {
+      text-align: left;
+      height: 105px;
+    }
+
+    #utp .header-container h1 {
+      left: 50px;
+      top: 25px;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    #utp .lp3-wrapper .update-steps-container #update-steps-wrapper > div {
+      flex-wrap: wrap;
+      padding-top: 50px;
+    }
+
+    #utp .lp3-wrapper .update-steps-container #update-steps-wrapper > div .steps {
+      width: 100%;
+      margin-bottom: 85px;
+      position: relative;
+    }
+    
+    #topBorder {
+      display: none;
+    }
+
+    #utp .lp3-wrapper .update-steps-container #update-steps-wrapper > img {
+      display: none;
+    }
+
+    #utp .lp3-wrapper .update-steps-container #update-steps-wrapper > div .steps:before {
+      content: '';
+      display: block;
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      top: -28px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background: url("../images/circle.svg") no-repeat;
+    }
+
+    #utp .lp3-wrapper .update-steps-container #update-steps-wrapper > div .steps:nth-last-of-type(1) {
+      margin-bottom: 15px;
+    }
+  }
+
+/*------------- UTP css ends ------------------*/
