@@ -1,4 +1,4 @@
-<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
+<!-- <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?> -->
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
@@ -107,7 +107,7 @@
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
 	    </div>
 	    <div id="strongPoints">
-	    	<img src="new-static/images/utpLogo.svg" id="utpLogo" alt="logo" height="35">
+	    	<img src="new-static/images/utpLogo2.svg" alt="logo" height="35">
 	    	<h2>Free Lifetime Membership to</h2>
 	    	<h2>Academy of Financial Trading</h2>
 	    	<ul>
