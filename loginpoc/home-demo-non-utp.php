@@ -127,9 +127,9 @@
 	    		<table class="table table-striped table-bordered">
 				  <thead>
 				    <tr>
-				      <th><?= $translations[$lang]["text"]["table_header_deposite"] ?></th>
-				      <th><?= $translations[$lang]["text"]["table_header_bonus"] ?></th>
-				      <th><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"] ?></th>
+				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"] ?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
 				    </tr>
 				  </thead>
 				  <tbody>
