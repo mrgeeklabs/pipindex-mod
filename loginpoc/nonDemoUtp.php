@@ -1,4 +1,4 @@
-<!-- <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?> -->
+<!-- <?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?> -->
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
@@ -42,7 +42,7 @@
 		<!-- <p>Loading</p> -->
 	</div>
 </div>
-<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
+<?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
