@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-container">
         <div class="row footer-links">
-            <div class="col-sm-3 col-md-3 col-lg-3">                
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">                
                 <h5>About Us</h5>
                 <ul class="footer-links-arrow">
                     <li><a href="http://www.academyft.com/about-academy-financial-trading-online.htm">About Academy FT</a></li>
@@ -11,7 +11,7 @@
                     <li><a href="http://www.academyft.comhttp://www.academyft.com/company-seeking-finance.php">VENTURE CAPITAL</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                 <h5>Trading Courses</h5>
                 <ul class="footer-links-arrow">
                     <li><a href="http://www.academyft.com/learn-how-to-be-a-trader-foundation.htm">Foundation Trading</a></li>
@@ -19,7 +19,7 @@
                     <li><a href="http://www.academyft.com/learn-how-to-trade-online-testimonials.htm">Testimonials and Awards</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                 <h5>Why Learn To Trade</h5>
                 <ul class="footer-links-arrow">
                     <li><a href="http://www.academyft.com/why-learn-to-trade.htm">Why learn to trade</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="http://www.academyft.com/learn-how-to-trade-online-money-management.htm">Money management</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                 <ul class="footer-links-wd-arrow">
                     <li><a href="http://www.academyft.com/FAQ.php">Foundation FAQ</a></li>
                     <li><a href="http://www.academyft.com/contact-academy-financial-trading-online.htm">Contact us</a></li>
