@@ -1,4 +1,4 @@
-<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
+<?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
@@ -23,7 +23,8 @@
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
-	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
+	  	<link rel="stylesheet" href="new-static/css/style-demo-non-utp.css">
+	  	<link rel="stylesheet" href="new-static/css/style-utp.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -36,14 +37,14 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body>
+<body id="livenonutp" class="liveNonUtp">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
 	<div style="width: 100%; text-align: center;color: #fff;">
 		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
 		<!-- <p>Loading</p> -->
 	</div>
 </div>
-<?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?>
+<?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
@@ -57,19 +58,39 @@
 	            <div class="banner-right">
 	                <p id="account-better"><?= $translations[$lang]["banner_right"][0] ?></p>
 	                <h2 id="welcome-title"><?= $translations[$lang]["banner_right"][1] ?></h2>
-	                <p id="welcome-text"><?= $translations[$lang]["banner_right"][2] ?></p>
-	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
+	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
+	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
+	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
 	    <div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>
+	        <div id="update-account-message-wrapper" style="">
+		        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+		        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+	        </div>
+	        <!-- <?= $translations[$lang]["update-account"][0] ?>
 	        <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span>
-	        <?=$translations[$lang]["update-account"][2] ?>
+	        <?=$translations[$lang]["update-account"][2] ?> -->
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
-	            <img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+	            <div id="topBorder" style="padding-bottom: 20px">
+					<div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	            </div>
 	            <div style="display: flex;">
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
@@ -84,7 +105,7 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount">£10,000</p>
@@ -92,8 +113,20 @@
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
 	    </div>
+	    <div id="strongPoints">
+	    	<img src="new-static/images/utpLogo2.svg" alt="logo" height="35">
+	    	<h2>Free Lifetime Membership to</h2>
+	    	<h2>Academy of Financial Trading</h2>
+	    	<ul>
+	    		<li>Complete Ultimate Traders Programme</li>
+	    		<li>2 Custom Strategies</li>
+	    		<li>3 Custom Indicators</li>
+	    		<li>Risk Management Software</li>
+	    		<li>Trading Consultant for Life</li>
+	    	</ul>
+	    </div>
 	    <div class="new-account-bonus-container">
-	    	<h3 class="new-bonus-title"><?= $translations[$lang]["new-bonus-title"] ?></h3>
+	    	<h3 class="new-bonus-title" style="margin-top: 25px;"><?= $translations[$lang]["new-bonus-title"] ?></h3>
 	    	<div>
 	    		<table class="table table-striped table-bordered">
 				  <thead>
@@ -105,7 +138,7 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <td scope="row">300 - 999</th>
+				      <td scope="row">£200 / €250 / $275 +</th>
 				      <td>100</td>
 				      <td>150</td>
 				    </tr>
@@ -192,15 +225,15 @@
 	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
 	        </div>
 	        <div class="update-wrapper">
-	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	        </div>
 	    </div>
 	    <div class="scholars-section-container">
 	        <div class="row">
 	        	<?php 
 	        		$sectionImages=array(
+	        			"medal",
 	        			"regulation",
-	        			"award",
 	        			"manager",
 	        			"languages",
 	        			"platform",
@@ -253,7 +286,7 @@
 	            </div>
 	            -->
 	            <div class="col-md-12 col-sm-12">
-	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -348,7 +381,7 @@
 				}
 				?>
 	        </div>
-	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["activate_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
 	        <p id="query-title"><?= $translations[$lang]["have_query"][0] ?></p>
@@ -707,6 +740,20 @@
 		}else {
 			// return false;
 		}
+	});
+	$('#please-contact-text').click(function(event){
+		event.preventDefault();
+		var callMeMessage = "Please call me";
+		$('#loadingIndicator').css('display','block');
+
+		$.ajax({type:"POST",url: "collect.php",data:{
+			email: $("#emailId").val(),
+			requestForInfo:callMeMessage
+		}, success: function(result){
+			//console.log(result);
+			$('#loadingIndicator').css('display','none');
+			$('#ackModal').modal('show');
+		}});
 	});
 	
 	function formValidate(){

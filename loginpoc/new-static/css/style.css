@@ -1486,7 +1486,7 @@ footer p {
     width: 25%;
   }
 
-  #utp #strongPoints {
+  #utp #strongPoints, #livenonutp #strongPoints {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -1494,7 +1494,7 @@ footer p {
     color: #ffffff;
   }
 
-  #utp #strongPoints h2 {
+  #utp #strongPoints h2, #livenonutp #strongPoints h2 {
     margin-top: 7px;
     font-size: 28px;
     font-weight: bold;
@@ -1502,7 +1502,7 @@ footer p {
     margin-bottom: 50px;
   }
 
-  #utp #strongPoints h2:nth-of-type(1) {
+  #utp #strongPoints h2:nth-of-type(1), #livenonutp #strongPoints h2:nth-of-type(1){
     font-size: 22px;
     margin-top: 40px;
     margin-bottom: 0;
@@ -1510,14 +1510,14 @@ footer p {
     letter-spacing: 1.2px;
   }
 
-  #utp #strongPoints ul {
+  #utp #strongPoints ul, #livenonutp #strongPoints ul{
     padding-left: 0;
     list-style: none;
     font-size: 15px;
     letter-spacing: .4px;
   }
 
-  #utp #strongPoints li {
+  #utp #strongPoints li, #livenonutp #strongPoints li{
     margin-bottom: 33px;
     padding-left: 37px;
     background: url("../images/listCircle.png") no-repeat;
@@ -1535,14 +1535,31 @@ footer p {
     background: url("../images/border.png");
   }
 
+  #livenonutp .lp3-wrapper #update-account {
+    height: auto;
+    padding-bottom: 25px;
+  }
+  #livenonutp .lp3-wrapper #update-account #update-account-message-wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   @media (min-width: 692px) {
-    #utp #strongPoints {
+    #utp #strongPoints, #utp #livenonutp  {
+      background: url("../images/midbg.png") no-repeat;
+    }
+    #livenonutp #strongPoints, #utp #livenonutp {
       background: url("../images/midbg.png") no-repeat;
     }
   }
 
   @media (max-width: 691px) {
     #utp #strongPoints {
+      background: url("../images/midMob.jpg") no-repeat;
+      background-size: cover;
+    }
+    #livenonutp #strongPoints {
       background: url("../images/midMob.jpg") no-repeat;
       background-size: cover;
     }
