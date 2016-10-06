@@ -1456,7 +1456,12 @@ footer p {
   }
 
   .header-container #utpLogo {
-    height: 30px;
+    height: 35px;
+    width: auto;
+    margin-left: 72px; 
+  }
+  .header-container #utpNonFundedLogo{
+    height: 20px;
     width: auto;
     margin-left: 72px; 
   }

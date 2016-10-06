@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<!-- <?php if (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) header('LOCATION:http://pipindex.com'); ?> -->
-=======
 <?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
->>>>>>> b01e21f8e746188ae2bd026df1d7e02cb068a82d
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
@@ -110,6 +106,81 @@
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
+	    </div>
+	    <div class="new-account-bonus-container">
+	    	<h3 class="new-bonus-title"><?= $translations[$lang]["new-bonus-title"] ?></h3>
+	    	<div>
+	    		<table class="table table-striped table-bordered">
+				  <thead>
+				    <tr>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"] ?></th>
+				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"] ?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <td scope="row">200 - 999</th>
+				      <td>100</td>
+				      <td>150</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">1,000 - 2,999</th>
+				      <td>250</td>
+				      <td>400</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">3,000 - 4,999</th>
+				      <td>1000</td>
+				      <td>1500</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">5,000 - 7,499</th>
+				      <td>1500</td>
+				      <td>2000</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">7,500 - 9,999</th>
+				      <td>2000</td>
+				      <td>3000</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">10,000 - 14,999</th>
+				      <td>2500</td>
+				      <td>4000</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">15,000 - 19,999</th>
+				      <td>3000</td>
+				      <td>5000</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">20,000 - 24,999</th>
+				      <td>3500</td>
+				      <td>7500</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">25,000 - 49,999</th>
+				      <td>5000</td>
+				      <td>10000</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">50,000 - 99,999</th>
+				      <td>7500</td>
+				      <td>15000</td>
+				    </tr>
+				    <tr>
+				      <td scope="row">100,000+</th>
+				      <td>7500</td>
+				      <td>
+				      	<a id="please-contact-text" href="">
+				      		<?= $translations[$lang]["text"]["please_contact_us"] ?> <img src="new-static/images/Asset39.svg">
+			      		</a>
+			      	</td>
+				    </tr>
+				  </tbody>
+				</table>
+	    	</div>
 	    </div>
 	    <div class="features-container">
 	        <div class="feature">
