@@ -364,8 +364,8 @@
 	        <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
-	        <p id="query-title"><?= $translations[$lang]["have_query"][0] ?></p>
-	        <p id="query-message"><?= $translations[$lang]["have_query"][1] ?></p>
+	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
+	        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
 	        <div class="custom-time-select-dropdown">
 	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 					<ul class="hours-dropdown">

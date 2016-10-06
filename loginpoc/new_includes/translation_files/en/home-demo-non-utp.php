@@ -30,9 +30,11 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win ",
-                "£10,000 + New October Account Bonus ",
-                "real money!"
+                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and recieve",
+                "Free Ultimate Traders Programme",
+                "+ New October Account Bonus",
+                "++ Entry in to £10,000 prize draw",
+                "£10,000 + New October Account Bonus"
             ),
             "update-steps-container"=> array(
                 array(

@@ -66,10 +66,10 @@
 	        </div>
 	    </div>
 	    <div id="update-account">
-	        <?= $translations[$lang]["update-account"][0] ?> <span style="font-size: 18px;font-weight: bold;">£10,000</span> <?=$translations[$lang]["update-account"][1] ?>
-	        <h4>Free Ultimate Traders Programme</h4>
-	        <h4>+ New October Account Bonus</h4>
-	        <h4>++ Entry in to £10,000 prize draw</h4>
+	        <?= $translations[$lang]["update-account"][0] ?>
+	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+	        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+	        <h4><?=$translations[$lang]["update-account"][3] ?></h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
