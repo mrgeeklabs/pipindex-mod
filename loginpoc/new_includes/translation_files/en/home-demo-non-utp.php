@@ -25,7 +25,9 @@
             "banner_right"=> array(
                 "Your Account Just Got Better!",
                 "WELCOME TO ETX",
-                "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
+                "Open your account below and receive the",
+                "ULTIMATE TRADERS PROGRAMME",
+                "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
                 "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win ",
@@ -65,8 +67,8 @@
                 "HUGE RANGE OF MARKETS"
             ),
             "scholars-section-container" => array(
+                "SEAMLESS ACCOUNT UPGRADE",
                 "FULL UK FCA REGULATION",
-                "£10k First Trade Prize",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",

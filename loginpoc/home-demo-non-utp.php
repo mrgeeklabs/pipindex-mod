@@ -23,6 +23,7 @@
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
+	  	<link rel="stylesheet" href="new-static/css/style-demo-non-utp.css">
 	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -57,7 +58,9 @@
 	            <div class="banner-right">
 	                <p id="account-better"><?= $translations[$lang]["banner_right"][0] ?></p>
 	                <h2 id="welcome-title"><?= $translations[$lang]["banner_right"][1] ?></h2>
-	                <p id="welcome-text"><?= $translations[$lang]["banner_right"][2] ?></p>
+	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
+	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
+	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
 	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
 	        </div>
@@ -225,8 +228,8 @@
 	        <div class="row">
 	        	<?php 
 	        		$sectionImages=array(
+	        			"medal",
 	        			"regulation",
-	        			"award",
 	        			"manager",
 	        			"languages",
 	        			"platform",
@@ -377,8 +380,8 @@
 	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
-	        <p id="query-title"><?= $translations[$lang]["have_query"][0] ?></p>
-	        <p id="query-message"><?= $translations[$lang]["have_query"][1] ?></p>
+	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
+	        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
 	        <div class="custom-time-select-dropdown">
 	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
 					<ul class="hours-dropdown">
@@ -501,7 +504,7 @@
 
 	<?php
 		//include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
-		include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
+		// include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
 	?>
 
 	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>

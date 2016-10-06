@@ -1,0 +1,48 @@
+.lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-left {
+	width: 60%;
+}
+
+.lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text1{
+    padding-top: 35px;
+    font-family: Montserrat Light;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text2{
+	font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text3{
+    font-family: Montserrat Light;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text1, body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text2, body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text3 {
+  max-width: 500px;
+  margin: 15px auto;
+  font-size: 16px;
+  letter-spacing: .2px;
+  line-height: 1.8;
+  color: #808285;
+  padding: 0; }
+}
+
+body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #welcome-text2{
+    font-size: 22px;
+}
