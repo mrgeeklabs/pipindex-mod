@@ -181,9 +181,84 @@
 	    </div>
 	    <div class="improve-account-container">
 	        <h1><?= $translations[$lang]["improve-account-container"] ?></h1>
-	        <div class="desktop-bullet-points">
+	        <div class="container desktop-bullet-points">
+					<div id="timeline">
+						<div class="timeline-item">
+							<div class="timeline-icon" style="height: auto;width: 11px;left: 50.9%;top: 12px;">
+								<img src="new-static/images/Asset15.png">
+							</div>
+						<div class="timeline-content right">
+							<h2 style="text-align:left"><?= $translations[$lang]["bullet-points"][0] ?></h2>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50.7%;top: 14px;" "="">
+							<img src="new-static/images/Asset16.png">
+						</div>
+						<div class="timeline-content" style="margin-top: 17px;">
+							<h2 style="text-align:right"><?= $translations[$lang]["bullet-points"][1] ?></h2>				
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50.5%;top: 14px;">
+							<img src="new-static/images/Asset17.png">
+						</div>
+						<div class="timeline-content right">
+							<h2 style="text-align:left"><?= $translations[$lang]["bullet-points"][2] ?></h2>				
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50.3%;top: 16px;">
+							<img src="new-static/images/Asset18.png">
+						</div>
+						<div class="timeline-content" style="margin-top: 17px;">
+							<h2 style="text-align:right"><?= $translations[$lang]["bullet-points"][3] ?></h2>				
+						</div>
+					</div>
+					
+					<div class="timeline-item">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50%;top: 17px;">
+							<img src="new-static/images/Asset19.png">
+						</div>
+						<div class="timeline-content right">
+							<h2 style="text-align:left"><?= $translations[$lang]["bullet-points"][4] ?></h2>				
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50%;top: 11px;">
+							<img src="new-static/images/Asset20.png">
+						</div>
+						<div class="timeline-content" style="margin-top: 17px;">
+							<h2 style="text-align:right"><?= $translations[$lang]["bullet-points"][5] ?></h2>				
+						</div>
+					</div>
+					
+					<div class="timeline-item">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 49%;top: 12px;">
+							<img src="new-static/images/Asset21.png">
+						</div>
+						<div class="timeline-content right">
+							<h2 style="text-align:left;padding-top: 20px;"><?= $translations[$lang]["bullet-points"][6] ?></h2>				
+						</div>
+					</div>		
+
+					<!-- <div class="timeline-item">
+						<div class="timeline-icon" style="height: auto;width: auto;left: 49%;top: 40px;">
+							<img src="http://www.pipindex.com/new-static/images/Asset21.png">
+						</div>
+						<div class="timeline-content">
+							<h2 style="text-align:right;padding-top: 50px;"><?= $translations[$lang]["bullet-points"][7] ?></h2>				
+						</div>
+					</div> -->
+				</div>
+			</div>
+	        <!-- <div class="desktop-bullet-points">
 	            <img src="new-static/images/Improve-your-account.svg" style="width: 100%;">
-	        </div>
+	        </div> -->
 	        <div class="mobile-bullet-points">
 	        	<?php 
 	        		// TODO: array of unhovered images

@@ -70,6 +70,15 @@
                 "More reliability with greater support",
                 "Place 1 trade and you could win £10,000"
             ),
+            "bullet-points" => array(
+                "Click to Update Your Account",
+                "You will be upgraded to the ETX MT4Trading Platform within X hours",
+                "One of the ETX team will call to welcome youand offer support within YYYY hours",
+                "Free Education will be provided on MT4",
+                "Trade more markets for less",
+                "More reliability with greater support",
+                "Place 1 trade and you could win £10,000"
+            ),
             "improve-account-container" => "Improve Your Account Right Now!",
             "have-query" => array(
                 "Have any queries?",

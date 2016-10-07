@@ -1102,9 +1102,13 @@ body .lp3-wrapper .features-container .feature .feature-title {
     display: none;
     background-color: #fff; }
   .custom-time-select-dropdown .hours-dropdown, .custom-time-select-dropdown .popup-hours-dropdown {
-    left: 0px; }
+    left: 0px;
+    overflow-x: hidden;
+  }
   .custom-time-select-dropdown .minutes-dropdown, .custom-time-select-dropdown .popup-minutes-dropdown {
-    left: 175px; }
+    left: 175px;
+    overflow-x: hidden;
+  }
   .custom-time-select-dropdown button {
     font-family: 'Montserrat Light';
     font-size: 16px;
