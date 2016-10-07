@@ -380,7 +380,8 @@
 	        </button>
 	      </div> -->
 	      <div class="modal-body">
-	        <div style="text-align: center;">
+			  <span style="display:none;" class="preLoadContactUsImagePixelHere"></span>
+			  <div style="text-align: center;">
 		        <h1 style="font-size: 36px; font-weight: 300; line-height: 0.7; letter-spacing: 0.4px; text-align: center; color: #292728;"><?= $translations[$lang]["text"]["not_recognize"] ?></h1>
 		        <h3 style="font-family: Montserrat Light; font-size: 18px; font-weight: 300; line-height: 1.3;letter-spacing: 0.2px; color: #6d6e71;"><?= $translations[$lang]["text"]["not_recognize_text"] ?></h3>
 		        <form id="CaptureForm" class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
@@ -560,6 +561,9 @@
 	});
 	$("#requestCall").click(function(event){
 		$('#myModalUnknown').modal('show');
+		$('<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img id="contactUsPixel" style="display:none;" class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=contact-us-click"/>'; ?>').load(function() {
+			console.log("Contact Us Click Counter Fired!");
+		});
 		//console.log("hello");
 	});
 

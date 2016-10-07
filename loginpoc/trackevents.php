@@ -72,6 +72,11 @@ if (count($_GET) > 0){
         recordAnalytics($email, ['Event_Analytics__c' => 'page-load', 'Page_Analytics__c' => 'landing_page_3', 'Count_of_LP_Clicks__c' => '1']);
     }
 
+    if ($eventType == 'contact-us-click') {
+        logThis("Attempting to log page visit: [contact-us-click] for user: " . $email);
+        recordAnalytics($email, ['Count_of_Contact_Us_Clicks__c' => '1']);
+    }
+
 }
 
 function  recordAnalytics($inboundEmail, $data) {
@@ -99,13 +104,18 @@ function  recordAnalytics($inboundEmail, $data) {
     }
 
     if (array_key_exists('Count_of_T_C_clicks__c', $data)) {
-        $oldValue_TC_CLICKS = intval($emailExists['Count_of_T_C_clicks__c']);
+        $oldValue_TC_CLICKS = intval($emailExists['records'][0]['Count_of_T_C_clicks__c']);
         $data['Count_of_T_C_clicks__c'] = $oldValue_TC_CLICKS + 1;
     }
 
     if (array_key_exists('Count_of_LP_Clicks__c', $data)) {
-        $oldValue_LP_CLICKS = intval($emailExists['Count_of_LP_Clicks__c']);
-        $data['Count_of_T_C_clicks__c'] = $oldValue_LP_CLICKS + 1;
+        $oldValue_LP_CLICKS = intval($emailExists['records'][0]['Count_of_LP_Clicks__c']);
+        $data['Count_of_LP_Clicks__c'] = $oldValue_LP_CLICKS + 1;
+    }
+
+    if (array_key_exists('Count_of_Contact_Us_Clicks__c', $data)) {
+        $oldValue_Contact_CLICKS = intval($emailExists['records'][0]['Count_of_Contact_Us_Clicks__c']);
+        $data['Count_of_Contact_Us_Clicks__c'] = $oldValue_Contact_CLICKS + 1;
     }
 
     $salesforce->UpdateLead($emailExists['records'][0]['Id'], $data);
