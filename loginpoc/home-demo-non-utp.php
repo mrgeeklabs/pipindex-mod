@@ -136,7 +136,7 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <td scope="row">£200 / $275 / €250 +</th>
+				      <td scope="row">£200 / €250 / $275 +</th>
 				      <td>100</td>
 				      <td>150</td>
 				    </tr>
