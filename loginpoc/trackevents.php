@@ -59,7 +59,7 @@ if (count($_GET) > 0){
 
     if ($pageId == 'terms') {
         logThis("Attempting to log page visit : [terms] for user: " . $email);
-        recordAnalytics($email, ['Event_Analytics__c' => 'page-load', 'Page_Analytics__c' => 'terms']);
+        recordAnalytics($email, ['Event_Analytics__c' => 'page-load', 'Page_Analytics__c' => 'terms', 'Count_of_T_C_clicks__c' => '1']);
     }
 
     if ($eventType == 'accept-terms') {
@@ -69,12 +69,8 @@ if (count($_GET) > 0){
 
     if ($pageId == 'landing_page_3') {
         logThis("Attempting to log page visit: [landing_page_3] for user: " . $email);
-        recordAnalytics($email, ['Event_Analytics__c' => 'page-load', 'Page_Analytics__c' => 'landing_page_3']);
+        recordAnalytics($email, ['Event_Analytics__c' => 'page-load', 'Page_Analytics__c' => 'landing_page_3', 'Count_of_LP_Clicks__c' => '1']);
     }
-
-
-
-
 
 }
 
@@ -101,6 +97,17 @@ function  recordAnalytics($inboundEmail, $data) {
         $eventAnalytics = mergeOldValuesInPicklist($eventAnalytics, $data['Event_Analytics__c']);
         $data['Event_Analytics__c'] = implode(";", array_unique(explode(";", $eventAnalytics)));
     }
+
+    if (array_key_exists('Count_of_T_C_clicks__c', $data)) {
+        $oldValue_TC_CLICKS = intval($emailExists['Count_of_T_C_clicks__c']);
+        $data['Count_of_T_C_clicks__c'] = $oldValue_TC_CLICKS + 1;
+    }
+
+    if (array_key_exists('Count_of_LP_Clicks__c', $data)) {
+        $oldValue_LP_CLICKS = intval($emailExists['Count_of_LP_Clicks__c']);
+        $data['Count_of_T_C_clicks__c'] = $oldValue_LP_CLICKS + 1;
+    }
+
     $salesforce->UpdateLead($emailExists['records'][0]['Id'], $data);
     logThis("Event recorded for: " . $inboundEmail);
 
