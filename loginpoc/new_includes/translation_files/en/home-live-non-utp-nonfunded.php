@@ -31,7 +31,7 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Activate Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win £10,000 real money",
+                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win £10,000 real money",
                 "+ Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong> with Academy of Financial Trading",
                 "++ New October Bonus"
             ),
@@ -56,7 +56,7 @@
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
                 "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 10th at 6pm BST"
+                "The winner will be drawn by Monday, October 24th at 6pm BST"
             ),
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
