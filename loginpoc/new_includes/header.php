@@ -1,6 +1,12 @@
+<?php
+	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
+	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/header_banner.php";
+	include $defaultTranslationsPath;
+?>
 <header>
 	<div class="header-container">
-		<h1>OFFER EXPIRES <span>MONDAY 24th OCTOBER</span></h1>
+		<h1><?= $translationsHeader[$lang][0]?> <span><?= $translationsHeader[$lang][1]?></span></h1>
 		<img src="new-static/images/Pipindex_Logo_new.png" id="pipindex-logo" alt="no-image">		
 		<div class="pipindex-lang">
 			<div class="dropdown">
