@@ -20,6 +20,8 @@
                 "table_header_deposite" => "DEPOSIT £ / € / $",
                 "table_header_bonus" => "BONUS",
                 "table_header_october_bonus" => "OCTOBER BONUS",
+                "minutes" => "minutes",
+                "hours" => "hours" 
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(
@@ -90,7 +92,20 @@
                 "Have any queries?",
                 "Choose a suitable time and we will contact you."
             ),
-            "ask-question-section" => "Ask any question and we will get back to you"
+            "ask-question-section" => "Ask any question and we will get back to you",
+            "strongPoints" =>array(
+                "header" => array(
+                    "Free Lifetime Membership to",
+                    "Academy of Financial Trading"
+                ),
+                "list" => array(
+                    "Complete Ultimate Traders Programme",
+                    "2 Custom Strategies",
+                    "3 Custom Indicators",
+                    "Risk Management Software",
+                    "Trading Consultant for Life"
+                )
+            )
         )
     );
 ?>

@@ -283,7 +283,7 @@
 					</div>
 
 					<div class="timeline-item">
-						<div class="timeline-icon" style="width: auto;height: auto;left: 50.7%;top: 14px;" "="">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50.7%;top: 14px;">
 							<img src="new-static/images/Asset16.png">
 						</div>
 						<div class="timeline-content" style="margin-top: 17px;">
@@ -366,7 +366,7 @@
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
 	        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
 	        <div class="custom-time-select-dropdown">
-	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
+	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><?= $translations[$lang]["text"]["hours"] ?></sup></label>
 					<ul class="hours-dropdown">
 						<?php
 						for( $i= 0 ; $i <= 23 ; $i++ ) {
@@ -377,7 +377,7 @@
 						}
 						?>
 					</ul>
-					<label  id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
+					<label  id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub><?= $translations[$lang]["text"]["minutes"] ?></sup></label>
 					<ul class="minutes-dropdown">
 						<?php
 						for( $i= 0 ; $i <= 59 ; $i++ ) {
@@ -426,7 +426,7 @@
 	        <h1><?= $translations[$lang]["have_query"][0] ?></h1>
 	        <h3><?= $translations[$lang]["have_query"][1] ?></h3>
 	        <div class="custom-time-select-dropdown">
-				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
+				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><?= $translations[$lang]["text"]["hours"] ?></sup></label>
 				<ul class="popup-hours-dropdown">
 						<?php
 						for( $i= 0 ; $i <= 23 ; $i++ ) {
@@ -437,7 +437,7 @@
 						}
 						?>
 				</ul>
-				<label  id="popup-minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
+				<label  id="popup-minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub><?= $translations[$lang]["text"]["minutes"] ?></sup></label>
 				<ul class="popup-minutes-dropdown">
 					<?php
 						for( $i= 0 ; $i <= 59 ; $i++ ) {

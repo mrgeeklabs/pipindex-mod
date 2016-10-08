@@ -111,16 +111,19 @@
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
 	    </div>
+	    <!-- TODO -->
 	    <div id="strongPoints">
 	    	<img src="new-static/images/utpLogo2.svg" alt="logo" height="35">
-	    	<h2>Free Lifetime Membership to</h2>
-	    	<h2>Academy of Financial Trading</h2>
+	    	<h2><?= $translations[$lang]["strongPoints"]["header"][0] ?></h2>
+	    	<h2><?= $translations[$lang]["strongPoints"]["header"][1] ?></h2>
 	    	<ul>
-	    		<li>Complete Ultimate Traders Programme</li>
-	    		<li>2 Custom Strategies</li>
-	    		<li>3 Custom Indicators</li>
-	    		<li>Risk Management Software</li>
-	    		<li>Trading Consultant for Life</li>
+	    		<?php 
+					foreach($translations[$lang]["strongPoints"]["list"] as $listItem) {
+				?>
+	    		<li>$listItem</li>
+	    		<?php 		
+				}
+				?>
 	    	</ul>
 	    </div>
 	    <div class="new-account-bonus-container">
@@ -302,7 +305,7 @@
 					</div>
 
 					<div class="timeline-item">
-						<div class="timeline-icon" style="width: auto;height: auto;left: 50.7%;top: 14px;" "="">
+						<div class="timeline-icon" style="width: auto;height: auto;left: 50.7%;top: 14px;">
 							<img src="new-static/images/Asset16.png">
 						</div>
 						<div class="timeline-content" style="margin-top: 17px;">
@@ -385,7 +388,8 @@
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
 	        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
 	        <div class="custom-time-select-dropdown">
-	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
+	            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span>
+	            <sub><?= $translations[$lang]["text"]["hours"] ?></sup></label>
 					<ul class="hours-dropdown">
 						<?php
 						for( $i= 0 ; $i <= 23 ; $i++ ) {
@@ -396,7 +400,8 @@
 						}
 						?>
 					</ul>
-					<label  id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
+					<label  id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span>
+					<sub><?= $translations[$lang]["text"]["minutes"] ?></sup></label>
 					<ul class="minutes-dropdown">
 						<?php
 						for( $i= 0 ; $i <= 59 ; $i++ ) {
@@ -445,7 +450,8 @@
 	        <h1><?= $translations[$lang]["have_query"][0] ?></h1>
 	        <h3><?= $translations[$lang]["have_query"][1] ?></h3>
 	        <div class="custom-time-select-dropdown">
-				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub>hours</sup></label>
+				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span>
+				<sub><?= $translations[$lang]["text"]["hours"] ?></sup></label>
 				<ul class="popup-hours-dropdown">
 						<?php
 						for( $i= 0 ; $i <= 23 ; $i++ ) {
@@ -456,7 +462,8 @@
 						}
 						?>
 				</ul>
-				<label  id="popup-minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub>minutes</sup></label>
+				<label  id="popup-minute-selected-item"><span class="icon"></span><span class="minutes">00</span>
+				<sub><?= $translations[$lang]["text"]["minutes"] ?></sup></label>
 				<ul class="popup-minutes-dropdown">
 					<?php
 						for( $i= 0 ; $i <= 59 ; $i++ ) {
@@ -492,6 +499,7 @@
 	        <div style="text-align: center;">
 		        <h1 style="font-size: 36px; font-weight: 300; line-height: 0.7; letter-spacing: 0.4px; text-align: center; color: #292728;"><?= $translations[$lang]["text"]["not_recognize"] ?></h1>
 		        <h3 style="font-family: Montserrat Light; font-size: 18px; font-weight: 300; line-height: 1.3;letter-spacing: 0.2px; color: #6d6e71;"><?= $translations[$lang]["text"]["not_recognize_text"] ?></h3>
+		        <!-- TODO placeholder -->
 		        <form id="CaptureForm" class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
 			        <input id="emailId" type="hidden" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;"/>
 					<input id="firstName" type="text" class="form-control" placeholder="Your Name" style="margin-bottom: 30px;" value="" required/>
@@ -506,9 +514,7 @@
 
 	<?php
 		include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
-		// include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
 	?>
-
 	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
 
 	<!-- Acknowldge -->
