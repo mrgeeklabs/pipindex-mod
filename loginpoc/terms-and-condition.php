@@ -147,7 +147,6 @@
 		createTelephoneInput(contactNumber);
 
 		var emailData = $('#email').val();
-		console.log("Email "+emailData);
 		if(emailData == null || emailData == ""){
 			$('#myModalUnknown').modal("show");
 		}

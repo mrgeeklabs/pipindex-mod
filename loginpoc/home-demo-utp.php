@@ -630,14 +630,14 @@
 	});
 	$(".popup-minutes-dropdown li").click(function(){
 		var option = $(this).data('value');
-		//console.log(option);
+		
 		$("#popup-minute-selected-item .minutes").text(option);
 		$(".popup-minutes-dropdown").slideToggle( "fast", function() {
 		});
 	});
 	$("#requestCall").click(function(event){
 		$('#myModalUnknown').modal('show');
-		//console.log("hello");
+		
 	});
 
 // 	window.addEventListener("beforeunload", function(e){
@@ -691,7 +691,7 @@
 				email: $("#emailId").val(),
 				requestForInfo:$("#customerQuestion").val()
 			}, success: function(result){
-				//console.log(result);
+				
 				$('#loadingIndicator').css('display','none');
 				$('#ackModal').modal('show');
 		       	$('#customerQuestion').val('');
@@ -715,7 +715,7 @@
 				//$('body').removeClass("temporary-overlay");
 				$('#loadingIndicator').css('display','none');
 				$('#ackModal').modal('show');
-		       	//console.log(result);
+		       	
 		    }});
 		}else {
 			// return false;
@@ -731,7 +731,7 @@
 			email: $("#emailId").val(),
 			requestForInfo:callMeMessage
 		}, success: function(result){
-			//console.log(result);
+			
 			$('#loadingIndicator').css('display','none');
 			$('#ackModal').modal('show');
 		}});
