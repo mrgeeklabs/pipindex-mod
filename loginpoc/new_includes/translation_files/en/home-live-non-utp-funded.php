@@ -25,12 +25,12 @@
             "banner_right"=> array(
                 "Your Account Just Got Better!",
                 "WELCOME TO ETX",
-                "Open your account below and receive the",
+                "Update your account below and receive the",
                 "ULTIMATE TRADERS PROGRAMME",
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 17th 2016 and enter a draw to win <strong>£10,000</strong> real money!",
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win <strong style='font-weight:900'>£10,000</strong> real money!",
                 "<strong>+ Free Ultimate Traders Programme</strong>"
             ),
             "update-steps-container"=> array(
@@ -48,13 +48,13 @@
                 ),
                 array(
                     "title" => "STEP 4",
-                    "info" => "Receive 10% Larger Bonus + Free UTP"
+                    "info" => "Receive Free UTP"
                 )
             ),
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
                 "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 17th at 6pm BST"
+                "The winner will be drawn by Monday, October 24th at 6pm BST"
             ),
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
@@ -76,7 +76,7 @@
             "bullet-points" => array(
                 "Click to Update Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "You will receive the <strong>Ultimate Traders Programme</strong> for free",
+                "Place 1 trade and you will receive the <strong>Ultimate Traders Programme</strong> for free",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",

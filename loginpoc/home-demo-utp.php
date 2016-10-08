@@ -63,9 +63,9 @@
 	        </div>
 	    </div>
 	    <div id="update-account">
-	        <p><?= $translations[$lang]["update-account"][0] ?></p>
+	        <p><?= $translations[$lang]["update-account"][0] ?> <b><?= $translations[$lang]["update-account"][1] ?> </b> <?= $translations[$lang]["update-account"][2] ?></p>
 	        <!-- <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span> -->
-	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+	        <h4><?=$translations[$lang]["update-account"][3] ?></h4>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">

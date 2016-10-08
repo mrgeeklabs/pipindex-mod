@@ -100,7 +100,7 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["update_account"]?></a>
+	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount">£10,000</p>

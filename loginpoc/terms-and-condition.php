@@ -251,6 +251,7 @@
 			else{
 				$('#reason').css('border-color', 'red')
 			}
+			$('#reasonModal').modal('hide');
 		})
 
 		$("#identifyUser").click(function(event){
