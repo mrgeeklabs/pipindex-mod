@@ -21,7 +21,10 @@
                 "table_header_bonus" => "BONUS",
                 "table_header_october_bonus" => "OCTOBER BONUS",
                 "minutes" => "minutes",
-                "hours" => "hours" 
+                "hours" => "hours",
+                "placeholder_name"=>"Your Name",
+                "placeholder_phone"=>"Phone Number",
+                "placeholder_email"=>"Email Id"
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(

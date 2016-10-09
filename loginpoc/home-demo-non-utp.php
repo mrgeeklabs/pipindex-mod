@@ -252,40 +252,7 @@
 	            </div>	            			
 				<?php 		
 				}
-				?>
-
-	            <!--
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/regulation.svg" width="134px" height="133px">
-	                <img src="new-static/images/regulation-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>FULL UK FCA REGULATION</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/award.svg" width="134px" height="133px">
-	                <img src="new-static/images/award-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>£10k First Trade Prize</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/manager.svg" width="134px" height="133px">
-	                <img src="new-static/images/manager-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>DEDICATED SUPPORT MANAGER</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/languages.svg" width="134px" height="133px">
-	                <img src="new-static/images/languages-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>COUNTLESS LANGUAGES</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/platform.svg" width="134px" height="133px">
-	                <img src="new-static/images/platform-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>FULL MT4 TRADING PLATFORM</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/mobile.svg" width="134px" height="133px">
-	                <img src="new-static/images/mobile-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>FULL RANGE OF MOBILE PLATFORMS</p>
-	            </div>
-	            -->
+				?>	          
 	            <div class="col-md-12 col-sm-12">
 	                <a href="https://www.etxcapital.com" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
@@ -356,25 +323,11 @@
 						<div class="timeline-content right">
 							<h2 style="text-align:left;padding-top: 20px;"><?= $translations[$lang]["bullet-points"][6] ?></h2>				
 						</div>
-					</div>		
-
-					<!-- <div class="timeline-item">
-						<div class="timeline-icon" style="height: auto;width: auto;left: 49%;top: 40px;">
-							<img src="http://www.pipindex.com/new-static/images/Asset21.png">
-						</div>
-						<div class="timeline-content">
-							<h2 style="text-align:right;padding-top: 50px;"><?= $translations[$lang]["bullet-points"][7] ?></h2>				
-						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
-	        <!-- <div class="desktop-bullet-points">
-	            <img src="new-static/images/Improve-your-account.svg" style="width: 100%;">
-	        </div> -->
 	        <div class="mobile-bullet-points">
 	        	<?php 
-	        		// TODO: array of unhovered images
-	        		// TODO: array of hovered images
 					foreach($translations[$lang]["bullet-points"] as $point) {
 				?>
 	                <p><?= $point ?></p>
@@ -414,12 +367,6 @@
 					</ul>
 					<button id="requestCall"><?= $translations[$lang]["text"]["request_call"] ?></button>
 				</div>
-				<!-- <div style="margin-top: 5px;padding-bottom: 40px;">
-					<a id="request-call-button">REQUEST A CALL</a>
-					<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
-					  Launch demo modal
-					</button>
-				</div> -->
 				<hr style="width: 75%;">
 				<div class="ask-question-section">
 					<p id="ask-question"><?= $translations[$lang]["ask-question-section"] ?></p>
@@ -432,11 +379,6 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Button trigger modal -->
-	<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalUnknown">
-	  Launch demo modal
-	</button> -->
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -478,10 +420,6 @@
 			</div>
 	        <button><?= $translations[$lang]["text"]["request_call"] ?></button>
 	      </div>
-	      <!-- <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
-	      </div> -->
 	    </div>
 	  </div>
 	</div>
@@ -490,20 +428,15 @@
 	<div class="modal fade" id="myModalUnknown" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
-	      <!-- <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
-	        </button>
-	      </div> -->
 	      <div class="modal-body">
 	        <div style="text-align: center;">
 		        <h1 style="font-size: 36px; font-weight: 300; line-height: 0.7; letter-spacing: 0.4px; text-align: center; color: #292728;"><?= $translations[$lang]["text"]["not_recognize"] ?></h1>
 		        <h3 style="font-family: Montserrat Light; font-size: 18px; font-weight: 300; line-height: 1.3;letter-spacing: 0.2px; color: #6d6e71;"><?= $translations[$lang]["text"]["not_recognize_text"] ?></h3>
 		        <!-- TODO placeholder -->
 		        <form id="CaptureForm" class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
-			        <input id="emailId" type="hidden" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;"/>
-					<input id="firstName" type="text" class="form-control" placeholder="Your Name" style="margin-bottom: 30px;" value="" required/>
-					<input id="phoneNumber" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" required/>
+			        <input id="emailId" type="hidden" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="<?= $translations[$lang]["text"]["placeholder_email"] ?>" style="margin-bottom: 30px;"/>
+					<input id="firstName" type="text" class="form-control" placeholder="<?= $translations[$lang]["text"]["placeholder_name"] ?>" style="margin-bottom: 30px;" value="" required/>
+					<input id="phoneNumber" type="tel" class="form-control" placeholder="<?= $translations[$lang]["text"]["placeholder_phone"] ?>" style="margin-bottom: 30px;" value="" required/>
 			        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light; font-size: 16px; line-height: 1.4; letter-spacing: 0.2px; text-align: center; color: #ffffff;"><?= $translations[$lang]["text"]["submit"] ?></button>
 		        </form>
 	        </div>
@@ -521,11 +454,6 @@
 	<div class="modal fade" id="ackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
-	      <!-- <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
-	        </button>
-	      </div> -->
 	      <div class="modal-body">
 	        <div class="ackContainer">
 				<div class="rightTick">
@@ -543,22 +471,12 @@
 	<div class="modal fade" id="watchVideoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
-	      <!-- <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
-	        </button>
-	      </div> -->
 	      <div class="modal-body">
 	        	<iframe style="width:100%;" id="watch-video-player" src="//player.vimeo.com/video/161598421?portrait=0&color=333" width="565" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	      </div>
 	    </div>
 	  </div>
 	</div>
-
-	<!-- Button trigger modal -->
-	<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalUnknown">
-	  Launch demo modal
-	</button> -->
 	<style type="text/css">
 		.temporary-overlay {
 		    background-color: #fff;
