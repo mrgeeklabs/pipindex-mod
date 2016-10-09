@@ -29,7 +29,7 @@
                 "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Activate Your Account and Place 1 Trade by Monday, October 17th 2016 and enter a draw to win £10,000 real money! ",
+                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win £10,000 real money! ",
                 "+ New October Account Bonus "
             ),
             "update-steps-container"=> array(
