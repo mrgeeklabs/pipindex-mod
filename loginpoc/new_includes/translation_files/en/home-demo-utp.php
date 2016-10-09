@@ -28,7 +28,7 @@
                 "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Open Your Account and Place 1 Trade by Monday, October 10th 2016 and enter a draw to win £10,000 real money! ",
+                "Open Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win £10,000 real money! ",
                 "+ New October Account Bonus "
             ),
             "update-steps-container"=> array(
@@ -52,7 +52,7 @@
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
                 "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 10th at 6pm BST"
+                "The winner will be drawn by Monday, October 24th at 6pm BST"
             ),
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
