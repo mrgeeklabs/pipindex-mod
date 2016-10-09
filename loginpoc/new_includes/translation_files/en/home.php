@@ -63,8 +63,8 @@
             ),
             "mobile-bullet-points" => array(
                 "Click to Update Your Account",
-                "You will be upgraded to the ETX MT4Trading Platform within X hours",
-                "One of the ETX team will call to welcome youand offer support within YYYY hours",
+                "You will be upgraded to the ETX MT4 Trading Platform",
+                "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "Trade more markets for less",
                 "More reliability with greater support",
@@ -72,8 +72,8 @@
             ),
             "bullet-points" => array(
                 "Click to Update Your Account",
-                "You will be upgraded to the ETX MT4Trading Platform within X hours",
-                "One of the ETX team will call to welcome youand offer support within YYYY hours",
+                "You will be upgraded to the ETX MT4 Trading Platform",
+                "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "Trade more markets for less",
                 "More reliability with greater support",
