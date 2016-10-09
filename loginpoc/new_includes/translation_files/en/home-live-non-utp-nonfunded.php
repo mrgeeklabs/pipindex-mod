@@ -18,7 +18,7 @@
                 "not_recognize" => "We could not recognize you",
                 "not_recognize_text" => "Enter your details below and you are all set!",
                 "please_contact_us" => "PLEASE CONTACT US",
-                "table_header_deposite" => "DEPOSIT £ / € / $",
+                "table_header_deposite" => "DEPOSIT ",
                 "table_header_bonus" => "BONUS",
                 "table_header_october_bonus" => "OCTOBER BONUS",
             ),

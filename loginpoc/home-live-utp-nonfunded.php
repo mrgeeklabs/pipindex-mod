@@ -12,6 +12,7 @@
 		$lang="en";
 	}
 	$prizeMoney=getPrizeMoney($currency);
+	$moneyTable=getMoneyTable($currency);
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-utp-nonfunded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
@@ -117,74 +118,34 @@
 	    <div class="new-account-bonus-container">
 	    	<h3 class="new-bonus-title"><?= $translations[$lang]["new-bonus-title"] ?></h3>
 	    	<div>
-	    		<table class="table table-striped table-bordered">
+<table class="table table-striped table-bordered">
 				  <thead>
 				    <tr>
-				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"] ?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"]. getMoneySymbol($currency) ?></th>
 				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"] ?></th>
 				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
 				    </tr>
 				  </thead>
 				  <tbody>
-				    <tr>
-				      <td scope="row">£200 / €250 / $275 +</th>
-				      <td>100</td>
-				      <td>150</td>
+				  <? foreach($moneyTable as $row) { $firstColumn=true; ?>
+				  	<tr>
+				  	<? foreach($row as $column) { ?>	
+				  	  <? if ($firstColumn ==true) {
+				  	  	$firstColumn=false; ?>
+				      	<td scope="row"><?= $column ?></td>
+				      <? } else { ?>
+					     <? if ($column == '') {?>
+					     	<td>
+					     	<a id="please-contact-text">
+				      		<span style="padding-right: 5px;"><?= $translations[$lang]["text"]["please_contact_us"] ?></span> <img src="new-static/images/Asset39.svg">
+			      			</a></td>
+					     <? } else {?>
+					     	<td><?= $column ?></td>
+					     <?} ?>
+				      <?php } ?>
+				    <?php } ?>
 				    </tr>
-				    <tr>
-				      <td scope="row">1,000 - 2,999</th>
-				      <td>250</td>
-				      <td>400</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">3,000 - 4,999</th>
-				      <td>1000</td>
-				      <td>1500</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">5,000 - 7,499</th>
-				      <td>1500</td>
-				      <td>2000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">7,500 - 9,999</th>
-				      <td>2000</td>
-				      <td>3000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">10,000 - 14,999</th>
-				      <td>2500</td>
-				      <td>4000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">15,000 - 19,999</th>
-				      <td>3000</td>
-				      <td>5000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">20,000 - 24,999</th>
-				      <td>3500</td>
-				      <td>7500</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">25,000 - 49,999</th>
-				      <td>5000</td>
-				      <td>10000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">50,000 - 99,999</th>
-				      <td>7500</td>
-				      <td>15000</td>
-				    </tr>
-				    <tr>
-				      <td scope="row">100,000+</th>
-				      <td>7500</td>
-				      <td>
-				      	<a id="please-contact-text" href="">
-				      		<?= $translations[$lang]["text"]["please_contact_us"] ?> <img src="new-static/images/Asset39.svg">
-			      		</a>
-			      	</td>
-				    </tr>
+				  <?php } ?>
 				  </tbody>
 				</table>
 	    	</div>
