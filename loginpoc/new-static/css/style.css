@@ -1674,7 +1674,7 @@ footer p {
     }
 
     #utp .header-container img {
-      margin-left: 42px;
+      margin-left: 12px;
     }
 
     #utp .header-container h1 {
@@ -1753,7 +1753,7 @@ footer p {
       margin-left: 72px;
     }
     .header-container #utpLogo {
-      height: 24px;
+      height: 16px;
       width: auto;
       margin-left: 72px; 
     }
@@ -1936,8 +1936,8 @@ a {
   }
 
   .funded_header img#utpLogo {
-    height: 12px;
-    margin-left: 0;
+    height: 16px;
+    margin-left: 12px;
   }
 
   div.funded_header .pipindex-lang {
