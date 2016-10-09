@@ -26,7 +26,7 @@
             "banner_right"=> array(
                 "Your Account Just Got Better!",
                 "WELCOME TO ETX",
-                "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with unrivalled support."
+                "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
                 "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win £10,000 real money! ",
@@ -58,7 +58,7 @@
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
                 "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS"
+                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
             ),
             "feature" => array(
                 "TRADABLE INSTRUMENTS",
@@ -66,7 +66,7 @@
             ),
             "scholars-section-container" => array(
                 "SEAMLESS ACCOUNT UPGRADE",
-                "FULL UK FCA REGULATION",
+                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",
@@ -81,7 +81,7 @@
                 "More reliability with greater support",
                 "Place 1 trade and you could win £10,000"
             ),
-            "improve-account-container" => "Activate Your Account Right Now",
+            "improve-account-container" => "Improve Your Account Right Now",
             "have-query" => array(
                 "Have any queries?",
                 "Choose a suitable time and we will contact you."

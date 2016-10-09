@@ -67,7 +67,7 @@
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
                 "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS"
+                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
             ),
             "feature" => array(
                 "TRADABLE INSTRUMENTS",
@@ -75,22 +75,22 @@
             ),
             "scholars-section-container" => array(
                 "SEAMLESS ACCOUNT UPGRADE",
-                "FULL UK FCA REGULATION",
+                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",
                 "FULL RANGE OF MOBILE PLATFORMS"
             ),
             "bullet-points" => array(
-                "Click to Activate Your Account",
+                "Click to Open Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Activate your account and place your 1<sup>st</sup> trade to receive your bonus and free UTP",
+                "Open your account and place your 1<sup>st</sup> trade to receive your bonus and free UTP",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
                 "Place 1 trade and you could win £10,000"
             ),
-            "improve-account-container" => "Activate Your Account Right Now",
+            "improve-account-container" => "Open Your Account Right Now",
             "have-query" => array(
                 "Have any queries?",
                 "Choose a suitable time and we will contact you."

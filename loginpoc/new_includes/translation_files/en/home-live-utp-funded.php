@@ -60,14 +60,14 @@
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
                 "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS"
+                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
             ),
             "feature" => array(
                 "TRADABLE INSTRUMENTS",
                 "HUGE RANGE OF MARKETS"
             ),
             "scholars-section-container" => array(
-                "FULL UK FCA REGULATION",
+                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
                 "£10k First Trade Prize",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",

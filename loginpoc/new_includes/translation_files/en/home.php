@@ -20,7 +20,7 @@
             "banner_right"=> array(
                 "Your Account Just Got Better!",
                 "WELCOME TO ETX",
-                "Improve your trading with lower costs and a wider range of markets, across multiple platforms, with phenomenal support."
+                "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with phenomenal support."
             ),
             "update-account"=> array(
                 "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and enter a draw to win ",
@@ -47,14 +47,14 @@
             ),
             "features-container" => array(
                 "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS"
+                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
             ),
             "feature" => array(
                 "TRADABLE INSTRUMENTS",
                 "HUGE RANGE OF MARKETS"
             ),
             "scholars-section-container" => array(
-                "FULL UK FCA REGULATION",
+                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
                 "£10k First Trade Prize",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",

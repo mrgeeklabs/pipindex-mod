@@ -59,7 +59,7 @@
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
                 "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS"
+                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
             ),
             "feature" => array(
                 "TRADABLE INSTRUMENTS",
@@ -67,7 +67,7 @@
             ),
             "scholars-section-container" => array(
                 "SEAMLESS ACCOUNT UPGRADE",
-                "FULL UK FCA REGULATION",
+                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",
