@@ -2,6 +2,16 @@
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+	$currency = isset($_GET['currency']) ? trim($_GET['currency'])  : 'gbp';
+	$allowedCurrency = array("usd", "gbp", "eur");
+	$allowedLanguages = array("en", "it", "es","de");
+	if (in_array($currency, $allowedCurrency )===false ) {
+		$currency="gbp";
+	}
+	if (in_array($lang, $allowedLanguages )===false ) {
+		$lang="en";
+	}
+	$prizeMoney=getPrizeMoney($currency);
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-non-utp-funded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
@@ -103,7 +113,7 @@
 	        <a class="btn update-account-button" href="http://www.pipindex.com/terms-and-condition.php"><?= $translations[$lang]["text"]["update_account"]?></a>
 	    </div>
 	    <div class="prize-container">
-	        <p id="prize-amount">£10,000</p>
+	        <p id="prize-amount"><?= $priceMoney?></p>
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
@@ -162,38 +172,6 @@
 				}
 				?>
 
-	            <!--
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/regulation.svg" width="134px" height="133px">
-	                <img src="new-static/images/regulation-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>FULL UK FCA REGULATION</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/award.svg" width="134px" height="133px">
-	                <img src="new-static/images/award-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>£10k First Trade Prize</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/manager.svg" width="134px" height="133px">
-	                <img src="new-static/images/manager-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>DEDICATED SUPPORT MANAGER</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/languages.svg" width="134px" height="133px">
-	                <img src="new-static/images/languages-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>COUNTLESS LANGUAGES</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/platform.svg" width="134px" height="133px">
-	                <img src="new-static/images/platform-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>FULL MT4 TRADING PLATFORM</p>
-	            </div>
-	            <div class="col-md-4 col-sm-6">
-	                <img class="unhovered" src="new-static/images/mobile.svg" width="134px" height="133px">
-	                <img src="new-static/images/mobile-white.svg" alt="image" class="hovered" width="134px" height="133px" />
-	                <p>FULL RANGE OF MOBILE PLATFORMS</p>
-	            </div>
-	            -->
 	            <div class="col-md-12 col-sm-12">
 	                <a href="http://www.pipindex.com/terms-and-condition.php" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>

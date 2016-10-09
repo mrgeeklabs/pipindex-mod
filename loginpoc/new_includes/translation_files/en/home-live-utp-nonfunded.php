@@ -29,7 +29,7 @@
                 "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win £10,000 real money! ",
+                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win ". $prizeMoney ." real money! ",
                 "+ New October Account Bonus "
             ),
             "update-steps-container"=> array(
@@ -79,7 +79,7 @@
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
-                "Place 1 trade and you could win £10,000"
+                "Place 1 trade and you could win ". $prizeMoney
             ),
             "improve-account-container" => "Improve Your Account Right Now",
             "have-query" => array(

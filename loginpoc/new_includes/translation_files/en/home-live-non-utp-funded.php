@@ -30,7 +30,7 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win <strong style='font-weight:900'>£10,000</strong> real money!",
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win <strong style='font-weight:900'>". $prizeMoney ."</strong> real money!",
                 "<strong>+ Free Ultimate Traders Programme</strong>"
             ),
             "update-steps-container"=> array(
@@ -80,7 +80,7 @@
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
-                "Place 1 trade and you could win £10,000"
+                "Place 1 trade and you could win ". $prizeMoney
             ),
             "improve-account-container" => "Improve Your Account Right Now!",
             "have-query" => array(

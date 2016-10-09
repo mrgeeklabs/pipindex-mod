@@ -49,7 +49,11 @@
 			<?php 	
 				foreach($term["para"] as $para) {
 				?>						
-					<p style="color: #808285;"><?= $para ?></p>
+					<p style="color: #808285;"><?= $para ?>
+					<?php if ($term["header"]==="9. CONTACT"){ ?>					
+						<p><a href="mailto:customerservice@etxcapital.co.uk">customerservice@etxcapital.co.uk</a></p>
+					<?php }?>
+					</p>
 				<?php
 					if(count($term["list"])>0){
 					?>	

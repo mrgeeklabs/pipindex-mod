@@ -36,10 +36,9 @@
             ),
             "update-account"=> array(
                 "Open Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
-                "Free Ultimate Traders Programme",
-                "+ New October Account Bonus",
-                "++ Entry into £10,000 prize draw",
-                "£10,000 + New October Account Bonus"
+                "+ Free Ultimate Traders Programme",
+                "++ New October Account Bonus",
+                "+++ Entry into ". $prizeMoney. " prize draw"
             ),
             "update-steps-container"=> array(
                 array(
@@ -88,7 +87,7 @@
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
-                "Place 1 trade and you could win £10,000"
+                "Place 1 trade and you could win ". $prizeMoney
             ),
             "improve-account-container" => "Open Your Account Right Now",
             "have-query" => array(

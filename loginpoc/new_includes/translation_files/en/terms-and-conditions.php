@@ -102,7 +102,7 @@
                         array(
                             "header"=>"9. CONTACT",
                             "para"=> array(
-                                "If you have any questions regarding our privacy policy, please email:."
+                                "If you have any questions regarding our privacy policy, please email:"
                             ),
                             "list"=>array(
                             )

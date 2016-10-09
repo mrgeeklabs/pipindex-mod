@@ -68,7 +68,7 @@
                 "Free Education will be provided on MT4",
                 "Trade more markets for less",
                 "More reliability with greater support",
-                "Place 1 trade and you could win £10,000"
+                "Place 1 trade and you could win ". $prizeMoney
             ),
             "bullet-points" => array(
                 "Click to Update Your Account",
@@ -77,7 +77,7 @@
                 "Free Education will be provided on MT4",
                 "Trade more markets for less",
                 "More reliability with greater support",
-                "Place 1 trade and you could win £10,000"
+                "Place 1 trade and you could win ". $prizeMoney
             ),
             "improve-account-container" => "Improve Your Account Right Now!",
             "have-query" => array(

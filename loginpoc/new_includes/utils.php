@@ -51,3 +51,19 @@
         }
 
     }
+    function getPrizeMoney($currency){
+        $prizeMoney=array(
+            "eur"=>"11,000",
+            "usd"=>"12,000",
+            "gbp"=>"10,000"
+        );
+        return getMoneySymbol($currency)." $prizeMoney[$currency]";
+    }
+    function getMoneySymbol($currency){
+        $prizeMoney=array(
+            "eur"=>"€",
+            "usd"=>"$",
+            "gbp"=>"£"
+        );
+        return $prizeMoney[$currency];
+    }

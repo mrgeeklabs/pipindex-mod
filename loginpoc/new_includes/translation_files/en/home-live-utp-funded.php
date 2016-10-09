@@ -31,7 +31,7 @@
             ),
             "update-account"=> array(
                 "Open Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win ",
-                "£10,000 real money!",
+                $prizeMoney ." real money!",
                 "+ Free Ultimate Traders Programme"
             ),
             "update-steps-container"=> array(
@@ -68,7 +68,7 @@
             ),
             "scholars-section-container" => array(
                 "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
-                "£10k First Trade Prize",
+                $prizeMoney." FIRST TRADE PRIZE",
                 "DEDICATED SUPPORT MANAGER",
                 "COUNTLESS LANGUAGES",
                 "FULL MT4 TRADING PLATFORM",
@@ -81,7 +81,7 @@
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
-                "Place 1 trade and you could win £10,000"
+                "Place 1 trade and you could win ". $prizeMoney
             ),
             "improve-account-container" => "Improve Your Account Right Now!",
             "have-query" => array(

@@ -2,6 +2,16 @@
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+	$currency = isset($_GET['currency']) ? trim($_GET['currency'])  : 'gbp';
+	$allowedCurrency = array("usd", "gbp", "eur");
+	$allowedLanguages = array("en", "it", "es","de");
+	if (in_array($currency, $allowedCurrency )===false ) {
+		$currency="gbp";
+	}
+	if (in_array($lang, $allowedLanguages )===false ) {
+		$lang="en";
+	}
+	$prizeMoney=getPrizeMoney($currency);
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-demo-non-utp.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
@@ -106,7 +116,7 @@
 	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="prize-container">
-	        <p id="prize-amount">£10,000</p>
+	        <p id="prize-amount"><?= $priceMoney?></p>
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
