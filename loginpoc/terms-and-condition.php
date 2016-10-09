@@ -34,7 +34,7 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body style="color: #36393e">
+<body style="color: #36393e" id="utp">
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
 	<div class="tnc-container">	

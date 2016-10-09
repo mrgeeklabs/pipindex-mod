@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="new-static/css/style.css">
 
 </head>
-<body class="thankyou-body">
+<body class="thankyou-body" id="utp">
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 <div class="thankYouContainer">
