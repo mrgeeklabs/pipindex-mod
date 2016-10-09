@@ -23,7 +23,7 @@
 </head>
 <body class="thankyou-body">
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 <div class="thankYouContainer">
 	<div class="rightTick">
 		<img src="https://s3-eu-west-1.amazonaws.com/shawaftassets/img/website/green-tick.svg" />

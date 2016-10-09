@@ -35,7 +35,7 @@
 		<![endif]-->
 </head>
 <body style="color: #36393e">
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
 	<div class="tnc-container">	
 		<div class="tnc-content-wrapper">
