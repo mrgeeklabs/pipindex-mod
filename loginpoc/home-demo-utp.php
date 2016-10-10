@@ -127,7 +127,7 @@
 				    <tr>
 				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"]. getMoneySymbol($currency) ?></th>
 				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"]. " ".getMoneySymbol($currency) ?></th>
-				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] . " ".getMoneySymbol($currency) ?></th>
 				    </tr>
 				  </thead>
 				  <tbody>
