@@ -1502,6 +1502,10 @@ footer p {
   #utp .lp3-wrapper .update-steps-container #update-steps-wrapper .steps {
     width: 25%;
   }
+  #thankyou-body .lp3-wrapper .update-steps-container #update-steps-wrapper .steps {
+   width: 33%;  
+  }
+
 
   #utp #strongPoints, #livenonutp #strongPoints {
     max-width: 1440px;
@@ -1685,6 +1689,17 @@ footer p {
       top: 25px;
       margin-left: 0;
     }
+    .thankyou-body .header-container h1 {
+      left: 40px;
+      top: 25px;
+      margin-left: 0;
+    }
+    
+    .thank .header-container h1 {
+      left: 40px;
+      top: 25px;
+      margin-left: 0;
+    }
     #livenonutp .header-container {
       text-align: left;
       height: 105px;
@@ -1774,7 +1789,12 @@ footer p {
       right: 0;
       margin: 0 auto;
     }
-
+    .thankyou-body .header-container h1 {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+    
     #utp .header-container .pipindex-lang {
       margin-right: 5px;
     }

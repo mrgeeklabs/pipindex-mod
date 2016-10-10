@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="new-static/css/style.css">
 
 </head>
-<body class="thankyou-body" id="utp">
+<body class="thankyou-body">
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 <div class="thankYouContainer">
@@ -44,7 +44,17 @@
 <div class="lp3-wrapper">
 	<div class="update-steps-container">
 		<div id="update-steps-wrapper">
-			<img src="new-static/images/Asset2.svg" style="width: 70%;padding-bottom: 20px;">
+			<div id="topBorder" style="padding-bottom: 20px">
+					<div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	                <div class="steps">
+	                    <img src="new-static/images/circletop.jpg" width="30">
+	                </div>	
+	        </div>
 			<div style="display: flex;">
 			 	<?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
