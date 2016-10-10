@@ -54,10 +54,16 @@
     function getPrizeMoney($currency){
         $prizeMoney=array(
             "eur"=>"11,000",
-            "usd"=>"12,000",
+            "usd"=>"12,500",
             "gbp"=>"10,000"
         );
-        return getMoneySymbol($currency)." $prizeMoney[$currency]";
+        if($currency=='gbp') {
+            return getMoneySymbol($currency)." $prizeMoney[$currency]";    
+        } else {
+            $prizeMoneyInGbp=$prizeMoney['gbp'];
+            return getMoneySymbol($currency)." $prizeMoney[$currency]/".getMoneySymbol('gbp')." $prizeMoneyInGbp";
+        }
+        
     }
     function getMoneySymbol($currency){
         $prizeMoney=array(

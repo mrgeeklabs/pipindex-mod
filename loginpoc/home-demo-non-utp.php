@@ -16,7 +16,7 @@
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-demo-non-utp.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
-	$goToEtxLink="/gotoetc.php?lang=$lang&currency=$currency";
+	$goToEtxLink="/gotoetx.php?lang=$lang&currency=$currency";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -145,7 +145,7 @@
 				  <thead>
 				    <tr>
 				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"]. getMoneySymbol($currency) ?></th>
-				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"] ?></th>
+				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"].  " ".getMoneySymbol($currency) ?></th>
 				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
 				    </tr>
 				  </thead>

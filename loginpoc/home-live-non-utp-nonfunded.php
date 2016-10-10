@@ -12,7 +12,7 @@
 		$lang="en";
 	}
 	$prizeMoney=getPrizeMoney($currency);
-	$moneyTable=getMoneyTable('livemon');
+	$moneyTable=getMoneyTable('live');
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-non-utp-nonfunded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
@@ -144,9 +144,9 @@
 				<table class="table table-striped table-bordered">
 				  <thead>
 				    <tr>
-				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"]. getMoneySymbol('gbp').'/'. getMoneySymbol('eur').'/'. getMoneySymbol('usd') ?></th>
-				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"]. getMoneySymbol('gbp').'/'. getMoneySymbol('eur').'/'. getMoneySymbol('usd') ?></th>
-				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"] ?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_deposite"]. getMoneySymbol('gbp'). ' / '. getMoneySymbol('eur'). ' / '. getMoneySymbol('usd') ?></th>
+				      <th style="width: 20%;"><?= $translations[$lang]["text"]["table_header_bonus"]. " " . getMoneySymbol('gbp'). ' / '. getMoneySymbol('eur'). ' / '. getMoneySymbol('usd')?></th>
+				      <th style="width: 40%;"><?= $translations[$lang]["text"]["table_header_october_bonus"]. " ". getMoneySymbol('gbp'). ' / '. getMoneySymbol('eur'). ' / '. getMoneySymbol('usd') ?></th>
 				    </tr>
 				  </thead>
 				  <tbody>

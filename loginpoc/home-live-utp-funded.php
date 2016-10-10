@@ -68,9 +68,7 @@
 	            <div class="banner-right">
 	                <p id="account-better"><?= $translations[$lang]["banner_right"][0] ?></p>
 	                <h2 id="welcome-title"><?= $translations[$lang]["banner_right"][1] ?></h2>
-	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
-	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
-	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
+	                <p id="welcome-text"><?= $translations[$lang]["banner_right"][2] ?></p>
 	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>
 	        </div>

@@ -10,4 +10,7 @@
 	if (in_array($lang, $allowedLanguages )===false ) {
 		$lang="en";
 	}
-	Redirect(getEtxLink($lang, $currency));
+	$etxLink=getEtxLink($lang,$currency);
+	header("Location: $etxLink");
+	exit(0);   
+?>
