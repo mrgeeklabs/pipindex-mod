@@ -117,7 +117,7 @@
 	        <a class="btn update-account-button" href="https://www.etxcapital.com"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="prize-container">
-	        <p id="prize-amount"><?= $priceMoney?></p>
+	        <p id="prize-amount"><?= $prizeMoney?></p>
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
