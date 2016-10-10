@@ -67,7 +67,24 @@
         );
         return $prizeMoney[$currency];
     }
-
+    function getEtxLink($language, $currency){
+        $linksEnglish=array(
+            "gbp" => "https://www.etxcapital.com/account/sign-up?v=3&Platform=MT4-FX&RefID=100242&Cur=GBP",
+            "usd" => "https://www.etxcapital.com/account/sign-up?v=3&Platform=MT4-FX&RefID=100241",
+            "eur" => "https://www.etxcapital.com/account/sign-up?v=3&Platform=MT4-FX&RefID=100241&Cur=EUR"
+        );
+        if($language==='en'){
+            return $linksEnglish[$currency];
+        } else {
+            $linksLanguage=array(
+                "de" => "https://www.etxcapital.de/konto/jetzt-beantragen?v=3&Platform=MT4-FX&RefID=100244",
+                "fr" => "https://www.etxcapital.fr/compte/inscription?v=3&Platform=MT4-FX&RefID=100246",
+                "es" => "https://www.etxcapital.es/cuenta/solicitala-ahora?v=3&Platform=MT4-FX&RefID=100243",
+                "pt" => "https://www.etxcapital.pt/cuenta/solicitala-ahora?v=3&Platform=MT4-FX&RefID=100243",
+            );
+            return $linksEnglish[$language];
+        }
+    }
     function getMoneyTable($currency){
         $moneyTable=array(
             "live"=> array(
@@ -124,4 +141,26 @@
             )
         );
         return $moneyTable[$currency];
+    }
+    function Redirect($url, $code = 302)
+    {
+        if (strncmp('cli', PHP_SAPI, 3) !== 0)
+        {
+            if (headers_sent() !== true)
+            {
+                if (strlen(session_id()) > 0) // if using sessions
+                {
+                    session_regenerate_id(true); // avoids session fixation attacks
+                    session_write_close(); // avoids having sessions lock other requests
+                }
+
+                if (strncmp('cgi', PHP_SAPI, 3) === 0)
+                {
+                    header(sprintf('Status: %03u', $code), true, $code);
+                }
+
+                header('Location: ' . $url, true, (preg_match('~^30[1237]$~', $code) > 0) ? $code : 302);
+            }
+           exit();
+        }
     }
