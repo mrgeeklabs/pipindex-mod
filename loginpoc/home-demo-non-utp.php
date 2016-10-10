@@ -49,28 +49,28 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 		<style type="text/css">
-			ul {
+			.update-account-ul {
 	  			list-style: none;
 	  			margin-left: 0;
 	  			padding-left: 0;
+	  			text-align: left;
 			}
-			li {
+			.update-account-ul  li {
 	  			padding-left: 1em;
 	  			text-indent: -1em;
 			}
-			li:nth-child(1):before{
+			.update-account-ul li:nth-child(1):before{
 				content: "";
 				padding-right: 19px;
 			}
-			li:nth-child(2):before{
+			.update-account-ul li:nth-child(2):before{
 				content: "+";
 				padding-right: 12px;
 			}
-			li:nth-child(3):before{
+			.update-account-ul li:nth-child(3):before{
 				content: "++";
 				padding-right: 5px;
-			}						
-			
+			}
 	</style>
 </head>
 <body id="utp" class="nonUtp">
@@ -112,7 +112,7 @@
 	   	<div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>	        
 	        <div id="update-account-message-wrapper" style="">
-	        	<ul style="width:340px">
+	        <ul class="update-account-ul" style="width:340px">
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][1] ?></span></li>
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][2] ?></span></li>
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][3] ?></span></li>

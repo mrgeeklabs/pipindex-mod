@@ -107,7 +107,7 @@ body .lp3-wrapper .features-container .feature .feature-title {
         text-align: center;
         padding: 0 20px; }
         body .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right #account-better {
-          color: #000;
+          color: #fff;
           font-weight: 300;
           font-size: 22px;
           letter-spacing: .5px;
@@ -1486,6 +1486,7 @@ footer p {
     text-align: left;
     margin: 0 auto;
     width: 25%;
+    margin-top: 10px;
   }
 
   #utp .lp3-wrapper #update-account h4 {
@@ -1781,6 +1782,7 @@ footer p {
       text-align: center;
       margin: 0 auto;
       width: 100%;
+      margin-top: 10px;
     }
     #utp .header-container {
       text-align: center;
