@@ -16,6 +16,7 @@
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-demo-non-utp.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
+	$goToEtxLink="/gotoetc.php?lang=$lang&currency=$currency";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +73,7 @@
 	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
 	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
 	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
-	                <a id="banner-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a id="banner-button" href="<?= $goToEtxLink ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -114,7 +115,7 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a class="btn update-account-button" href="<?= $goToEtxLink ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount"><?= $prizeMoney?></p>
@@ -197,7 +198,7 @@
 	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
 	        </div>
 	        <div class="update-wrapper">
-	            <a class="btn update-account-button" href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	            <a class="btn update-account-button" href="<?= $goToEtxLink ?>"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	        </div>
 	    </div>
 	    <div class="scholars-section-container">
@@ -225,7 +226,7 @@
 				}
 				?>	          
 	            <div class="col-md-12 col-sm-12">
-	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	                <a href="<?= $goToEtxLink ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -306,7 +307,7 @@
 				}
 				?>
 	        </div>
-	        <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
+	        <a href="<?= $goToEtxLink ?>" class="button"><?= $translations[$lang]["text"]["open_your_account"]?></a>
 	    </div>
 	    <div class="have-query">
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
