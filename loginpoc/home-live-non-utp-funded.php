@@ -71,7 +71,7 @@
 	                <p id="welcome-text1"><?= $translations[$lang]["banner_right"][2] ?></p>
 	                <p id="welcome-text2"><?= $translations[$lang]["banner_right"][3] ?></p>
 	                <p id="welcome-text3"><?= $translations[$lang]["banner_right"][4] ?></p>
-	                <a id="banner-button" href="http://www.pipindex.com/terms-and-condition.php"><?= $translations[$lang]["text"]["update_account"]?></a>
+	                <a id="banner-button" href="http://www.pipindex.com/terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -110,7 +110,7 @@
 	            </div>
 	        </div>
 
-	        <a class="btn update-account-button" href="http://www.pipindex.com/terms-and-condition.php"><?= $translations[$lang]["text"]["update_account"]?></a>
+	        <a class="btn update-account-button" href="http://www.pipindex.com/terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	    </div>
 	    <div class="prize-container">
 	        <p id="prize-amount"><?= $prizeMoney?></p>
@@ -144,7 +144,7 @@
 	            <p class="feature-title"><?= $translations[$lang]["feature"][1] ?></p>
 	        </div>
 	        <div class="update-wrapper">
-	            <a class="btn update-account-button" href="http://www.pipindex.com/terms-and-condition.php"><?= $translations[$lang]["text"]["update_account"]?></a>
+	            <a class="btn update-account-button" href="http://www.pipindex.com/terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>"><?= $translations[$lang]["text"]["update_account"]?></a>
 	        </div>
 	    </div>
 	    <div class="scholars-section-container">
@@ -173,7 +173,7 @@
 				?>
 
 	            <div class="col-md-12 col-sm-12">
-	                <a href="http://www.pipindex.com/terms-and-condition.php" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
+	                <a href="http://www.pipindex.com/terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>
 	        </div>
 	    </div>
@@ -268,7 +268,7 @@
 				}
 				?>
 	        </div>
-	        <a href="http://www.pipindex.com/terms-and-condition.php" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
+	        <a href="http://www.pipindex.com/terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
 	    </div>
 	    <div class="have-query">
 	        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
