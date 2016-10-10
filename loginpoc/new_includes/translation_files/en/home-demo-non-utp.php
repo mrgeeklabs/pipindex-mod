@@ -36,9 +36,9 @@
             ),
             "update-account"=> array(
                 "Open Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
-                " Free Ultimate Traders Programme",
-                "+ New October Account Bonus",
-                "++ Entry into ". $prizeMoney. " prize draw"
+                "Free Ultimate Traders Programme",
+                "New October Account Bonus",
+                "Entry into ". $prizeMoney. " prize draw"
             ),
             "update-steps-container"=> array(
                 array(

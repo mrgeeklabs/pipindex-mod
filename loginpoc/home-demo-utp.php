@@ -47,6 +47,30 @@
 			<script src="js/html5shiv.js"></script>
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
+		<style type="text/css">
+			ul {
+	  			list-style: none;
+	  			margin-left: 0;
+	  			padding-left: 0;
+			}
+			li {
+	  			padding-left: 1em;
+	  			text-indent: -1em;
+			}
+			li:nth-child(1):before{
+				content: "";
+				padding-right: 14px;
+			}
+			li:nth-child(2):before{
+				content: "+";
+				padding-right: 5px;
+			}
+			li:nth-child(3):before{
+				content: "++";
+				padding-right: 5px;
+			}						
+			
+	</style>
 </head>
 <body id="utp">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
@@ -75,10 +99,12 @@
 	        </div>
 	    </div>
 	   	<div id="update-account">
-	        <?= $translations[$lang]["update-account"][0] ?>
+	        <?= $translations[$lang]["update-account"][0] ?>	        
 	        <div id="update-account-message-wrapper" style="">
-		        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
-		        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+	        	<ul>
+		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][1] ?></span></li>
+		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][2] ?></span></li>
+		        </ul>
 	        </div>
 	    </div>
 	    <div class="update-steps-container">
@@ -277,16 +303,7 @@
 						<div class="timeline-content right">
 							<h2 style="text-align:left;padding-top: 20px;"><?= $translations[$lang]["bullet-points"][6] ?></h2>				
 						</div>
-					</div>		
-
-					<!-- <div class="timeline-item">
-						<div class="timeline-icon" style="height: auto;width: auto;left: 49%;top: 40px;">
-							<img src="http://www.pipindex.com/new-static/images/Asset21.png">
-						</div>
-						<div class="timeline-content">
-							<h2 style="text-align:right;padding-top: 50px;"><?= $translations[$lang]["bullet-points"][7] ?></h2>				
-						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 	        <!-- <div class="desktop-bullet-points">
