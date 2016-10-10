@@ -1,10 +1,10 @@
 # pipindex-mod
 
 #### Run locally by invoking the following on your terminal.
-`php -S localhost:9999`
+`cd loginpoc/; php -S localhost:9999`
 
 #### Access at the following URL:
-`http://localhost:9999/loginpoc/login.php`
+`http://localhost:9999/<filename>.php`
 
 ### API Guidelines 
 --
