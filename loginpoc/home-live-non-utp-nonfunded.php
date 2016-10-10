@@ -76,15 +76,13 @@
 	            </div>
 	        </div>
 	    </div>
-	    <div id="update-account">
-	        <?= $translations[$lang]["update-account"][0] ?> <strong><?= $translations[$lang]["update-account"][3] ?></strong> <?= $translations[$lang]["update-account"][4] ?>
+	   	<div id="update-account">
+	        <?= $translations[$lang]["update-account"][0] ?> <span style="font-size: 18px;font-weight: bold;"><?=$prizeMoney ?></span> <?=$translations[$lang]["update-account"][1] ?>
 	        <div id="update-account-message-wrapper" style="">
-		        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
 		        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+		        <h4><?=$translations[$lang]["update-account"][3] ?></h4>
 	        </div>
-	        <!-- <?= $translations[$lang]["update-account"][0] ?>
-	        <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span>
-	        <?=$translations[$lang]["update-account"][2] ?> -->
+
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">

@@ -29,8 +29,8 @@
                 "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win ". $prizeMoney ." real money! ",
-                "+ New October Account Bonus "
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win ". $prizeMoney ." real money!",
+                "New October Account Bonus "
             ),
             "update-steps-container"=> array(
                 array(

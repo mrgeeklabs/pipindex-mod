@@ -31,9 +31,10 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and enter a draw to win ". $prizeMoney ." real money",
-                "+ Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong> with Academy of Financial Trading",
-                "++ New October Bonus"
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and enter a draw to win ",
+                "real money!",
+                "Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong>",
+                "+ New October Bonus"
             ),
             "update-steps-container"=> array(
                 array(

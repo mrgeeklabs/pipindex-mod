@@ -12,6 +12,7 @@
 		$lang="en";
 	}
 	$prizeMoney=getPrizeMoney($currency);
+	$moneyTable=getMoneyTable($currency);	
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-utp-funded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
@@ -33,8 +34,6 @@
 	  	
 	  	
 	  	<link rel="stylesheet" href="new-static/css/style.css">
-	  	<link rel="stylesheet" href="new-static/css/style-demo-non-utp.css">
-	  	<!-- <link rel="stylesheet" href="new-static/css/style-utp.css"> -->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -47,7 +46,7 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body id="utp">
+<body>
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
 	<div style="width: 100%; text-align: center;color: #fff;">
 		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
@@ -74,26 +73,21 @@
 	        </div>
 	    </div>
 	    <div id="update-account">
-	        <p><?= $translations[$lang]["update-account"][0] ?></p>
-	        <!-- <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span> -->
-	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+	        <?= $translations[$lang]["update-account"][0] ?> <span style="font-size: 18px;font-weight: bold;"><?=$prizeMoney ?></span> <?=$translations[$lang]["update-account"][1] ?>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
-					<div class="steps">
-	                    <img src="new-static/images/circletop.jpg" width="30">
-	                </div>	
-	                <div class="steps">
-	                    <img src="new-static/images/circletop.jpg" width="30">
-	                </div>	
-	                <div class="steps">
-	                    <img src="new-static/images/circletop.jpg" width="30">
-	                </div>	
-	                <div class="steps">
-	                    <img src="new-static/images/circletop.jpg" width="30">
-	                </div>	
-	            </div>
+                      <div class="steps">
+                          <img src="new-static/images/circletop.jpg" width="30">
+                      </div>  
+                      <div class="steps">
+                          <img src="new-static/images/circletop.jpg" width="30">
+                      </div>  
+                      <div class="steps">
+                          <img src="new-static/images/circletop.jpg" width="30">
+                      </div>
+                 </div>
 	            <div style="display: flex;">
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
@@ -168,6 +162,7 @@
 				<?php 		
 				}
 				?>
+
 	            <div class="col-md-12 col-sm-12">
 	                <a href="terms-and-condition.php<?php echo (isset($_GET['email']) ? '?email=' .trim($_GET['email'])  : '') ?>" class="button"><?= $translations[$lang]["text"]["update_account"]?></a>
 	            </div>
@@ -327,8 +322,8 @@
 	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
 	      </div> -->
 	      <div class="modal-body have-query-body">
-	        <h1><?= $translations[$lang]["have_query"][0] ?></h1>
-	        <h3><?= $translations[$lang]["have_query"][1] ?></h3>
+	        <h1><?= $translations[$lang]["have-query"][0] ?></h1>
+	        <h3><?= $translations[$lang]["have-query"][1] ?></h3>
 	        <div class="custom-time-select-dropdown">
 				<label  id="popup-hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><?= $translations[$lang]["text"]["hours"] ?></sup></label>
 				<ul class="popup-hours-dropdown">
@@ -389,11 +384,9 @@
 	  </div>
 	</div>
 
-	<?php
-		//include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
-		include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
-	?>
-
+<?php
+	include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
+?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
 
 	<!-- Acknowldge -->
@@ -540,8 +533,7 @@
 	});
 	$("#requestCall").click(function(event){
 		$('#myModalUnknown').modal('show');
-		$('<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img id="contactUsPixel" style="display:none;" class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=contact-us-click"/>'; ?>').load(function() {});
-
+		
 	});
 
 // 	window.addEventListener("beforeunload", function(e){
