@@ -12,7 +12,7 @@
 		$lang="en";
 	}
 	$prizeMoney=getPrizeMoney($currency);
-	$moneyTable=getMoneyTable($currency);
+	$moneyTable=getMoneyTable('live');
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-utp-nonfunded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
