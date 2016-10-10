@@ -75,10 +75,12 @@
 	            </div>
 	        </div>
 	    </div>
-	    <div id="update-account">
-	        <p><?= $translations[$lang]["update-account"][0] ?></p>
-	        <!-- <span style="font-size: 18px;font-weight: bold;"><?=$translations[$lang]["update-account"][1] ?></span> -->
-	        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+	   	<div id="update-account">
+	        <?= $translations[$lang]["update-account"][0] ?>
+	        <div id="update-account-message-wrapper" style="">
+		        <h4><?=$translations[$lang]["update-account"][1] ?></h4>
+		        <h4><?=$translations[$lang]["update-account"][2] ?></h4>
+	        </div>
 	    </div>
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
