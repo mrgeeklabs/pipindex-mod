@@ -132,7 +132,7 @@
 	    		<?php 
 					foreach($translations[$lang]["strongPoints"]["list"] as $listItem) {
 				?>
-	    		<li>$listItem</li>
+	    		<li><?= $listItem ?></li>
 	    		<?php 		
 				}
 				?>
