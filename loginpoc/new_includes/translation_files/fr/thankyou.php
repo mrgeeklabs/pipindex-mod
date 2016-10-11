@@ -1,6 +1,6 @@
 <?php
     $translations = array(
-        "en"=>array(
+        "fr"=>array(
         	"title" => "Je vous remercie !",
         	"thankYouContainer" => array(
         		"Je vous remercie !",
