@@ -30,7 +30,7 @@
             "update-account"=> array(
                 "Open Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
                 "New October Account Bonus",
-                "+&nbsp;Entry into ". $prizeMoney ." prize draw"
+                "<span style='font-weight: 900;font-family: montserrat;'>+</span>&nbsp;Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
                 array(
@@ -75,7 +75,7 @@
             "bullet-points" => array(
                 "Click to Open Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1<sup>st</sup> trade to receive your bonus",
+                "Deposit funds and place your 1<sup>st</sup> trade", //trade to receive your bonus",
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",

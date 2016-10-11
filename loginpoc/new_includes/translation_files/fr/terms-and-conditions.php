@@ -1,6 +1,6 @@
 <?php
     $translations = array(
-        "en"=>array(
+        "fr"=>array(
             "text" => array(
                 "agree"=>"I Agree",
                 "cancel"=> "Cancel"
@@ -102,7 +102,7 @@
                         array(
                             "header"=>"9. CONTACT",
                             "para"=> array(
-                                "Si vous avez des questions concernant notre charte de confidentialité, veuillez nous contacter par email : customerservice@etxcapital.co.uk."
+                                "Si vous avez des questions concernant notre charte de confidentialité, veuillez nous contacter par email :"
                             ),
                             "list"=>array(
                             )
