@@ -31,6 +31,7 @@
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  	<script type="text/javascript" src="new-static/intlTelInput/js/intlTelInput.min.js" ></script>
 	  	<link rel="stylesheet" type="text/css" href="new-static/intlTelInput/css/intlTelInput.css">
+	  	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	  	<link rel="stylesheet" href="new-static/css/style.css">
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
@@ -44,7 +45,14 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body style="color: #36393e" id="utp">	
+<body style="color: #36393e" id="utp">
+	<div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
+	<div style="width: 100%; text-align: center;color: #fff;">
+		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
+		<!-- <p>Loading</p> -->
+	</div>
+	</div>
+
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
 	<div class="tnc-container">	
@@ -125,12 +133,6 @@
 	    </div>
 	  </div>
 	</div>
-	<div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
-	<div style="width: 100%; text-align: center;color: #fff;">
-		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
-		<!-- <p>Loading</p> -->
-	</div>
-	</div>
 	<!-- Acknowldge -->
 	<div class="modal fade" id="ackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
@@ -194,20 +196,22 @@
 
 		$('#submitReasonbtn').click(function (evt) {
 			if($('#reason').val()){
+				$('#reasonModal').modal('hide');
 				$('#loadingIndicator').css('display','block');
 				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: "yes", requestForInfo: $('#reason').val()}, success: function(result){
-					if(result.success){
 						$('#loadingIndicator').css('display','none');
 						$('#ackModal').modal('show');
 						$('#reason').val('');
 						$('#reason').css('border-color', 'black')
-					}
+					// if(result.success){
+						
+					// }
 				}});
 			}
 			else{
 				$('#reason').css('border-color', 'red')
 			}
-			$('#reasonModal').modal('hide');
+			
 		})
 
 		$("#identifyUser").click(function(event){
