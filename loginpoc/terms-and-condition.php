@@ -34,7 +34,7 @@
 			<link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
 		<![endif]-->
 </head>
-<body style="color: #36393e" id="utp">
+<body style="color: #36393e" id="utp">	
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
 	<input type="hidden" id="email" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" name="email">
 	<div class="tnc-container">	
@@ -115,6 +115,33 @@
 	    </div>
 	  </div>
 	</div>
+	<div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
+	<div style="width: 100%; text-align: center;color: #fff;">
+		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
+		<!-- <p>Loading</p> -->
+	</div>
+	</div>
+	<!-- Acknowldge -->
+	<div class="modal fade" id="ackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <!-- <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	        	<img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+	        </button>
+	      </div> -->
+	      <div class="modal-body">
+	        <div class="ackContainer">
+				<div class="rightTick">
+					<img src="https://s3-eu-west-1.amazonaws.com/shawaftassets/img/website/green-tick.svg" />
+				</div>
+				<div class="thankYouTitle"><?= $translations[$lang]["text"]["thank_you"] ?></div>
+				<div class="thankYouMessage"><?= $translations[$lang]["text"]["thank_you_message"] ?></div>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 	<script type="text/javascript">
 		function createTelephoneInput(element){
@@ -157,9 +184,11 @@
 
 		$('#submitReasonbtn').click(function (evt) {
 			if($('#reason').val()){
+				$('#loadingIndicator').css('display','block');
 				$.ajax({type:"POST",url: "collect.php",data:{email:'<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>', requestForCall: "yes", requestForInfo: $('#reason').val()}, success: function(result){
 					if(result.success){
-						$('#reasonModal').modal('toggle');
+						$('#loadingIndicator').css('display','none');
+						$('#ackModal').modal('show');
 						$('#reason').val('');
 						$('#reason').css('border-color', 'black')
 					}
