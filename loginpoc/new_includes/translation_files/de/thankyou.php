@@ -1,24 +1,24 @@
 <?php
     $translations = array(
         "de"=>array(
-            "title" => "Thank You",
+            "title" => "Vielen Dank!",
             "thankYouContainer" => array(
-                "Thank You!",
-                "Your request to transition your account has been received."
+                "Vielen Dank!",
+                "Die Anfrage Ihren Account zu übertragen wurde erhalten."
             ),
             "whathappennext" => array(
-                "What happens next?",
-                "An email will be sent shortly with your new account login details"
+                "Was passiert als nächstes?",
+                "Eine E-Mail mit Ihren neuen Account Anmeldeinformationen wird in Kürze gesendet"
             ),
             "update-steps-container" => array(
-                "Simply follow the steps to login and update some information",
-                "Once updated your new dedicated ETX account manager will contact you",
-                "Have access to more markets, at lower cost, with greater support"
+                "Folgen Sie lediglich den Schritten um sich anzumelden und ein paar Information zu aktualisieren",
+                "Sobald diese aktualisiert sind, wird Ihr neuer eigener ETX Account-Manager mit Ihnen Kontakt aufnehmen",
+                "Haben Sie Zugriff auf mehr Märkte, bei niedrigeren Kosten, mit besserem Support"
             ),
             "thankyou-footer" => array(
-                "From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.",
-                "As a parting gift, don’t forget to place that first trade by Monday 2pm on October 24th 2016 BST, to be in with a chance to win "
+                "Alle hier von PipIndex möchten sich bei Ihnen für Ihr Vertrauen und die Zusammenarbeit bedanken und wir freuen uns darauf Sie weiter bei Ihren Ausbildungsbedürfnissen zu unterstützen",
+                "Vergessen Sie nicht unser Abschiedsgeschenk und Ihren ersten Trade bis Montag, den 17.10.2016 um 14 Uhr BST zu platzieren um eine Chance zu haben 10.000£ zu gewinnen"
             ),
-            "contact-text"=>"In the meantime should you have any questions or queries do feel free to contact us directly at ETX for further support:"
+            "contact-text"=>"Sollten Sie in der Zwischenzeit irgendwelche Fragen oder Anliegen haben, kontaktieren Sie uns gerne direkt bei ETX für weiteren Support:"
         )
     );

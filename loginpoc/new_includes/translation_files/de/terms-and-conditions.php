@@ -10,99 +10,101 @@
                 'header' => array('' => "" ),
                 'content' => array(
                     'title' => "Terms and Conditions",
-                    'message'=>"By clicking “I agree” you agree to PipIndex passing your personal information to ETX Capital, so that ETX Capital can contact you via phone and/or email and you agree to the Privacy Policy of ETX Capital as below.",
+                    'message'=>'Indem Sie auf “Ich stimme zu” klicken, erklären Sie sich damit einverstanden, dass PipIndex Ihre persönlichen Daten an ETX Capital weiterleitet, so dass ETX Capital Sie per Telefon und/oder E-Mail kontaktieren kann und Sie erklären sich außerdem mit der Datenschutzerklärung von ETX Capital, wie unten beschrieben, einverstanden.',
                     'terms' => array(
                         array(
-                            "header"=>"ETX Privacy policy",
+                            "header"=>"ETX DATENSCHUTZERKLÄRUNG",
                             "para"=> array(
-                                "ETX Capital recognises the vital importance of protecting your personal and financial information and adheres to the principles of the Data Protection Act 1998 (the “Act”). This enables us to provide you with a secure website for your transactions. This privacy policy details how ETX Capital ensures your personal information remains confidential, respects your privacy and safeguards your personal data at all times.",
-                                "Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting and/or accessing our website you are accepting and consenting to the practices described in this privacy policy."
+                                "ETX Capital versteht die unverzichtbare Wichtigkeit Ihre persönlichen und finanziellen Informationen zu beschützen und hält sich an die Prinzipien des „Data Protection Act 1998“ (der „Akt“). Dies ermöglicht uns Ihnen eine sichere Webseite für Ihre Transaktionen zur Verfügung zu stellen. Diese Datenschutzerklärung erläutert, wie ETX Capital sicherstellt, dass Ihre persönlichen Informationen vertraulich bleiben, ETX Ihre Privatsphäre respektiert und Ihre persönlichen Daten zu jeder Zeit absichert.",
+                                "Bitte lesen Sie das Folgende sorgfältig um unsere Ansichten und Praktiken bezüglich Ihrer persönlichen Daten und wie wir sie behandeln, zu verstehen. Durch den Besuch und/oder den Zugriff auf unsere Website akzeptieren Sie diese, in dieser Datenschutzerklärung, beschriebenen Praktiken und erklären sich damit einverstanden."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"1. COLLECTION OF PERSONAL DATA",
+                            "header"=>"1. ERHEBUNG VON PERSÖNLICHEN DATEN",
                             "para"=> array(
-                                "You may give us information about you by using our website, filling in forms on our site or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, subscribe to our services and products and when you report a problem with our site. The kind of personal information you give us may include (but is not limited to) name, address, date of birth, passport number, tax identification number, e-mail address, phone number, employment and income, debit/credit card information, transaction history and financial statements. In order to comply with our regulatory requirements, we may also ask for financial information such as annual income, net worth and available risk capital. In addition, we may also collect information from external sources."
+                                "Sie können uns Informationen über sich mitteilen, indem Sie unsere Website nutzen, Formulare auf unserer Seite ausfüllen oder mit uns per Telefon, E-Mail oder auf andere Art und Weise korrespondieren. Dies beinhaltet Informationen, die Sie zur Verfügung stellen, wenn Sie sich auf unserer Seite zur Nutzung registrieren, sich für unsere Dienstleistungen und Produkte einschreiben und wenn Sie ein Problem auf unserer Seite melden. Die Art der Informationen können einschließen (aber nicht darauf beschränkt) Name, Adresse, Geburtsdatum, Reisepassnummer, Steueridentifikationsnummer, E-Mail-Adresse, Telefonnummer, Beschäftigung und Einkommen, Debit-/Kreditkarteninformationen, Transaktionshistorie und Finanzübersichten. Um unseren regulatorischen Anforderungen zu entsprechen, könnten wir auch nach Finanzinformationen, wie z.B. dem jährlichen Einkommen, Eigenkapital und verfügbarem Risikokapital fragen. Zusätzlich sammeln wir ggf. auch Informationen von externen Quellen."
                             ),
                             "list"=>array(
-                                "to verify your identity;",
-                                "to assess the appropriateness of the products and services we provide;",
-                                "to set up and service your account;",
-                                "to carry out our services and to provide you with the information, products and services that you request from us;",
-                                "to provide you with information about other products and services we offer that are similar to those that you have already enquired about;",
-                                "to notify you about changes to our services and products;",
-                                "to improve our website."
+                                ""
                             )
                         ),
                         array(
                             "header"=>"2. COOKIES",
                             "para"=> array(
-                                "We use cookies to provide us with data we can use to improve the website experience for our customers and to get to know our customers better. For detailed information on the cookies we use and the purposes for which we use them visit our Cookie page."
+                                "Wir nutzen Cookies, die uns mit Informationen versorgen, die wir nutzen können um die Webseite für unsere Kunden zu verbessern und unsere Kunden besser zu kennen. Für detaillierte Informationen bezüglich der Cookies, die wir nutzen und für welche Zwecke, besuchen Sie unsere Cookie Seite."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"3. USE OF PERSONAL DATA",
+                            "header"=>"3. NUTZUNG VON PERSÖNLICHEN DATEN",
                             "para"=> array(
-                                "We use information held about you in the following ways:"
+                                "Wir nutzen Information, die über Sie gehalten werden auf folgende Art und Weise:"
+                            ),
+                            "list"=>array(
+                                "Um Ihre Identität zu verifizieren",
+"Um die Angemessenheit der angebotenen Produkte und Dienstleistungen zu bewerten",
+"Um Ihren Account aufzusetzen und aufrechtzuerhalten",
+"Um unsere Dienstleistung durchzuführen und uns zu verbessern",
+"Um die Informationen, Produkte und Dienstleistungen anzubieten, die Sie bei uns anfordern",
+"Um Ihnen Informationen zu von uns angebotenen Produkten und Dienstleistungen zu liefern, die ähnlich zu denen sind, die Sie bereits nutzen",
+"Um Sie über Änderungen bezüglich unserer Dienstleistungen und Produkte zu informieren",
+"Um unsere Website zu verbessern"
+                            )
+                        ),
+                        array(
+                            "header"=>"4. OFFENLEGUNG VON PERSÖNLICHEN DATEN",
+                            "para"=> array(
+                                "Wir legen weder Ihre persönlichen Informationen offen, noch verkaufen oder lizenzieren wir diese für Marketing Zwecke an Dritte. Jedoch können wir, innerhalb der gewöhnlichen Geschäftsabwicklung, ausgewählte Informationen mit den folgenden Parteien teilen (die innerhalb und außerhalb des europäischen Wirtschaftsraum sein können):"
+                            ),
+                            "list"=>array(
+                                "Jegliche regulatorische, staatliche oder Gesetz durchsetzende Behörde, wie gesetzlich erfordert",
+"Unsere Drittanbieter von Kredit- und Debitkartenabwicklung und Verifizierung, wie von unseren Banken gefordert",
+"Unsere Versicherer, Agenten, Anbieter und Unterlieferanten, insoweit auf vernünftige Art und Weise für die jeweiligen Zwecke notwendig",
+"Professionelle Berater, wie unsere Rechtsanwälte in Verbindung mit jeglichem begonnenen oder potenziellen rechtlichen Vorgang oder um unsere gesetzlichen Rechte zu etablieren, durchzusetzen oder zu verteidigen, oder unsere Prüfer und Steuerberater um unsere regulatorischen und finanziellen Berichtsverpflichtungen zu erfüllen",
+"Einführende Broker, mit welchen wir gegenseitige Beziehungen haben",
+"Jegliches Mitglied unserer Gruppe, also unseren Tochterfirmen, unserer schlussendlichen Holdingfirma und ihren Tochterfirmen und Rechtsnachfolgern unseres Unternehmens"
+                            )
+                        ),
+                        array(
+                            "header"=>"5. SICHERHEIT",
+                            "para"=> array(
+                                "ETX Capital nimmt die Absicherung Ihrer Daten sehr ernst. ETX Capital hat Maßnahmen und Vorkehrungen getroffen um die Sicherheit Ihrer persönlichen Informationen zu gewährleisten."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"4. DISCLOSURE OF PERSONAL DATA",
+                            "header"=>"6. IHRE RECHTE",
                             "para"=> array(
-                                "We do not sell, license or otherwise disclose your personal information to third parties for marketing purposes. However, we may, in the standard operation of our business, share selected information to the following (who may be within or outside the European Economic Area):"
-                            ),
-                            "list"=>array(
-                                "any relevant regulatory, governmental, or law enforcement authority as required by law;",
-                                "our third party credit/debit card processing and verification providers as required by our commercial banks;",
-                                "our insurers, agents, suppliers and subcontractors insofar as reasonably necessary for the purpose set out herein;",
-                                "professional advisors such as our solicitors in connection with any ongoing or prospective legal proceedings or in order to establish, exercise or defend our legal rights, and our auditors and accountants in order to satisfy our regulatory and financial reporting obligations;",
-                                "introducing brokers with whom we have a mutual relationship;",
-                                "any member of our group, meaning our subsidiaries, our ultimate holding company and its subsidiaries, and successors in title to our business."
-                            )
-                        ),
-                        array(
-                            "header"=>"5. SECURITY",
-                            "para"=> array(
-                                "ETX Capital takes the safeguarding of your data very seriously. ETX Capital has taken measures and precautions to protect the security of your personal information."
+                                "Sie müssen angeforderte persönliche Daten nicht übermitteln. Jedoch kann eine unterlassene Offenlegung von persönlichen Daten, auf unser Verlangen hin, dazu führen, dass wir Ihnen die angeforderten Produkte, Dienstleistungen nicht zur Verfügung stellen und eine Aufrechterhaltung des Accounts nicht sicherstellen können.",
+                                "Unsere Seite kann, von Zeit zu Zeit, Links zu und von Webseiten unseres Partnernetzwerks, Werbern und Affiliates enthalten. Wenn Sie einem Link zu jeglicher dieser Seiten folgen, beachten Sie bitte, dass diese Websites ihre eigenen Datenschutzbestimmungen haben und dass wir keine Verantwortung oder Haftung für diese Bestimmungen übernehmen. Bitte überprüfen Sie diese Bestimmungen, bevor Sie jegliche persönliche Information zu diesen Websites übermitteln."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"6. YOUR RIGHTS",
+                            "header"=>"7. ZUGRIFF AUF INFORMATIONEN",
                             "para"=> array(
-                                "You are not required to submit requested personal information. However, failure to disclose your personal information upon our request may result in our being unable to provide you with the requested product or service or to continue to maintain your account.",
-                                "Our site may, from time to time, contain links to and from the websites of our partner networks, advertisers and affiliates. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites."
+                                "Der Akt gibt Ihnen das Recht auf Informationen, die über Sie gehalten werden, zuzugreifen. Ihr Recht auf Zugang kann ihm Einklang mit dem Akt ausgeübt werden. Jegliche Zugriffsanfrage kann mit einer Gebühr verbunden sein um unsere Kosten in Verbindung mit der Bereitstellung von Details, über die von uns über Sie gehaltenen Informationen, zu decken."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"7. ACCESS TO INFORMATION",
+                            "header"=>"8. ÄNDERUNGEN UNSERER DATENSCHUTZBESTIMMUNGEN",
                             "para"=> array(
-                                "The Act gives you the right to access information held about you. Your right of access can be exercised in accordance with the Act. Any access request may be subject to a fee to meet our costs in providing you with details of the information we hold about you."
+                                "Jegliche Veränderungen, die wir potenziell in der Zukunft an unserer Datenschutzerklärung vornehmen, werden hier auf dieser Seite veröffentlicht und, wo angemessen, per E-Mail an Sie gesendet."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"8. CHANGES TO OUR PRIVACY POLICY",
+                            "header"=>"9. KONTAKT",
                             "para"=> array(
-                                "Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. Please check back frequently to see any updates or changes to our privacy policy."
-                            ),
-                            "list"=>array(
-                            )
-                        ),
-                        array(
-                            "header"=>"9. CONTACT",
-                            "para"=> array(
-                                "If you have any questions regarding our privacy policy, please email:."
+                                "Sollten Sie Fragen zu unserer Datenschutzerklärung haben, schreiben Sie bitte per E-Mail an: customerservice@etxcapital.co.uk."
                             ),
                             "list"=>array(
                             )
