@@ -56,7 +56,7 @@
 	  			padding-left: 1em;
 	  			text-indent: -1em;
 			}
-			.update-account-ul li:nth-child(1):before{
+			/*.update-account-ul li:nth-child(1):before{
 				content: "";
 				padding-right: 19px;
 			}
@@ -67,7 +67,7 @@
 			.update-account-ul li:nth-child(3):before{
 				content: "++";
 				padding-right: 5px;
-			}
+			}*/
 	</style>
 </head>
 <body>

@@ -23,7 +23,7 @@
                 "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with phenomenal support."
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST",
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
                 "Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
