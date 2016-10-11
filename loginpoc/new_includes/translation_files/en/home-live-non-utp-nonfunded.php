@@ -31,7 +31,7 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
+                "Activate Your Account with a minimum of ".$minimumBalanceString. " and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
                 "Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong>",
                 "<span style='font-weight: 900;font-family: montserrat;'>+</span>&nbsp;New October Bonus",
                 "<span style='font-weight: 900;font-family: montserrat;'>++</span>&nbsp;Entry into ". $prizeMoney ." prize draw"

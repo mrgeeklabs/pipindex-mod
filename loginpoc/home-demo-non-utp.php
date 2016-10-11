@@ -13,6 +13,7 @@
 	}
 	$prizeMoney=getPrizeMoney($currency);
 	$moneyTable=getMoneyTable($currency);
+	$minimumBalanceString=getMinimumBalance($currency);
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-demo-non-utp.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));

@@ -13,6 +13,7 @@
 	}
 	$prizeMoney=getPrizeMoney($currency);
 	$moneyTable=getMoneyTable('live');
+	$minimumBalanceString=getMinimumBalance('live');
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-non-utp-nonfunded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));

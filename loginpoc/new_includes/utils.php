@@ -86,6 +86,15 @@
             return $linksEnglish[$language];
         }
     }
+    function getMinimumBalance($currency){
+        $minimumBalance=array(
+            "live"=>"£200/€250/$275",
+            "usd"=>"$275",
+            "gbp"=>"£200",        
+            "eur"=>"€250"
+        );
+        return $minimumBalance[$currency];
+    }
     function getMoneyTable($currency){
         $moneyTable=array(
             "live"=> array(
