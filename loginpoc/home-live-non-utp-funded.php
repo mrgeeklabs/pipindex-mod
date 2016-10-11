@@ -4,7 +4,7 @@
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
 	$currency = isset($_GET['currency']) ? trim($_GET['currency'])  : 'gbp';
 	$allowedCurrency = array("usd", "gbp", "eur");
-	$allowedLanguages = array("en", "it", "es","de");
+	$allowedLanguages = array("en", "it", "es","de","fr");
 	if (in_array($currency, $allowedCurrency )===false ) {
 		$currency="gbp";
 	}
