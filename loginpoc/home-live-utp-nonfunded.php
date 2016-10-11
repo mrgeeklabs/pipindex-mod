@@ -109,24 +109,24 @@
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
-					<div class="steps">
+					<div class="steps" style="width: 33.33%;">
 	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
-	                <div class="steps">
+	                <!-- <div class="steps">
 	                    <img src="new-static/images/circletop.jpg" width="30">
-	                </div>	
+	                </div> -->	
 	            </div>
 	            <div style="display: flex;">
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
 				?>
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <p class="step-title"><?= $step["title"] ?></p>
 	                    <p class="step-info"><?= $step["info"] ?></p>
 	                </div>				

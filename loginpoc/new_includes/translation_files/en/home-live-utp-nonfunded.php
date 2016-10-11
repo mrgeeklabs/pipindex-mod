@@ -29,9 +29,9 @@
                 "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
+                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
                 "New October Account Bonus ",
-                "+&nbsp;Entry into ". $prizeMoney ." prize draw"
+                "<span style='font-weight: 900;font-family: montserrat;'>+</span>&nbsp;Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
                 array(
@@ -45,11 +45,11 @@
                 array(
                     "title" => "STEP 3",
                     "info" => "Place your 1st Trade"
-                ),
-                array(
-                    "title" => "STEP 4",
-                    "info" => "Receive your Bonus"
                 )
+                // array(
+                //     "title" => "STEP 4",
+                //     "info" => "Receive your Bonus"
+                // )
             ),
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
@@ -76,7 +76,7 @@
             "bullet-points" => array(
                 "Click to Activate Your Account",
                 "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1st trade to receive your bonus",
+                "Deposite funds and place your 1st trade", // to receive your bonus
                 "One of the ETX team will call to welcome you and offer support",
                 "Free Education will be provided on MT4",
                 "More reliability with greater support",
