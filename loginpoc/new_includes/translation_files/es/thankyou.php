@@ -1,24 +1,24 @@
 <?php
     $translations = array(
         "es"=>array(
-            "title" => "Thank You",
+            "title" => "Gracias!",
             "thankYouContainer" => array(
-                "Thank You!",
-                "Your request to transition your account has been received."
+                "Gracias!",
+                "La solicitud de la transición de su cuenta fue recibida."
             ),
             "whathappennext" => array(
-                "What happens next?",
-                "An email will be sent shortly with your new account login details"
+                "¿Qué es lo siguiente?",
+                "Usted recibirá un correo electrónico a la brevedad con sus nuevos datos de la cuenta. En el mismo estará incluida la información para el inicio de sesión"
             ),
             "update-steps-container" => array(
-                "Simply follow the steps to login and update some information",
-                "Once updated your new dedicated ETX account manager will contact you",
-                "Have access to more markets, at lower cost, with greater support"
+                "Sólo tiene que seguir los pasos para ingresar y actualizar alguna información.",
+                "Una vez actualizado su nuevo gerente de cuenta de ETX Capital se comunicará con usted.",
+                "Tendrá acceso a más mercados, por un menor costo y con un mayor soporte."
             ),
             "thankyou-footer" => array(
-                "From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.",
-                "As a parting gift, don’t forget to place that first trade by Monday 2pm on October 24th 2016 BST, to be in with a chance to win "
+                "De todas los que formamos parte de Pipindex nos gustaría darle las gracias,  y esperamos haber cubierto sus necesidades educativas.",
+                "Como regalo de despedida, no se olvide de realizar esa primera operación antes de las 14hs BST del lunes 24 de octubre de 2016 para tener la posibilidad de ganar 10.000 £"
             ),
-            "contact-text"=>"In the meantime should you have any questions or queries do feel free to contact us directly at ETX for further support:"
+            "contact-text"=>"Mientras tanto, en caso de tener alguna duda o consulta no dude en ponerse en contacto con nosotros directamente en ETX para obtener soporte adicional:"
         )
     );
