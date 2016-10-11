@@ -691,6 +691,7 @@
 	});
 
 	$('#please-contact-text').click(function(event){
+		$('<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img id="contactUsPixel" style="display:none;" class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=contact-us-click"/>'; ?>').load(function() {});
 		event.preventDefault();
 		var callMeMessage = "Please call me";
 		$('#loadingIndicator').css('display','block');
