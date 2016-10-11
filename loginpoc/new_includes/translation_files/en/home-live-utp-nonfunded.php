@@ -29,7 +29,7 @@
                 "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with unrivalled support."
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016",
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
                 "New October Account Bonus ",
                 "Entry into ". $prizeMoney ." prize draw"
             ),

@@ -30,7 +30,7 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016",
+                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
                 "Free Ultimate Traders Programme",
                 "Entry into ". $prizeMoney ." prize draw"
             ),
