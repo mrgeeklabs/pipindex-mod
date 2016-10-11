@@ -2,93 +2,93 @@
     $translations = array(
         "de"=>array(
             "text" => array(
-                "agree"=>"I Agree",
-                "cancel"=> "Cancel",
-                "watch_video" => "WATCH VIDEO",
-                "update_account" => "UPDATE YOUR ACCOUNT",
-                "open_your_account" => "OPEN YOUR ACCOUNT",
-                "sell" => "Sell",
+                "agree"=>"Einverstanden",
+                "cancel"=> "Widerrufen",
+                "watch_video" => "Video ansehen",
+                "update_account" => "Account aktualisieren",
+                "open_your_account" => "Account öffnen",
+                "sell" => "Verkaufen",
                 "eurusd" => "EUR/USD",
-                "buy" => "Buy",
-                "submit" => "SUBMIT",
-                "request_call" => "REQUEST A CALL",
-                "thank_you" => "Thank You",
-                "thank_you_mesage" => "We will get back to you shortly",
-                "not_recognize" => "We could not recognize you",
-                "not_recognize_text" => "Enter your details below and you are all set!",
-                "please_contact_us" => "PLEASE CONTACT US",
-                "table_header_deposite" => "DEPOSIT ",
-                "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "OCTOBER BONUS",
+                "buy" => "Kaufen",
+                "submit" => "Einreichen",
+                "request_call" => "Einen Anruf anfragen",
+                "thank_you" => "Vielen Dank",
+                "thank_you_message" => "Wir werden Sie in Kürze kontaktieren",
+                "not_recognize" => "Wir konnten Sie nicht zuordnen",
+                "not_recognize_text" => "Vervollständigen Sie Ihre Angaben und Sie sind bereit!",
+                "please_contact_us" => "Bitte kontaktieren Sie uns",
+                "table_header_deposite" => "Pfand ",
+                "table_header_bonus" => "Bonus",
+                "table_header_october_bonus" => "Bonus Oktober",
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(
-                "Your Account Just Got Better!",
-                "WELCOME TO ETX",
-                "Update your account below and receive the",
+                "Ihr Account ist gerade besser geworden!",
+                "Willkommen bei ETX",
+                "Aktualisieren Sie Ihren Account und erhalten Sie das",
                 "ULTIMATE TRADERS PROGRAMME",
-                "completely free from Academy of Financial Trading"
+                "vollständig kostenfrei von der Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
-                "Free Ultimate Traders Programme",
-                "+&nbsp;Entry into ". $prizeMoney ." prize draw"
+                "Aktualisieren Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 um 10,000 $ zu gewinnen!",
+                "+ Kostenloses Ultimate Traders Programme",
+                ""
             ),
             "update-steps-container"=> array(
                 array(
-                    "title" => "STEP 1",
-                    "info" => "Click ‘Update Your Account’"
+                    "title" => "Schritt 1",
+                    "info" => 'Klicken Sie auf “Account öffnen”'
                 ),
                 array(
-                    "title" => "STEP 2",
-                    "info" => "Review the New Terms"
+                    "title" => "Schritt 2",
+                    "info" => "Lesen Sie die neuen Bedingungen"
                 ),
                 array(
-                    "title" => "STEP 3",
-                    "info" => "Update Some Basic Info"
+                    "title" => "Schritt 3",
+                    "info" => "Aktualisieren Sie einige Basis-Informationen"
                 ),
                 array(
-                    "title" => "STEP 4",
-                    "info" => "Receive Free UTP"
+                    "title" => "Schritt 4",
+                    "info" => "Erhalten Sie Ihr kostenloses UTP"
                 )
             ),
             "prize-container" => array(
-                "FIRST TRADE PRIZE",
-                "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 24th at 6pm BST"
+                "Erster Trading-Preis",
+                "Um an dieser Verlosung teilzunehmen, platzieren Sie einfach einen Trade.",
+                "Der Gewinner wird am Montag, den 24. Oktober 2016 um 18 Uhr BST gezogen."
             ),
-            "new-bonus-title"=> "+ New Account Bonus",
+            "new-bonus-title"=> "+ Neuer-Account-Bonus",
             "features-container" => array(
-                "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
+                "Spreads zu 0,8",
+                "Niedrigere Transaktionskosten für beliebte Werkzeuge"
             ),
             "feature" => array(
-                "TRADABLE INSTRUMENTS",
-                "HUGE RANGE OF MARKETS"
+                "Trading-Werkzeuge",
+                "Hohe Bandbreite an Märkten "
             ),
             "scholars-section-container" => array(
-                "SEAMLESS ACCOUNT UPGRADE",
-                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
-                "DEDICATED SUPPORT MANAGER",
-                "COUNTLESS LANGUAGES",
-                "FULL MT4 TRADING PLATFORM",
-                "FULL RANGE OF MOBILE PLATFORMS"
+                "Nahtloser Account-Upgrade",
+                "Reguliert durch die UK FINANCIAL CONDUCT AUTHORITY",
+                "Persönlicher Support-Manager",
+                "Zahllose Sprachen",
+                "Volle MT4 TRADING PLATTFORM",
+                "Volle Bandbreite an mobilen Plattformen"
             ),
             "bullet-points" => array(
-                "Click to Update Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
-                "Place 1 trade and you will receive the <strong>Ultimate Traders Programme</strong> for free",
-                "One of the ETX team will call to welcome you and offer support",
-                "Free Education will be provided on MT4",
-                "More reliability with greater support",
-                "Place 1 trade and you could win ". $prizeMoney
+                "Klicken, um Ihren Account zu öffnen",
+                "Sie werden upgegradet auf die ETX MT4 Trading Plattform",
+                "Legen Sie Ihre Funds an und platzieren Sie Ihren ersten </sup> Trade um Ihren Bonus zu erhalten",
+                "Das ETX Team wird Sie zur Begrüßung anrufen und Ihnen Unterstützung anbieten",
+                "MT4 wird Ihnen kostenlose Weiterbildung zur Verfügung stellen",
+                "Mehr Zuverlässigkeit durch besseren Support",
+                "Platzieren Sie einen Trade, können Sie 10.000 $ gewinnen"
             ),
-            "improve-account-container" => "Improve Your Account Right Now!",
+            "improve-account-container" => "Optimieren Sie jetzt Ihren Account",
             "have-query" => array(
-                "Have any queries?",
-                "Choose a suitable time and we will contact you."
+                "Haben Sie Fragen? ",
+                "Wählen Sie eine passende Zeit und wir kontaktieren Sie."
             ),
-            "ask-question-section" => "Ask any question and we will get back to you"
+            "ask-question-section" => "Stellen Sie uns eine Frage und wir werden Sie kontaktieren.",
         )
     );
 ?>
