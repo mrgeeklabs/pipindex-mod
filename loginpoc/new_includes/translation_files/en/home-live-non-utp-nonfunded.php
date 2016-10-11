@@ -31,10 +31,10 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
+                "Activate Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
                 "Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong>",
-                "+&nbsp;New October Bonus",
-                "++&nbsp;Entry into ". $prizeMoney ." prize draw"
+                "<span style='font-weight: 900;font-family: montserrat;'>+</span>&nbsp;New October Bonus",
+                "<span style='font-weight: 900;font-family: montserrat;'>++</span>&nbsp;Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
                 array(

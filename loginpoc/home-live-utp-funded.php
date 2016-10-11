@@ -70,7 +70,7 @@
 			}*/
 	</style>
 </head>
-<body>
+<body id="utp">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
 	<div style="width: 100%; text-align: center;color: #fff;">
 		<i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="margin-top: 25%;font-size: 100px;"></i>
@@ -107,13 +107,13 @@
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
-                      <div class="steps">
+                      <div class="steps" style="width: 33.33%;">
                           <img src="new-static/images/circletop.jpg" width="30">
                       </div>  
-                      <div class="steps">
+                      <div class="steps" style="width: 33.33%;">
                           <img src="new-static/images/circletop.jpg" width="30">
                       </div>  
-                      <div class="steps">
+                      <div class="steps" style="width: 33.33%;">
                           <img src="new-static/images/circletop.jpg" width="30">
                       </div>
                  </div>
@@ -121,7 +121,7 @@
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
 				?>
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <p class="step-title"><?= $step["title"] ?></p>
 	                    <p class="step-info"><?= $step["info"] ?></p>
 	                </div>				
