@@ -1,19 +1,19 @@
 <?php
     $translations = array(
-        "fr"=>array(
+        "en"=>array(
             "text" => array(
                 "agree"=>"Je suis d'accord",
                 "cancel"=> "Annuler",
                 "watch_video" => "REGARDER LA VIDÉO",
                 "update_account" => "MISE À JOUR DE VOTRE COMPTE",
-                "open_your_account" => "OUVRIR VOTRE COMPTE",
+                "open_account" => "OUVRIR VOTRE COMPTE",
                 "sell" => "Vendre",
                 "eurusd" => "EUR/USD",
                 "buy" => "Acheter",
                 "submit" => "SOUMETTRE",
-                "request_call" => "DEMANDE UN APPEL",
+                "request_call" => "DEMANDEZ UN APPEL",
                 "thank_you" => "Je vous remercie",
-                "thank_you_message" => "Nous serons en contact bientôt",
+                "thank_you_mesage" => "Nous reviendrons vers vous sous peu",
                 "not_recognize" => "Nous ne pouvons pas vous reconnaître",
                 "not_recognize_text" => "Entrez vos coordonnées ci-dessous et tout est parfait !",
                 "please_contact_us" => "CONTACTEZ-NOUS S'IL VOUS PLAIT",
@@ -25,17 +25,19 @@
             "banner_right"=> array(
                 "Votre compte s’actualise !",
                 "BIENVENUE CHEZ ETX",
-                "Améliorer votre trading à moindre coût sur les instruments populaires et un large éventail de marchés, à travers de multiples plateformes, avec un soutien inégalé."
+                "Ouvrez votre compte ci-dessous et recevez le",
+                "PROGRAMME ULTIMATE TRADERS",
+                "complètement gratuit de l' Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Ouvrez votre compte et Placez un 1er Trade d'ici le lundi 24e Octobre 2016 et recevez",
-                "Bonus nouveau compte d’octobre",
-                "++ Soyez dans le tirage au sort des 10.000 en $"
+                "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et participez à un tirage pour gagner",
+                "10,000 $ en argent réel !",
+                "+ l’Ultimate Traders Programme gratuit"
             ),
             "update-steps-container"=> array(
                 array(
                     "title" => "ÉTAPE 1",
-                    "info" => 'Cliquez sur "Ouvrir votre compte »"'
+                    "info" => 'Cliquez sur "Ouvrir votre compte »'
                 ),
                 array(
                     "title" => "ÉTAPE 2",
@@ -44,7 +46,7 @@
                 array(
                     "title" => "ÉTAPE 3",
                     "info" => "Placez votre 1er Trade"
-                ),
+                )
                 array(
                     "title" => "ÉTAPE 4",
                     "info" => "Recevez votre Bonus"
@@ -55,8 +57,8 @@
                 "Pour accéder à ce tirage au sort, il suffit de placer un Trade.",
                 "Le gagnant sera tiré au plus tard le lundi 24 Octobre à 18:00 BST"
             ),
-            "new-bonus-title"=> "+ Bonus du nouveau compte",
             "features-container" => array(
+                "+ Bonus Nouveau Compte ",
                 "Les spreads aussi bas que 0,8",
                 "COÛTS TRANSACTIONNELS INFÉRIEURS SUR INSTRUMENTS POPULAIRES"
             ),
@@ -65,23 +67,32 @@
                 "VASTE GAMME DE MARCHÉS"
             ),
             "scholars-section-container" => array(
-                "COMPTE ACTUALISE EN TOUTE TRANSPARENCE",
                 "RÉGLEMENTÉ PAR L'AUTORITÉ FINANCIÈRE DE UK",
+                "$ 10,000 PRIX DU PREMIER TRADE",
                 "SUPPORT MANAGER DÉDIÉ",
                 "LANGUES INNOMBRABLES",
                 "PLATEFORME DE TRADING MT4 COMPLETE",
                 "GAMME COMPLÈTE DE PLATEFORMES MOBILES"
             ),
-            "bullet-points" => array(
-                "Cliquez pour ouvrir votre compte",
-                "Vous serez mis à niveau vers la Plateforme de Trading MT4 de ETX",
-                "Faites un dépôt et placez votre 1er </ sup> Trade pour recevoir votre bonus",
+            "mobile-bullet-points" => array(
+                "Cliquez pour activer votre compte",
+                "Vous serez mis à actualisé vers la Plateforme de Trading MT4 de ETX",
+                "Faites un dépôt et placez votre 1er Trade pour recevoir votre bonus et l’UTP gratuit",
                 "Un membre de l'équipe de ETX vous appellera pour vous accueillir et vous offrir un soutien",
                 "L'éducation gratuite sera fournie sur MT4",
                 "Plus de fiabilité avec un plus grand soutien",
                 "Placer 1 Trade et vous pourrez gagner 10 000 $"
             ),
-            "improve-account-container" => "Ouvrez votre compte dès maintenant",
+            "bullet-points" => array(
+                "Click to Update Your Account",
+                "You will be upgraded to the ETX MT4 Trading Platform",
+                "One of the ETX team will call to welcome you and offer support",
+                "Free Education will be provided on MT4",
+                "Trade more markets for less",
+                "More reliability with greater support",
+                "Place 1 trade and you could win ". $prizeMoney
+            ),
+            "improve-account-container" => "Améliorez votre compte dès maintenant !",
             "have-query" => array(
                 "Vous avez des questions ?",
                 "Choisissez un moment approprié et nous vous contacterons."
@@ -89,3 +100,4 @@
             "ask-question-section" => "Posez une question et nous reviendrons vers vous"
         )
     );
+?>
