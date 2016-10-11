@@ -45,10 +45,10 @@
                     "title" => "STEP 3",
                     "info" => "Place your 1st Trade"
                 ),
-                array(
-                    "title" => "STEP 4",
-                    "info" => "Receive your Bonus"
-                )
+                // array(
+                //     "title" => "STEP 4",
+                //     "info" => "Receive your Bonus"
+                // )
             ),
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
