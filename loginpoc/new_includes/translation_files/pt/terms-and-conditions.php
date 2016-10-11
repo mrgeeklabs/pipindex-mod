@@ -10,12 +10,12 @@
                 'header' => array('' => "" ),
                 'content' => array(
                     'title' => "Terms and Conditions",
-                    'message'=>"Ao clicar em "Concordo" você concorda com PipIndex passar suas informações pessoais a ETX Capital, para que ETX Capital possa entrar em contato com você via telefone e / ou e-mail e você concorda com a Política de Privacidade do ETX Capital explicitada abaixo.",
+                    'message'=>"Ao clicar em \"Concordo\" você concorda com PipIndex passar suas informações pessoais a ETX Capital, para que ETX Capital possa entrar em contato com você via telefone e / ou e-mail e você concorda com a Política de Privacidade do ETX Capital explicitada abaixo.",
                     'terms' => array(
                         array(
                             "header"=>"POLÍTICA DE PRIVACIDADE ETX",
                             "para"=> array(
-                                "ETX Capital reconhece a importância vital de proteger a sua informação pessoal e financeira e adere aos princípios da Lei de Proteção de Dados de 1998 (o "Ato"). Isto nos permite fornecer-lhe com um site seguro para suas transações. Esta política de privacidade detalha como a ETX Capital garante que suas informações pessoais permaneçam confidenciais, respeita a sua privacidade e protege os seus dados pessoais em todos os momentos.",
+                                "ETX Capital reconhece a importância vital de proteger a sua informação pessoal e financeira e adere aos princípios da Lei de Proteção de Dados de 1998 (o \"Ato\"). Isto nos permite fornecer-lhe com um site seguro para suas transações. Esta política de privacidade detalha como a ETX Capital garante que suas informações pessoais permaneçam confidenciais, respeita a sua privacidade e protege os seus dados pessoais em todos os momentos.",
                                 "Por favor, leia o seguinte, cuidadosamente, para compreender os nossos pontos de vista e práticas a respeito de seus dados pessoais e como iremos administrá-los. Ao visitar e / ou acessar o nosso website você está aceitando e consentindo com as práticas descritas nesta política de privacidade."
                             ),
                             "list"=>array(
@@ -41,8 +41,7 @@
                             "header"=>"3. USO DE DADOS PESSOAIS",
                             "para"=> array(
                                 "Nós usamos as informações armazenadas sobre você da seguinte maneira:"
-                            ),
-                            ,
+                            ),                            
                             "list"=>array(
                                 "para verificar a sua identidade;",
                                 "avaliar a adequação dos produtos e serviços que oferecemos;",
