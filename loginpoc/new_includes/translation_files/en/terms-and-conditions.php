@@ -29,13 +29,6 @@
                                 "You may give us information about you by using our website, filling in forms on our site or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, subscribe to our services and products and when you report a problem with our site. The kind of personal information you give us may include (but is not limited to) name, address, date of birth, passport number, tax identification number, e-mail address, phone number, employment and income, debit/credit card information, transaction history and financial statements. In order to comply with our regulatory requirements, we may also ask for financial information such as annual income, net worth and available risk capital. In addition, we may also collect information from external sources."
                             ),
                             "list"=>array(
-                                "to verify your identity;",
-                                "to assess the appropriateness of the products and services we provide;",
-                                "to set up and service your account;",
-                                "to carry out our services and to provide you with the information, products and services that you request from us;",
-                                "to provide you with information about other products and services we offer that are similar to those that you have already enquired about;",
-                                "to notify you about changes to our services and products;",
-                                "to improve our website."
                             )
                         ),
                         array(
@@ -52,6 +45,13 @@
                                 "We use information held about you in the following ways:"
                             ),
                             "list"=>array(
+                                "to verify your identity;",
+                                "to assess the appropriateness of the products and services we provide;",
+                                "to set up and service your account;",
+                                "to carry out our services and to provide you with the information, products and services that you request from us;",
+                                "to provide you with information about other products and services we offer that are similar to those that you have already enquired about;",
+                                "to notify you about changes to our services and products;",
+                                "to improve our website."
                             )
                         ),
                         array(
