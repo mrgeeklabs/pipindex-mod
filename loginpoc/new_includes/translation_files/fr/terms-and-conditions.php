@@ -44,12 +44,12 @@
                             ),
                             "list"=>array(
                                 "Pour vérifier votre identité;",
-"Pour évaluer la pertinence des produits et services que nous fournissons;",
-"Pour mettre en place et opérer votre compte;",
-"Pour exécuter nos services et vous fournir l’information, les produits et les services que vous désirez",
-"Pour vous fournir des informations sur d’autres produits et services que nous offrons et qui sont similaires à ceux pour lesquels vous avez déjà fait la demande;",
-"Pour vous informer des changements concernant nos services ou produits;",
-"Pour améliorer notre site internet."
+                                "Pour évaluer la pertinence des produits et services que nous fournissons;",
+                                "Pour mettre en place et opérer votre compte;",
+                                "Pour exécuter nos services et vous fournir l’information, les produits et les services que vous désirez",
+                                "Pour vous fournir des informations sur d’autres produits et services que nous offrons et qui sont similaires à ceux pour lesquels vous avez déjà fait la demande;",
+                                "Pour vous informer des changements concernant nos services ou produits;",
+                                "Pour améliorer notre site internet."
                             )
                         ),
                         array(
