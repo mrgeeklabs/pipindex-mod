@@ -2,7 +2,16 @@
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
-	//if lang not un array of languages again default to e\n
+	$currency = isset($_GET['currency']) ? trim($_GET['currency'])  : 'gbp';
+	$allowedCurrency = array("usd", "gbp", "eur");
+	$allowedLanguages = array("en", "it", "es","de","fr");
+	if (in_array($currency, $allowedCurrency )===false ) {
+		$currency="gbp";
+	}
+	if (in_array($lang, $allowedLanguages )===false ) {
+		$lang="en";
+	}
+	$prizeMoney=getPrizeMoney($currency);
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/thankyou.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));

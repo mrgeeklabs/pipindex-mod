@@ -1,6 +1,6 @@
 <?php
     $translations = array(
-        "en"=>array(
+        "fr"=>array(
             "text" => array(
                 "agree"=>"I Agree",
                 "cancel"=> "Cancel"
