@@ -32,7 +32,7 @@
             "update-account"=> array(
                 "Update Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
                 "Free Ultimate Traders Programme",
-                "Entry into ". $prizeMoney ." prize draw"
+                "+&nbsp;Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
                 array(
