@@ -4,7 +4,7 @@
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
 	$currency = isset($_GET['currency']) ? trim($_GET['currency'])  : 'gbp';
 	$allowedCurrency = array("usd", "gbp", "eur");
-	$allowedLanguages = array("en", "it", "es","de","fr");
+	$allowedLanguages = array("en", "it", "es","de", "fr","pt");
 	if (in_array($currency, $allowedCurrency )===false ) {
 		$currency="gbp";
 	}
@@ -145,6 +145,21 @@
 	        <p id="prize-text"><?= $translations[$lang]["prize-container"][0] ?></p>
 	        <p class="prize-info"><?= $translations[$lang]["prize-container"][1] ?></p>
 	        <p class="prize-info" style="padding-bottom: 40px;"><?= $translations[$lang]["prize-container"][2] ?></p>
+	    </div>
+
+	    <div id="strongPoints">
+	    	<img src="new-static/images/utpLogo2.svg" alt="logo" height="35">
+	    	<h2><?= $translations[$lang]["strongPoints"]["header"][0] ?></h2>
+	    	<h2><?= $translations[$lang]["strongPoints"]["header"][1] ?></h2>
+	    	<ul>
+	    		<?php 
+					foreach($translations[$lang]["strongPoints"]["list"] as $listItem) {
+				?>
+	    		<li><?= $listItem ?></li>
+	    		<?php 		
+				}
+				?>
+	    	</ul>
 	    </div>
 	    
 	    <div class="features-container">

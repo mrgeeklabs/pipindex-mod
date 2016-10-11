@@ -10,99 +10,99 @@
                 'header' => array('' => "" ),
                 'content' => array(
                     'title' => "Terms and Conditions",
-                    'message'=>"By clicking “I agree” you agree to PipIndex passing your personal information to ETX Capital, so that ETX Capital can contact you via phone and/or email and you agree to the Privacy Policy of ETX Capital as below.",
+                    'message'=>"Ao clicar em \"Concordo\" você concorda com PipIndex passar suas informações pessoais a ETX Capital, para que ETX Capital possa entrar em contato com você via telefone e / ou e-mail e você concorda com a Política de Privacidade do ETX Capital explicitada abaixo.",
                     'terms' => array(
                         array(
-                            "header"=>"ETX Privacy policy",
+                            "header"=>"POLÍTICA DE PRIVACIDADE ETX",
                             "para"=> array(
-                                "ETX Capital recognises the vital importance of protecting your personal and financial information and adheres to the principles of the Data Protection Act 1998 (the “Act”). This enables us to provide you with a secure website for your transactions. This privacy policy details how ETX Capital ensures your personal information remains confidential, respects your privacy and safeguards your personal data at all times.",
-                                "Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting and/or accessing our website you are accepting and consenting to the practices described in this privacy policy."
+                                "ETX Capital reconhece a importância vital de proteger a sua informação pessoal e financeira e adere aos princípios da Lei de Proteção de Dados de 1998 (o \"Ato\"). Isto nos permite fornecer-lhe com um site seguro para suas transações. Esta política de privacidade detalha como a ETX Capital garante que suas informações pessoais permaneçam confidenciais, respeita a sua privacidade e protege os seus dados pessoais em todos os momentos.",
+                                "Por favor, leia o seguinte, cuidadosamente, para compreender os nossos pontos de vista e práticas a respeito de seus dados pessoais e como iremos administrá-los. Ao visitar e / ou acessar o nosso website você está aceitando e consentindo com as práticas descritas nesta política de privacidade."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"1. COLLECTION OF PERSONAL DATA",
+                            "header"=>"1. REGISTRO DE DADOS PESSOAIS",
                             "para"=> array(
-                                "You may give us information about you by using our website, filling in forms on our site or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, subscribe to our services and products and when you report a problem with our site. The kind of personal information you give us may include (but is not limited to) name, address, date of birth, passport number, tax identification number, e-mail address, phone number, employment and income, debit/credit card information, transaction history and financial statements. In order to comply with our regulatory requirements, we may also ask for financial information such as annual income, net worth and available risk capital. In addition, we may also collect information from external sources."
+                                "Você pode nos fornecer suas informações pessoais, preenchendo os formulários no nosso site ou através de um de nossos correspondentes por telefone, e-mail ou outro meio. Isto inclui as informações que você fornecer ao se registrar para usar o nosso site, inscrever-se em nossos serviços e produtos, e quando você relatar algum problema com o nosso site. O tipo de informação pessoal que você nos dá poderá incluir (mas não se limita a) nome, endereço, data de nascimento, número de passaporte, número de identificação fiscal, endereço de e-mail, número de telefone, informações de emprego e renda, cartão de débito / crédito, histórico de transações e demonstrações financeiras. A fim de cumprir com as nossas exigências regulamentares, podemos também solcitar informações financeiras como renda anual, patrimônio líquido e capital de risco disponível. Além disso, também podemos coletar informações de fontes externas."
                             ),
                             "list"=>array(
-                                "to verify your identity;",
-                                "to assess the appropriateness of the products and services we provide;",
-                                "to set up and service your account;",
-                                "to carry out our services and to provide you with the information, products and services that you request from us;",
-                                "to provide you with information about other products and services we offer that are similar to those that you have already enquired about;",
-                                "to notify you about changes to our services and products;",
-                                "to improve our website."
                             )
                         ),
                         array(
                             "header"=>"2. COOKIES",
                             "para"=> array(
-                                "We use cookies to provide us with data we can use to improve the website experience for our customers and to get to know our customers better. For detailed information on the cookies we use and the purposes for which we use them visit our Cookie page."
+                                "Nós usamos cookies para nos fornecer dados que podemos usar para melhorar a experiência do website e para conhecer melhor os nossos clientes. Para obter informações detalhadas sobre os cookies que usamos e os fins para os quais os usamos, visite a nossa página Cookie."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"3. USE OF PERSONAL DATA",
+                            "header"=>"3. USO DE DADOS PESSOAIS",
                             "para"=> array(
-                                "We use information held about you in the following ways:"
+                                "Nós usamos as informações armazenadas sobre você da seguinte maneira:"
+                            ),                            
+                            "list"=>array(
+                                "para verificar a sua identidade;",
+                                "avaliar a adequação dos produtos e serviços que oferecemos;",
+                                "configurar e manutenção de sua conta;",
+                                "a fim de a realizar nossos serviços e para fornecer-lhe as informações, produtos e serviços que você solicita;",
+                                "para lhe fornecer informações sobre outros produtos e serviços que oferecemos que são semelhantes aos que você já perguntou sobre;",
+                                "para notificá-lo sobre alterações em nossos serviços e produtos;",
+                                "para melhorar o nosso website."
+                            )
+                        ),
+                        array(
+                            "header"=>"4. DIVULGAÇÃO DE DADOS PESSOAIS",
+                            "para"=> array(
+                                "Nós não vendemos, licenciamos ou de outra forma disponibilizamos suas informações pessoais a terceiros para fins de marketing. No entanto, podemos, na operação padrão do nosso negócio, compartilhar informações selecionadas para o seguinte (que pode estar dentro ou fora do Espaço Econômico Europeu):"
+                            ),
+                            "list"=>array(
+                                "as condições regulamentares, governamental ou a aplicação da lei autoridade competente, conforme exigido por lei;",
+                                "nossos fornecedores / processamento de cartão de débito de crédito de terceiros e de verificação como exigido pelos nossos bancos comerciais;",
+                                "nossas seguradoras, agentes, fornecedores e subcontratados, na medida em que sejam razoavelmente necessárias para o efeito aqui estabelecidas;",
+                                "assessores profissionais, tais como os nossos advogados em relação a quaisquer processos judiciais em curso ou futuros ou a fim de estabelecer, exercer ou defender nossos direitos legais, e nossos auditores e contadores, a fim de satisfazer as nossas obrigações de informação regulamentares e financeiras;",
+                                "introdução de corretores com quem temos uma relação mútua;",
+                                "qualquer membro do nosso grupo, o que significa nossas subsidiárias, holding final e suas subsidiárias, e sucessores a qualquer título para o nosso negócio."
+                            )
+                        ),
+                        array(
+                            "header"=>"5. SEGURANÇA",
+                            "para"=> array(
+                                "ETX Capital leva a segurança e salvaguarda de seus dados muito a sério. ETX Capital tem tomada medidas e precauções para proteger a segurança de suas informações pessoais."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"4. DISCLOSURE OF PERSONAL DATA",
+                            "header"=>"6. SEUS DIREITOS",
                             "para"=> array(
-                                "We do not sell, license or otherwise disclose your personal information to third parties for marketing purposes. However, we may, in the standard operation of our business, share selected information to the following (who may be within or outside the European Economic Area):"
-                            ),
-                            "list"=>array(
-                                "any relevant regulatory, governmental, or law enforcement authority as required by law;",
-                                "our third party credit/debit card processing and verification providers as required by our commercial banks;",
-                                "our insurers, agents, suppliers and subcontractors insofar as reasonably necessary for the purpose set out herein;",
-                                "professional advisors such as our solicitors in connection with any ongoing or prospective legal proceedings or in order to establish, exercise or defend our legal rights, and our auditors and accountants in order to satisfy our regulatory and financial reporting obligations;",
-                                "introducing brokers with whom we have a mutual relationship;",
-                                "any member of our group, meaning our subsidiaries, our ultimate holding company and its subsidiaries, and successors in title to our business."
-                            )
-                        ),
-                        array(
-                            "header"=>"5. SECURITY",
-                            "para"=> array(
-                                "ETX Capital takes the safeguarding of your data very seriously. ETX Capital has taken measures and precautions to protect the security of your personal information."
+                                "Você não é obrigado a fornecer informações pessoais solicitadas. No entanto, a incapacidade de divulgar suas informações pessoais sobre o nosso pedido pode resultar na incapacidade de lhe fornecer o produto ou serviço solicitado ou para continuar a manter a sua conta.",
+                                "Nosso site pode, de tempos em tempos, conter links de e para os sites de nossa rede de parceiros, anunciantes e afiliados. Se você seguir um link para qualquer um desses sites, por favor, note que esses sites têm suas próprias políticas de privacidade e que não aceitamos qualquer responsabilidade por essas políticas. Por favor, verifique estas políticas antes de enviar quaisquer dados pessoais a estes sites."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"6. YOUR RIGHTS",
+                            "header"=>"7. ACESSO À INFORMAÇÃO",
                             "para"=> array(
-                                "You are not required to submit requested personal information. However, failure to disclose your personal information upon our request may result in our being unable to provide you with the requested product or service or to continue to maintain your account.",
-                                "Our site may, from time to time, contain links to and from the websites of our partner networks, advertisers and affiliates. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites."
+                                "O Ato dá-lhe o direito de acesso à informação mantida sobre você. Seu direito de acesso pode ser exercido em conformidade com o Ato. Qualquer pedido de acesso pode estar sujeito a uma taxa para cobrir os nossos custos em fornecê-lo com detalhes das informações que temos sobre você."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"7. ACCESS TO INFORMATION",
+                            "header"=>"8. ALTERAÇÕES EM NOSSA POLÍTICA DE PRIVACIDADE",
                             "para"=> array(
-                                "The Act gives you the right to access information held about you. Your right of access can be exercised in accordance with the Act. Any access request may be subject to a fee to meet our costs in providing you with details of the information we hold about you."
+                                "Quaisquer alterações que possamos fazer no tocante à nossa política de privacidade no futuro serão publicadas nesta página e, se for o caso, notificado por e-mail. Verifique com frequência para ver as atualizações ou mudanças em nossa política de privacidade."
                             ),
                             "list"=>array(
                             )
                         ),
                         array(
-                            "header"=>"8. CHANGES TO OUR PRIVACY POLICY",
+                            "header"=>"9. CONTATO",
                             "para"=> array(
-                                "Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. Please check back frequently to see any updates or changes to our privacy policy."
-                            ),
-                            "list"=>array(
-                            )
-                        ),
-                        array(
-                            "header"=>"9. CONTACT",
-                            "para"=> array(
-                                "If you have any questions regarding our privacy policy, please email:."
+                                "Se você tiver alguma dúvida acerca nossa política de privacidade, por favor, envie e-mail para"
                             ),
                             "list"=>array(
                             )

@@ -4,7 +4,7 @@
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
 	$currency = isset($_GET['currency']) ? trim($_GET['currency'])  : 'gbp';
 	$allowedCurrency = array("usd", "gbp", "eur");
-	$allowedLanguages = array("en", "it", "es","de", "fr");
+	$allowedLanguages = array("en", "it", "es","de", "fr","pt");
 	if (in_array($currency, $allowedCurrency )===false ) {
 		$currency="gbp";
 	}
@@ -109,24 +109,24 @@
 	    <div class="update-steps-container">
 	        <div id="update-steps-wrapper">
 	            <div id="topBorder" style="padding-bottom: 20px">
-					<div class="steps">
+					<div class="steps" style="width: 33.33%;">
 	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <img src="new-static/images/circletop.jpg" width="30">
 	                </div>	
-	                <div class="steps">
+	                <!-- <div class="steps">
 	                    <img src="new-static/images/circletop.jpg" width="30">
-	                </div>	
+	                </div> -->	
 	            </div>
 	            <div style="display: flex;">
 	            <?php 
 					foreach($translations[$lang]["update-steps-container"] as $step) {
 				?>
-	                <div class="steps">
+	                <div class="steps" style="width: 33.33%;">
 	                    <p class="step-title"><?= $step["title"] ?></p>
 	                    <p class="step-info"><?= $step["info"] ?></p>
 	                </div>				
@@ -691,6 +691,7 @@
 	});
 
 	$('#please-contact-text').click(function(event){
+		$('<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img id="contactUsPixel" style="display:none;" class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=contact-us-click"/>'; ?>').load(function() {});
 		event.preventDefault();
 		var callMeMessage = "Please call me";
 		$('#loadingIndicator').css('display','block');

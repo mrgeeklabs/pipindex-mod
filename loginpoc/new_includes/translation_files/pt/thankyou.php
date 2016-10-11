@@ -1,24 +1,25 @@
 <?php
     $translations = array(
         "pt"=>array(
-            "title" => "Thank You",
+            "title" => "Muito Obrigado!",
             "thankYouContainer" => array(
-                "Thank You!",
-                "Your request to transition your account has been received."
+                "Muito Obrigado!",
+                "A sua solicitação de migração de conta foi recebida com sucesso."
             ),
             "whathappennext" => array(
-                "What happens next?",
-                "An email will be sent shortly with your new account login details"
+                "O acontece agora?",
+                "Um e-mail será enviado em breve com novos detalhes de login de sua conta."
             ),
             "update-steps-container" => array(
-                "Simply follow the steps to login and update some information",
-                "Once updated your new dedicated ETX account manager will contact you",
-                "Have access to more markets, at lower cost, with greater support"
+                "Basta seguir os passos de login e atualizar algumas informações.",
+                "Uma vez atualizado, o seu novo gerente de contas ETX irá entrar em contato.",
+                "Acessar novos e mais diversificados mercados, a um custo menor e com mais suporte."
             ),
             "thankyou-footer" => array(
-                "From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.",
-                "As a parting gift, don’t forget to place that first trade by Monday 2pm on October 24th 2016 BST, to be in with a chance to win "
+                "Acessar novos e mais diversificados mercados, a um custo menor e com mais suporte.
+Nós da PipIndex gostaríamos de lhe agradecer e estamos à disposição para orientá-los e prover todo o suporte na área educacional.",
+                "Como presente de despedida, não se esqueça de colocar seu primeiro trade até segunda-feira, 24 de Outubro, às 14 horas (horário BST) para concorrer a ganhar o prêmio de £ 10.000 em dinheiro em sua conta bancária."
             ),
-            "contact-text"=>"In the meantime should you have any questions or queries do feel free to contact us directly at ETX for further support:"
+            "contact-text"=>"Caso surjam dúvidas ou quaisquer outras questões, não hesite em entrar em contato diretamente com a ETX para obter suporte."
         )
     );
