@@ -23,7 +23,7 @@
                 "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with phenomenal support."
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
+                "Update Your Account and Place 1 Trade by Monday, 24th October 2016 2pm BST and recieve",
                 "Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
@@ -43,7 +43,7 @@
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
                 "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 24th at 2pm BST"
+                "The winner will be drawn by Monday, 24th October 2016 6pm BST"
             ),
             "features-container" => array(
                 "Spreads as low as 0.8 ",

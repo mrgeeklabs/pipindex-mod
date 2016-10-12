@@ -53,7 +53,7 @@
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
                 "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 24th at 6pm BST"
+                "The winner will be drawn by Monday, 24th October 2016 6pm BST"
             ),
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(
