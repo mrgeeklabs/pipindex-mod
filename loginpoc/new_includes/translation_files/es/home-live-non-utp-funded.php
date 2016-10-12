@@ -88,7 +88,20 @@
                 "Tiene alguna pregunta?",
                 "Elija un momento adecuado y nos pondremos en contacto con usted."
             ),
-            "ask-question-section" => "Realice alguna pregunta y nos pondremos en contacto con usted"
+            "ask-question-section" => "Realice alguna pregunta y nos pondremos en contacto con usted",
+            "strongPoints" =>array(
+                "header" => array(
+                    "Membresía vitalicia en",
+                    "Academy of Financial Trading"
+                ),
+                "list" => array(
+                    "Realice el Ultimate Traders Programme",
+                    "2 Estrategias completas",
+                    "3 indicadores personalizados",
+                    "Software de Gestión de Riesgos",
+                    "Soporte vitalicio. "
+                )
+            )
         )
     );
 ?>

@@ -88,7 +88,20 @@
                 "Hai delle domande?",
                 "Scegli un orario adatto e ti contatteremo"
             ),
-            "ask-question-section" => "Chiedici qualsiasi domanda e ti risponderemo"
+            "ask-question-section" => "Chiedici qualsiasi domanda e ti risponderemo",
+            "strongPoints" =>array(
+                "header" => array(
+                    "Abbonamento a vita alla",
+                    "Accademia del Financial Trading"
+                ),
+                "list" => array(
+                    "Corso Ultimate Traders Programme Completo ",
+                    "2 Strategie su misura",
+                    "3 Indicatori Personalizzabili",
+                    "Software di Gestione del Rischio",
+                    "Consulente di Trading a Vita"
+                )
+            )
         )
     );
 ?>

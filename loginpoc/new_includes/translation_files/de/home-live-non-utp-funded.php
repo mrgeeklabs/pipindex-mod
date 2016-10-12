@@ -89,6 +89,19 @@
                 "Wählen Sie eine passende Zeit und wir kontaktieren Sie."
             ),
             "ask-question-section" => "Stellen Sie uns eine Frage und wir werden Sie kontaktieren.",
+            "strongPoints" =>array(
+                "header" => array(
+                    "kostenlose, lebenslange Mitgliedschaft für ",
+                    "Academy of Financial Trading"
+                ),
+                "list" => array(
+                    "Vollständiges Ultimate Traders Programme ",
+                    "2 maßgeschneiderte Strategien",
+                    "3 maßgeschneiderte Indikatoren",
+                    "Risk Management Software",
+                    "persönlicher Trading-Berater"
+                )
+            )
         )
     );
 ?>
