@@ -23,7 +23,7 @@
                 "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati, su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
+                "Aggiornare il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e ricevi",
                 "Entry into ". $prizeMoney ." prize draw"
             ),
             "update-steps-container"=> array(
