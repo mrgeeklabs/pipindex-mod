@@ -98,7 +98,7 @@
 	    </div>
 	   	<div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>
-	        <div id="update-account-message-wrapper" style="">
+	        <div id="update-account-message-wrapper" style="width:270px;">
 		        <ul class="update-account-ul">
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][1] ?></span></li>
 		        </ul>
