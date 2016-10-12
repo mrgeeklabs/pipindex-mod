@@ -7,6 +7,7 @@
                 "watch_video" => "ASSISTA AO VIDEO",
                 "update_account" => "ATUALIZAR SUA CONTA",
                 "open_your_account" => "ABRA SUA CONTA",
+                "activate_your_account" => "ATIVE SUA CONTA",
                 "sell" => "Vender",
                 "eurusd" => "EUR/USD",
                 "buy" => "Comprar",

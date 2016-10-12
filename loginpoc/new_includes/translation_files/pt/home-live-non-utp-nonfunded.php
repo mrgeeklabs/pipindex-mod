@@ -2,106 +2,102 @@
     $translations = array(
         "pt"=>array(
             "text" => array(
-                "agree"=>"I Agree",
-                "cancel"=> "Cancel",
-                "watch_video" => "WATCH VIDEO",
-                "update_account" => "UPDATE YOUR ACCOUNT",
-                "open_your_account" => "OPEN YOUR ACCOUNT",
-                "activate_your_account" => "ACTIVATE YOUR ACCOUNT",
-                "sell" => "Sell",
+                "agree"=>"Eu concordo",
+                "cancel"=> "Cancelar",
+                "watch_video" => "ASSISTA AO VIDEO",
+                "update_account" => "ATUALIZAR SUA CONTA",
+                "open_your_account" => "ABRA SUA CONTA",
+                "activate_your_account" => "ATIVE SUA CONTA",
+                "sell" => "Vender",
                 "eurusd" => "EUR/USD",
-                "buy" => "Buy",
-                "submit" => "SUBMIT",
-                "request_call" => "REQUEST A CALL",
-                "thank_you" => "Thank You",
-                "thank_you_message" => "We will get back to you shortly",
-                "not_recognize" => "We could not recognize you",
-                "not_recognize_text" => "Enter your details below and you are all set!",
-                "please_contact_us" => "PLEASE CONTACT US",
-                "table_header_deposite" => "DEPOSIT ",
-                "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "OCTOBER BONUS",
+                "buy" => "Comprar",
+                "submit" => "ENVIAR",
+                "request_call" => "SOLICITAR UMA LIGAÇÃO",
+                "thank_you" => "Obrigado",
+                "thank_you_message" => "Nós entraremos em contato com você em breve",
+                "not_recognize" => "Nós não conseguimos te reconhecer",
+                "not_recognize_text" => "Insira seus detalhes abaixo e está tudo pronto!",
+                "please_contact_us" => "POR FAVOR, ENTRE EM CONTATO CONOSCO",
+                "table_header_deposite" => "DEPÓSITO ",
+                "table_header_bonus" => "BÔNUS",
+                "table_header_october_bonus" => "BÔNUS DE OUTUBRO",
             ),
-            "title"=>"Home | PipIndex Capital Markets",
+            "title"=>"Início | PipIndex Capital Markets",
             "banner_right"=> array(
-                "Your Account Just Got Better!",
-                "WELCOME TO ETX",
-                "Activate your account below and receive the ",
-                "ULTIMATE TRADERS PROGRAMME",
-                "completely free from Academy of Financial Trading"
+                "Sua Conta ficou ainda melhor!",
+                "BEM-VINDO AO ETX",
+                "Ative sua conta abaixo e receba o ULTIMATE TRADERS PROGRAMME completamente grátis da Academy of Financial Trading",
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
-                "Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong>",
-                "+&nbsp;New October Bonus",
-                "++&nbsp;Entry into ". $prizeMoney ." prize draw"
+                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um prêmio de $10,000 em dinheiro",
+                "+ ULTIMATE TRADERS PROGRAMME completamente gratuito",
+                "++ Novo Bônus Conta Outubro"
             ),
             "update-steps-container"=> array(
                 array(
-                    "title" => "STEP 1",
-                    "info" => "Click ‘Activate Your Account’"
+                    "title" => "PASSO 1",
+                    "info" => 'Clique em "ativar sua conta"'
                 ),
                 array(
-                    "title" => "STEP 2",
-                    "info" => "Deposit your Funds"
+                    "title" => "PASSO 2",
+                    "info" => "Deposite os seus fundos"
                 ),
                 array(
-                    "title" => "STEP 3",
-                    "info" => "Place your 1st Trade"
+                    "title" => "PASSO 3",
+                    "info" => "Faça seu primeiro Trade"
                 ),
                 array(
-                    "title" => "STEP 4",
-                    "info" => "Receive your Bonus + Free UTP"
+                    "title" => "PASSO 4",
+                    "info" => "Receba o seu Bônus + UTP grátis"
                 )
             ),
             "prize-container" => array(
-                "FIRST TRADE PRIZE",
-                "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 24th at 6pm BST"
+                "PRIMEIRO PRÊMIO TRADE",
+                "Para participar, simplesmente faça um trade.",
+                "O vencedor será escolhido na segunda-feira, 24 de outubro, às 18 horas (horário BST)"
             ),
-            "new-bonus-title"=> "+ New Account Bonus",
+            "new-bonus-title"=> "+ Bônus de Contas Novas",
             "features-container" => array(
-                "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
+                "Spreads tão baixos como 0,8",
+                "MENORES CUSTOS TRANSACIONAIS NOS INSTRUMENTOS POPULARES"
             ),
             "feature" => array(
-                "TRADABLE INSTRUMENTS",
-                "HUGE RANGE OF MARKETS"
+                "INSTRUMENTOS NEGOCIÁVEIS",
+                "ENORME VARIEDADE DE MERCADOS"
             ),
             "scholars-section-container" => array(
-                "SEAMLESS ACCOUNT UPGRADE",
-                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
-                "DEDICATED SUPPORT MANAGER",
-                "COUNTLESS LANGUAGES",
-                "FULL MT4 TRADING PLATFORM",
-                "FULL RANGE OF MOBILE PLATFORMS"
+                "REGULADA PELA UK FINANCIAL CONDUCT AUTHORITY",
+                "GERENTE PESSOAL DEDICADO",
+                "INÚMEROS IDIOMAS",
+                "COMPLETA PLATAFORMA DE NEGOCIAÇÃO MT4",
+                "COMPLETA GAMA DE PLATAFORMAS MÓVEIS",
             ),
             "bullet-points" => array(
-                "Click to Activate Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
-                "Activate your account and place 1<sup>st</sup> trade to receive your bonus and free UTP",
-                "One of the ETX team will call to welcome you and offer support",
-                "Free Education will be provided on MT4",
-                "More reliability with greater support",
-                "Place 1 trade and you could win <strong>". $prizeMoney ."</strong>"
+                "Clique para Ativar a Sua Conta",
+                "Você vai ser atualizado para a ETX MT4 Plataforma de Negociação",
+                "Ative sua conta e realize o seu primeiro trade para receber o seu bônus e UTP gratuito",
+                "Um dos colaborados da ETX irá entrar em contato para dar as boas vindas e oferecer suporte",
+                "Educação gratuita será fornecida no MT4",
+                "Mais confiabilidade com maior apoio",
+                "Faça um trade e você já estará concorrendo ao prêmio de $ 10.000"
             ),
-            "improve-account-container" => "Improve Your Account Right Now",
+            "improve-account-container" => "Atualize Sua Conta Agora Mesmo!",
             "have-query" => array(
-                "Have any queries?",
-                "Choose a suitable time and we will contact you."
+                "Tem alguma dúvida?",
+                "Escolha o melhor horário e nós entraremos em contato."
             ),
-            "ask-question-section" => "Ask any question and we will get back to you",
+            "ask-question-section" => "Faça qualquer pergunta e nós entraremos em contato com você",
             "strongPoints" =>array(
                 "header" => array(
-                    "Free Lifetime Membership to",
+                    "Lifetime Membership Grátis da",
                     "Academy of Financial Trading"
                 ),
                 "list" => array(
-                    "Complete Ultimate Traders Programme",
-                    "2 Custom Strategies",
-                    "3 Custom Indicators",
-                    "Risk Management Software",
-                    "Trading Consultant for Life"
+                    "Ultimate Traders Programme Completo",
+                    "2 Estratégias Customizadas",
+                    "3 Indicadores Customizados",
+                    "Software de Gerenciamento de Risco",
+                    "Atendimento Vitalício e Personalizado sobre Trading "
                 )
             )
         )
