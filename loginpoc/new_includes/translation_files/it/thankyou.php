@@ -1,24 +1,24 @@
 <?php
     $translations = array(
         "it"=>array(
-            "title" => "Thank You",
+            "title" => "Grazie!",
             "thankYouContainer" => array(
-                "Thank You!",
-                "Your request to transition your account has been received."
+                "Grazie!",
+                "La richiesta di transizione del tuo account è stato ricevuta."
             ),
             "whathappennext" => array(
-                "What happens next?",
-                "An email will be sent shortly with your new account login details"
+                "Cosa succede ora?",
+                "Una e-mail verrà inviata a breve con i nuovi dati d'accesso al conto"
             ),
             "update-steps-container" => array(
-                "Simply follow the steps to login and update some information",
-                "Once updated your new dedicated ETX account manager will contact you",
-                "Have access to more markets, at lower cost, with greater support"
+                "È sufficiente seguire la procedura per il login ed aggiornare alcune informazioni",
+                "Una volta aggiornato il tuo nuovo conto, un account manager dedicato di ETX ti contatterà",
+                "Accedi a più mercati, a costi inferiori, con un maggiore supporto"
             ),
             "thankyou-footer" => array(
-                "From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.",
-                "As a parting gift, don’t forget to place that first trade by Monday 2pm on October 24th 2016 BST, to be in with a chance to win "
+                "Un ringraziamento da tutto lo staff di PipIndex per la tua fedeltà e non vediamo l'ora di sostenere ulteriormente le tue esigenze educative.",
+                "Come regalo di addio, non dimenticare di piazzare un primo trade entro entro le 14:00 BST di lunedì 17 ottobre per ottenere la possibilità di vincere 10.000 € "
             ),
-            "contact-text"=>"In the meantime should you have any questions or queries do feel free to contact us directly at ETX for further support:"
+            "contact-text"=>"Nel frattempo, nel caso avessi qualsiasi domanda non esitare a contattarci direttamente a ETX per ulteriore supporto:"
         )
     );

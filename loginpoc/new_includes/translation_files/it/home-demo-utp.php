@@ -2,90 +2,90 @@
     $translations = array(
         "it"=>array(
             "text" => array(
-                "agree"=>"I Agree",
-                "cancel"=> "Cancel",
-                "watch_video" => "WATCH VIDEO",
-                "update_account" => "UPDATE YOUR ACCOUNT",
-                "open_your_account" => "OPEN YOUR ACCOUNT",
-                "sell" => "Sell",
+                "agree"=>"Accetto",
+                "cancel"=> "Annulla",
+                "watch_video" => "GUARDA IL VIDEO",
+                "update_account" => "AGGIORNA IL TUO CONTO",
+                "open_your_account" => "APRI IL TUO CONTO",
+                "sell" => "Vendi",
                 "eurusd" => "EUR/USD",
-                "buy" => "Buy",
-                "submit" => "SUBMIT",
-                "request_call" => "REQUEST A CALL",
-                "thank_you" => "Thank You",
-                "thank_you_message" => "We will be in contact shortly",
-                "not_recognize" => "We could not recognize you",
-                "not_recognize_text" => "Enter your details below and you are all set!",
-                "please_contact_us" => "PLEASE CONTACT US",
-                "table_header_deposite" => "DEPOSIT ",
+                "buy" => "Compra",
+                "submit" => "INVIO",
+                "request_call" => "RICHIEDI UN CONTATTO",
+                "thank_you" => "Grazie",
+                "thank_you_message" => "Presto ci metteremo in contatto con te",
+                "not_recognize" => "Non siamo riusciti a riconoscerti",
+                "not_recognize_text" => "Inserisci di seguito le tue informazioni e tutto sarà pronto",
+                "please_contact_us" => "CONTATTACI PER FAVORE",
+                "table_header_deposite" => "DEPOSITO ",
                 "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "OCTOBER BONUS",
+                "table_header_october_bonus" => "BONUS DI OTTOBRE",
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(
-                "Your Account Just Got Better!",
-                "WELCOME TO ETX",
-                "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with unrivalled support."
+                "Il tuo conto e’ appena migliorato!",
+                "BENVENUTO A ETX",
+                "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati,su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
-                "Open Your Account and Place 1 Trade by Monday, October 24th 2016 and recieve",
-                "New October Account Bonus",
-                "+&nbsp;Entry into ". $prizeMoney ." prize draw"
+                "Apri il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e ricevi ",
+                "Nuovi Bonus di Benvenuto per Ottobre",
+                "+&nbsp;Partecipa ad un’estrazione con in premio ". $prizeMoney ." in contanti"
             ),
             "update-steps-container"=> array(
                 array(
                     "title" => "STEP 1",
-                    "info" => "Click ‘Open Your Account’"
+                    "info" => "Clicca &quot;Apri il Tuo Conto&quot;"
                 ),
                 array(
                     "title" => "STEP 2",
-                    "info" => "Deposit your Funds"
+                    "info" => "Deposita i Tuoi Fondi"
                 ),
                 array(
                     "title" => "STEP 3",
-                    "info" => "Place your 1st Trade"
+                    "info" => "Piazza il tuo primo Trade"
                 ),
-                array(
-                    "title" => "STEP 4",
-                    "info" => "Receive your Bonus"
-                )
+                // array(
+                //     "title" => "STEP 4",
+                //     "info" => "Ricevi il tuo Bonus"
+                // )
             ),
             "prize-container" => array(
-                "FIRST TRADE PRIZE",
-                "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 24th at 6pm BST"
+                "PREMIO DEL PRIMO TRADE",
+                "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
+                "Il vincitore verrà estratto entro lunedì 24 ottobre alle 18:00 BST"
             ),
-            "new-bonus-title"=> "+ New Account Bonus",
+            "new-bonus-title"=> "+ Bonus di Benvenuto",
             "features-container" => array(
-                "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
+                "Spread a partire da 0,8 ",
+                "COSTI DI TRANSAZIONE PIÙ BASSI SUI MERCATI PIÙ POPOLARI"
             ),
             "feature" => array(
-                "TRADABLE INSTRUMENTS",
-                "HUGE RANGE OF MARKETS"
+                "STRUMENTI NEGOZIABILI",
+                "VASTA GAMMA DI MERCATI"
             ),
             "scholars-section-container" => array(
-                "SEAMLESS ACCOUNT UPGRADE",
-                "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
-                "DEDICATED SUPPORT MANAGER",
-                "COUNTLESS LANGUAGES",
-                "FULL MT4 TRADING PLATFORM",
-                "FULL RANGE OF MOBILE PLATFORMS"
+                "AGGIORNAMENTO DEL CONTO SENZA INTERRUZIONI",
+                "REGOLAMENTATO DALLA FINANCIAL CONDUCT AUTHORITY BRITANNICA",
+                "SUPPORT MANAGER DEDICATO",
+                "LINGUE INNUMEREVOLI",
+                "PIATTAFORMA DI TRADING MT4 COMPLETA",
+                "GAMMA COMPLETA DI PIATTAFORME PORTATILI"
             ),
             "bullet-points" => array(
-                "Click to Open Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
-                "Deposit funds and place your 1<sup>st</sup> trade to receive your bonus",
-                "One of the ETX team will call to welcome you and offer support",
-                "Free Education will be provided on MT4",
-                "More reliability with greater support",
-                "Place 1 trade and you could win ". $prizeMoney
+                "Clicca per Aprire il Tuo Conto",
+                "Riceverai l'aggiornamento della piattaforma di trading ETX MT4",
+                "Deposita i tuoi fondi e piazza il primo trade per ricevere il tuo bonus ",
+                "Un membro del team ETX ti contattera’ per darti il benvenuto ed offrirti supporto",
+                "Istruzione Gratuita sarà fornita su MT4",
+                "Più affidabilità con un migliore supporto",
+                "Piazza un trade e potrai vincere ". $prizeMoney
             ),
-            "improve-account-container" => "Open Your Account Right Now",
+            "improve-account-container" => "Migliora il Tuo Conto ora",
             "have-query" => array(
-                "Have any queries?",
-                "Choose a suitable time and we will contact you."
+                "Hai delle domande?",
+                "Scegli un orario adatto e ti contatteremo"
             ),
-            "ask-question-section" => "Ask any question and we will get back to you"
+            "ask-question-section" => "Chiedici qualsiasi domanda e ti risponderemo"
         )
     );

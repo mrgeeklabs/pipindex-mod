@@ -2,25 +2,25 @@
     $translations = array(
         "it"=>array(
             "text" => array(
-                "agree"=>"I Agree",
-                "cancel"=> "Cancel",
-                "watch_video" => "WATCH VIDEO",
-                "update_account" => "UPDATE YOUR ACCOUNT",
-                "sell" => "Sell",
+                "agree"=>"Accetto",
+                "cancel"=> "Annulla",
+                "watch_video" => "GUARDA IL VIDEO",
+                "update_account" => "AGGIORNA IL TUO CONTO",
+                "sell" => "Vendi",
                 "eurusd" => "EUR/USD",
-                "buy" => "Buy",
-                "submit" => "SUBMIT",
-                "request_call" => "REQUEST A CALL",
-                "thank_you" => "Thank You",
-                "thank_you_mesage" => "We will get back to you shortly",
-                "not_recognize" => "We could not recognize you",
-                "not_recognize_text" => "Enter your details below and you are all set!"
+                "buy" => "Compra",
+                "submit" => "INVIO",
+                "request_call" => "RICHIEDI UN CONTATTO",
+                "thank_you" => "Grazie",
+                "thank_you_mesage" => "Presto ci metteremo in contatto con te",
+                "not_recognize" => "Non siamo riusciti a riconoscerti",
+                "not_recognize_text" => "Inserisci di seguito le tue informazioni e tutto sarà pronto"
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(
-                "Your Account Just Got Better!",
-                "WELCOME TO ETX",
-                "Improve your trading with lower costs on popular instruments and a wider range of markets, across multiple platforms, with phenomenal support."
+                "Il tuo conto e’ appena migliorato!",
+                "BENVENUTO A ETX",
+                "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati, su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
                 "Update Your Account and Place 1 Trade by Monday, October 24th 2016 at 2pm BST and recieve",
@@ -41,17 +41,17 @@
                 )
             ),
             "prize-container" => array(
-                "FIRST TRADE PRIZE",
-                "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, October 24th at 2pm BST"
+                "PREMIO DEL PRIMO TRADE",
+                "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
+                "Il vincitore verrà estratto entro lunedì 24 ottobre alle 18:00 BST"
             ),
             "features-container" => array(
-                "Spreads as low as 0.8 ",
-                "LOWER TRANSACTIONAL COSTS ON POPULAR INSTRUMENTS"
+                "Spread a partire da 0,8 ",
+                "COSTI DI TRANSAZIONE PIÙ BASSI SUI MERCATI PIÙ POPOLARI"
             ),
             "feature" => array(
-                "TRADABLE INSTRUMENTS",
-                "HUGE RANGE OF MARKETS"
+                "STRUMENTI NEGOZIABILI",
+                "VASTA GAMMA DI MERCATI"
             ),
             "scholars-section-container" => array(
                 "REGULATED BY THE UK FINANCIAL CONDUCT AUTHORITY",
@@ -63,8 +63,8 @@
             ),
             "mobile-bullet-points" => array(
                 "Click to Update Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
-                "One of the ETX team will call to welcome you and offer support",
+                "Riceverai l'aggiornamento della piattaforma di trading ETX MT4",
+                "Un membro del team ETX ti contattera’ per darti il benvenuto ed offrirti supporto",
                 "Free Education will be provided on MT4",
                 "Trade more markets for less",
                 "More reliability with greater support",
@@ -72,19 +72,19 @@
             ),
             "bullet-points" => array(
                 "Click to Update Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
-                "One of the ETX team will call to welcome you and offer support",
+                "Riceverai l'aggiornamento della piattaforma di trading ETX MT4",
+                "Un membro del team ETX ti contattera’ per darti il benvenuto ed offrirti supporto",
                 "Free Education will be provided on MT4",
                 "Trade more markets for less",
                 "More reliability with greater support",
                 "Place 1 trade and you could win ". $prizeMoney
             ),
-            "improve-account-container" => "Improve Your Account Right Now!",
+            "improve-account-container" => "Migliora il Tuo Conto ora",
             "have-query" => array(
-                "Have any queries?",
-                "Choose a suitable time and we will contact you."
+                "Hai delle domande?",
+                "Scegli un orario adatto e ti contatteremo"
             ),
-            "ask-question-section" => "Ask any question and we will get back to you"
+            "ask-question-section" => "Chiedici qualsiasi domanda e ti risponderemo"
         )
     );
 ?>
