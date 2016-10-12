@@ -84,7 +84,20 @@
                 "Tem alguma dúvida?",
                 "Escolha o melhor horário e nós entraremos em contato."
             ),
-            "ask-question-section" => "Faça qualquer pergunta e nós entraremos em contato com você"
+            "ask-question-section" => "Faça qualquer pergunta e nós entraremos em contato com você",
+            "strongPoints" =>array(
+                "header" => array(
+                    "Free Lifetime Membership to",
+                    "Academy of Financial Trading"
+                ),
+                "list" => array(
+                    "Complete Ultimate Traders Programme",
+                    "2 Custom Strategies",
+                    "3 Custom Indicators",
+                    "Risk Management Software",
+                    "Trading Consultant for Life"
+                )
+            )
         )
     );
 ?>

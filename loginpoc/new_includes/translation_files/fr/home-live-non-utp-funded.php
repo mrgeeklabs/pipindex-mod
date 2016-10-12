@@ -88,7 +88,20 @@
                 "Vous avez des questions ?",
                 "Choisissez un moment approprié et nous vous contacterons."
             ),
-            "ask-question-section" => "Posez une question et nous reviendrons vers vous"
+            "ask-question-section" => "Posez une question et nous reviendrons vers vous",
+            "strongPoints" =>array(
+                "header" => array(
+                    "Membre à vie gratuit",
+                    "Academy of Financial Trading"
+                ),
+                "list" => array(
+                    "Complétez votre Ultimate Traders Programme",
+                    "2 Stratégies personnalisées",
+                    "3 indicateurs personnalisés",
+                    "Logiciel de gestion des risques",
+                    "Consultant de Trading à vie"
+                )
+            )
         )
     );
 ?>

@@ -46,7 +46,7 @@
                 array(
                     "title" => "ÉTAPE 3",
                     "info" => "Placez votre 1er Trade"
-                )
+                ),
                 array(
                     "title" => "ÉTAPE 4",
                     "info" => "Recevez votre Bonus"
