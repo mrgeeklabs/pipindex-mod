@@ -2,8 +2,8 @@
     $translations = array(
         "fr"=>array(
             "text" => array(
-                "agree"=>"I Agree",
-                "cancel"=> "Cancel"
+                "agree"=>"Je suis d'accord",
+                "cancel"=> "Annuler"
             ),
             "title"=>"Terms & Condition | PipIndex Capital Markets",
             "body" => array(
