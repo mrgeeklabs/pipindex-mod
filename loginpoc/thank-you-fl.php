@@ -44,6 +44,21 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
     <link rel="stylesheet" type="text/css" media="screen" href="new-static/css/ie.css">
     <![endif]-->
 
+    <style type="text/css">
+        .cta-button {
+            padding: 20px 40px;
+            background: #435C80;
+            font-family: 'Montserrat Light';
+            font-size: 16px;
+            letter-spacing: 0.2px;
+            text-align: center;
+            color: white;
+            line-height: 40px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    </style>
+
 </head>
 <body class="thankyou-body">
 <div id="loadingIndicator" style="width: 100%;height: 100%;z-index: 999;background-color: #000;opacity: 0.7;position: fixed;display: none;">
@@ -220,7 +235,7 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
     </div>
     <!-- End of contact us information -->
 </div>
-<div style="background-color: #f6f6f6;font-family: Montserrat Light;text-align: center;padding-bottom: 65px;height: 370px;">
+<div style="background-color: #f6f6f6;font-family: Montserrat Light;text-align: center;padding-bottom: 65px;height: 440px;">
     <img src="new-static/images/Asset34.svg" style="width: 25px;height: 26px;margin: 0 auto;margin-top: 35px;">
     <p class="contact-text" style="padding-bottom: 40px;padding-top: 10px;font-size: 15px;
 	font-weight: 300;
@@ -239,9 +254,9 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Germany</span> :  +44(0) 207 392 1400  Freephone   0800 589 2619</div>
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Austria</span> :  +44(0) 207 392 1400  Freephone  0800 006 297</div>
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">France</span> : +44(0) 207 392 1400  Freephone  0805 111 253</div>
-    </div>
-    <div style="margin-top:30px;">
-        <a id="query-submit-button" class="button" href="https://clients.pipindex.com">Continue to Dashboard</a>
+        <div style="margin-top:30px;" class="contact-detail col-md-12 col-sm-12">
+            <a class="cta-button" href="https://clients.pipindex.com">Continue to Dashboard</a>
+        </div>
     </div>
 </div>
 
