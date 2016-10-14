@@ -110,9 +110,7 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         <p id="query-title">Have any queries?</p>
         <p id="query-message">Choose a suitable time and we will contact you.</p>
         <div class="custom-time-select-dropdown">
-            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><br>
-                    <b>Notice</b>:  Undefined index: hours in <b>/Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/offer-fu.php</b> on line <b>297</b><br>
-                </sub></label>
+            <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><br></sub></label>
             <ul class="hours-dropdown">
                 <li data-value="00">00</li>
                 <li data-value="01">01</li>
@@ -139,9 +137,7 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
                 <li data-value="22">22</li>
                 <li data-value="23">23</li>
             </ul>
-            <label id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub><br>
-                    <b>Notice</b>:  Undefined index: minutes in <b>/Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/offer-fu.php</b> on line <b>308</b><br>
-                </sub></label>
+            <label id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub><br></sub></label>
             <ul class="minutes-dropdown">
                 <li data-value="00">00</li>
                 <li data-value="01">01</li>
