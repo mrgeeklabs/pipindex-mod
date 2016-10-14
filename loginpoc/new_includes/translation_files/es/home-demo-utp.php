@@ -73,19 +73,19 @@
                 "GAMA COMPLETA DE PLATAFORMAS PARA MOVILES"
             ),
             "bullet-points" => array(
-                "Click to Open Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
+                "Haga click para abrir su cuenta",
+                "Usted actualizara su plataforma de trading MT4 con ETX",
                 "Deposit funds and place your 1<sup>st</sup> trade to receive your bonus",
-                "One of the ETX team will call to welcome you and offer support",
-                "Free Education will be provided on MT4",
-                "More reliability with greater support",
-                "Place 1 trade and you could win ". $prizeMoney
+                "Uno de los miembros de ETX le llamará para darle la bienvenida y ofrecerle apoyo",
+                "Capacitación gratuita sobre el MT4",
+                "Mayor fiabilidad con más soporte",
+                "Realice su primera operación/trade y usted podría ganar &pound;10.000"
             ),
             "improve-account-container" => "Open Your Account Right Now",
             "have-query" => array(
-                "Have any queries?",
-                "Choose a suitable time and we will contact you."
+                "Tiene alguna pregunta?",
+                "Elija un momento adecuado y nos pondremos en contacto con usted."
             ),
-            "ask-question-section" => "Ask any question and we will get back to you"
+            "ask-question-section" => "Realice alguna pregunta y nos pondremos en contacto con usted"
         )
     );

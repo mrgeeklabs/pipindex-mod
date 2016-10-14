@@ -12,7 +12,7 @@
                 "submit" => "INVIO",
                 "request_call" => "RICHIEDI UN CONTATTO",
                 "thank_you" => "Grazie",
-                "thank_you_mesage" => "Presto ci metteremo in contatto con te",
+                "thank_you_message" => "Presto ci metteremo in contatto con te",
                 "not_recognize" => "Non siamo riusciti a riconoscerti",
                 "not_recognize_text" => "Inserisci di seguito le tue informazioni e tutto sarà pronto"
             ),

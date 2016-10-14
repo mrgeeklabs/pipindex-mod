@@ -7,14 +7,14 @@
                 "watch_video" => "VER VIDEO",
                 "update_account" => "ACTUALIZAR SU CUENTA",
                 "open_your_account" => "ABRA SU CUENTA ",
-                "activate_your_account" => "ACTIVATE YOUR ACCOUNT",
+                "activate_your_account" => "ACTIVA TU CUENTA",
                 "sell" => "Vender",
                 "eurusd" => "EUR/USD",
                 "buy" => "Comprar",
                 "submit" => "ENVIAR",
                 "request_call" => "SOLICITUD DE LLAMADA",
                 "thank_you" => "Gracias",
-                "thank_you_mesage" => "Nos podremos en contacto a la brevedad",
+                "thank_you_message" => "Nos podremos en contacto a la brevedad",
                 "not_recognize" => "No es posible la identificación",
                 "not_recognize_text" => "Introduzca sus datos a continuación y ya está todo listo!",
                 "please_contact_us" => "POR FAVOR CONTACTENOS",
@@ -45,11 +45,11 @@
                 array(
                     "title" => "PASO 3",
                     "info" => "Coloca la 1era operación/trade"
-                ),
-                array(
-                    "title" => "PASO 4",
-                    "info" => "Recibir su bono"
                 )
+                // array(
+                //     "title" => "PASO 4",
+                //     "info" => "Recibir su bono"
+                // )
             ),
             "prize-container" => array(
                 "PREMIO A LA PRIMERA OPERACIÓN",

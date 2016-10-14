@@ -13,7 +13,7 @@
                 "submit" => "ENVIAR",
                 "request_call" => "SOLICITUD DE LLAMADA",
                 "thank_you" => "Gracias",
-                "thank_you_mesage" => "Nos podremos en contacto a la brevedad",
+                "thank_you_message" => "Nos podremos en contacto a la brevedad",
                 "not_recognize" => "No es posible la identificación",
                 "not_recognize_text" => "Introduzca sus datos a continuación y ya está todo listo!",
                 "please_contact_us" => "POR FAVOR CONTACTENOS",

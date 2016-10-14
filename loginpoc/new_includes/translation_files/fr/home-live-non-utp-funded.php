@@ -13,7 +13,7 @@
                 "submit" => "SOUMETTRE",
                 "request_call" => "DEMANDE UN APPEL",
                 "thank_you" => "Je vous remercie",
-                "thank_you_mesage" => "Nous reviendrons vers vous sous peu",
+                "thank_you_message" => "Nous reviendrons vers vous sous peu",
                 "not_recognize" => "Nous ne pouvons pas vous reconnaître",
                 "not_recognize_text" => "Entrez vos coordonnées ci-dessous et tout est parfait !",
                 "please_contact_us" => "CONTACTEZ-NOUS S'IL VOUS PLAIT",

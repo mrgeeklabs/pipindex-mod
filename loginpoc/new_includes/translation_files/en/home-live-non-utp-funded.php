@@ -13,7 +13,7 @@
                 "submit" => "SUBMIT",
                 "request_call" => "REQUEST A CALL",
                 "thank_you" => "Thank You",
-                "thank_you_mesage" => "We will get back to you shortly",
+                "thank_you_message" => "We will get back to you shortly",
                 "not_recognize" => "We could not recognize you",
                 "not_recognize_text" => "Enter your details below and you are all set!",
                 "please_contact_us" => "PLEASE CONTACT US",
