@@ -1,6 +1,31 @@
 <?php
     $translations = array(
         "it"=>array(
+            "text" => array(
+                "agree"=>"Accetto",
+                "cancel"=> "Annulla",
+                "watch_video" => "GUARDA IL VIDEO",
+                "update_account" => "AGGIORNA IL TUO CONTO",
+                "open_your_account" => "APRI IL TUO CONTO",
+                "sell" => "Vendi",
+                "eurusd" => "EUR/USD",
+                "buy" => "Compra",
+                "submit" => "INVIO",
+                "request_call" => "RICHIEDI UN CONTATTO",
+                "thank_you" => "Grazie",
+                "thank_you_message" => "Presto ci metteremo in contatto con te",
+                "not_recognize" => "Non siamo riusciti a riconoscerti",
+                "not_recognize_text" => "Inserisci di seguito le tue informazioni e tutto sarà pronto",
+                "please_contact_us" => "CONTATTACI PER FAVORE",
+                "table_header_deposite" => "DEPOSITO ",
+                "table_header_bonus" => "BONUS",
+                "table_header_october_bonus" => "BONUS DI OTTOBRE",
+                "minutes" => "minuti",
+                "hours" => "ore",
+                "placeholder_name"=>"Il Tuo Nome",
+                "placeholder_phone"=>"Numero di Telefono",
+                "placeholder_email"=>"Email"
+            ),
             "title" => "Grazie!",
             "thankYouContainer" => array(
                 "Grazie!",
