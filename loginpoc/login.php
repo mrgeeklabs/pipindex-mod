@@ -34,6 +34,76 @@
     <link href="./new-login-style/font-awesome.min.css" rel="stylesheet">
     <link href="./new-login-style/css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./new-login-style/styles.css">
+
+    <?php
+
+    // This is a quick and dirty solution
+    // ideally should be a file
+
+    $loginTranslations = [
+        'en' => [
+            'goToPip'           => 'Go to pipindex.com →Login',
+            'loginHeader'       => 'Login',
+            'loginToAccount'    => 'Log in to your account',
+            'email'             => 'EMAIL ADDRESS',
+            'pass'              => 'PASSWORD',
+            'log_in'            => 'Login',
+            'forgot'            => 'Forgot Password?',
+            'noAccount'         => 'Dont have an account?'
+        ],
+        'de' => [
+            'goToPip'           => 'Gehe zu pipindex.com →',
+            'loginHeader'       => 'Login',
+            'loginToAccount'    => 'Loggen Sie sich in Ihr Konto ein',
+            'email'             => 'E-Mail-Adresse',
+            'pass'              => 'Passwort',
+            'log_in'            => 'EINLOGGEN',
+            'forgot'            => 'Passwort vergessen?',
+            'noAccount'         => 'Sie haben noch kein Konto?'
+        ],
+        'es' => [
+            'goToPip'           => 'Ir para pipindex.com →',
+            'loginHeader'       => 'Login',
+            'loginToAccount'    => 'Entrar en su cuenta',
+            'email'             => 'EMAIL',
+            'pass'              => 'contraseña',
+            'log_in'            => 'ENTRAR',
+            'forgot'            => 'Olvido la contraseña? ',
+            'noAccount'         => 'No tiene una cuenta ?'
+        ],
+        'fr' => [
+            'goToPip'           => 'Allez sur pipindex.com →',
+            'loginHeader'       => 'Login',
+            'loginToAccount'    => 'Connectez-vous à votre compte',
+            'email'             => 'Adresse e-mail',
+            'pass'              => 'Mot de passe',
+            'log_in'            => 'CONNEXION',
+            'forgot'            => 'Mot de passe oublié?',
+            'noAccount'         => 'Vous n\'avez pas de compte?'
+        ],
+        'it' => [
+            'goToPip'           => 'Vai a pipindex.com →',
+            'loginHeader'       => 'Login',
+            'loginToAccount'    => 'Accedi al tuo account',
+            'email'             => 'Indirizzo Email',
+            'pass'              => 'PASSWORD',
+            'log_in'            => 'ACCEDERE',
+            'forgot'            => 'Password dimenticata?',
+            'noAccount'         => 'Non possiedi un account?'
+        ],
+        'pt' => [
+            'goToPip'           => 'Ir para pipindex.com →',
+            'loginHeader'       => 'Login',
+            'loginToAccount'    => 'Login na sua conta',
+            'email'             => 'Endereço de email',
+            'pass'              => 'Senha',
+            'log_in'            => 'Login',
+            'forgot'            => 'Esqueceu-se da sua password?',
+            'noAccount'         => 'Não tem uma conta?'
+        ],
+    ]
+
+    ?>
 </head>
 <body class="tradecore" ng-class="{&#39;grid&#39; : $state.includes(&#39;base.portal&#39;)}">
 <section url="pipindex.com" class="ng-isolate-scope">
