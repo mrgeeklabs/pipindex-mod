@@ -75,7 +75,7 @@
             "bullet-points" => array(
                 "Haga click para abrir su cuenta",
                 "Usted actualizara su plataforma de trading MT4 con ETX",
-                "Deposit funds and place your 1<sup>st</sup> trade to receive your bonus",
+                "Deposite los fondos y coloque su 1ª operación para recibir su bonus",
                 "Uno de los miembros de ETX le llamará para darle la bienvenida y ofrecerle apoyo",
                 "Capacitación gratuita sobre el MT4",
                 "Mayor fiabilidad con más soporte",
