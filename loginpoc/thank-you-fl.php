@@ -57,6 +57,10 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
             cursor: pointer;
             border-radius: 3px;
         }
+        .cta-button:hover {
+            text-decoration: none;
+            color:white;
+        }
     </style>
 
 </head>
