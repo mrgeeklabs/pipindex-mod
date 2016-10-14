@@ -1,6 +1,21 @@
 <?php
     $translations = array(
         "en"=>array(
+            "text" => array(
+                "agree"=>"I Agree",
+                "cancel"=> "Cancel",
+                "watch_video" => "WATCH VIDEO",
+                "update_account" => "UPDATE YOUR ACCOUNT",
+                "sell" => "Sell",
+                "eurusd" => "EUR/USD",
+                "buy" => "Buy",
+                "submit" => "SUBMIT",
+                "request_call" => "REQUEST A CALL",
+                "thank_you" => "Thank You",
+                "thank_you_message" => "We will get back to you shortly",
+                "not_recognize" => "We could not recognize you",
+                "not_recognize_text" => "Enter your details below and you are all set!"
+            ),
         	"title" => "Thank You",
         	"thankYouContainer" => array(
         		"Thank You!",
