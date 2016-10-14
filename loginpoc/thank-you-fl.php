@@ -240,6 +240,9 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Austria</span> :  +44(0) 207 392 1400  Freephone  0800 006 297</div>
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">France</span> : +44(0) 207 392 1400  Freephone  0805 111 253</div>
     </div>
+    <div style="margin-top:30px;">
+        <a id="query-submit-button" class="button" href="https://clients.pipindex.com">Continue to Dashboard</a>
+    </div>
 </div>
 
 <!-- Acknowldge -->
