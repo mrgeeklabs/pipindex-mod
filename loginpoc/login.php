@@ -162,6 +162,7 @@
                         <div class="form-group"
                              ng-class="{&#39;has-error&#39;: authForm.credentials.$invalid &amp;&amp; (authForm.credentials.$touched || authForm.$submitted)}">
                             <label translate="" for="credentials"><span class="ng-scope"><?= getLoginPageTranslation($lang, 'email') ?></span></label>
+                            <input type="hidden" name="lang"    value="<?php echo $lang ?>">
                             <input ng-required="true" ng-model="data.username" type="text" name="username"
                                    id="username"
                                    class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required"

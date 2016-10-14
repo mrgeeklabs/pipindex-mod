@@ -4,8 +4,14 @@ if(isset($_POST['sub'])){
 
     $response = makeApiRequest();
 
+    $lang = isset($_POST['lang']) ? trim($_POST['lang'])  : 'en';
+    $allowedLanguages = array("en", "it", "es","de", "fr", "pt");
+    if (in_array($lang, $allowedLanguages )===false ) {
+        $lang="en";
+    }
+
     if (isset($response['non_field_errors'])) {
-        header('LOCATION: login.php?error=true');
+        header('LOCATION: login.php?error=true&lang=' . $lang);
     }
 
     $username = $_POST['username']; $password = $_POST['password'];
@@ -17,7 +23,7 @@ if(isset($_POST['sub'])){
         $_SESSION['auth_token'] = $response['token'];
         // appending auth_token as a parameter
         // to show token is received correctly
-        header('LOCATION: terms-and-condition-fl.php?email=' . $username);
+        header('LOCATION: terms-and-condition-fl.php?email=' . $username . '&lang=' . $lang);
     }
 
 
