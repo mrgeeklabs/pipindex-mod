@@ -12,7 +12,7 @@ if (in_array($lang, $allowedLanguages )===false ) {
     $lang="en";
 }
 $prizeMoney=getPrizeMoney($currency);
-$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/thankyou.php";
+$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/thankyou-2.php";
 include $defaultTranslationsPath;
 if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 ?>
@@ -243,6 +243,53 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Germany</span> :  +44(0) 207 392 1400  Freephone   0800 589 2619</div>
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Austria</span> :  +44(0) 207 392 1400  Freephone  0800 006 297</div>
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">France</span> : +44(0) 207 392 1400  Freephone  0805 111 253</div>
+    </div>
+</div>
+
+<!-- Acknowldge -->
+<div class="modal fade" id="ackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!-- <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+              </button>
+            </div> -->
+            <div class="modal-body">
+                <div class="ackContainer">
+                    <div class="rightTick">
+                        <img src="https://s3-eu-west-1.amazonaws.com/shawaftassets/img/website/green-tick.svg" />
+                    </div>
+                    <div class="thankYouTitle"><?= $translations[$lang]["text"]["thank_you"] ?></div>
+                    <div class="thankYouMessage"><?= $translations[$lang]["text"]["thank_you_message"] ?></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Unknown Number -->
+<div class="modal fade" id="myModalUnknown" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!-- <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <img src="new-static/images/asset15.png" width="15px" class="glyphicon glyphicon-remove" class="close" data-dismiss="modal" aria-label="Close">
+              </button>
+            </div> -->
+            <div class="modal-body">
+                <div style="text-align: center;">
+                    <h1 style="font-size: 36px; font-weight: 300; line-height: 0.7; letter-spacing: 0.4px; text-align: center; color: #292728;"><?= $translations[$lang]["text"]["not_recognize"] ?></h1>
+                    <h3 style="font-family: Montserrat Light; font-size: 18px; font-weight: 300; line-height: 1.3;letter-spacing: 0.2px; color: #6d6e71;"><?= $translations[$lang]["text"]["not_recognize_text"] ?></h3>
+                    <form id="CaptureForm" class="form-group" style="width: 50%;margin: 0 auto;margin-bottom: 30px;">
+                        <input id="emailId" type="hidden" value="<?php echo (isset($_GET['email']) ? trim($_GET['email'])  : '') ?>" class="form-control" placeholder="Email Id" style="margin-bottom: 30px;"/>
+                        <input id="firstName" type="text" class="form-control" placeholder="Your Name" style="margin-bottom: 30px;" value="" required/>
+                        <input id="phoneNumber" type="tel" class="form-control" placeholder="Phone Number" style="margin-bottom: 30px;" value="" required/>
+                        <button class="btn" style="background: #223f6a;color: #fff;padding: 20px 60px;font-family: Montserrat Light; font-size: 16px; line-height: 1.4; letter-spacing: 0.2px; text-align: center; color: #ffffff;"><?= $translations[$lang]["text"]["submit"] ?></button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
