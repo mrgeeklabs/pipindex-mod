@@ -13,6 +13,7 @@
                 'content' => array(
                     'title' => "Terms and Conditions",
                     'message'=>"By clicking “I agree” you agree to PipIndex passing your personal information to ETX Capital, so that ETX Capital can contact you via phone and/or email and you agree to the Privacy Policy of ETX Capital as below.",
+                    'message2'=>"The information below, already emailed to you, is for you to review regarding the automated transition of your account from PipIndex to ETX Capital. By clicking “I agree” you agree to PipIndex passing your personal information to ETX Capital, so that ETX Capital can contact you via phone and/or email and you agree to the Privacy Policy of ETX Capital as below.",
                     'terms' => array(
                         array(
                             "header"=>"ETX Privacy policy",

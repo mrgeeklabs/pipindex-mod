@@ -13,7 +13,7 @@ if (in_array($lang, $allowedLanguages )===false ) {
 }
 $prizeMoney=getPrizeMoney($currency);
 
-$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions-2.php";
+$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions.php";
 include $defaultTranslationsPath;
 if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 ?>
@@ -58,7 +58,7 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 <div class="tnc-container">
     <div class="tnc-content-wrapper">
         <h2 class="tnc-title"><?= $translations[$lang]["body"]["content"]["title"] ?></h2>
-        <p class="tnc-message" style="font-weight: bolder;color: #000;"><?= $translations[$lang]["body"]["content"]["message"] ?></p>
+        <p class="tnc-message" style="font-weight: bolder;color: #000;"><?= $translations[$lang]["body"]["content"]["message2"] ?></p>
         <hr size="0.7" style="color: #bcbec0;">
         <?php
         foreach($translations[$lang]["body"]["content"]["terms"] as $term) {
