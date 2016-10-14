@@ -1,6 +1,6 @@
 <?php
     $translationsHeader = array(
-        "en"=>array(
+        "it"=>array(
             "OFFER EXPIRES",
             "MONDAY 24th OCTOBER"
         )

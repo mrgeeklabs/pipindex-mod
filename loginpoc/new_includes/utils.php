@@ -82,6 +82,7 @@
                 "fr" => "https://www.etxcapital.fr/compte/inscription?v=3&Platform=MT4-FX&RefID=100246",
                 "es" => "https://www.etxcapital.es/cuenta/solicitala-ahora?v=3&Platform=MT4-FX&RefID=100243",
                 "pt" => "https://www.etxcapital.pt/cuenta/solicitala-ahora?v=3&Platform=MT4-FX&RefID=100243",
+                "it" => "https://www.etxcapital.it/conto/registrazione?v=1&Platform=TraderPro"
             );
             return $linksEnglish[$language];
         }
