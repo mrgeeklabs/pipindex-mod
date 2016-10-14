@@ -29,7 +29,7 @@
                 "Melhore a sua negociação com menores custos de instrumentos populares e uma ampla gama de mercados, através de múltiplas plataformas, com suporte inigualável."
             ),
             "update-account"=> array(
-                "Ative Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um sorteio para ganhar $ 10.000 em dinheiro!",
+                "Ative Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um sorteio para ganhar £ 10.000 em dinheiro!",
                 "+ Novo Bônus Conta Outubro",
             ),
             "update-steps-container"=> array(
@@ -79,7 +79,7 @@
                 "Um dos colaborados da ETX irá entrar em contato para dar as boas vindas e oferecer suporte",
                 "Educação gratuita será fornecida no MT4",
                 "Mais confiabilidade com maior apoio",
-                "Faça um trade e você já estará concorrendo ao prêmio de $ 10.000"
+                "Faça um trade e você já estará concorrendo ao prêmio de £ 10.000"
             ),
             "mobile-bullet-points" => array(
                 "Clique para Ativar a Sua Conta",
@@ -88,7 +88,7 @@
                 "Um dos colaborados da ETX irá entrar em contato para dar as boas vindas e oferecer suporte",
                 "Educação gratuita será fornecida no MT4",
                 "Mais confiabilidade com maior apoio",
-                "Faça um trade e você já estará concorrendo ao prêmio de $ 10.000"
+                "Faça um trade e você já estará concorrendo ao prêmio de £ 10.000"
             ),
             "improve-account-container" => "Melhore a sua conta agora",
             "have-query" => array(

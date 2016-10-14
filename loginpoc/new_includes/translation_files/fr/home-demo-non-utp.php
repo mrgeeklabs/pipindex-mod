@@ -38,7 +38,7 @@
                 "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et recevez",
                 "+ Programme ultime Traders gratuit",
                 "+++Nouveau BONUS d’octobre",
-                "+++ Rentrez dans le tirage au sort des $ 10000"
+                "+++ Rentrez dans le tirage au sort des £ 10000"
             ),
             "update-steps-container"=> array(
                 array(

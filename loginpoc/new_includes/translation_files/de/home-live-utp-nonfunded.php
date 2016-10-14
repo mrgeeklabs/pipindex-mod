@@ -29,7 +29,7 @@
                 "Optimieren Sie Ihr Trading durch niedrigere Kosten für beliebte Trading-Werkzeuge und durch eine höhere Bandbreite an Märkten, über mehrere Plattformen, mit konkurrenzlosem Support. "
             ),
             "update-account"=> array(
-                "Aktivieren Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 um 10,000 $ zu gewinnen!",
+                "Aktivieren Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 um 10,000 £ zu gewinnen!",
                 "+ Neuer Oktober-Account-Bonus",
                 ""
             ),
@@ -80,7 +80,7 @@
                 "Das ETX Team wird Sie zur Begrüßung anrufen und Ihnen Unterstützung anbieten",
                 "MT4 wird Ihnen kostenlose Weiterbildung zur Verfügung stellen",
                 "Mehr Zuverlässigkeit durch besseren Support",
-                "Platzieren Sie einen Trade, können Sie 10.000 $ gewinnen"
+                "Platzieren Sie einen Trade, können Sie 10.000 £ gewinnen"
             ),
             "improve-account-container" => "Öffnen Sie jetzt Ihren Account",
             "have-query" => array(
