@@ -30,7 +30,7 @@
             ),
             "update-account"=> array(
                 "Activez votre compte et placez un 1er Trade d'ici le lundi 24e Octobre 2016 et participez à un tirage",
-                "pour gagner 10.000 $ en argent réel !",
+                "pour gagner 10.000 £ en argent réel !",
                 "+ BONUS d’octobre nouveau compte"
             ),
             "update-steps-container"=> array(

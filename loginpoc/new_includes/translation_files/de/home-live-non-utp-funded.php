@@ -30,9 +30,8 @@
                 "vollständig kostenfrei von der Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Aktualisieren Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 um 10,000 $ zu gewinnen!",
-                "+ Kostenloses Ultimate Traders Programme",
-                ""
+                "Aktualisieren Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 um 10,000 £ zu gewinnen!",
+                "+ Kostenloses Ultimate Traders Programme"
             ),
             "update-steps-container"=> array(
                 array(
@@ -81,7 +80,7 @@
                 "Das ETX Team wird Sie zur Begrüßung anrufen und Ihnen Unterstützung anbieten",
                 "MT4 wird Ihnen kostenlose Weiterbildung zur Verfügung stellen",
                 "Mehr Zuverlässigkeit durch besseren Support",
-                "Platzieren Sie einen Trade, können Sie 10.000 $ gewinnen"
+                "Platzieren Sie einen Trade, können Sie 10.000 £ gewinnen"
             ),
             "improve-account-container" => "Optimieren Sie jetzt Ihren Account",
             "have-query" => array(

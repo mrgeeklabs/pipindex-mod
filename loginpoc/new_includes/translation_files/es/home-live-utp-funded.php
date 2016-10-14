@@ -82,7 +82,7 @@
                 "Uno de los miembros de ETX le llamará para darle la bienvenida y ofrecerle apoyo",
                 "Capacitación gratuita sobre el MT4",
                 "Mayor fiabilidad con más soporte",
-                "Realice su primera operación/trade y usted podría ganar $ 10.000"
+                "Realice su primera operación/trade y usted podría ganar £ 10.000"
             ),
             "improve-account-container" => "Mejore su cuenta ahora!",
             "have-query" => array(

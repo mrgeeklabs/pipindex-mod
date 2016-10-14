@@ -28,7 +28,7 @@
                 "BEM-VINDO AO ETX",
             ),
             "update-account"=> array(
-                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um sorteio para ganhar $ 10.000 em dinheiro!",
+                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um sorteio para ganhar £ 10.000 em dinheiro!",
                 "+ Ultimate Traders Programma grátis",
             ),
             "update-steps-container"=> array(
@@ -77,7 +77,7 @@
                 "Um dos colaborados da ETX irá entrar em contato para dar as boas vindas e oferecer suporte",
                 "Educação gratuita será fornecida no MT4",
                 "Mais confiabilidade com maior apoio",
-                "Faça um trade e você já estará concorrendo ao prêmio de $ 10.000"
+                "Faça um trade e você já estará concorrendo ao prêmio de £ 10.000"
             ),
             "improve-account-container" => "Melhore a Sua Conta Agora Mesmo!",
             "have-query" => array(

@@ -17,7 +17,7 @@
             ),
             "thankyou-footer" => array(
                 "Un ringraziamento da tutto lo staff di PipIndex per la tua fedeltà e non vediamo l'ora di sostenere ulteriormente le tue esigenze educative.",
-                "Come regalo di addio, non dimenticare di piazzare un primo trade entro entro le 14:00 BST di lunedì 17 ottobre per ottenere la possibilità di vincere 10.000 € "
+                "Come regalo di addio, non dimenticare di piazzare un primo trade entro entro le 14:00 BST di lunedì 24 ottobre per ottenere la possibilità di vincere 10.000 Sterline "
             ),
             "contact-text"=>"Nel frattempo, nel caso avessi qualsiasi domanda non esitare a contattarci direttamente a ETX per ulteriore supporto:"
         )

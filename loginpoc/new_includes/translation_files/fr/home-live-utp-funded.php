@@ -31,7 +31,7 @@
             ),
             "update-account"=> array(
                 "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et participez à un tirage pour gagner",
-                "10,000 $ en argent réel !",
+                "10,000 £ en argent réel !",
                 "+ l’Ultimate Traders Programme gratuit"
             ),
             "update-steps-container"=> array(
