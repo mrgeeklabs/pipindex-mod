@@ -13,7 +13,7 @@ if (in_array($lang, $allowedLanguages )===false ) {
 }
 $prizeMoney=getPrizeMoney($currency);
 
-$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions.php";
+$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/terms-and-conditions-2.php";
 include $defaultTranslationsPath;
 if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 ?>

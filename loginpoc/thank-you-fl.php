@@ -106,6 +106,125 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">France</span> : +44(0) 207 392 1400  Freephone  0805 111 253</div>
     </div>
 </div>
+
+<!-- Contact us information -->
+<div class="have-query">
+    <p id="query-title">Have any queries?</p>
+    <p id="query-message">Choose a suitable time and we will contact you.</p>
+    <div class="custom-time-select-dropdown">
+        <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><br>
+                <b>Notice</b>:  Undefined index: hours in <b>/Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/offer-fu.php</b> on line <b>297</b><br>
+            </sub></label>
+        <ul class="hours-dropdown">
+            <li data-value="00">00</li>
+            <li data-value="01">01</li>
+            <li data-value="02">02</li>
+            <li data-value="03">03</li>
+            <li data-value="04">04</li>
+            <li data-value="05">05</li>
+            <li data-value="06">06</li>
+            <li data-value="07">07</li>
+            <li data-value="08">08</li>
+            <li data-value="09">09</li>
+            <li data-value="10">10</li>
+            <li data-value="11">11</li>
+            <li data-value="12">12</li>
+            <li data-value="13">13</li>
+            <li data-value="14">14</li>
+            <li data-value="15">15</li>
+            <li data-value="16">16</li>
+            <li data-value="17">17</li>
+            <li data-value="18">18</li>
+            <li data-value="19">19</li>
+            <li data-value="20">20</li>
+            <li data-value="21">21</li>
+            <li data-value="22">22</li>
+            <li data-value="23">23</li>
+        </ul>
+        <label id="minute-selected-item"><span class="icon"></span><span class="minutes">00</span><sub><br>
+                <b>Notice</b>:  Undefined index: minutes in <b>/Users/aligajani/Dropbox/Work/Code/pipindex-mod/loginpoc/offer-fu.php</b> on line <b>308</b><br>
+            </sub></label>
+        <ul class="minutes-dropdown">
+            <li data-value="00">00</li>
+            <li data-value="01">01</li>
+            <li data-value="02">02</li>
+            <li data-value="03">03</li>
+            <li data-value="04">04</li>
+            <li data-value="05">05</li>
+            <li data-value="06">06</li>
+            <li data-value="07">07</li>
+            <li data-value="08">08</li>
+            <li data-value="09">09</li>
+            <li data-value="10">10</li>
+            <li data-value="11">11</li>
+            <li data-value="12">12</li>
+            <li data-value="13">13</li>
+            <li data-value="14">14</li>
+            <li data-value="15">15</li>
+            <li data-value="16">16</li>
+            <li data-value="17">17</li>
+            <li data-value="18">18</li>
+            <li data-value="19">19</li>
+            <li data-value="20">20</li>
+            <li data-value="21">21</li>
+            <li data-value="22">22</li>
+            <li data-value="23">23</li>
+            <li data-value="24">24</li>
+            <li data-value="25">25</li>
+            <li data-value="26">26</li>
+            <li data-value="27">27</li>
+            <li data-value="28">28</li>
+            <li data-value="29">29</li>
+            <li data-value="30">30</li>
+            <li data-value="31">31</li>
+            <li data-value="32">32</li>
+            <li data-value="33">33</li>
+            <li data-value="34">34</li>
+            <li data-value="35">35</li>
+            <li data-value="36">36</li>
+            <li data-value="37">37</li>
+            <li data-value="38">38</li>
+            <li data-value="39">39</li>
+            <li data-value="40">40</li>
+            <li data-value="41">41</li>
+            <li data-value="42">42</li>
+            <li data-value="43">43</li>
+            <li data-value="44">44</li>
+            <li data-value="45">45</li>
+            <li data-value="46">46</li>
+            <li data-value="47">47</li>
+            <li data-value="48">48</li>
+            <li data-value="49">49</li>
+            <li data-value="50">50</li>
+            <li data-value="51">51</li>
+            <li data-value="52">52</li>
+            <li data-value="53">53</li>
+            <li data-value="54">54</li>
+            <li data-value="55">55</li>
+            <li data-value="56">56</li>
+            <li data-value="57">57</li>
+            <li data-value="58">58</li>
+            <li data-value="59">59</li>
+        </ul>
+        <button id="requestCall">REQUEST A CALL</button>
+    </div>
+    <!-- <div style="margin-top: 5px;padding-bottom: 40px;">
+        <a id="request-call-button">REQUEST A CALL</a>
+        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
+          Launch demo modal
+        </button>
+    </div> -->
+    <hr style="width: 75%;">
+    <div class="ask-question-section">
+        <p id="ask-question">Ask any question and we will get back to you</p>
+    </div>
+    <textarea id="customerQuestion" rows="5" placeholder="Type your question here"></textarea>
+
+    <div style="margin-top: 30px;">
+        <a id="query-submit-button">SUBMIT</a>
+    </div>
+</div>
+<!-- End of contact us information -->
 <?php
 include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
 ?>
