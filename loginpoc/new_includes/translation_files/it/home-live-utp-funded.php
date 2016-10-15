@@ -40,8 +40,9 @@
                 "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati, su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
-                "Aggiornare il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e ricevi",
-                "Entry into ". $prizeMoney ." prize draw"
+                "Apri il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e parteciperai al sorteggio per vincere",
+                "10,000 Sterline in contanti!",
+                "+ Corso Ultimate Traders Programme Gratuito"
             ),
             "update-steps-container"=> array(
                 array(
