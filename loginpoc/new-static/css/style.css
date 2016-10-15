@@ -1,5 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+
+.lp3-wrapper #update-account .translation_text_fix_es{
+  width: 450px !important;
+}
+
+.lp3-wrapper #update-account .translation_text_fix{
+  width: 350px !important;
+}
 body .lp3-wrapper .features-container {
   justify-content: center;
   padding-top: 60px; }
@@ -1810,6 +1818,10 @@ footer p {
 
     #utp .header-container .pipindex-lang img {
       margin-left: 0;
+    }
+
+    .lp3-wrapper #update-account .translation_text_fix_es{
+      width: 400px !important;
     }
   }
 

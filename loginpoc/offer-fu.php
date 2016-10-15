@@ -21,6 +21,11 @@
 		$email=$_GET['email'];
 	} 
 	$termsLink="http://www.pipindex.com/terms-and-condition.php?email=$email&lang=".$lang;
+
+	if($lang == 'es' || $lang == 'de')
+		$spanish_text_fix="translation_text_fix_es";
+	else
+		$spanish_text_fix="translation_text_fix";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -103,7 +108,7 @@
 	    </div>
 	   	<div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>
-	        <div id="update-account-message-wrapper" style="width:270px;">
+	        <div id="update-account-message-wrapper" class="<?= $spanish_text_fix ?>">
 		        <ul class="update-account-ul">
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][1] ?></span></li>
 		        </ul>
