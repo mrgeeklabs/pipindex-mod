@@ -2,7 +2,7 @@
     $translations = array(
         "fr"=>array(
             "text" => array(
-                "continue_to_dashboard" => "Continue to Dashboard",
+                "continue_to_dashboard" => "Allez sur le Tableau de bord",
                 "agree"=>"Je suis d'accord",
                 "cancel"=> "Annuler",
                 "watch_video" => "REGARDER LA VIDÉO",

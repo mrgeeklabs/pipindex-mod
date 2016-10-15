@@ -14,7 +14,7 @@
                 'content' => array(
                     'title' => "Termes et conditions",
                     'message'=>'En cliquant sur "Je suis d'."'accord".", vous autorisez PipIndex à passer vos informations personnelles à ETX Capital, de sorte que ETX Capital puisse vous contacter par téléphone et / ou e-mail et vous acceptez la politique de confidentialité de ETX Capital comme ci-dessous.",
-                    'message2' => '',
+                    'message2' => 'Les informations ci-dessous, déjà envoyées par courriel, sont pour vous en ce qui concerne la transition automatique de votre compte de PipIndex vers ETX Capital. En cliquant sur "Je suis d\'accord", vous authorisez PipIndex à passer vos informations personnelles à ETX Capital, de sorte que ETX Capital puisse vous contacter par téléphone et / ou e-mail et de plus  acceptez la politique de confidentialité de ETX Capital comme ci-dessous.',
                     'terms' => array(
                         array(
                             "header"=>"Charte de confidentialité",
