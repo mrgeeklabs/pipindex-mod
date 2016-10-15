@@ -3,7 +3,9 @@
         "it"=>array(
             "text" => array(
                 "agree"=>"Accetto",
-                "cancel"=> "Annulla"
+                "cancel"=> "Annulla",
+                "thank_you" => "Grazie",
+                "thank_you_message" => "Presto ci metteremo in contatto con te",
             ),
             "title"=>"Termini e Condizioni | PipIndex Capital Markets",
             "body" => array(
