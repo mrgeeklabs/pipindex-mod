@@ -84,13 +84,13 @@
                 "Placer 1 Trade et vous pourrez gagner 10 000 $"
             ),
             "bullet-points" => array(
-                "Click to Update Your Account",
-                "You will be upgraded to the ETX MT4 Trading Platform",
-                "One of the ETX team will call to welcome you and offer support",
-                "Free Education will be provided on MT4",
-                "Trade more markets for less",
-                "More reliability with greater support",
-                "Place 1 trade and you could win ". $prizeMoney
+                "Cliquez pour activer votre compte",
+                "Vous serez mis à niveau vers la plateforme de Trading MT4 de ETX",
+                "Activez votre compte et placez un 1er </ sup> Trade pour recevoir votre bonus et l’UTP gratuit",
+                "Un membre de l’équipe de ETX vous appellera pour vous accueillir et vous offrir un soutien",
+                "L'éducation gratuite sera fournie sur MT4",
+                "Plus de fiabilité avec un plus grand soutien",
+                "Placer 1 Trade et vous pourrez gagner <strong> 10 000 £ </strong>"
             ),
             "improve-account-container" => "Améliorez votre compte dès maintenant !",
             "have-query" => array(

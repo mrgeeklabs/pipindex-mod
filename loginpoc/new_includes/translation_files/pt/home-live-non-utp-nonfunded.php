@@ -67,6 +67,7 @@
             ),
             "scholars-section-container" => array(
                 "REGULADA PELA UK FINANCIAL CONDUCT AUTHORITY",
+                "$10,000 PRÊMIO DO PRIMEIRO TRADE",
                 "GERENTE PESSOAL DEDICADO",
                 "INÚMEROS IDIOMAS",
                 "COMPLETA PLATAFORMA DE NEGOCIAÇÃO MT4",

@@ -5,11 +5,11 @@
                 "agree"=>"Estoy de acuerdo",
                 "cancel"=> "Cancelar"
             ),
-            "title"=>"Terms & Condition | PipIndex Capital Markets",
+            "title"=>"Términos y Condiciones | PipIndex Capital Markets",
             "body" => array(
                 'header' => array('' => "" ),
                 'content' => array(
-                    'title' => "Terms and Conditions",
+                    'title' => "Términos y Condiciones",
                     'message'=>'Al hacer clic en "Estoy de acuerdo"  usted está de acuerdo con PipIndex de pasar su información personal a ETX Capital, de esta manera ETX Capital puede contactarse con usted por teléfono y / o correo electrónico. Como así también está de acuerdo con la política de privacidad de ETX Capital como se describe a continuación.',
                     'message2' => '',
                     'terms' => array(

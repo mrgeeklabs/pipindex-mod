@@ -48,7 +48,7 @@
             ),
             "thankyou-footer" => array(
                 "De todas los que formamos parte de Pipindex nos gustaría darle las gracias,  y esperamos haber cubierto sus necesidades educativas.",
-                "Como regalo de despedida, no se olvide de realizar esa primera operación antes de las 14hs BST del lunes 24 de octubre de 2016 para tener la posibilidad de ganar 10.000 £"
+                "Como regalo de despedida, no se olvide de realizar esa primera operación antes de las 14hs BST del lunes 24 de octubre de 2016 para tener la posibilidad de ganar "
             ),
             "contact-text"=>"Mientras tanto, en caso de tener alguna duda o consulta no dude en ponerse en contacto con nosotros directamente en ETX para obtener soporte adicional:"
         )
