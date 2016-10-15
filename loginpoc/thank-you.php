@@ -83,7 +83,7 @@
 </div>
 <div class="thankyou-footer">
 	<p><?= $translations[$lang]["thankyou-footer"][0] ?></p>
-	<p><?= $translations[$lang]["thankyou-footer"][1] ?><span><?=$prizeMoney ?></span></p>
+	<p><?= $translations[$lang]["thankyou-footer"][1] ?></p>
 </div>
 <div style="background-color: #f6f6f6;font-family: Montserrat Light;text-align: center;padding-bottom: 65px;height: 370px;">
 	<img src="new-static/images/Asset34.svg" style="width: 25px;height: 26px;margin: 0 auto;margin-top: 35px;">
