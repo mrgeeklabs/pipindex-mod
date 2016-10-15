@@ -29,15 +29,15 @@
             "update-steps-container"=> array(
                 array(
                     "title" => "STEP 1",
-                    "info" => "Click ‘Update Your Account’"
+                    "info" => "Clicca 'Attiva il Tuo Conto'"
                 ),
                 array(
                     "title" => "STEP 2",
-                    "info" => "Review the New Terms"
+                    "info" => "Rivedi i nuovi Termini"
                 ),
                 array(
                     "title" => "STEP 3",
-                    "info" => "Update Some Basic Info"                    
+                    "info" => "Aggiorna alcune informazioni di base"                    
                 )
             ),
             "prize-container" => array(

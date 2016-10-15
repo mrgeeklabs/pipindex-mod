@@ -11,6 +11,21 @@
 	if (in_array($lang, $allowedLanguages )===false ) {
 		$lang="en";
 	}
+	if($lang=='en')
+		$update_account_message_wrapper = 315;
+	else if($lang=='es')
+		$update_account_message_wrapper = 470;
+	else if($lang=='de')
+		$update_account_message_wrapper = 390;
+	else if($lang=='fr')
+		$update_account_message_wrapper = 450;
+	else if($lang=='it')
+		$update_account_message_wrapper = 450;
+	else if($lang=='pt')
+		$update_account_message_wrapper = 400;
+	else
+		$update_account_message_wrapper = 315;
+
 	$prizeMoney=getPrizeMoney($currency);
 	$moneyTable=getMoneyTable('live');
 	$minimumBalanceString=getMinimumBalance('live');
@@ -103,7 +118,7 @@
 	    </div>
 	   	<div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>
-	        <div id="update-account-message-wrapper" style="width: 315px">
+	        <div id="update-account-message-wrapper" style="width: <?= $update_account_message_wrapper ?>px">
 	        	<ul class="update-account-ul">
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][1] ?></span></li>
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][2] ?></span></li>
