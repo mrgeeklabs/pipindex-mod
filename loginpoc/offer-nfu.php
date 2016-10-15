@@ -21,7 +21,21 @@
 	if (isset($_GET['email'])){
 		$email=$_GET['email'];
 	} 
-	$termsLink="http://www.pipindex.com/terms-and-condition.php?email=$email&lang=$lang";
+	$termsLink="http://www.pipindex.com/terms-and-condition.php?email=$email&lang=".$lang;
+	if($lang=='en')
+		$update_account_message_wrapper = 290;
+	else if($lang=='es')
+		$update_account_message_wrapper = 450;
+	else if($lang=='de')
+		$update_account_message_wrapper = 320;
+	else if($lang=='fr')
+		$update_account_message_wrapper = 390;
+	else if($lang=='it')
+		$update_account_message_wrapper = 360;
+	else if($lang=='pt')
+		$update_account_message_wrapper = 300;
+	else
+		$update_account_message_wrapper = 290;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -105,7 +119,7 @@
 	    </div>
 	   	<div id="update-account">
 	        <?= $translations[$lang]["update-account"][0] ?>
-	        <div id="update-account-message-wrapper" style="width:290px;">
+	        <div id="update-account-message-wrapper" style="width:<?= $update_account_message_wrapper ?>px;">
 		        <ul class="update-account-ul">
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][1] ?></span></li>
 		        	<li><span style="font-weight: bold; color: #223f6a; font-size: 18px;"><?=$translations[$lang]["update-account"][2] ?></span></li>
