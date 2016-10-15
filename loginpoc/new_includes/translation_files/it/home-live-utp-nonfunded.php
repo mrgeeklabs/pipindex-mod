@@ -46,10 +46,10 @@
                     "title" => "STEP 3",
                     "info" => "Piazza il tuo primo Trade"
                 ),
-                array(
-                    "title" => "STEP 4",
-                    "info" => "Ricevi il tuo Bonus"
-                )
+                // array(
+                //     "title" => "STEP 4",
+                //     "info" => "Ricevi il tuo Bonus"
+                // )
             ),
             "prize-container" => array(
                 "PREMIO DEL PRIMO TRADE",

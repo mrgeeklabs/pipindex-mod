@@ -45,10 +45,10 @@
                     "title" => "PASSO 3",
                     "info" => "Faça seu primeiro Trade"
                 ),
-                array(
-                    "title" => "PASSO 4",
-                    "info" => "Receba o seu bônus"
-                )
+                // array(
+                //     "title" => "PASSO 4",
+                //     "info" => "Receba o seu bônus"
+                // )
             ),
             "prize-container" => array(
                 "PRIMEIRO PRÊMIO TRADE",
