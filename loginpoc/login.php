@@ -34,6 +34,86 @@
     <link href="./new-login-style/font-awesome.min.css" rel="stylesheet">
     <link href="./new-login-style/css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./new-login-style/styles.css">
+
+    <?php
+
+    // This is a quick and dirty solution
+    // ideally should be a file
+
+    $lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
+    $allowedLanguages = array("en", "it", "es","de", "fr", "pt");
+    if (in_array($lang, $allowedLanguages )===false ) {
+        $lang="en";
+    }
+
+    function getLoginPageTranslation($language, $item)
+    {
+        $loginTranslations = [
+            'en' => [
+                'goToPip'        => 'Go to pipindex.com →',
+                'loginHeader'    => 'Login',
+                'loginToAccount' => 'Log in to your account',
+                'email'          => 'EMAIL ADDRESS',
+                'pass'           => 'PASSWORD',
+                'log_in'         => 'Log in',
+                'forgot'         => 'Forgot Password?',
+                'noAccount'      => 'Dont have an account?'
+            ],
+            'de' => [
+                'goToPip'        => 'Gehe zu pipindex.com →',
+                'loginHeader'    => 'Login',
+                'loginToAccount' => 'Loggen Sie sich in Ihr Konto ein',
+                'email'          => 'E-Mail-Adresse',
+                'pass'           => 'Passwort',
+                'log_in'         => 'EINLOGGEN',
+                'forgot'         => 'Passwort vergessen?',
+                'noAccount'      => 'Sie haben noch kein Konto?'
+            ],
+            'es' => [
+                'goToPip'        => 'Ir para pipindex.com →',
+                'loginHeader'    => 'Login',
+                'loginToAccount' => 'Entrar en su cuenta',
+                'email'          => 'EMAIL',
+                'pass'           => 'contraseña',
+                'log_in'         => 'ENTRAR',
+                'forgot'         => 'Olvido la contraseña? ',
+                'noAccount'      => 'No tiene una cuenta ?'
+            ],
+            'fr' => [
+                'goToPip'        => 'Allez sur pipindex.com →',
+                'loginHeader'    => 'Login',
+                'loginToAccount' => 'Connectez-vous à votre compte',
+                'email'          => 'Adresse e-mail',
+                'pass'           => 'Mot de passe',
+                'log_in'         => 'CONNEXION',
+                'forgot'         => 'Mot de passe oublié?',
+                'noAccount'      => 'Vous n\'avez pas de compte?'
+            ],
+            'it' => [
+                'goToPip'        => 'Vai a pipindex.com →',
+                'loginHeader'    => 'Login',
+                'loginToAccount' => 'Accedi al tuo account',
+                'email'          => 'Indirizzo Email',
+                'pass'           => 'PASSWORD',
+                'log_in'         => 'ACCEDERE',
+                'forgot'         => 'Password dimenticata?',
+                'noAccount'      => 'Non possiedi un account?'
+            ],
+            'pt' => [
+                'goToPip'        => 'Ir para pipindex.com →',
+                'loginHeader'    => 'Login',
+                'loginToAccount' => 'Login na sua conta',
+                'email'          => 'Endereço de email',
+                'pass'           => 'Senha',
+                'log_in'         => 'Login',
+                'forgot'         => 'Esqueceu-se da sua password?',
+                'noAccount'      => 'Não tem uma conta?'
+            ],
+        ];
+        return $loginTranslations[$language][$item];
+    }
+
+    ?>
 </head>
 <body class="tradecore" ng-class="{&#39;grid&#39; : $state.includes(&#39;base.portal&#39;)}">
 <section url="pipindex.com" class="ng-isolate-scope">
@@ -41,14 +121,14 @@
         <div class="container" ng-class="{&#39;ib-topbar&#39; : $state.includes(&#39;base-ib.portal&#39;)}">
             <div class="row">
                 <div class="col-xs-12 col-sm-6"><a ng-href="http://pipindex.com/" class="ng-binding"
-                                                   href="http://pipindex.com/">Go to pipindex.com →</a></div>
+                                                   href="http://pipindex.com/"><?= getLoginPageTranslation($lang, 'goToPip') ?></a></div>
                 <div class="col-xs-12 col-sm-6 text-right"><a
                         ng-hide="$state.includes(&#39;base-ib&#39;) || data.isLogged || login == false"
                         href="https://clients.pipindex.com/#/auth/login" translate=""><span
                         class="ng-scope">Login</span></a> <a
                         ng-hide="!$state.includes(&#39;base-ib&#39;) || data.isLogged || login == false"
                         href="https://clients.pipindex.com/" translate="" class="ng-hide"><span
-                        class="ng-scope">Login</span></a>
+                        class="ng-scope"><?= getLoginPageTranslation($lang, 'loginHeader') ?></span></a>
                     <div ng-show="data.isLogged" class="ng-binding ng-hide"><a
                             href="https://clients.pipindex.com/#/auth/logout/client" translate=""><span
                             class="ng-scope">[Logout]</span></a></div>
@@ -70,7 +150,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-offset-3 col-sm-6">
                     <div class="text-center"><img src="./new-login-style/logo.png" alt=""></div>
-                    <h2 translate=""><span class="ng-scope">Log in to your account</span></h2>
+                    <h2 translate=""><span class="ng-scope"><?= getLoginPageTranslation($lang, 'loginToAccount') ?></span></h2>
                     <form name='input' action='login-process.php' method='post'
                           class="ng-pristine ng-invalid ng-invalid-required">
                         <!-- ngIf: errors.non_field_errors.length > 0 --><!-- ngIf: errors.msg.length > 0 -->
@@ -81,7 +161,8 @@
                         ?>
                         <div class="form-group"
                              ng-class="{&#39;has-error&#39;: authForm.credentials.$invalid &amp;&amp; (authForm.credentials.$touched || authForm.$submitted)}">
-                            <label translate="" for="credentials"><span class="ng-scope">Email address</span></label>
+                            <label translate="" for="credentials"><span class="ng-scope"><?= getLoginPageTranslation($lang, 'email') ?></span></label>
+                            <input type="hidden" name="lang"    value="<?php echo $lang ?>">
                             <input ng-required="true" ng-model="data.username" type="text" name="username"
                                    id="username"
                                    class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required"
@@ -91,7 +172,7 @@
                                translate=""><span class="ng-scope">This field is required</span></p></div>
                         <div class="form-group"
                              ng-class="{&#39;has-error&#39;: authForm.password.$invalid &amp;&amp; (authForm.password.$touched || authForm.$submitted)}">
-                            <label for="password" class="ng-binding">Password</label> <input required=""
+                            <label for="password" class="ng-binding"><?= getLoginPageTranslation($lang, 'pass') ?></label> <input required=""
                                                                                              ng-model="data.password"
                                                                                              type="password"
                                                                                              name="password"
@@ -101,13 +182,13 @@
                                ng-show="authForm.password.$invalid &amp;&amp; (authForm.password.$touched || authForm.$submitted)">
                                 This field is required</p></div>
                         <button translate="" type="submit" name="sub" class="btn btn-success btn-lg btn-block"><span
-                                class="ng-scope">Log in</span></button>
+                                class="ng-scope"><?= getLoginPageTranslation($lang, 'log_in') ?></span></button>
                         <div class="row">
                             <div class="col-sm-5 pr0"><a href="https://clients.pipindex.com/#/auth/forgot"
-                                                         class="ng-binding">Forgot password?</a></div>
+                                                         class="ng-binding"><?= getLoginPageTranslation($lang, 'forgot') ?></a></div>
                             <div class="col-sm-7 text-right pl0"><a translate=""
                                                                     href="https://clients.pipindex.com/#/step-one"
-                                                                   ><span class="ng-scope">Don't have an account?</span></a>
+                                                                   ><span class="ng-scope"><?= getLoginPageTranslation($lang, 'noAccount') ?></span></a>
                             </div>
                         </div>
                     </form>

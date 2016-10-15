@@ -1,8 +1,8 @@
 <?php
     $translationsHeader = array(
         "pt"=>array(
-            "OFFER EXPIRES",
-            "MONDAY 24th OCTOBER"
+            "ESTA OFERTA EXPIRA",
+            "SEGUNDA-FEIRA, 24 DE OUTUBRO"
         )
     );
 ?>

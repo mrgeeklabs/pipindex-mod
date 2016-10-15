@@ -38,7 +38,7 @@
                 "Eröffnen Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 und erhalten Sie",
                 "+ kostenloses Ultimate Traders Programme",
                 "++ Neuen Oktober-Account-Bonus",
-                "Nehmen Sie an der Verlosung von 10.000 $ teil"
+                "Nehmen Sie an der Verlosung von 10.000 £ teil"
             ),
             "update-steps-container"=> array(
                 array(
@@ -87,7 +87,7 @@
                 "Das ETX Team wird Sie zur Begrüßung anrufen und Ihnen Unterstützung anbieten",
                 "MT4 wird Ihnen kostenlose Weiterbildung zur Verfügung stellen",
                 "Mehr Zuverlässigkeit durch besseren Support",
-                "Platzieren Sie einen Trade, können Sie 10.000 $ gewinnen"
+                "Platzieren Sie einen Trade, können Sie 10.000 £ gewinnen"
             ),
             "improve-account-container" => "Öffnen Sie jetzt Ihren Account",
             "have-query" => array(

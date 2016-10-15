@@ -1,6 +1,37 @@
 <?php
     $translations = array(
         "fr"=>array(
+            "text" => array(
+                "continue_to_dashboard" => "Continue to Dashboard",
+                "agree"=>"Je suis d'accord",
+                "cancel"=> "Annuler",
+                "watch_video" => "REGARDER LA VIDÉO",
+                "update_account" => "MISE À JOUR DE VOTRE COMPTE",
+                "open_your_account" => "OUVRIR VOTRE COMPTE",
+                "sell" => "Vendre",
+                "eurusd" => "EUR/USD",
+                "buy" => "Acheter",
+                "submit" => "SOUMETTRE",
+                "request_call" => "DEMANDEZ UN APPEL",
+                "thank_you" => "Je vous remercie",
+                "thank_you_message" => "Nous serons en contact bientôt",
+                "not_recognize" => "Nous ne pouvons pas vous reconnaître",
+                "not_recognize_text" => "Entrez vos coordonnées ci-dessous et tout est parfait !",
+                "please_contact_us" => "CONTACTEZ-NOUS S'IL VOUS PLAIT",
+                "table_header_deposite" => "DÉPÔT ",
+                "table_header_bonus" => "BONUS",
+                "table_header_october_bonus" => "BONUS d’octobre",
+                "minutes" => "minutes",
+                "hours" => "heures",
+                "placeholder_name"=>"votre nom",
+                "placeholder_phone"=>"Numéro de téléphone",
+                "placeholder_email"=>"Email d’identifiant"
+            ),
+            "have-query" => array(
+                "Vous avez des questions ?",
+                "Choisissez un moment approprié et nous vous contacterons."
+            ),
+            "ask-question-section" => "Posez une question et nous reviendrons vers vous",
         	"title" => "Je vous remercie !",
         	"thankYouContainer" => array(
         		"Je vous remercie !",

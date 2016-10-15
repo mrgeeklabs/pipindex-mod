@@ -86,7 +86,7 @@
                 "Um dos colaborados da ETX irá entrar em contato para dar as boas vindas e oferecer suporte",
                 "Educação gratuita será fornecida no MT4",
                 "Mais confiabilidade com maior apoio",
-                "Faça um trade e você já estará concorrendo ao prêmio de $ 10.000"
+                "Faça um trade e você já estará concorrendo ao prêmio de £ 10.000"
             ),
             "improve-account-container" => "Atualize Sua Conta Agora Mesmo!",
             "have-query" => array(

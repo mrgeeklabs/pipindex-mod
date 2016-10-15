@@ -32,7 +32,7 @@
             ),
             "update-account"=> array(
                 "Activez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et participer à un tirage pour",
-                "gagner 10.000 $ en argent réel",
+                "gagner 10.000 £ en argent réel",
                 "+ Ultimate Traders Programme gratuit avec l’Academy of Financial Trading",
                 "++ Nouveau Bonus d’octobre"
             ),
@@ -83,7 +83,7 @@
                 "Un membre de l’équipe de ETX vous appellera pour vous accueillir et vous offrir un soutien",
                 "L'éducation gratuite sera fournie sur MT4",
                 "Plus de fiabilité avec un plus grand soutien",
-                "Placer 1 Trade et vous pourrez gagner <strong> 10 000 $ </strong>"
+                "Placer 1 Trade et vous pourrez gagner <strong> 10 000 £ </strong>"
             ),
             "improve-account-container" => "Améliorer votre compte maintenant",
             "have-query" => array(
