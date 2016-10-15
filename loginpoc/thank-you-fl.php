@@ -126,8 +126,8 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
     </div>
     <!-- Contact us information -->
     <div class="have-query">
-        <p id="query-title">Have any queries?</p>
-        <p id="query-message">Choose a suitable time and we will contact you.</p>
+        <p id="query-title"><?= $translations[$lang]["have-query"][0] ?></p>
+        <p id="query-message"><?= $translations[$lang]["have-query"][1] ?></p>
         <div class="custom-time-select-dropdown">
             <label id="hours-selected-item"><span class="icon"></span><span class="hours">00</span><sub><br></sub></label>
             <ul class="hours-dropdown">
@@ -219,7 +219,7 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
                 <li data-value="58">58</li>
                 <li data-value="59">59</li>
             </ul>
-            <button id="requestCall">REQUEST A CALL</button>
+            <button id="requestCall"><?= $translations[$lang]["text"]["request_call"] ?></button>
         </div>
         <!-- <div style="margin-top: 5px;padding-bottom: 40px;">
             <a id="request-call-button">REQUEST A CALL</a>
@@ -229,12 +229,12 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         </div> -->
         <hr style="width: 75%;">
         <div class="ask-question-section">
-            <p id="ask-question">Ask any question and we will get back to you</p>
+            <p id="ask-question"><?= $translations[$lang]["ask-question-section"] ?></p>
         </div>
         <textarea id="customerQuestion" rows="5" placeholder="Type your question here"></textarea>
 
         <div style="margin-top: 30px;">
-            <a id="query-submit-button">SUBMIT</a>
+            <a id="query-submit-button"><?= $translations[$lang]["text"]["submit"] ?></a>
         </div>
     </div>
     <!-- End of contact us information -->
@@ -259,7 +259,7 @@ if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">Austria</span> :  +44(0) 207 392 1400  Freephone  0800 006 297</div>
         <div class="contact-detail col-md-12 col-sm-12"><span style="font-family: Montserrat;font-weight: bold;">France</span> : +44(0) 207 392 1400  Freephone  0805 111 253</div>
         <div style="margin-top:30px;" class="contact-detail col-md-12 col-sm-12">
-            <a class="cta-button" href="https://clients.pipindex.com">Continue to Dashboard</a>
+            <a class="cta-button" href="https://clients.pipindex.com"><?= $translations[$lang]["text"]["continue_to_dashboard"] ?></a>
         </div>
     </div>
 </div>

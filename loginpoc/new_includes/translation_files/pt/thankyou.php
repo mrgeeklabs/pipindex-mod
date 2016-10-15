@@ -2,6 +2,7 @@
     $translations = array(
         "pt"=>array(
             "text" => array(
+                "continue_to_dashboard" => "Prossiga ao Dashboard",
                 "agree"=>"Eu concordo",
                 "cancel"=> "Cancelar",
                 "watch_video" => "ASSISTA AO VIDEO",
@@ -26,6 +27,11 @@
                 "placeholder_phone"=>"Número de Telefone",
                 "placeholder_email"=>"Endereço eletrônico E-mail"
             ),
+            "have-query" => array(
+                "Tem alguma dúvida?",
+                "Escolha o melhor horário e nós entraremos em contato."
+            ),
+            "ask-question-section" => "Faça qualquer pergunta e nós entraremos em contato com você",
             "title" => "Muito Obrigado!",
             "thankYouContainer" => array(
                 "Muito Obrigado!",

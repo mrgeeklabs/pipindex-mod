@@ -2,6 +2,7 @@
     $translations = array(
         "de"=>array(
             "text" => array(
+                "continue_to_dashboard" => "Continue to Dashboard",
                 "agree"=>"Einverstanden",
                 "cancel"=> "Widerrufen",
                 "watch_video" => "Video ansehen",
@@ -21,6 +22,11 @@
                 "table_header_bonus" => "Bonus",
                 "table_header_october_bonus" => "Bonus Oktober",
             ),
+            "have-query" => array(
+                "Haben Sie Fragen? ",
+                "Wählen Sie eine passende Zeit und wir kontaktieren Sie."
+            ),
+            "ask-question-section" => "Stellen Sie uns eine Frage und wir werden Sie kontaktieren.",
             "title" => "Vielen Dank!",
             "thankYouContainer" => array(
                 "Vielen Dank!",
