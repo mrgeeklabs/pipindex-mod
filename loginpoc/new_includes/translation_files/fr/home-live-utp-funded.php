@@ -1,6 +1,13 @@
 <?php
     $translations = array(
         "fr"=>array(
+            "footer" => '<div class="main-footer">
+                                <p style="margin-top:-10px; font-size:11px; color:#e6e6e6; margin-top:10px;">PipIndex Capital Market et PipIndex sont enresgistré au nom commerciaux de Finsa Europe Limited. Finsa Europe Limited et sont autorisés et réglementés par la Financial Conduct Authority (FCA) au Royaume-Uni. <br /><br>
+                                
+<span style="font-size:13px">AVERTISSEMENT: le trading de produits à effet de levier comporte un risque élevé pour votre capital et il est possible de perdre plus que votre investissement initial. Ces produits peuvent ne pas convenir à tous les investisseurs, donc assurez-vous de bien comprendre les risques encourus et de solliciter un avis indépendant si nécessaire.</span>
+</p><br><br>
+                                        <p style="width:100%; margin:0 auto; text-align:right; color:#fff; margin-top:10px">PipIndex Capital Markets<br>&copy; 2016 |  PipIndex Capital Markets</p>
+                                    </div>',
             "text" => array(
                 "agree"=>"Je suis d'accord",
                 "cancel"=> "Annuler",

@@ -1,6 +1,16 @@
 <?php
     $translations = array(
         "en"=>array(
+            "footer" => '<div class="footer-container">
+        <div class="footer-tagline">
+            <span style="color: #97dbe3;">© 2016</span> | <b><span style="color:#fff;">Academy of Financial Trading.</span></b> All Rights Reserved.
+        </div>
+        <div class="footer-text">
+            General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland).
+            <br>
+            £10,000 Prize Terms and Conditions: Only applicable to PipIndex Capital Markets customers that transfer the balance of their trading accounts to ETX Capital and place an initial trade during the promotion period specified above, or to customers who upgrade from demo to live account during the period and place their first trade with ETX Capital. The rules are simple but we must say them out loud; upgrade your account, place your trade to enter the competition and you might be drawn as the lucky winner. Cash prize will only be credited to the customer who wins for AML reasons hence the funds will only be credited to an account in the name matching our records. The cash prize will be sent as £10,000. Should there be any foreign exchange or other bank charges such will be the responsibility of the fortunate recipient. The deadlines for the first trade prize are given with ample time hence neither PipIndex, nor ETX Capital, nor Finsa Europe Limited accept any responsibility for delays in opening or closing trading accounts, in remitting funds, or otherwise allowing a trade deal to be placed so as the customer is eligible to meet the terms and conditions of this prize draw. Any changes to the above Terms and Conditions are at the discretion of PipIndex Capital Markets.
+        </div>    
+   </div> ',
             "text" => array(
                 "agree"=>"I Agree",
                 "cancel"=> "Cancel",

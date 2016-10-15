@@ -1,6 +1,19 @@
 <?php
     $translations = array(
         "pt"=>array(
+            "footer" => '<div class="main-footer">
+
+                                <p style="margin-top:-10px; font-size:13px; color:#e6e6e6; margin-top:10px;">AVISO DE RISCO: Negociar produtos de alavancagem comporta um alto risco para o seu capital e é possível perder mais do que o seu investimento inicial. Estes produtos podem não ser aconselháveis para todos os investidores, portanto assegure-se que entende completamente os riscos envolvidos, e procure aconselho independente se necessário.<br /><br>
+
+                                
+
+<span style="font-size:11px">A PipIndex Capital Markets e PipIndex são marcas registadas da Finsa Europe Limited. A Finsa Europe Limited está autorizada e regulamentada pelo Financial Conduct Authority (FCA) no  Reino Unido. O número de registo FCA é 525164. Número da empresa 07073413. Escritório registado: 110 Fenchurch Street, London, EC3M 5JT, United Kingdom. </span>
+
+</p><br><br>
+
+                                        <p style="width:100%; margin:0 auto; text-align:right; color:#fff; margin-top:10px">PipIndex Capital Markets<br>&copy; 2016 |  PipIndex Capital Markets</p>
+
+                                    </div>',
             "text" => array(
                 "agree"=>"Eu concordo",
                 "cancel"=> "Cancelar",
