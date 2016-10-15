@@ -42,7 +42,7 @@ AVISO LEGAL: QUAISQUER OPINIÕES, NOTÍCIAS, INVESTIGAÇÃO, ANÁLISE, PREÇOS, 
             ),
             "update-account"=> array(
                 "Abra Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e receba + Novo Bônus Outubro Conta",
-                "++ Concorra a um prêmio em dinheiro de $10,000"
+                "++ Concorra a um prêmio em dinheiro de £10,000"
             ),
             "update-steps-container"=> array(
                 array(

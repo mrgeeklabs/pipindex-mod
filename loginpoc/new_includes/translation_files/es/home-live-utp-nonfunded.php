@@ -41,7 +41,7 @@
             ),
             "update-account"=> array(
                 "Abra una cuenta y realice la primer operación/trade antes del Lunes 24 de Octubre de 2016 y",
-                "tenga la posibilidad de ganar $10.000 en efectivo!",
+                "tenga la posibilidad de ganar £10.000 en efectivo!",
                 "+ Bono para las nuevas cuentas de Octubre"
             ),
             "update-steps-container"=> array(

@@ -50,7 +50,7 @@
                 "Abra una cuenta y realice la primer operación/trade antes del Lunes 24 de Octubre de 2016 y recibe",
                 "+Ultimate Traders Programme gratuito",
                 "++ Bono para las nuevas cuentas de Octubre",
-                "+++ Ingreso al sorteo de los $10.000"
+                "+++ Ingreso al sorteo de los £10.000"
             ),
             "update-steps-container"=> array(
                 array(

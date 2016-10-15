@@ -88,7 +88,7 @@
                 "Un membre de l’equipe de ETX vous appellera pour vous accueillir et vous offrir un soutien",
                 "L'éducation gratuite sera fournie sur MT4",
                 "Plus de fiabilité avec un plus grand soutien",
-                "Placer 1 Trade et vous pourrez gagner 10 000 $"
+                "Placer 1 Trade et vous pourrez gagner 10 000 £"
             ),
             "improve-account-container" => "Améliorer votre compte dès maintenant !",
             "have-query" => array(

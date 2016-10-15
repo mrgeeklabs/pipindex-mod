@@ -99,7 +99,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
                 "Une personne de l’équipe de ETX vous appellera pour vous accueillir et vous offrir un soutien",
                 "L'éducation gratuite sera fournie sur MT4",
                 "Plus de fiabilité avec un plus grand soutien",
-                "Placer 1 Trade et vous pourrez gagner 10 000 $"
+                "Placer 1 Trade et vous pourrez gagner 10 000 £"
             ),
             "improve-account-container" => "Ouvrez votre compte dès maintenant",
             "have-query" => array(

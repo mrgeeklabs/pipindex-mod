@@ -42,7 +42,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
             "update-account"=> array(
                 "Ouvrez votre compte et Placez un 1er Trade d'ici le lundi 24e Octobre 2016 et recevez",
                 "Bonus nouveau compte d’octobre",
-                "++ Soyez dans le tirage au sort des 10.000 en $"
+                "++ Soyez dans le tirage au sort des 10.000 en £"
             ),
             "update-steps-container"=> array(
                 array(
@@ -91,7 +91,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
                 "Un membre de l'équipe de ETX vous appellera pour vous accueillir et vous offrir un soutien",
                 "L'éducation gratuite sera fournie sur MT4",
                 "Plus de fiabilité avec un plus grand soutien",
-                "Placer 1 Trade et vous pourrez gagner 10 000 $"
+                "Placer 1 Trade et vous pourrez gagner 10 000 £"
             ),
             "improve-account-container" => "Ouvrez votre compte dès maintenant",
             "have-query" => array(
