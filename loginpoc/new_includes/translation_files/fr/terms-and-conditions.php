@@ -6,6 +6,7 @@
                 "cancel"=> "Annuler",
                 "thank_you" => "Je vous remercie",
                 "thank_you_message" => "Nous serons en contact bientôt",
+                "submit" => "SOUMETTRE",
             ),
             "title"=>"Termes et conditions | PipIndex Capital Markets",
             "body" => array(

@@ -6,6 +6,7 @@
                 "cancel"=> "Widerrufen",
                 "thank_you" => "Vielen Dank",
                 "thank_you_message" => "Wir werden Sie in Kürze kontaktieren",
+                "submit" => "Einreichen",
             ),
             "title"=>"Geschäftsbedingungen | PipIndex Capital Markets",
             "body" => array(

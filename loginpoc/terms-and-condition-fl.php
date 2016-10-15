@@ -105,7 +105,7 @@ include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
         <div class="modal-content">
             <div class="heading">Please let us know your reason to not upgrade your account</div>
             <textarea id="reason" name="reason" cols="30" rows="10" placeholder="Type your reason here" required></textarea>
-            <button class="btn" id="submitReasonbtn">Submit</button>
+            <button class="btn" id="submitReasonbtn"><?= $translations[$lang]["text"]["submit"] ?></button>
         </div>
     </div>
 </div>

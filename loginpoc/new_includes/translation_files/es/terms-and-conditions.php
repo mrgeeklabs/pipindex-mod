@@ -5,7 +5,8 @@
                 "agree"=>"Estoy de acuerdo",
                 "cancel"=> "Cancelar",
                 "thank_you" => "Gracias",
-                "thank_you_message" => "Nos podremos en contacto a la brevedad"
+                "thank_you_message" => "Nos podremos en contacto a la brevedad",
+                "submit" => "ENVIAR",
             ),
             "title"=>"Términos y Condiciones | PipIndex Capital Markets",
             "body" => array(
