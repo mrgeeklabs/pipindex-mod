@@ -14,15 +14,15 @@
 	if($lang=='en')
 		$update_account_message_wrapper = 315;
 	else if($lang=='es')
-		$update_account_message_wrapper = 470;
+		$update_account_message_wrapper = 670;
 	else if($lang=='de')
 		$update_account_message_wrapper = 390;
 	else if($lang=='fr')
-		$update_account_message_wrapper = 450;
+		$update_account_message_wrapper = 670;
 	else if($lang=='it')
 		$update_account_message_wrapper = 450;
 	else if($lang=='pt')
-		$update_account_message_wrapper = 400;
+		$update_account_message_wrapper = 560;
 	else
 		$update_account_message_wrapper = 315;
 

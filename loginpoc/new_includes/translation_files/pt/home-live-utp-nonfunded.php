@@ -43,7 +43,7 @@
             ),
             "update-account"=> array(
                 "Ative Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um sorteio para ganhar £ 10.000 em dinheiro!",
-                "+ Novo Bônus Conta Outubro",
+                "Novo Bônus Conta Outubro",
             ),
             "update-steps-container"=> array(
                 array(

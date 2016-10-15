@@ -44,7 +44,7 @@ PipIndex Capital Markets Limited erzielt ihren Umsatz ausschließlich durch die 
             ),
             "update-account"=> array(
                 "Eröffnen Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 24. Oktober 2016 um 10,000 £ zu gewinnen!",
-                "+ Kostenloses Ultimate Traders Programme"
+                "Kostenloses Ultimate Traders Programme"
             ),
             "update-steps-container"=> array(
                 array(

@@ -3,7 +3,7 @@
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
 	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/header_banner.php";
 	include $defaultTranslationsPath;
-	if($lang == 'es'){
+	if($lang == 'es' || $lang == 'pt'){
 		$logo_margin = '150px';
 	}
 	else{
