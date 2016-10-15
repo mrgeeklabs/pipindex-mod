@@ -505,7 +505,7 @@ body .lp3-wrapper .features-container .feature .feature-title {
           vertical-align: middle;
           cursor: pointer; }
       .lp3-wrapper .banner-wrapper .banner-text-wrapper .banner-right {
-        width: 37%;
+        width: 40%;
         float: right; }
       .lp3-wrapper .banner-wrapper .banner-text-wrapper #account-better {
         font-size: 18px;
@@ -1776,7 +1776,7 @@ footer p {
     .header-container #nonutpLogo{
       height: 12px;
       width: auto;
-      margin-left: 72px;
+      margin-left: 72px !important;
     }
     .header-container #utpLogo {
       height: 16px;
