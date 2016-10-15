@@ -48,10 +48,10 @@
                     "title" => "PASO 3",
                     "info" => "Coloca la 1era operación/trade"
                 ),
-                array(
-                    "title" => "PASO 4",
-                    "info" => "Recibir su bono"
-                )
+                // array(
+                //     "title" => "PASO 4",
+                //     "info" => "Recibir su bono"
+                // )
             ),
             "prize-container" => array(
                 "PREMIO A LA PRIMERA OPERACIÓN",
