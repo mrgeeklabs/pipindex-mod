@@ -35,39 +35,11 @@ max-width: 100% !important;
 <table border="0" width="100%" align="center" cellspacing="0" cellpadding="0" >
 <tbody>
 
-<!-- <tr align="center">
-<td style="padding: 0;padding-bottom: 30px;">
-<img border="0" src="http://www.pipindex.com/new-static/images/email/Assets/handshake-with-benefits.png" width="100%" style="outline:none;color:#ffffff;text-decoration:none;">
-</td>
-</tr>
-<tr align="center">
-<td style="font-family: 'Open Sans', sans-serif;font-weight: 800;color: #808285;font-size: 18px;line-height: 1.9;letter-spacing: 0.2px;padding: 0 10% 10px;">
-
-</td>
-</tr> -->
-<!-- <tr align="center">
-<td style="font-family: 'Open Sans', sans-serif;font-weight: 800;color: #223f6a;font-size: 36px;line-height: 1.9;letter-spacing: 0.2px;padding: 0 5% 0px;">
-Free Ultimate Traders Programme
-</td>
-</tr>
-<tr align="center">
-<td style="font-family: 'Open Sans', sans-serif;font-weight: 800;color: #223f6a;font-size: 36px;line-height: 1.9;letter-spacing: 0.2px;padding: 0 5% 0px;">
-+ Larger Bonus
-</td>
-</tr>
-<tr align="center">
-<td style="font-family: 'Open Sans', sans-serif;font-weight: 800;color: #223f6a;font-size: 36px;line-height: 1.9;letter-spacing: 0.2px;padding: 0 5% 40px;">
-+ &pound;10,000 Prize<sup style="vertical-align: baseline;">*</sup>
-</td>
-</tr> -->
-
 <tr align="center">
 <td style="font-family: 'Open Sans', sans-serif;font-weight: 800;color: #223f6a;font-size: 36px;line-height: 1.9;letter-spacing: 0.2px;padding: 0 0 0px;">
-<img src="http://www.pipindex.com/new-static/images/email/Assets/Demo-Non-UTP.png" alt="Free Ultimate">
+<img src="http://www.pipindex.com/new-static/images/email/Assets/Demo-Non-UTP-<%= language %>.png" alt="<%= moreAltText %>">
 </td>
 </tr>
-
-
 <tr align="center">
 <td>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -80,7 +52,7 @@ Free Ultimate Traders Programme
 	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:24px;font-weight: 700;">LEARN MORE</center>
 	         </v:roundrect>
 	         <![endif]-->
-	         <a href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:24px;line-height:90px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">LEARN MORE</a>
+	         <a href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:24px;line-height:90px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;"><%= learnMore %></a></a>
 	      </div>
 	   </td>
 	</tr>
@@ -113,10 +85,10 @@ Free Ultimate Traders Programme
 	         [if mso]>
 	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.pipindex.com/offer-fu.php?email=email={!Lead.Email}&lang=<%= language %>" style="height:65px;v-text-anchor:middle;width:250px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
 	            <w:anchorlock/>
-	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:18px;font-weight: 700;">Learn More</center>
+	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:18px;font-weight: 700;"><%= learnMore %></center>
 	         </v:roundrect>
 	         <![endif]
-	         <a href="http://www.pipindex.com/offer-fu.php?email=email={!Lead.Email}&lang=<%= language %>" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:18px;line-height:75px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">Learn More</a>
+	         <a href="http://www.pipindex.com/offer-fu.php?email=email={!Lead.Email}&lang=<%= language %>" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:18px;line-height:75px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;"><%= learnMore %></a>
 	      </div>
 	   </td>
 	</tr>
@@ -140,8 +112,7 @@ Free Ultimate Traders Programme
 </tr>
 <tr>
 <td>
-General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland).
-<br>
+<%= footer.part1 %><br>
 </td>
 </tr>
 
