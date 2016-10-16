@@ -15,7 +15,9 @@
     capitale ed è possibile perdere più del proprio investimento iniziale. 
     Questi prodotti potrebbero non essere adatti a tutti gli investitori, di conseguenza assicurarsi di comprendere completamente il rischio coinvolto e richiedere 
     consulenza indipendente se necessario.</span>
-</p><br><br>
+</p><br><br><p style="margin-top:-10px; font-size:11px; color:#e6e6e6; margin-top:10px;">
+Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi del loro conto di trading presso ETX Capital ed inseriscono un primo trade durante il periodo della promozione sopra specificato, o ai clienti che effettuano il passaggio dalla demo al conto Live durante il periodo della promozione ed inseriscono un primo trade con ETX Capital. Le regole sono semplici, ma noi dobbiamo dobbiamo specificarle per bene. Passa al conto reale, inserisci il tuo primo trade per partecipare al concorso e potresti essere estratto come il fortunato vincitore. Per la normativa sull’antiriciclaggio (AML), il premio in denaro sarà accreditato esclusivamente al vincitore, quindi i fondi verranno accreditati esclusivamente solo sul conto a nome di un cliente che rientri tra quelli presenti nei nostri registri. Il premio in denaro consisterà nell’invio di 10,000 Sterline. Nel caso ci fossero costi di cambio o altri oneri bancari, questi saranno a carico del fortunato destinatario. I termini e le scadenze della promozione sono indicati con ampio anticipo, quindi, né PipIndex, nè ETX Capital, nè Finsa Europe Limited si assumono alcuna responsabilità per ritardi nell’apertura o la chiusura di conti di trading, nell’invio di fondi, o nel consentire il posizionamento del trade che rende il cliente idoneo nel soddisfare i termini e condizioni di questo concorso a premi. Eventuali modifiche ai Termini e Condizioni di cui sopra sono a discrezione di PipIndex Capital Markets.
+</p>
                                         <p style="width:100%; margin:0 auto; text-align:right; color:#fff; margin-top:10px">PipIndex Capital Markets<br>&copy; 2016 |  PipIndex Capital Markets</p>
                                     </div>',
             "text" => array(
