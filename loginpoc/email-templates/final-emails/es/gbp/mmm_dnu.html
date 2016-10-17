@@ -74,12 +74,12 @@ Free Ultimate Traders Programme
 	   <td>
 	      <div>
 	         <!--[if mso]>
-	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}&lang=es&currency=gbp" style="height:80px;v-text-anchor:middle;width:300px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
+	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=es&currency={{lead.Inferred Currency:default=usd}}" style="height:80px;v-text-anchor:middle;width:300px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
 	            <w:anchorlock/>
 	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:24px;font-weight: 700;">Aprende más</center>
 	         </v:roundrect>
 	         <![endif]-->
-	         <a href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}&lang=es&currency=gbp" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:24px;line-height:90px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">Aprende más</a>
+	         <a href="http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=es&currency={{lead.Inferred Currency:default=usd}}" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:24px;line-height:90px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">Aprende más</a>
 	      </div>
 	   </td>
 	</tr>
@@ -96,7 +96,7 @@ Free Ultimate Traders Programme
 </td>
 </tr>
 <!-- <tr align="center">
-<td style="padding: 0;padding-top: 30px;padding-bottom: 15px;"><a href="http://www.pipindex.com/offer-fu.php?email=email={!Lead.Email}&lang=es">
+<td style="padding: 0;padding-top: 30px;padding-bottom: 15px;"><a href="http://www.pipindex.com/offer-fu.php?email=email={{lead.Email Address}}&lang=es">
 <img border="0" src="http://www.pipindex.com/new-static/images/email/Assets/demo-image-new.png" width="100%" style="outline:none;color:#ffffff;text-decoration:none;"> </a>
 </td>
 </tr>
@@ -110,12 +110,12 @@ Free Ultimate Traders Programme
 	   <td>
 	      <div>
 	         [if mso]>
-	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.pipindex.com/offer-fu.php?email=email={!Lead.Email}&lang=es" style="height:65px;v-text-anchor:middle;width:250px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
+	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.pipindex.com/offer-fu.php?email=email={{lead.Email Address}}&lang=es" style="height:65px;v-text-anchor:middle;width:250px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
 	            <w:anchorlock/>
 	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:18px;font-weight: 700;">Learn More</center>
 	         </v:roundrect>
 	         <![endif]
-	         <a href="http://www.pipindex.com/offer-fu.php?email=email={!Lead.Email}&lang=es" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:18px;line-height:75px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">Learn More</a>
+	         <a href="http://www.pipindex.com/offer-fu.php?email=email={{lead.Email Address}}&lang=es" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:18px;line-height:75px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">Learn More</a>
 	      </div>
 	   </td>
 	</tr>
@@ -168,6 +168,6 @@ GENERAL: LA PÁGINA WEB DE LA ACADEMY OF FINANCIAL TRADING ESTÁ DISEÑADA EXCLU
 </tr>			
 </tbody>
 </table> <!-- end of main table -->
-<img src="http://www.academyft.com/trackevents.php?email={{!Lead.Email}}&eventType=mail-open">
+<img src="http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open">
 </body>
 </html>
