@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>PipIndex Email</title>	
-<link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
 <style type="text/css">
 @media only screen and (max-width:480px) {
 table[class=mainTable] {			
@@ -63,7 +62,7 @@ Free Ultimate Traders Programme
 
 <tr align="center">
 <td style="font-family: 'Open Sans', sans-serif;font-weight: 800;color: #223f6a;font-size: 36px;line-height: 1.9;letter-spacing: 0.2px;padding: 0 0 0px;">
-<img src="http://www.pipindex.com/new-static/images/email/Assets/Demo-Non-UTP.png" alt="Free Ultimate">
+<img src="http://www.pipindex.com/new-static/images/email/Assets/Demo-Non-UTP_<%= language %>.png" alt="Free Ultimate">
 </td>
 </tr>
 
@@ -75,12 +74,12 @@ Free Ultimate Traders Programme
 	   <td>
 	      <div>
 	         <!--[if mso]>
-	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}" style="height:80px;v-text-anchor:middle;width:300px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
+	         <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}&lang=<%= language %>&currency=<%= currency %>" style="height:80px;v-text-anchor:middle;width:300px;" arcsize="5%" strokecolor="#e26e14" fillcolor="#e26e14">
 	            <w:anchorlock/>
-	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:24px;font-weight: 700;">LEARN MORE</center>
+	            <center style="color:#ffffff;font-family: 'Open Sans', sans-serif;font-size:24px;font-weight: 700;"><%= learnMore %></center>
 	         </v:roundrect>
 	         <![endif]-->
-	         <a href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:24px;line-height:90px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;">LEARN MORE</a>
+	         <a href="http://www.academyft.com/offer-dnu.php?email={!Lead.Email}&lang=<%= language %>&currency=<%= currency %>" style="font-family: 'Open Sans', sans-serif;border-radius:3px;background-color:#e26e14;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:24px;line-height:90px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;font-weight: 700;"><%= learnMore %></a>
 	      </div>
 	   </td>
 	</tr>
@@ -136,11 +135,11 @@ Free Ultimate Traders Programme
 <table style="background: #4d6472 url(http://www.academyft.com/new-static/images/footer-bg.gif) 0 0 repeat;width: 100%;text-align: center; font-size: 9px;line-height: 10px; margin-top: 20px;text-transform: uppercase; color: #b2b2b2;    padding: 15px;">
 <tbody>
 <tr>
-<td><span style="color: #97dbe3;">© 2016</span> | <b><span style="color:#fff;">Academy of Financial Trading.</span></b> All Rights Reserved.</td>
+<td><span style="color: #97dbe3;">© 2016</span> | <b><span style="color:#fff;">Academy of Financial Trading.</span></b> <%= footer.ars %></td>
 </tr>
 <tr>
 <td>
-General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland).
+<%= footer.text %>
 <br>
 </td>
 </tr>

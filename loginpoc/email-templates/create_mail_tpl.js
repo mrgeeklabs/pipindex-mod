@@ -81,6 +81,63 @@ function generateForlanguage(language, text, aftFooter, pipFooter) {
 		"learnMore": text.learnMore,
 		"footer": pipFooter
 	};
+	var mmm_dnu_usd={
+		"language":language,
+		"learnMore": text.learnMore,
+		"currency":"usd",
+		"footer": aftFooter
+	};
+	var mmm_du_usd={
+		"language":language,
+		"learnMore": text.learnMore,
+		"currency":"usd",
+		"footer": aftFooter
+	};
+	var mmm_dnu_eur={
+		"language":language,
+		"learnMore": text.learnMore,
+		"currency":"eur",
+		"footer": aftFooter
+	};
+	var mmm_du_eur={
+		"language":language,
+		"learnMore": text.learnMore,
+		"currency":"eur",
+		"footer": aftFooter
+	};
+	var mmm_dnu_gbp={
+		"language":language,
+		"learnMore": text.learnMore,
+		"currency":"gbp",
+		"footer": aftFooter
+	};
+	var mmm_du_gbp={
+		"language":language,
+		"learnMore": text.learnMore,
+		"currency":"gbp",
+		"footer": aftFooter
+	};
+	var mmm_live_funded_non_utp={
+		"language":language,
+		"learnMore": text.learnMore,
+		"footer": pipFooter
+	};
+	var mmm_live_non_funded_non_utp={
+		"language":language,
+		"learnMore": text.learnMore,
+		"footer": pipFooter
+	};
+	var mmm_live_utp_funded={
+		"language": language,
+		"learnMore": text.learnMore,
+		"footer": pipFooter
+	};
+	var mmm_live_utp_nonfunded={
+		"language":language,
+		"learnMore": text.learnMore,
+		"footer": pipFooter
+	};
+
 	console.log(live_utp_nonfunded)
 	var _=require('underscore');
 	var fs=require("fs");
@@ -90,6 +147,14 @@ function generateForlanguage(language, text, aftFooter, pipFooter) {
 	var email_2_live_non_funded_non_utp_config_page = fs.readFileSync('./email_2_live_non_funded_non_utp.html', "utf8");
 	var live_utp_funded_config_page = fs.readFileSync('./email_2_live_funded_utp.html', "utf8");
 	var live_utp_nonfunded_config_page = fs.readFileSync('./email_2_live_non_funded_utp.html', "utf8");
+	
+	var mmm_dnu_config_page = fs.readFileSync('./MMM-dnu.html', "utf8");
+	var mmm_du_config_page = fs.readFileSync('./MMM-du.html', "utf8");
+	var mmm_live_nfnu_config_page = fs.readFileSync('./MMM-live-nfnu.html', "utf8");
+	var mmm_live_fnu_config_page = fs.readFileSync('./MMM-live-fnu.html', "utf8");
+	var mmm_live_fu_config_page = fs.readFileSync('./MMM-live-fu.html', "utf8");
+	var mmm_live_nfu_config_page = fs.readFileSync('./MMM-live-nfu.html', "utf8");
+
 	console.log(language);
 	fs.writeFileSync(__dirname + '/final-emails/'+language+'/gbp/demo_utp.html', _.template(demo_utp_config_page)(demo_utp_gbp));
 	fs.writeFileSync(__dirname + '/final-emails/'+language+'/gbp/demo_utp.html', _.template(demo_utp_config_page)(demo_utp_gbp));
@@ -109,6 +174,26 @@ function generateForlanguage(language, text, aftFooter, pipFooter) {
 	fs.writeFileSync(__dirname + '/final-emails/'+language+'/live_utp_non_funded.html', _.template(live_utp_nonfunded_config_page)(live_utp_nonfunded));
 	fs.writeFileSync(__dirname + '/final-emails/'+language+'/live_non_utp_funded.html', _.template(email_2_live_funded_non_utp_config_page)(email_2_live_funded_non_utp));
 	fs.writeFileSync(__dirname + '/final-emails/'+language+'/live_non_utp_non_funded.html', _.template(email_2_live_non_funded_non_utp_config_page)(email_2_live_non_funded_non_utp));
+
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/gbp/mmm_du.html', _.template(mmm_du_config_page)(mmm_du_gbp));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/gbp/mmm_du.html', _.template(mmm_du_config_page)(mmm_du_gbp));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/usd/mmm_du.html', _.template(mmm_du_config_page)(mmm_du_usd));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/usd/mmm_du.html', _.template(mmm_du_config_page)(mmm_du_usd));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/eur/mmm_du.html', _.template(mmm_du_config_page)(mmm_du_eur));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/eur/mmm_du.html', _.template(mmm_du_config_page)(mmm_du_eur));
+
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/gbp/mmm_dnu.html', _.template(mmm_dnu_config_page)(mmm_dnu_gbp));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/gbp/mmm_dnu.html', _.template(mmm_dnu_config_page)(mmm_dnu_gbp));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/usd/mmm_dnu.html', _.template(mmm_dnu_config_page)(mmm_dnu_usd));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/usd/mmm_dnu.html', _.template(mmm_dnu_config_page)(mmm_dnu_usd));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/eur/mmm_dnu.html', _.template(mmm_dnu_config_page)(mmm_dnu_eur));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/eur/mmm_dnu.html', _.template(mmm_dnu_config_page)(mmm_dnu_eur));
+
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/mmm_live_utp_funded.html', _.template(mmm_live_fu_config_page)(mmm_live_utp_funded));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/mmm_live_utp_non_funded.html', _.template(mmm_live_nfu_config_page)(mmm_live_utp_nonfunded));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/mmm_live_non_utp_funded.html', _.template(mmm_live_fnu_config_page)(mmm_live_funded_non_utp));
+	fs.writeFileSync(__dirname + '/final-emails/'+language+'/mmm_live_non_utp_non_funded.html', _.template(mmm_live_nfnu_config_page)(mmm_live_non_funded_non_utp));
+
 }
 //ENGLISH
 var aftFooter={
@@ -136,7 +221,7 @@ var language="en";
 generateForlanguage(language, text, aftFooter, pipFooter);
 var aftFooter={
 	"ars": "All Rights Reserved.",
-	"text":"General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland)."
+	"text":"ALLGEMEIN: DIE WEBSITE DER ACADEMY OF FINANCIAL TRADING IST AUSSCHLIESSLICH FÜR BILDUNGSZWECKE KONZIPIERT. DIE ACADEMY OF FINANCIAL TRADING UND ALLE IHRE VERBUNDENEN UNTERNEHMEN BEHALTEN SICH DAS RECHT VOR, TEILNAHMEANTRÄGE FÜR JEGLICHEN, VON DER ACADEMY OF FINANCIAL TRADING UND IHRER VERBUNDENEN UNTERNEHMEN ANGEBOTENEN KURSE ABZULEHNEN, WENN DIE KURSINHALTE DURCH DEN WOHNSITZ DES POTENTIELLEN TEILNEHMERS ODER AUS IRGENDEINEM ANDEREN GRUND ALS UNGEEIGNET ERACHTET WERDEN. ALLE KURSE, DIE FÜR EINWOHNER DER VEREINIGTEN STAATEN VON AMERIKA DURCHGEFÜHRT WERDEN, WERDEN VON DER ACADEMY OF FINANCIAL TRADING LLC (USA) IN DEN VEREINIGTEN STAATEN VON AMERIKA ZUR VERFÜGUNG GESTELLT. ALLE ANDEREN KURSE FÜR EINWOHNER ANDERER RECHTSRÄUME AUSSERHALB DER VEREINIGTEN STAATEN VON AMERIKA WERDEN VON DER ACADEMY OF FINANCIAL TRADING EDUCATION LIMITED (IRELAND) DURCHGEFÜHRT."
 };
 var pipFooter={
    "part1": "Risikohinweis: Der gehebelte Handel mit Forex und CFDs beinhaltet signifikante Verlustrisiken, bis hin zu einer unbegrenzten Nachschusspflicht. Dieser Handel ist nicht für jeden Investor geeignet und Sie sollten sicher stellen, dass Sie die Risiken verstanden haben.",
@@ -159,7 +244,7 @@ var language="de";
 generateForlanguage(language, text, aftFooter, pipFooter);
 var aftFooter={
 	"ars": "All Rights Reserved.",
-	"text":"General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland)."
+	"text":"GENERAL: LE SITE INTERNET DE L'ACADEMY OF FINANCIAL TRADING FINANCIER EST EXCLUSIVEMENT DESTINÉ À UN USAGE ÉDUCATIF. L'ACADÉMIE DE TRADING FINANCIER ET TOUTE ENTREPRISE ASSOCIÉE SE RÉSERVENT LE DROIT DE REFUSER LA CANDIDATURE DE QUICONQUE SOUHAITANT PARTICIPER AU PROGRAMME OFFERT PAR L'ACADÉMIE DE TRADING FINANCIER ET ENTREPRISES ASSOCIÉES SI LE CONTENU DE LA FORMATION SE RÉVÉLAIT INAPPROPRIÉ EN RAISON DU DOMICILE DU CANDIDAT OU POUR TOUTE AUTRE RAISON QUE CE SOIT. TOUS LES COURS DISPENSÉS AUX PERSONNES RÉSIDANT AUX ETATS-UNIS SONT DISTRIBUÉS AUX ETATS-UNIS PAR L'ACADEMY OF FINANCIAL TRADING FINANCIER LLC (ETATS-UNIS). TOUS LES COURS DISPENSÉS AUX PERSONNES RÉSIDANT DANS TOUTE AUTRE JURIDICTION EN DEHORS DES ETATS-UNIS SONT DISTRIBUÉS PAR L’ACADEMY OF FINANCIAL TRADING EDUCATION LIMITED (IRLANDE)."
 };
 var pipFooter={
    "part1": "AVERTISSEMENT: le trading de produits à effet de levier comporte un risque élevé pour votre capital et il est possible de perdre plus que votre investissement initial. Ces produits peuvent ne pas convenir à tous les investisseurs, donc assurez-vous de bien comprendre les risques encourus et de solliciter un avis indépendant si nécessaire.",
@@ -183,7 +268,7 @@ var language="fr";
 generateForlanguage(language, text, aftFooter, pipFooter);
 var aftFooter={
 	"ars": "All Rights Reserved.",
-	"text":"General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland)."
+	"text":"GENERAL: LA PÁGINA WEB DE LA ACADEMY OF FINANCIAL TRADING ESTÁ DISEÑADA EXCLUSIVAMENTE PARA FINES EDUCATIVOS. LA ACADEMY OF FINANCIAL TRADING Y TODAS SUS EMPRESAS ASOCIADAS SE RESERVAN EL DERECHO A RECHAZAR CUALQUIER SOLICITUD PARA PARTICIPAR EN CUALQUIERA DE LOS CURSOS EDUCATIVOS QUE IMPARTEN SI EL CONTENIDO DEL CURSO SE CONSIDERA INADECUADO POR RAZONES DE DOMICILIO DEL POSIBLE PARTICIPANTE O POR CUALQUIER OTRO MOTIVO. TODOS LOS CURSOS DIRIGIDOS A RESIDENTES EN ESTADOS UNIDOS SE IMPARTIRÁN EN ESTADOS UNIDOS POR LA ACADEMY OF FINANCIAL TRADING LLC (ESTADOS UNIDOS). TODOS LOS CURSOS DIRIGIDOS A RESIDENTES DE CUALQUIER OTRA JURISDICCIÓN FUERA DE LOS ESTADOS UNIDOS LOS IMPARTIRÁ LA ACADEMY OF FINANCIAL TRADING EDUCATION LIMITED (IRLANDA)."
 };
 var pipFooter={
    "part1": "ADVERTENCIA DE RIESGO: Operando con productos apalancados conllevan un alto riesgo para su capital y es posible perder más de su inversión inicial. Estos productos pueden no ser adecuados para todos los inversores, por lo tanto, asegúrese de comprender plenamente los riesgos involucrados, y busque asesoramiento independiente si es necesario.",
@@ -207,7 +292,7 @@ var language="es";
 generateForlanguage(language, text, aftFooter, pipFooter);
 var aftFooter={
 	"ars": "All Rights Reserved.",
-	"text":"General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland)."
+	"text":"GENERALE: IL SITO WEB ACADEMY OF FINANCIAL TRADING È SOLO A SCOPO EDUCATIVO. L'ACADEMY OF FINANCIAL TRADING E OGNI COMPAGNIA ASSOCIATA SI RISERVANO IL DIRITTO DI NEGARE QUALSIASI RICHIESTA DI PARTECIPAZIONE AI CORSI EDUCATIVI FORNITI DALL'ACADEMY OF FINANCIAL TRADING E DA COMPAGNIE ASSOCIATE NEL CASO IL MATERIALE RELATIVO AL CORSO SIA RITENUTO NON ADDATO A CAUSA DEL DOMICILIO DEL PARTECIPANTE CHE NE HA FATTO RICHIESTA O PER QUALSIASI ALTRA RAGIONE. QUALSIASI CORSO OFFERTO AI RESIDENTI NEGLI STATI UNITI D'AMERICA VIENE DISTRIBUITO NEGLI STATI UNITI D'AMERICA DA ACADEMY OF FINANCIAL TRADING LLC (STATI UNITI D'AMERICA). QUALSIASI CORSO OFFERTO AI RESIDENTI DI QUALSIASI ALTRA GIURISDIZIONE AL DI FUORI DEGLI STATI UNITI D'AMERICA È DISTRIBUITO DA ACADEMY OF FINANCIAL TRADING EDUCATION LIMITED (IRLANDA)."
 };
 var pipFooter={
    "part1": "AVVERTIMENTO DI RISCHIO: Eseguire trading utilizzando la leva comporta un alto rischio per il proprio capitale ed è possibile perdere più del proprio investimento iniziale. Questi prodotti potrebbero non essere adatti a tutti gli investitori, di conseguenza assicurarsi di comprendere completamente il rischio coinvolto e richiedere consulenza indipendente se necessario.",
@@ -231,7 +316,7 @@ var language="it";
 generateForlanguage(language, text, aftFooter, pipFooter);
 var aftFooter={
 	"ars": "All Rights Reserved.",
-	"text":"General: The Academy of Financial Trading website is for educational use only. The Academy of Financial Trading and any associated companies reserves the right to deny any application to attend any educational courses provided by the Academy of Financial Trading and associated companies should the course material be deemed unsuitable due to the domicile of the proposed attendee or for any other reason. Any courses delivered to residents of the United States of America are distributed in the United States of America by the Academy of Financial Trading LLC (United States of America). Any courses delivered to residents of any other jurisdiction outside of the United States of America are distributed by the Academy of Financial Trading Education Limited (Ireland)."
+	"text":"GERAL: O WEBSITE ACADEMY OF FINANCIAL TRADING É UTILIZADO SOMENTE PARA FINS EDUCATIVOS. A ACADEMY OF FINANCIAL TRADING E QUAISQUER SUBSIDIÁRIAS RESERVAM-SE O DIREITO DE NÃO AUTORIZAR QUALQUER CANDIDATURA PARA A FREQUÊNCIA DE QUALQUER CURSO DE EDUCAÇÃO OFERECIDO PELA ACADEMY OF FINANCIAL TRADING E SUAS SUBSIDIÁRIAS, CASO O MATERIAL DO CURSO SEJA CONSIDERADO INADEQUADO DEVIDO AO DOMICÍLIO DO CANDIDATO À FREQUÊNCIA DO CURSO OU POR QUALQUER OUTRA RAZÃO. QUAISQUER CURSOS OFERECIDOS A RESIDENTES DOS ESTADOS UNIDOS DA AMÉRICA SÃO FORNECIDOS NOS ESTADOS UNIDOS DA AMÉRICA PELA ACADEMY OF FINANCIAL TRADING LLC (ESTADOS UNIDOS DA AMÉRICA) QUAISQUER CURSOS OFERECIDOS A RESIDENTES DE QUALQUER OUTRA JURISDIÇÃO FORA DOS ESTADOS UNIDOS DA AMÉRICA SÃO FORNECIDOS PELA ACADEMY OF FINANCIAL TRADING EDUCATION LIMITED (IRLANDA)."
 };
 var pipFooter={
    "part1": "AVISO DE RISCO: Negociar produtos de alavancagem comporta um alto risco para o seu capital e é possível perder mais do que o seu investimento inicial. Estes produtos podem não ser aconselháveis para todos os investidores, portanto assegure-se que entende completamente os riscos envolvidos, e procure aconselho independente se necessário.",
@@ -253,4 +338,6 @@ var text= {
 };
 var language="pt";
 generateForlanguage(language, text, aftFooter, pipFooter);
+
+
 
