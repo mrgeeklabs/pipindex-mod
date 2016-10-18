@@ -79,6 +79,7 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
             ),
             "scholars-section-container" => array(
                 "REGULADA PELA UK FINANCIAL CONDUCT AUTHORITY",
+                "£10,000 PRÊMIO DO PRIMEIRO TRADE",
                 "GERENTE PESSOAL DEDICADO",
                 "INÚMEROS IDIOMAS",
                 "COMPLETA PLATAFORMA DE NEGOCIAÇÃO MT4",
@@ -101,15 +102,15 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
             "ask-question-section" => "Faça qualquer pergunta e nós entraremos em contato com você",
             "strongPoints" =>array(
                 "header" => array(
-                    "Free Lifetime Membership to",
+                    "Lifetime Membership Grátis da",
                     "Academy of Financial Trading"
                 ),
                 "list" => array(
-                    "Complete Ultimate Traders Programme",
-                    "2 Custom Strategies",
-                    "3 Custom Indicators",
-                    "Risk Management Software",
-                    "Trading Consultant for Life"
+                    "Ultimate Traders Programme Completo",
+                    "2 Estratégias Customizadas",
+                    "3 Indicadores Customizados",
+                    "Software de Gerenciamento de Risco",
+                    "Atendimento Vitalício e Personalizado sobre Trading "
                 )
             )
         )
