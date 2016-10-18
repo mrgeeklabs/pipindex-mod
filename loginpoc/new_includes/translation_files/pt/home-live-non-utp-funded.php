@@ -43,7 +43,7 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
             ),
             "update-account"=> array(
                 "Abra Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e concorra a um sorteio para ganhar £ 10.000 em dinheiro!",
-                "+ Ultimate Traders Programma grátis",
+                "Ultimate Traders Programma grátis",
             ),
             "update-steps-container"=> array(
                 array(
