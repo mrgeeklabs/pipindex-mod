@@ -14,7 +14,7 @@
                 'content' => array(
                     'title' => "Geschäftsbedingungen",
                     'message'=>'Indem Sie auf “Ich stimme zu” klicken, erklären Sie sich damit einverstanden, dass PipIndex Ihre persönlichen Daten an ETX Capital weiterleitet, so dass ETX Capital Sie per Telefon und/oder E-Mail kontaktieren kann und Sie erklären sich außerdem mit der Datenschutzerklärung von ETX Capital, wie unten beschrieben, einverstanden.',
-                    'message2' => '',
+                    'message2' => 'Die Informationen unten, emailed zu Ihnen, ist für Sie zu überprüfen, über die automatisch Übertragung Ihres Kontos von PipIndex nach ETX Capital. Wenn Sie auf "Ich stimme zu" klicken, stimmen Sie zu, dass PipIndex Ihre persönlichen Daten an ETX Capital weiterleitet, so dass ETX Capital Sie über Telefon und / oder Email kontaktieren kann und erklären Sie das Sie sich mit den Datenschutzbestimmungen von ETX Capital einverstanden.',
                     'terms' => array(
                         array(
                             "header"=>"ETX DATENSCHUTZERKLÄRUNG",

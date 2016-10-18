@@ -14,7 +14,7 @@
                 'content' => array(
                     'title' => "Términos y Condiciones",
                     'message'=>'Al hacer clic en "Estoy de acuerdo"  usted está de acuerdo con PipIndex de pasar su información personal a ETX Capital, de esta manera ETX Capital puede contactarse con usted por teléfono y / o correo electrónico. Como así también está de acuerdo con la política de privacidad de ETX Capital como se describe a continuación.',
-                    'message2' => '',
+                    'message2' => 'La siguiente información, ya enviada por correo electrónico, es para que usted pueda revisar con respecto a la transición automática de su cuenta de PipIndex a ETX Capital. Al hacer clic en "Estoy de acuerdo", usted está de acuerdo con PipIndex de pasar su información personal para ETX Capital, de manera que ETX capital puede contactarle por teléfono y / o correo electrónico y está de acuerdo con la política de privacidad de ETX Capital como a continuación.',
                     'terms' => array(
                         array(
                             "header"=>"POLITICA DE PRIVACIDAD DE ETX",
