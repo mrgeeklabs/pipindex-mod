@@ -66,7 +66,7 @@
             "usd"=>"$",
             "gbp"=>"£"
         );
-        return $prizeMoney['gbp'];
+        return $prizeMoney[$currency];
     }
     function getEtxLink($language, $currency){
         $linksEnglish=array(
