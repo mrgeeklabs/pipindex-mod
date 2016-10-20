@@ -38,7 +38,9 @@
 			"width": "10"
 		}	],		
 	"cta":{
-		"text": "Aprenda Mais",
+		"text": "COMECE AGORA",
+		"font": "24px",
+		"width":"300px",
 		"link": "http://www.pipindex.com/offer-fu.php?email={!Lead.Email}&lang=pt"
 	}
 }

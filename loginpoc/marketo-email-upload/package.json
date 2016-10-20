@@ -8,6 +8,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "csvtojson": "^1.0.3",
+    "he": "^1.1.0",
     "mammoth": "^1.2.5",
     "mkdirp": "^0.5.1",
     "underscore": "^1.8.3"

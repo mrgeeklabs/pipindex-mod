@@ -38,7 +38,9 @@
 			"width": "10"
 		}	],		
 	"cta":{
-		"text": "<%= learnMore %>",
+		"text": "<%= data[41] %>",
+		"font": "24px",
+		"width":"300px",
 		"link": "http://www.pipindex.com/offer-fu.php?email={!Lead.Email}&lang=<%=language %>"
 	}
 }

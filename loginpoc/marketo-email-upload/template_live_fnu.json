@@ -40,7 +40,9 @@
 		}
 	],		
 	"cta":{
-		"text": "<%= learnMore %>",
+		"text": "<%= data[23] %>",
+		"font": "24px",
+		"width":"300px",
 		"link": "http://www.pipindex.com/offer-fnu.php?email={!Lead.Email}&lang=<%=language %>"
 	}
 }

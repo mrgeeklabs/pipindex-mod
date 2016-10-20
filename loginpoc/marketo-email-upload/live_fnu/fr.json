@@ -40,7 +40,9 @@
 		}
 	],		
 	"cta":{
-		"text": "Apprendre encore plus",
+		"text": "COMMENCER MAINTENANT",
+		"font": "24px",
+		"width":"300px",
 		"link": "http://www.pipindex.com/offer-fnu.php?email={!Lead.Email}&lang=fr"
 	}
 }

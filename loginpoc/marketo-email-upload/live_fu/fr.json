@@ -12,7 +12,7 @@
 			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;"
 		},
 		{
-			"text":"ETX Capital prend en charge les services de Trading pour tous les clients de PipIndex. Dans le cadre de ce nouveau partenariat entre ETX et l&#8217;Academy of Financial Trading, vos indicateurs UTP seront compatibles avec la plate-forme MT4 de ETX, o&#249; vous aurez &#233;galement plus de march&#233;s &#224; Trader et &#224; moindre coût. Nous avons aussi un prix &#163; 10,000 &#224; gagner par tirage au sort pour tout le monde qui place un premier Trade avant 14 :00 BST le 24 Octobre. C&#8217;est une proc&#233;dure tr&#232;s simple et rapide pour actualiser votre compte et commencer &#224; recevoir tous les avantages.",
+			"text":"ETX Capital prend en charge les services de Trading pour tous les clients de PipIndex. Dans le cadre de ce nouveau partenariat entre ETX et l&#8217;Academy of Financial Trading, vos indicateurs UTP seront compatibles avec la plate-forme MT4 de ETX, o&#249; vous aurez &#233;galement plus de march&#233;s &#224; Trader et &#224; moindre co&#251;t. Nous avons aussi un prix &#163; 10,000 &#224; gagner par tirage au sort pour tout le monde qui place un premier Trade avant 14 :00 BST le 24 Octobre. C&#8217;est une proc&#233;dure tr&#232;s simple et rapide pour actualiser votre compte et commencer &#224; recevoir tous les avantages.",
 			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;margin-bottom:8px"
 		}
 	],
@@ -38,7 +38,9 @@
 			"width": "10"
 		}	],		
 	"cta":{
-		"text": "Apprendre encore plus",
+		"text": "COMMENCER MAINTENANT",
+		"font": "24px",
+		"width":"300px",
 		"link": "http://www.pipindex.com/offer-fu.php?email={!Lead.Email}&lang=fr"
 	}
 }

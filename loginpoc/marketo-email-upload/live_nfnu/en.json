@@ -18,12 +18,12 @@
 	],
 	"post_cta_lines":[
 		{
-			"text":"Don&#8217;t forget, you will receive your trading bonus based only on your 1<sup>st</sup> deposit so take a look at the October Bonus below. This is valid only for those who set up and fund a live account with over &#163;200/&#8364;250/$275 and place 1 trade before 2pm Monday 24th October. Once you have placed your trade you will also be entered into a draw to win &#163;10,000 cash!",
+			"text":"Don&#8217;t forget, you will receive your trading bonus based only on your 1&#60;sup&#62;st&#60;/sup&#62; deposit so take a look at the October Bonus below. This is valid only for those who set up and fund a live account with over &#163;200/&#8364;250/$275 and place 1 trade before 2pm Monday 24th October. Once you have placed your trade you will also be entered into a draw to win &#163;10,000 cash!",
 			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;",
 			"width": "15"
 		},
 		{
-			"text":"<img width=\"660px\" src=\"https://s3-us-west-1.amazonaws.com/gravity-staging-assets/bonus-table-en.png\" alt=\"More For You.\"></img>",
+			"text":"<img width=\"660px\" src=\"https://s3-eu-west-1.amazonaws.com/shawaftassets/Lp-and-mailer/bonus-table-en.png\" alt=\"More For You.\"></img>",
 			"extraStyle": "line-height: 1.9;letter-spacing: 0.2px; padding: 0 0 40px;text-align:center",
 			"width":"auto"
 		},
@@ -49,7 +49,9 @@
 		}
 		],		
 	"cta":{
-		"text": "Learn More",
+		"text": "START NOW",
+		"font": "24px",
+		"width":"300px",
 		"link": "http://www.pipindex.com/offer-nfnu.php?email={!Lead.Email}&lang=en"
 	}
 }
