@@ -493,7 +493,7 @@
 
 	<?php
 		//include ($_SERVER['DOCUMENT_ROOT'] .'/footer_utp.php');
-		include ($_SERVER['DOCUMENT_ROOT'] .'/footer.php');
+		include ($_SERVER['DOCUMENT_ROOT'] .'/footer_live.php');
 	?>
 
 	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/new_includes/utils.php'); echo '<img class="trackingPixel" src="'. baseURL() .'trackevents.php?email=' .(isset($_GET['email']) ? trim($_GET['email'])  : '') .'&eventType=page-load&pageId=landing_page_3"/>'; ?>
