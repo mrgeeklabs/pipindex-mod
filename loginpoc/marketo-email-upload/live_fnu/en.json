@@ -1,0 +1,46 @@
+{
+	"language": "en",
+	"trackerUrl": "http://www.pipindex.com/trackevents.php?email={!Lead.Email}&eventType=mail-open",
+	"targetFileName":"live_fnu.html",
+	"pre_cta_lines":[
+		{
+			"text":"Hi {!Lead.FirstName},",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 0px;"
+		},
+		{
+			"text":"By now you should be aware that PipIndex will no longer be providing trading services at the end of this month. ",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;"
+		},
+		{
+			"text":"ETX Capital are taking over the trading services for all PipIndex clients. As part of this new partnership between ETX and Academy of Financial Trading, once you place your first trade with ETX by 2pm BST on October 24th, you will receive the Ultimate Traders Programme completely free. It&#8217;s a very straight forward process to update your account and start receiving all of the benefits. ",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;margin-bottom:8px"
+		}
+
+	],
+	"post_cta_lines":[
+		{
+			"text":"If you have any questions please let me know.",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"Kind regards,",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text": "{!Lead.OwnerFullName} | {!Lead.OwnerTitle} | Pipindex Capital Markets",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text": "{!Lead.OwnerEmail} | {!Lead.OwnerPhone}",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		}
+	],		
+	"cta":{
+		"text": "Learn More",
+		"link": "http://www.pipindex.com/offer-fnu.php?email={!Lead.Email}&lang=en"
+	}
+}

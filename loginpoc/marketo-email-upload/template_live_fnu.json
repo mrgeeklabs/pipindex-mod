@@ -1,0 +1,46 @@
+{
+	"language": "<%=language %>",
+	"trackerUrl": "http://www.pipindex.com/trackevents.php?email={!Lead.Email}&eventType=mail-open",
+	"targetFileName":"live_fnu.html",
+	"pre_cta_lines":[
+		{
+			"text":"<%=data[20] %>{!Lead.FirstName},",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 0px;"
+		},
+		{
+			"text":"<%=data[21] %>",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;"
+		},
+		{
+			"text":"<%=data[22] %>",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;margin-bottom:8px"
+		}
+
+	],
+	"post_cta_lines":[
+		{
+			"text":"<%=data[24] %>",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"<%=data[25] %>",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text": "{!Lead.OwnerFullName} | {!Lead.OwnerTitle} | Pipindex Capital Markets",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text": "{!Lead.OwnerEmail} | {!Lead.OwnerPhone}",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		}
+	],		
+	"cta":{
+		"text": "<%= learnMore %>",
+		"link": "http://www.pipindex.com/offer-fnu.php?email={!Lead.Email}&lang=<%=language %>"
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"language": "<%=language %>",
+	"trackerUrl": "http://www.pipindex.com/trackevents.php?email={!Lead.Email}&eventType=mail-open",
+	"targetFileName":"live_fu.html",
+	"pre_cta_lines":[
+		{
+			"text":"<%=data[38] %>{!Lead.FirstName},",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 0px;"
+		},
+		{
+			"text":"<%=data[39] %>",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;"
+		},
+		{
+			"text":"<%=data[40] %>",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;margin-bottom:8px"
+		}
+	],
+	"post_cta_lines":[
+		{
+			"text":"<%=data[42] %>",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"<%=data[43] %>",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"{!Lead.OwnerFullName} | {!Lead.OwnerTitle} | Pipindex Capital Markets",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"{!Lead.OwnerEmail} | {!Lead.OwnerPhone}",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		}	],		
+	"cta":{
+		"text": "<%= learnMore %>",
+		"link": "http://www.pipindex.com/offer-fu.php?email={!Lead.Email}&lang=<%=language %>"
+	}
+}

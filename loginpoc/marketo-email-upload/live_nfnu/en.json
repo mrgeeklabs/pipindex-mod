@@ -1,0 +1,55 @@
+{
+	"language": "en",
+	"trackerUrl": "http://www.pipindex.com/trackevents.php?email={!Lead.Email}&eventType=mail-open",
+	"targetFileName":"live_nfnu.html",
+	"pre_cta_lines":[
+		{
+			"text":"Hi {!Lead.FirstName},",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 0px;"
+		},
+		{
+			"text":"We have some great news - you can now receive the Ultimate Traders Programme for free.",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;"
+		},
+		{
+			"text":"ETX Capital are taking over the trading services for all PipIndex clients. As part of this new partnership between ETX and Academy of Financial Trading, once you place your first trade with ETX by 2pm BST on October 24th, you will receive the Ultimate Traders Programme completely free. It&#8217;s a very straight forward process to update your account and start receiving all of the benefits. ",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;margin-bottom:8px"
+		}
+	],
+	"post_cta_lines":[
+		{
+			"text":"Don&#8217;t forget, you will receive your trading bonus based only on your 1<sup>st</sup> deposit so take a look at the October Bonus below. This is valid only for those who set up and fund a live account with over &#163;200/&#8364;250/$275 and place 1 trade before 2pm Monday 24th October. Once you have placed your trade you will also be entered into a draw to win &#163;10,000 cash!",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;",
+			"width": "15"
+		},
+		{
+			"text":"<img width=\"660px\" src=\"https://s3-us-west-1.amazonaws.com/gravity-staging-assets/bonus-table-en.png\" alt=\"More For You.\"></img>",
+			"extraStyle": "line-height: 1.9;letter-spacing: 0.2px; padding: 0 0 40px;text-align:center",
+			"width":"auto"
+		},
+		{
+			"text":"If you have any questions please let me know.",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"Kind regards,",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"{!Lead.OwnerFullName} | {!Lead.OwnerTitle} | Pipindex Capital Markets",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"{!Lead.OwnerEmail} | {!Lead.OwnerPhone}",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		}
+		],		
+	"cta":{
+		"text": "Learn More",
+		"link": "http://www.pipindex.com/offer-nfnu.php?email={!Lead.Email}&lang=en"
+	}
+}

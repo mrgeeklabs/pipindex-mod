@@ -1,0 +1,55 @@
+{
+	"language": "es",
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"targetFileName":"demo_non_utp.html",
+	"pre_cta_lines":[
+		{
+			"text":"Hola {{lead.First Name}},",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 0px;"
+		},
+		{
+			"text":"Tenemos una gran noticia &#8211; ahora podr&#225; disfrutar de manera gratuita del Programa Ultimate Traders. ",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;"
+		},
+		{
+			"text":"ETX Capital se est&#225; haciendo cargo de los servicios de trading de los clientes de PipIndex. Como parte de esta asociaci&#243;n entre ETX y Academy of Financial Trading, una vez que realice su primera operaci&#243;n/trade con ETX antes de las 14.00 horas BST del 24 de octubre, recibir&#225; de manera totalmente gratuita el Programa Ultimate Traders. Es una forma sencilla y directa de actualizar su cuenta y que pueda empezar a disfrutar de los beneficios de este cambio.",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;margin-bottom:8px"
+		}
+	],
+	"post_cta_lines":[
+		{
+			"text":"No olvide que usted recibir&#225; su bono de trading basado solamente en su primer dep&#243;sito, por lo que le animamos a echar un vistazo al Bonus de Octubre que ver&#225; a continuaci&#243;n. Esto ser&#225; v&#225;lido s&#243;lo para aquellas personas que creen una cuenta con m&#225;s de &#163;200/&#8364;250/$275 y realicen una operaci&#243;n/trade antes de las 14.00 horas del Lunes 24 de Octubre. Una vez que haya realizado su operaci&#243;n/trade, ser&#225; inscrito adem&#225;s para participar un sorteo en el que podr&#225; ganar ¡&#163;10.000 en efectivo!",
+			"extraStyle": "line-height: 26px; letter-spacing: .5px; padding-top: 8px;",
+			"width": "15"
+		},
+		{
+			"text":"<img width=\"660px\" src=\"https://s3-us-west-1.amazonaws.com/gravity-staging-assets/bonus-table-es.png\" alt=\"More For You.\"></img>",
+			"extraStyle": "line-height:1.9;letter-spacing:0.2px;padding:0 0 40px; text-align:center",
+			"width":"auto"
+		},
+		{
+			"text":"Si tiene alguna pregunta, por favor h&#225;gamelo saber, estar&#233; encantado de ayudarle.",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"Saludos cordiales,",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"{{lead.freedom lead owner_mkto}} | {{lead.freedom lead owner title_mkto}} | Academy of Financial Trading",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		},
+		{
+			"text":"{{lead.freedom lead owner email_mkto}} | {{lead.freedom lead owner phone_mkto}}",
+			"extraStyle": "height:30px;",
+			"width": "10"
+		}
+	],		
+	"cta":{
+		"text": "Aprende más",
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=es&currency={{lead.Inferred Currency:default=usd}}"
+	}
+}
