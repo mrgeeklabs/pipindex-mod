@@ -32,35 +32,40 @@ if ($lines)
                 if (!in_array($email, $filters[$key]) && $email !== "" && filter_var($email, FILTER_VALIDATE_EMAIL))
                 {
 
+                    $time  = explode(":", $logLine[5]);
+                    $date = DateTime::createFromFormat('d/M/Y', $logLine[4]);
+                    $dateTime = $date->format('d/m/yyyy') . ' ' . $time[0] . ':' .$time[1];
+
                     if ($key == "eventType=mail-open") {
                         $intermediatePackage = [
-                            'Email_Open_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
-                            'Email_Open_IP__c'   => $trackingLine[1]
+                            'Email_Open_Time__c' => $dateTime,
+                            'Email_Open_IP__c'   => $logLine[1]
                         ];
                     } elseif ($key == "eventType=page-load&pageId=landing_page_3") {
                         $intermediatePackage = [
-                            'Landing_Page_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
-                            'Landing_Page_IP__c'   => $trackingLine[1]
+                            'Landing_Page_Time__c' => $dateTime,
+                            'Landing_Page_IP__c'   => $logLine[1]
                         ];
                     } elseif ($key == "eventType=page-load&pageId=terms") {
                         $intermediatePackage = [
-                            'Agreed_T_C_Page_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
-                            'Agreed_T_C_Page_IP__c'   => $trackingLine[1]
+                            'Agreed_T_C_Page_Time__c' => $dateTime,
+                            'Agreed_T_C_Page_IP__c'   => $logLine[1]
                         ];
                     } else {
                         $intermediatePackage = [
-                            'Agreed_T_C_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
-                            'Agreed_T_C_IP__c'   => $trackingLine[1]
+                            'Agreed_T_C_Time__c' => $dateTime,
+                            'Agreed_T_C_IP__c'   => $logLine[1]
                         ];
                     }
                     array_push($filters[$key], $email);
-                    //error_log("\n" . $email, 3, "output.log");
+                    $collection[$key][$email] = $intermediatePackage;
                 }
             }
         }
     }
     // For debug purposes only
-    //error_log("\n" . print_r($filters, TRUE), 3, "output.log");
+    error_log("\n" . print_r($collection, TRUE), 3, "output.log");
+
 
 } else
 {
