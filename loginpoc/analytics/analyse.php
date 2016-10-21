@@ -6,25 +6,16 @@ $lines = gzfile('/Users/aligajani/Desktop/pipindex.com-Oct-2016.gz');
 // This is for efficency purposes
 // and reduces API calls
 
-$processedEmails = array(
-    'mail-open'      => [],
-    'landing_page_3' => [],
-    'accept-terms'   => [],
-    'terms'          => []
-);
-
-// This  ensures we cherry pick
-// the event types we want
-
 $filters = array(
-    'eventType=mail-open',
-    'eventType=page-load&pageId=landing_page_3',
-    'eventType=page-load&pageId=terms',
-    'eventType=accept-terms'
+    'eventType=mail-open'                           => [],
+    'eventType=page-load&pageId=landing_page_3'     => [],
+    'eventType=page-load&pageId=terms'              => [],
+    'eventType=accept-terms'                        => []
 );
 
 // This collection will store the package
 // that ultimately ends up in salesforce
+
 $collection = array();
 
 if ($lines)
@@ -32,22 +23,23 @@ if ($lines)
     foreach ($lines as $line)
     {
         $logLine = parseApacheLogLine($line);
-        foreach($filters as $filter)
+        foreach($filters as $key => $filter)
         {
-            if (isset($logLine[8]) && (strpos($logLine[8], $filter) !== false))
+            if (isset($logLine[8]) && (strpos($logLine[8], $key) !== false))
             {
                 $trackingLine = parseTrackingLine($logLine[8]);
                 $email = getCleanEmail($trackingLine['email']);
-                if (!in_array($email, $processedEmails[$filter]) && $email !== "" && filter_var($email, FILTER_VALIDATE_EMAIL))
+                $index = array_search($filter,array_keys($filters));
+                if (!in_array($email, $filters[$key]) && $email !== "" && filter_var($email, FILTER_VALIDATE_EMAIL))
                 {
-                    array_push($processedEmails[$filter], $email);
-                    error_log("\n" . $email, 3, "output.log");
+                    array_push($filters[$key], $email);
+                    //error_log("\n" . $email, 3, "output.log");
                 }
             }
         }
     }
-
-    print_r($processedEmails);
+    // For debug purposes only
+    //error_log("\n" . print_r($filters, TRUE), 3, "output.log");
 
 } else
 {
@@ -75,6 +67,8 @@ function parseTrackingLine($trackingSegment)
     return $trackingLineIntoArray;
 
 }
+
+function constructMePackagesForDelivery() {}
 
 /*
  * Reference for accessing log data from array
