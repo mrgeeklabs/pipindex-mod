@@ -29,9 +29,30 @@ if ($lines)
             {
                 $trackingLine = parseTrackingLine($logLine[8]);
                 $email = getCleanEmail($trackingLine['email']);
-                $index = array_search($filter,array_keys($filters));
                 if (!in_array($email, $filters[$key]) && $email !== "" && filter_var($email, FILTER_VALIDATE_EMAIL))
                 {
+
+                    if ($key == "eventType=mail-open") {
+                        $intermediatePackage = [
+                            'Email_Open_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
+                            'Email_Open_IP__c'   => $trackingLine[1]
+                        ];
+                    } elseif ($key == "eventType=page-load&pageId=landing_page_3") {
+                        $intermediatePackage = [
+                            'Landing_Page_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
+                            'Landing_Page_IP__c'   => $trackingLine[1]
+                        ];
+                    } elseif ($key == "eventType=page-load&pageId=terms") {
+                        $intermediatePackage = [
+                            'Agreed_T_C_Page_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
+                            'Agreed_T_C_Page_IP__c'   => $trackingLine[1]
+                        ];
+                    } else {
+                        $intermediatePackage = [
+                            'Agreed_T_C_Time__c' => $trackingLine[4] . ' ' . $trackingLine[5],
+                            'Agreed_T_C_IP__c'   => $trackingLine[1]
+                        ];
+                    }
                     array_push($filters[$key], $email);
                     //error_log("\n" . $email, 3, "output.log");
                 }
@@ -67,8 +88,6 @@ function parseTrackingLine($trackingSegment)
     return $trackingLineIntoArray;
 
 }
-
-function constructMePackagesForDelivery() {}
 
 /*
  * Reference for accessing log data from array
