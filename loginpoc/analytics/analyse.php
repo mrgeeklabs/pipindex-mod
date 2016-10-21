@@ -34,7 +34,7 @@ if ($lines)
 
                     $time  = explode(":", $logLine[5]);
                     $date = DateTime::createFromFormat('d/M/Y', $logLine[4]);
-                    $dateTime = $date->format('d/m/yyyy') . ' ' . $time[0] . ':' .$time[1];
+                    $dateTime = $date->format('d/m/Y') . ' ' . $time[0] . ':' .$time[1];
 
                     if ($key == "eventType=mail-open") {
                         $intermediatePackage = [
@@ -63,8 +63,13 @@ if ($lines)
             }
         }
     }
-    // For debug purposes only
-    error_log("\n" . print_r($collection, TRUE), 3, "output.log");
+    $ready = array_merge_recursive(
+        $collection['eventType=mail-open'],
+        $collection['eventType=page-load&pageId=landing_page_3'],
+        $collection['eventType=page-load&pageId=terms'],
+        $collection['eventType=accept-terms']
+    );
+    error_log("\n" . print_r($ready, TRUE), 3, "output.log");
 
 
 } else
