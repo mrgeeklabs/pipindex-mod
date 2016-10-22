@@ -1,0 +1,31 @@
+{
+	"language": "es",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Hola {{lead.First Name}},",
+	"line2": "A estas alturas ya debe saber nuestras excitantes noticias y que al actualizar su cuenta recibir&#225;s gratis el UTP, obtendr&#225; un bono mayor, acceso a m&#225;s mercados y recibir&#225; un mayor apoyo de nuestros amigos de ETX. Si actualiza hoy participar&#225; en nuestro primer sorteo en el que podr&#225; ganar",
+	"line3": "Recuerde &#8211; esta oferta es s&#243;lo v&#225;lida hasta ma&#241;ana, ",
+	"line4": "aunque nuestro apoyo durar&#225; toda la vida!",
+	"line5": "PipIndex y Academy of Financial Trading esperan continuar ofreci&#233;ndole su soporte",
+	"line6": "Feliz aprendizaje y pr&#243;spero trading!",
+	"line7": "Su Equipo de Trading",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=es&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
+}

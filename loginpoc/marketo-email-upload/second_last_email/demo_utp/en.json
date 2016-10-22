@@ -9,10 +9,23 @@
 	"line4": "though our support will last a lifetime!",
 	"line5": "Pipindex and Academy of Financial Trading look forward to continuing to support you!",
 	"line6": "Happy learning and prosperous trading!",
-	"line6": "Your Trading Team",
+	"line7": "Your Trading Support Team",
 	"targetFileName":"demo_utp.html",	
 	"cta":{
 		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=en&currency={{lead.Inferred Currency_mkto:default=usd}}"
 	},
-	"footer": []
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
 }

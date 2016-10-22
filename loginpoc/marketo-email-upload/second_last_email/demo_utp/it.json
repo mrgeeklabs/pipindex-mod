@@ -1,0 +1,31 @@
+ {
+	"language": "it",
+	"pageId":"du",
+	"cellpadding":6,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Ciao {{lead.First Name}},",
+	"line2": "A questo punto, dovresti gi&#224; conoscere le ultime novit&#224; interessanti da parte dei nostri amici a ETX. Aggiornando il conto oggi, otterrai inoltre la possibilit&#224; di partecipare all&#39;estrazione del primo trade, per vincere ",
+	"line3": "Ricorda, il premio di 10.000 Sterline resta a disposizione fino a domani",
+	"line4": "mentre il nostro supporto durer&#224; a vita!",
+	"line5": "PipIndex e l&#39;Accademia del Financial Trading non vedono l&#8217;ora di continuare ad offrirti supporto!",
+	"line6": "Ti auguriamo buono studio ed un trading profittevole!",
+	"line7": "Il Tuo Trading Team di Supporto",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=it&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
+}

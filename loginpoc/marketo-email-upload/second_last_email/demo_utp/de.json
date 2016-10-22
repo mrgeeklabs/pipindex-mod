@@ -1,0 +1,31 @@
+ {
+	"language": "de",
+	"pageId":"du",
+	"cellpadding":6,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Hallo {{lead.First Name}},",
+	"line2": "Heute aktualisieren werden Sie auch in einem ersten Trade Draw zu ",
+	"line3": "Merken Sie  - dieser erste Preis von &#163; 10.000 ist nur bis morgen g&#252;ltig ",
+	"line4": "obwohl unsere Unterst&#252;tzung ein Leben lang dauert!",
+	"line5": "Pipindex und Academy of Financial Trading freuen sich darauf, Sie weiterhin zu unterst&#252;tzen!",
+	"line6": "Gl&#252;ckliches Lernen und wohlhabendem Handel!",
+	"line7": "Ihr Trading-Team",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=de&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
+}

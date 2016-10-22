@@ -1,0 +1,31 @@
+ {
+	"language": "fr",
+	"pageId":"du",
+	"cellpadding":6,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Bonjour {{lead.First Name}},",
+	"line2": "Depuis ce temps, vous devriez connaitre la bonne nouvelle avec ETX. Actualisez ce jour et participer &#224; un tirage au sort pour gagner  ",
+	"line3": "Souvenez-vous &#8211; ce premier prix de &#163;10.000 n&#8217;est valide que jusqu&#8217;&#224; demain",
+	"line4": "mais le support durera &#224; vie",
+	"line5": "Pipindex et l&#8217;Academy of Financial Trading se r&#233;jouissent de pouvoir vous soutenir&#160;!",
+	"line6": "Heureux d&#8217;apprendre et Trades prosp&#232;res",
+	"line7": "Votre equipe de Trading",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=fr&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
+}

@@ -2,7 +2,7 @@ var _=require('underscore');
 var fs=require("fs");
 var mkdirp = require('mkdirp');
 var he = require('he');
-var languages=["en"];
+var languages=["en","de","es","fr","it","pt"];
 var kinds=["demo_utp","demo_non_utp","live_fu","live_fnu","live_nfu","live_nfnu"];
 var pageIds=["du","dnu","fu","fnu","nfu","nfnu"];
 var learnMore = {
@@ -81,9 +81,8 @@ kinds.forEach(function(kind, kindIndex){
 		var dataFilePath="./second_last_email/"+kind+"/"+language+".json";
 		console.log(dataFilePath);
 		var templateData = JSON.parse(fs.readFileSync(dataFilePath, "utf8"));	
-		//console.log(templateData);	
-		for(var index=0;index<templateData.footer.length;index++){
-		templateData.footer[index]=he.encode(templateData.footer[index], {
+		for(var index=0;index<templateData.footer[language].length;index++){
+		templateData.footer[language][index]=he.encode(templateData.footer[language][index], {
 		  'useNamedReferences': false,
 		  'decimal': true
 		});
@@ -92,8 +91,9 @@ kinds.forEach(function(kind, kindIndex){
 			templateData["cta"]["font"]="22px";	
 			templateData["cta"]["width"]="350px";
 		}*/
+
 		var targetFilePath=__dirname + '/second_last_email/final-emails/'+language+'/'+templateData.targetFileName;		
-		console.log(kind, language,targetFilePath);
+		console.log(templateData.footer[language]);
 		fs.writeFileSync(targetFilePath, _.template(templateFile)(templateData));
 	});
 });

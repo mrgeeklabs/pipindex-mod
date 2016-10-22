@@ -1,0 +1,31 @@
+{
+	"language": "it",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Ciao {{lead.First Name}},",
+	"line2": "A questo punto, dovresti gi&#224; conoscere le nostre ultime novit&#224; interessanti: trasferendo il tuo conto riceverai il programma UTP gratuitamente, otterrai l&#8217;accesso a pi&#249; mercati ed un ottimo supporto da parte dei nostri amici a ETX. Aggiornando il conto oggi, riceverai inoltre la possibilit&#224; di partecipare all&#39;estrazione del primo trade, per vincere  ",
+	"line3": "Ricorda, quest&#8217;offerta resta a disposizione fino a domani ",
+	"line4": "mentre il nostro supporto durer&#224; a vita!",
+	"line5": "PipIndex e l&#39;Accademia del Financial Trading non vedono l&#8217;ora di continuare ad offrirti supporto!",
+	"line6": "Ti auguriamo buono studio ed un trading profittevole!",
+	"line7": "Il Tuo Trading Team di Supporto",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=it&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
+}
