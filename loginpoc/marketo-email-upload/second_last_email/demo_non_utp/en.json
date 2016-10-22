@@ -12,7 +12,7 @@
 	"line6": "Your Trading Team",
 	"targetFileName":"demo_non_utp.html",	
 	"cta":{
-		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=en&currency={{lead.Inferred Currency:default=usd}}"
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=en&currency={{lead.Inferred Currency_mkto:default=usd}}"
 	},
 	"footer": []
 }

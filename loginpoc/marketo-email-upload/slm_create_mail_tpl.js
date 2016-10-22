@@ -58,7 +58,7 @@ kinds.forEach(function(kind,kindIndex){
 
 		if(pageIds[kindIndex]==="du" || pageIds[kindIndex]==="dnu"){
 			trackerUrl="http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open";
-			ctaLink="http://www.academyft.com/offer-"+pageIds[kindIndex]+".php?email={{lead.Email Address}}&lang="+language+"&currency={{lead.Inferred Currency:default=usd}}";
+			ctaLink="http://www.academyft.com/offer-"+pageIds[kindIndex]+".php?email={{lead.Email Address}}&lang="+language+"&currency={{lead.Inferred Currency_mkto:default=usd}}";
 		}
 		fs.writeFileSync(targetFilePath, _.template(templateFile)({
 			data: attributes[pageIds[kindIndex]][language].data,
