@@ -4,14 +4,14 @@ var mkdirp = require('mkdirp');
 var he = require('he');
 var languages=["en","de","es","fr","it","pt"];
 var kinds=["demo_utp","demo_non_utp","live_fu","live_fnu","live_nfu","live_nfnu"];
-var learnMore={
-	"en":"Learn More",
-	"de":"Mehr lernen",
-	"es":"Aprende más",
-	"fr":"Apprendre encore plus",
-	"it":"Per saperne di più",
-	"pt":"Aprenda Mais",
-}
+var learnMore = {
+	"en": "Learn More",
+	"de": "Mehr lernen",
+	"es": "Aprende más",
+	"fr": "Apprendre encore plus",
+	"it": "Per saperne di più",
+	"pt": "Aprenda Mais",
+};
 String.prototype.replaceAll = function(target, replacement) {
   return this.split(target).join(replacement);
 };
@@ -40,7 +40,6 @@ var templateFile = fs.readFileSync('./template/template.html', "utf8");
 kinds.forEach(function(kind){
 	languages.forEach(function(language){
 		var dataFilePath="./"+kind+"/"+language+".json";
-
 		console.log(dataFilePath);
 		var templateData = JSON.parse(fs.readFileSync(dataFilePath, "utf8"));
 		if(language=="fr"){
@@ -52,7 +51,6 @@ kinds.forEach(function(kind){
 		fs.writeFileSync(targetFilePath, _.template(templateFile)(templateData));
 	});
 });
-
 
 /*
 var templateFile = fs.readFileSync('./template/template.html', "utf8");

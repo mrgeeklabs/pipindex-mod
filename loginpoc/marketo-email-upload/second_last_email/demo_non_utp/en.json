@@ -1,0 +1,18 @@
+{
+	"language": "en",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Hello {{lead.First Name}},",
+	"line2": "By now you must know of our exciting offering whereby upgrading your account you will receive a free UTP, access more markets and receive greater support from our friends at ETX. Updating today will also enter you into a first trade draw to win ",
+	"line3": "Remember - this offer is only valid until tomorrow ",
+	"line4": "though our support will last a lifetime!",
+	"line5": "Pipindex and Academy of Financial Trading look forward to continuing to support you!",
+	"line6": "Happy learning and prosperous trading!",
+	"line6": "Your Trading Team",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=en&currency={{lead.Inferred Currency:default=usd}}"
+	},
+	"footer": []
+}

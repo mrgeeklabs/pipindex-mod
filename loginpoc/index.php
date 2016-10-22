@@ -270,7 +270,7 @@ Widely regarded as one of the most reliable retail trading platform globally. De
 
 
 <!--=======footer=================================-->
-				<?php include(HOMEPATH.'/footer.php');?>
+				<?php include('footer.php');?>
 		</div>
 </div>
 <script type="text/javascript">
