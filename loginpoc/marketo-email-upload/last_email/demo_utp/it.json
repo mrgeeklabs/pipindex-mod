@@ -1,0 +1,22 @@
+{
+	"language": "it",
+	"pageId":"du",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Ciao {{lead.First Name}},",
+	"line2": "Oggi e&#8217; l&#8217;ultimo giorno per fare l&#8217;aggiornamento ed ottenere dei benefici come partecipare all&#8217;estrazione di 10,000 Sterline. Tutto quello che resta da fare e&#8217; seguire il link seguente:follow the link below.",
+	"line3": "PipIndex e l&#39;Accademia del Financial Trading non vedono l&#8217;ora di continuare ad offrirti supporto.",
+	"line4": "Ti auguriamo buono studio ed un trading profittevole!",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=it&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

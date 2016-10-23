@@ -4,12 +4,12 @@
 	"cellpadding":6,
 	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
 	"line1": "Ol&#225; {{lead.First Name}},",
-	"line2": "Voc&#234; j&#225; deve saber das nossas novidades do nosso parceiro ETX. Atualizando hoje e realizando um trade voc&#234; participar&#225; de um sorteio para ganhar ",
-	"line3": "Remember &#8211; this first prize of &#163;10,000 is only valid until tomorrow ",
+	"line2": "Voc&#234; j&#225; deve saber das nossas novidades do nosso parceiro ETX. Atualizando hoje e realizando um trade voc&#234; participar&#225; de um sorteio para ganhar &#163;10,000. *",
+	"line3": "Lembre-se &#8211; este pr&#234;mio de &#163;10,000 &#233; somente v&#225;lido at&#233; amanh&#227; ",
 	"line4": "mas nosso suporte ser&#225; vital&#237;cio!",
 	"line5": "PipIndex e Academy of Financial Trading desejam continuar te apoiando sempre!",
 	"line6": "Feliz aprendizado e sucesso no trading!",
-	"line7": "Sua Equipe Trading",
+	"line7": "Sua Equipe de suporte de Trading",
 	"targetFileName":"demo_utp.html",	
 	"cta":{
 		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=pt&currency={{lead.Inferred Currency_mkto:default=usd}}"

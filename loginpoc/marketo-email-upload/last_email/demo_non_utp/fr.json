@@ -1,0 +1,22 @@
+{
+	"language": "fr",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Bonjour {{lead.First Name}},",
+	"line2": "Aujourd&#8217;hui est votre dernier jour pour b&#233;n&#233;ficier des avantages comme la formation UTP gratuite and participer &#224; une loterie pour gagner &#163;10.000. Juste cliquez sur ce lien en-dessous.",
+	"line3": "Pipindex et l&#8217;Academy of Financial Trading se r&#233;jouissent de pouvoir vous soutenir.",
+	"line4": "Heureux d&#8217;apprendre et Trades prosp&#232;res!",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=fr&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

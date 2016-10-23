@@ -4,12 +4,12 @@
 	"cellpadding":0,
 	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
 	"line1": "Bonjour {{lead.First Name}},",
-	"line2": "A pr&#233;sent, vous devriez &#234;tre au courant de l&#8217;offre excitante en actualisant votre compte vous recevrez La formation UTP gratuite, de large bonus, plus de march&#233;s et un support d&#233;di&#233; de la part de ETX. En actualisant aujourd&#8217;hui, vous pourrez participer &#224; un tirage au sort pour gagner  ",
+	"line2": "A pr&#233;sent, vous devriez &#234;tre au courant de l&#8217;offre excitante en actualisant votre compte vous recevrez La formation UTP gratuite, de large bonus, plus de march&#233;s et un support d&#233;di&#233; de la part de ETX. En actualisant aujourd&#8217;hui, vous pourrez participer &#224; un tirage au sort pour gagner &#163;10.000 en pla&#231;ant un premier Trade  ",
 	"line3": "Souvenez-vous, cette offre est encore valide jusqu&#8217;&#224; demain ",
 	"line4": "mais le support durera &#224; vie",
 	"line5": "Pipindex et l&#8217;Academy of Financial Trading se r&#233;jouissent de pouvoir vous soutenir&#160;!",
 	"line6": "Heureux d&#8217;apprendre et Trades prosp&#232;res",
-	"line7": "Votre equipe de Trading",
+	"line7": "Votre equipe de soutien en Trading",
 	"targetFileName":"demo_non_utp.html",	
 	"cta":{
 		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=fr&currency={{lead.Inferred Currency_mkto:default=usd}}"

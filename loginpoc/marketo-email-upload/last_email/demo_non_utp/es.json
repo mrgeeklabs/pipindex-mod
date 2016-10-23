@@ -1,0 +1,22 @@
+{
+	"language": "es",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Hola {{lead.First Name}},",
+	"line2": "Hoy es el &#250;ltimo d&#237;a para actualizar su cuenta disfrutando de los enormes beneficios que ofrecemos como el Programa Ultimate Trades y la entrada en el sorteo de &#163;10.000*. Todo lo que necesita hacer es seguir el link que se encuentra abajo.&#9;",
+	"line3": "PipIndex y Academy of Financial Trading esperan continuar ofreci&#233;ndole su soporte",
+	"line4": "&#161;Feliz aprendizaje y pr&#243;spero trading!",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=es&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

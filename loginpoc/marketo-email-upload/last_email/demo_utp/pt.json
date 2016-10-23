@@ -1,0 +1,22 @@
+{
+	"language": "pt",
+	"pageId":"du",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Ol&#225; {{lead.First Name}},",
+	"line2": "Hoje &#233; o &#250;ltimo dia da atualiza&#231;&#227;o com acesso aos benef&#237;cios, como participar do sorteio de &#163;10K*. Tudo que voc&#234; precisa fazer &#233; clicar no link abaixo.",
+	"line3": "PipIndex e Academy of Financial Trading desejam continuar te apoiando sempre.",
+	"line4": "Feliz aprendizado e sucesso no trading!",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-du.php?email={{lead.Email Address}}&lang=pt&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"language": "de",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Hallo {{lead.First Name}},",
+	"line2": "Today is the last day of the upgrade with such rewards like your free Ultimate Traders Programme and entry into the &#163;10K draw*. All you need to do is follow the link below.",
+	"line3": "Pipindex und Academy of Financial Trading freuen sich darauf, Sie weiterhin zu unterst&#252;tzen!",
+	"line4": "Gl&#252;ckliches Lernen und wohlhabendem Handel!",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/offer-dnu.php?email={{lead.Email Address}}&lang=de&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

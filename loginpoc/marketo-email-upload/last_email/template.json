@@ -1,0 +1,22 @@
+{
+	"language": "<%=language %>",
+	"pageId":"<%= pageId %>",
+	"cellpadding":0,
+	"trackerUrl": "<%= trackerUrl %>",
+	"line1": "<%=data[0] %> {{lead.First Name}},",
+	"line2": "<%=data[1] %>",
+	"line3": "<%=data[2] %>",
+	"line4": "<%=data[3] %>",
+	"targetFileName":"<%= targetFileName %>",	
+	"cta":{
+		"link": "<%= ctaLink %>"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}
