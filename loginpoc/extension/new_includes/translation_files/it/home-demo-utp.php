@@ -41,7 +41,7 @@ AVVERTIMENTO DI ALTO RISCHIO: FOREX, OPPURE LO SCAMBIO DI OPZIONI HANNO UN GRAND
                 "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati,su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
-                "Apri il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e ricevi ",
+                "Apri il Tuo Conto e Piazza 1 Trade entro lunedì 21 ottobre 2016 e ricevi ",
                 "Nuovi Bonus di Benvenuto per Ottobre",
                 "+&nbsp;Partecipa ad un’estrazione con in premio ". $prizeMoney ." in contanti"
             ),
@@ -66,7 +66,7 @@ AVVERTIMENTO DI ALTO RISCHIO: FOREX, OPPURE LO SCAMBIO DI OPZIONI HANNO UN GRAND
             "prize-container" => array(
                 "PREMIO DEL PRIMO TRADE",
                 "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
-                "Il vincitore verrà estratto entro lunedì 24 ottobre alle 18:00 BST"
+                "Il vincitore verrà estratto entro lunedì 21 ottobre alle 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bonus di Benvenuto",
             "features-container" => array(

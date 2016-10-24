@@ -50,7 +50,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
                 "completamente gratuito dall’Accademia del Financial Trading"
             ),
             "update-account"=> array(
-                "Attiva il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e parteciperai al sorteggio",
+                "Attiva il Tuo Conto e Piazza 1 Trade entro lunedì 21 ottobre 2016 e parteciperai al sorteggio",
                 "Corso <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong> Gratuito con l’Accademia del Financial Trading",
                 "+&nbsp;Nuovi Bonus di Ottobre",
                 "++&nbsp;Entry into ". $prizeMoney ." prize draw"
@@ -76,7 +76,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
             "prize-container" => array(
                 "PREMIO DEL PRIMO TRADE",
                 "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
-                "Il vincitore verrà estratto entro lunedì 24 ottobre alle 18:00 BST"
+                "Il vincitore verrà estratto entro lunedì 21 ottobre alle 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bonus di Benvenuto",
             "features-container" => array(

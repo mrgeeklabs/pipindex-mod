@@ -42,7 +42,7 @@ AVISO LEGAL: QUAISQUER OPINIÕES, NOTÍCIAS, INVESTIGAÇÃO, ANÁLISE, PREÇOS, 
                 "Melhore seu trading com menores custos de instrumentos populares, uma ampla gama de mercados e suporte incomparável."
             ),
             "update-account"=> array(
-                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 24 de outubro de 2016 e receba + Novo Bônus Outubro Conta",
+                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 21 de outubro de 2016 e receba + Novo Bônus Outubro Conta",
                 "++ Concorra a um prêmio em dinheiro de £10,000"
             ),
             "update-steps-container"=> array(
@@ -66,7 +66,7 @@ AVISO LEGAL: QUAISQUER OPINIÕES, NOTÍCIAS, INVESTIGAÇÃO, ANÁLISE, PREÇOS, 
             "prize-container" => array(
                 "PRIMEIRO PRÊMIO TRADE",
                 "Para participar, simplesmente faça um trade.",
-                "O vencedor será escolhido na segunda-feira, 24 de outubro, às 18 horas (horário BST)"
+                "O vencedor será escolhido na segunda-feira, 21 de outubro, às 18 horas (horário BST)"
             ),
             "new-bonus-title"=> "+ Bônus de Contas Novas",
             "features-container" => array(

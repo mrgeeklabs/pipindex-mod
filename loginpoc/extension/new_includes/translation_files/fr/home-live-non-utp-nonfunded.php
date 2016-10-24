@@ -40,7 +40,7 @@ Uniquement applicable aux clients de PipIndex Capital Markets qui transfèreront
                 "Complètement gratuit de l’Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Activez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et participer à un tirage pour",
+                "Activez votre compte et Placer 1 Trade d'ici le lundi 21e Octobre 2016 et participer à un tirage pour",
                 "gagner 10.000 £ en argent réel",
                 "+ Ultimate Traders Programme gratuit avec l’Academy of Financial Trading",
                 "++ Nouveau Bonus d’octobre"
@@ -66,7 +66,7 @@ Uniquement applicable aux clients de PipIndex Capital Markets qui transfèreront
             "prize-container" => array(
                 "PRIX DU PREMIER TRADE",
                 "Pour accéder à ce tirage au sort, il suffit de placer un Trade.",
-                "Le gagnant sera tiré au plus tard le lundi 24 Octobre à 18:00 BST"
+                "Le gagnant sera tiré au plus tard le lundi 21 Octobre à 18:00 BST"
             ),
             "new-bonus-title"=> "+Bonus du Nouveau Compte ",
             "features-container" => array(

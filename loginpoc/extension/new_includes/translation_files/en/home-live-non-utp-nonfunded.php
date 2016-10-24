@@ -45,7 +45,7 @@
                 "completely free from Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Activate Your Account with a minimum of ".$minimumBalanceString. " and Place 1 Trade by Monday, 24th October 2016 2pm BST and recieve",
+                "Activate Your Account with a minimum of ".$minimumBalanceString. " and Place 1 Trade by Monday, 21st October 2016 2pm BST and recieve",
                 "Free <strong style='font-Weight: bolder;font-family: Montserrat;'>Ultimate Traders Programme</strong>",
                 "<span style='font-weight: 900;font-family: montserrat;'>+</span>&nbsp;New October Bonus",
                 "<span style='font-weight: 900;font-family: montserrat;'>++</span>&nbsp;Entry into ". $prizeMoney ." prize draw"
@@ -71,7 +71,7 @@
             "prize-container" => array(
                 "FIRST TRADE PRIZE",
                 "To enter this draw, simply place one trade.",
-                "The winner will be drawn by Monday, 24th October 2016 6pm BST"
+                "The winner will be drawn by Monday, 21st October 2016 6pm BST"
             ),
             "new-bonus-title"=> "+ New Account Bonus",
             "features-container" => array(

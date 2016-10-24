@@ -19,7 +19,7 @@
 	if (isset($_GET['email'])){
 		$email=$_GET['email'];
 	} 
-	$termsLink="http://www.pipindex.com/terms-and-condition.php?email=$email&lang=".$lang;
+	$termsLink="http://www.pipindex.com/extension/terms-and-condition.php?email=$email&lang=".$lang;
 
 	if($lang == 'es' || $lang == 'de')
 		$spanish_text_fix="translation_text_fix_es";

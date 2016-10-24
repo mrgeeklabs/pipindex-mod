@@ -48,7 +48,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
                 "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati, su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
-                "Attiva il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e parteciperai al sorteggio ",
+                "Attiva il Tuo Conto e Piazza 1 Trade entro lunedì 21 ottobre 2016 e parteciperai al sorteggio ",
                 "Nuovi Bonus di Benvenuto per Ottobre ",
                 "+&nbsp;per vincere ". $prizeMoney ." in contanti"
             ),
@@ -73,7 +73,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
             "prize-container" => array(
                 "PREMIO DEL PRIMO TRADE",
                 "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
-                "Il vincitore verrà estratto entro lunedì 24 ottobre alle 18:00 BST"
+                "Il vincitore verrà estratto entro lunedì 21 ottobre alle 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bonus di Benvenuto",
             "features-container" => array(

@@ -36,7 +36,7 @@
 	if (isset($_GET['email'])){
 		$email=$_GET['email'];
 	} 
-	$termsLink="http://www.pipindex.com/terms-and-condition.php?email=$email&lang=".$lang;
+	$termsLink="http://www.pipindex.com/extension/terms-and-condition.php?email=$email&lang=".$lang;
 ?>
 <!DOCTYPE html>
 <html lang="en">

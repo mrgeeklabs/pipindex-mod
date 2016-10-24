@@ -42,7 +42,7 @@ Sólo se aplica a los clientes PipIndex Capital Markets que transfieren el saldo
                 "Mejore su trading en una gama más amplia de mercados  y con menores costes en los instrumentos más populares, a través de múltiples plataformas, con un soporte incomparable."
             ),
             "update-account"=> array(
-                "Abra una cuenta y realice la primer operación/trade antes del Lunes 24 de Octubre de 2016 y",
+                "Abra una cuenta y realice la primer operación/trade antes del Lunes 21 de Octubre de 2016 y",
                 "tenga la posibilidad de ganar £10.000 en efectivo!",
                 "+ Bono para las nuevas cuentas de Octubre"
             ),
@@ -67,7 +67,7 @@ Sólo se aplica a los clientes PipIndex Capital Markets que transfieren el saldo
             "prize-container" => array(
                 "PREMIO A LA PRIMERA OPERACIÓN",
                 "Para entrar en este sorteo, simplemente coloque su primera operación/trade.",
-                "El ganador será elegido el lunes 24 de octubre del 2016a las 18:00 BST"
+                "El ganador será elegido el lunes 21 de octubre del 2016a las 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bono de Nueva Cuenta",
             "features-container" => array(

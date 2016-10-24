@@ -48,7 +48,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
                 "Complètement gratuit de l’Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et recevez",
+                "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 21e Octobre 2016 et recevez",
                 "+ Programme ultime Traders gratuit",
                 "+++Nouveau BONUS d’octobre",
                 "+++ Rentrez dans le tirage au sort des £ 10000"
@@ -74,7 +74,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
             "prize-container" => array(
                 "PREMIER PRIX DU TRADE",
                 "Pour accéder à ce tirage au sort, il suffit de placer un Trade.",
-                "Le gagnant sera tiré au plus tard le lundi 24 Octobre à 18:00 BST"
+                "Le gagnant sera tiré au plus tard le lundi 21 Octobre à 18:00 BST"
             ),
             "new-bonus-title"=> "+ Nouveau Compte Bonus",
             "features-container" => array(

@@ -21,7 +21,7 @@
 	if (isset($_GET['email'])){
 		$email=$_GET['email'];
 	} 
-	$termsLink="http://www.pipindex.com/terms-and-condition.php?email=$email&lang=".$lang;
+	$termsLink="http://www.pipindex.com/extension/terms-and-condition.php?email=$email&lang=".$lang;
 	if($lang=='en')
 		$update_account_message_wrapper = 290;
 	else if($lang=='es')
