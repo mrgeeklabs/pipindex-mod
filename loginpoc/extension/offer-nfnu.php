@@ -29,7 +29,7 @@
 	$prizeMoney=getPrizeMoney($currency);
 	$moneyTable=getMoneyTable('live');
 	$minimumBalanceString=getMinimumBalance('live');
-	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-non-utp-nonfunded.php";
+	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/extension/new_includes/translation_files/$lang/home-live-non-utp-nonfunded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 	$email="";
@@ -101,7 +101,7 @@
 	</div>
 </div>
 <?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/nonutp_nonfunded_header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/extension/new_includes/nonutp_nonfunded_header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
 	        <div class="banner-text-wrapper">

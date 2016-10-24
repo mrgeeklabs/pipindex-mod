@@ -13,7 +13,7 @@
 	}
 	$prizeMoney=getPrizeMoney($currency);
 	$moneyTable=getMoneyTable($currency);	
-	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/home-live-utp-funded.php";
+	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/extension/new_includes/translation_files/$lang/home-live-utp-funded.php";
 	include $defaultTranslationsPath;
 	if (isset($_GET['email'])) setcookie("user_email", trim($_GET['email']));
 	$email="";
@@ -88,7 +88,7 @@
 	</div>
 </div>
 <?php if ( (!isset($_GET['email']) && !isset($_COOKIE['user_email'])) || (isset($_GET['email']) && $_GET['email'] == "") ) header('LOCATION:http://pipindex.com'); ?>
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/new_includes/utp_funded_header.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/extension/new_includes/utp_funded_header.php"; ?>
 	<div class="lp3-wrapper">
 	    <div class="banner-wrapper">
 	        <div class="banner-text-wrapper">

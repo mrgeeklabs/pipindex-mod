@@ -1,7 +1,7 @@
 <?php
 	require_once($_SERVER['DOCUMENT_ROOT'] .'/extension/new_includes/utils.php');
 	$lang = isset($_GET['lang']) ? trim($_GET['lang'])  : 'en';
-	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/new_includes/translation_files/$lang/header_banner.php";
+	$defaultTranslationsPath = $_SERVER['DOCUMENT_ROOT'] . "/extension/new_includes/translation_files/$lang/header_banner.php";
 	include $defaultTranslationsPath;
 ?>
 <header>
