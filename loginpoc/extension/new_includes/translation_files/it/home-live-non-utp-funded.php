@@ -49,7 +49,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
                 "completamente gratuito dall’Accademia del Financial Trading"
             ),
             "update-account"=> array(
-                "Update Your Account and Place 1 Trade by Monday, October 21st 2016 and recieve",
+                "Update Your Account and Place 1 Trade by Monday, November 21st 2016 and recieve",
                 "Free Ultimate Traders Programme",
                 "+&nbsp;Entry into ". $prizeMoney ." prize draw"
             ),
