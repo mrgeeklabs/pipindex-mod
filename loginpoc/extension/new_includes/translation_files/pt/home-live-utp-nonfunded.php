@@ -35,7 +35,7 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
                 "please_contact_us" => "POR FAVOR, ENTRE EM CONTATO CONOSCO",
                 "table_header_deposite" => "DEPÓSITO ",
                 "table_header_bonus" => "BÔNUS",
-                "table_header_october_bonus" => "BÔNUS DE OUTUBRO",
+                "table_header_october_bonus" => "BÔNUS DE Novembro",
             ),
             "title"=>"Início | PipIndex Capital Markets",
             "banner_right"=> array(
@@ -44,8 +44,8 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
                 "Melhore a sua negociação com menores custos de instrumentos populares e uma ampla gama de mercados, através de múltiplas plataformas, com suporte inigualável."
             ),
             "update-account"=> array(
-                "Ative Sua Conta e Realize 1 Trade até segunda-feira, 21 de outubro de 2016 e concorra a um sorteio para ganhar £ 10.000 em dinheiro!",
-                "Novo Bônus Conta Outubro",
+                "Ative Sua Conta e Realize 1 Trade até segunda-feira, 21 de Novembro de 2016 e concorra a um sorteio para ganhar £ 10.000 em dinheiro!",
+                "Novo Bônus Conta Novembro",
             ),
             "update-steps-container"=> array(
                 array(
@@ -68,7 +68,7 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
             "prize-container" => array(
                 "PRIMEIRO PRÊMIO TRADE",
                 "Para entrar neste sorteio, basta fazer um trade.",
-                "O vencedor será escolhido na segunda-feira, 21 de outubro, às 18 horas (horário BST)"
+                "O vencedor será escolhido na segunda-feira, 21 de Novembro, às 18 horas (horário BST)"
             ),
             "new-bonus-title"=> "+ Bônus Nova Conta",
             "features-container" => array(

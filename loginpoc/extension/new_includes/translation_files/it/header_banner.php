@@ -2,7 +2,7 @@
     $translationsHeader = array(
         "it"=>array(
             "L'OFFERTA SCADE",
-            "LUNEDÌ 21 OTTOBRE"
+            "LUNEDÌ 21 Novembre"
         )
     );
 ?>

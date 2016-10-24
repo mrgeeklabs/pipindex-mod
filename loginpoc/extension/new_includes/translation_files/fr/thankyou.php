@@ -20,7 +20,7 @@
                 "please_contact_us" => "CONTACTEZ-NOUS S'IL VOUS PLAIT",
                 "table_header_deposite" => "DÉPÔT ",
                 "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "BONUS d’octobre",
+                "table_header_october_bonus" => "BONUS d’NOVEMBRE",
                 "minutes" => "minutes",
                 "hours" => "heures",
                 "placeholder_name"=>"votre nom",
@@ -48,7 +48,7 @@
         	),
         	"thankyou-footer" => array(
         		"A Pipindex nous aimerions vous remercier et espérons vous soutenir davantage vos besoins éducatifs",
-        		"Comme cadeau d'adieu, n’oubliez pas de placer cette première opération avant le lundi 21 Octobre 2016 à 14 heures BST afin d’avoir une chance de gagner £ 10,000"
+        		"Comme cadeau d'adieu, n’oubliez pas de placer cette première opération avant le lundi 21 NOVEMBRE 2016 à 14 heures BST afin d’avoir une chance de gagner £ 10,000"
         	),
         	"contact-text"=>"En attendant, si vous avez des questions ou requêtes n’hésitez pas à nous contacter directement à ETX pour un soutien supplémentaire :"
         )

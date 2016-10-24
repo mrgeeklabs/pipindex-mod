@@ -38,7 +38,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
                 "please_contact_us" => "CONTATTACI PER FAVORE",
                 "table_header_deposite" => "DEPOSITO ",
                 "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "BONUS DI OTTOBRE",
+                "table_header_october_bonus" => "BONUS DI Novembre",
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(
@@ -74,7 +74,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
             "prize-container" => array(
                 "Premio del Primo Trade",
                 "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
-                "Il vincitore verrà estratto entro lunedì 21 ottobre alle 18:00 BST"
+                "Il vincitore verrà estratto entro lunedì 21 Novembre alle 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bonus di Benvenuto",
             "features-container" => array(

@@ -20,7 +20,7 @@
                 "please_contact_us" => "Bitte kontaktieren Sie uns",
                 "table_header_deposite" => "Pfand ",
                 "table_header_bonus" => "Bonus",
-                "table_header_october_bonus" => "Bonus Oktober",
+                "table_header_october_bonus" => "Bonus November",
             ),
             "have-query" => array(
                 "Haben Sie Fragen? ",
