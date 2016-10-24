@@ -9,7 +9,7 @@
 	"line4": "Ti auguriamo buono studio ed un trading profittevole!",
 	"targetFileName":"live_nfu.html",	
 	"cta":{
-		"link": "http://www.pipindex.com/offer-nfu.php?email={!Lead.Email}&lang=it"
+		"link": "http://www.pipindex.com/terms-and-condition.php?email={!Lead.Email}&lang=it"
 	},
 	"footer": {
 		"en": [

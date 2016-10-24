@@ -9,7 +9,7 @@
 	"line4": "Heureux d&#8217;apprendre et Trades prosp&#232;res!",
 	"targetFileName":"live_nfu.html",	
 	"cta":{
-		"link": "http://www.pipindex.com/offer-nfu.php?email={!Lead.Email}&lang=fr"
+		"link": "http://www.pipindex.com/terms-and-condition.php?email={!Lead.Email}&lang=fr"
 	},
 	"footer": {
 		"en": [

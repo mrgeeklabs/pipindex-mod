@@ -1,0 +1,24 @@
+{
+	"language": "it",
+	"pageId":"du",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "Premio del Primo Trade da 10,000 Sterline - Seconda Estrazione",
+	"line2": "Visto il grande successo del nostro premio del Primo Trade da 10,000 Sterline abbiamo appena rilanciato il concorso, e per tutti coloro che effettueranno una negoziazione prima delle 14:00 BST del 21 Novembre parteciperanno all&#8217;estrazione.",
+	"line3": "Non perdere questa occasione per partecipare all&#8217;estrazione di 10.000 Sterline per celebrare la nostra nuova partnership, come ormai saprai, e ricevere un bonus pi&#249; grande, pi&#249; mercati e maggiore supporto.",
+	"line4": "PipIndex e l&#8217;Accademia del Financial Trading non vedono l&#8217;ora di continuare ad offrirti supporto!",
+	"line5": "Ti auguriamo buono studio ed un trading profittevole!",
+	"line6": "Il Tuo Trading Team",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/extension/offer-du.php?email={{lead.Email Address}}&lang=it&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

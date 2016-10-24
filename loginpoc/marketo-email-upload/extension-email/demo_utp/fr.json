@@ -1,0 +1,24 @@
+{
+	"language": "fr",
+	"pageId":"du",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "&#163;10.000 premier prix du Trade &#8211; Tirage au sort num&#233;ro 2",
+	"line2": "En raison de l&#39;&#233;norme succ&#232;s de notre premier prix du Trade de &#163; 10,000, nous venons de relancer un autre tirage pour tous ceux qui placeront ou ont d&#233;j&#224; un Trade ouvert avant 14:00 BST le 21 Novembre, participeront au nouveau tirage. Nous ne pouvons pas faire plus simple.",
+	"line3": "Ne manquez pas cette occasion d&#39;entrer dans ce tirage des &#163;10.000 pour c&#233;l&#233;brer notre nouveau partenariat et comme vous le savez maintenant, recevoir &#233;galement un bonus plus important, plus de march&#233;s et beaucoup plus de soutien. Trader facilement.",
+	"line4": "Pipindex et l&#8217;Academy of Financial Trading se r&#233;jouissent de pouvoir vous soutenir.",
+	"line5": "Heureux d&#8217;apprendre et Trades prosp&#232;res!",
+	"line6": "Votre equipe de Trading",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/extension/offer-du.php?email={{lead.Email Address}}&lang=fr&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

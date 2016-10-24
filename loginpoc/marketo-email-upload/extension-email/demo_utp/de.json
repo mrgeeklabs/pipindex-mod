@@ -1,0 +1,24 @@
+{
+	"language": "de",
+	"pageId":"du",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "&#163; 10,000 Erster Handelspreis - Wettbewerb Nr. 2",
+	"line2": "Wegen des riesigen Erfolgs von unserem &#163;10.000 ersten Handelspreis, haben wir es gerade neu gestartet und alle, die entweder haben, oder einen Handel vor 14 Uhr BST am 21. November platzieren, werden eingegeben, um zu gewinnen. Wir konnten es nicht leichter machen.",
+	"line3": "Verpassen Sie nicht auf diese Gelegenheit, um Ihre &#163;10.000 ziehen, um unsere bestehende neue Partnerschaft zu feiern und wie Sie jetzt wissen, erhalten auch einen gr&#246;&#223;eren Bonus, mehr M&#228;rkte und viel mehr Unterst&#252;tzung. Handel leicht gemacht.",
+	"line4": "PipIndex und Academy of Financial Trading freuen uns, Sie weiterhin zu unterst&#252;tzen!",
+	"line5": "Gl&#252;ckliches Lernen und wohlhabendem Handel!",
+	"line6": "Ihr Trading Team",
+	"targetFileName":"demo_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/extension/offer-du.php?email={{lead.Email Address}}&lang=de&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}

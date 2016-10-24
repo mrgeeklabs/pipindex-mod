@@ -9,7 +9,7 @@
 	"line4": "Gl&#252;ckliches Lernen und wohlhabendem Handel!",
 	"targetFileName":"live_nfnu.html",	
 	"cta":{
-		"link": "http://www.pipindex.com/offer-nfnu.php?email={!Lead.Email}&lang=de"
+		"link": "http://www.pipindex.com/terms-and-condition.php?email={!Lead.Email}&lang=de"
 	},
 	"footer": {
 		"en": [

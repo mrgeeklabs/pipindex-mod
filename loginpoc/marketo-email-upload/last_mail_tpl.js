@@ -72,10 +72,10 @@ kinds.forEach(function(kind,kindIndex){
 			ctaLink="http://www.pipindex.com/terms-and-condition.php?email={!Lead.Email}&lang="+language;
 		}
 		if(pageIds[kindIndex]==="nfu"){
-			ctaLink="http://www.pipindex.com/offer-"+pageIds[kindIndex]+".php?email={!Lead.Email}&lang="+language;
+			ctaLink="http://www.pipindex.com/terms-and-condition.php?email={!Lead.Email}&lang="+language;
 		}
 		if(pageIds[kindIndex]==="nfnu"){
-			ctaLink="http://www.pipindex.com/offer-"+pageIds[kindIndex]+".php?email={!Lead.Email}&lang="+language;
+			ctaLink="http://www.pipindex.com/terms-and-condition.php?email={!Lead.Email}&lang="+language;
 		}
 		fs.writeFileSync(targetFilePath, _.template(templateFile)({
 			data: attributes[pageIds[kindIndex]][language].data,

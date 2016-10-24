@@ -1,0 +1,24 @@
+{
+	"language": "pt",
+	"pageId":"dnu",
+	"cellpadding":0,
+	"trackerUrl": "http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open",
+	"line1": "&#163;10,000 MAIS UTP totalmente de Gra&#231;a",
+	"line2": "Devido ao enorme sucesso do nosso pr&#234;mio de primeiro trade de &#163;10,000 e UTP, n&#243;s acabamos de relan&#231;ar esse sorteio a todos que realizarem seu primeiro trade antes das 14 horas (hor&#225;rio BST) do dia 21 de Novembro. N&#227;o poderia ser mais f&#225;cil!",
+	"line3": "N&#227;o perca esta oportunidade paa participar do sorteio de &#163;10,000 para celebrarmos esta nova parceria e receber seu b&#244;nus, mais mercados e maior suporte ainda. Trading de uma forma f&#225;cil.",
+	"line4": "PipIndex e Academy of Financial Trading desejam continuar te apoiando sempre!",
+	"line5": "Feliz Aprendizado e Sucesso no trading!",
+	"line6": "Sua Equipe Trading",
+	"targetFileName":"demo_non_utp.html",	
+	"cta":{
+		"link": "http://www.academyft.com/extension/offer-dnu.php?email={{lead.Email Address}}&lang=pt&currency={{lead.Inferred Currency_mkto:default=usd}}"
+	},
+	"footer": {
+		"en": [],
+		"de": [],
+		"es": [],
+		"fr": [],
+		"it": [],
+		"pt": []
+	}
+}
