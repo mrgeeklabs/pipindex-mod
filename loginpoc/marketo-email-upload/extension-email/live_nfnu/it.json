@@ -8,10 +8,10 @@
 	"line3": "Non perdere questa occasione per partecipare all&#8217;estrazione di 10.000 Sterline per celebrare la nostra nuova partnership, come ormai saprai, e ricevere un bonus pi&#249; grande, pi&#249; mercati e maggiore supporto.",
 	"line4": "PipIndex e l&#8217;Accademia del Financial Trading non vedono l&#8217;ora di continuare ad offrirti supporto!",
 	"line5": "Ti auguriamo buono studio ed un trading profittevole!",
-	"line6": "Il Tuo Trading Team",
+	"line6": "Il Tuo Trading Team di Supporto",
 	"targetFileName":"live_nfnu.html",	
 	"cta":{
-		"link": "https://clients.etxcapital.com/Login/ResetPassword"
+		"link": "http://www.pipindex.com/extension/offer-nfnu.php?email={!Lead.Email}&lang=it"
 	},
 	"footer": {
 		"en": [

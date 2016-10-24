@@ -11,7 +11,7 @@
 	"line6": "Your Trading Team",
 	"targetFileName":"live_fu.html",	
 	"cta":{
-		"link": "https://clients.etxcapital.com/Login/ResetPassword"
+		"link": "http://www.pipindex.com/extension/offer-fu.php?email={!Lead.Email}&lang=en"
 	},
 	"footer": {
 		"en": [

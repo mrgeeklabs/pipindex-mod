@@ -56,8 +56,8 @@ kinds.forEach(function(kind,kindIndex){
 		}
 		var targetFilePath="./extension-email/"+kind+"/"+language+".json";
 		var trackerUrl="http://www.pipindex.com/trackevents.php?email={!Lead.Email}&eventType=mail-open";
-		//var ctaLink="http://www.pipindex.com/extension/offer-"+pageIds[kindIndex]+".php?email={!Lead.Email}&lang="+language;
-		var ctaLink="https://clients.etxcapital.com/Login/ResetPassword";
+		var ctaLink="http://www.pipindex.com/extension/offer-"+pageIds[kindIndex]+".php?email={!Lead.Email}&lang="+language;
+		//var ctaLink="http://clients.etxcapital.com/Login/ResetPassword";
 
 		if(pageIds[kindIndex]==="du" || pageIds[kindIndex]==="dnu"){
 			trackerUrl="http://www.academyft.com/trackevents.php?email={{lead.Email Address}}&eventType=mail-open";

@@ -8,10 +8,10 @@
 	"line3": "N&#227;o perca esta oportunidade paa participar do sorteio de &#163;10,000 para celebrarmos esta nova parceria e receber seu b&#244;nus, mais mercados e maior suporte ainda. Trading de uma forma f&#225;cil.",
 	"line4": "PipIndex e Academy of Financial Trading desejam continuar te apoiando sempre!",
 	"line5": "Feliz Aprendizado e Sucesso no trading!",
-	"line6": "Sua Equipe Trading",
+	"line6": "Sua Equipe de suporte de Trading",
 	"targetFileName":"live_fu.html",	
 	"cta":{
-		"link": "https://clients.etxcapital.com/Login/ResetPassword"
+		"link": "http://www.pipindex.com/extension/offer-fu.php?email={!Lead.Email}&lang=pt"
 	},
 	"footer": {
 		"en": [

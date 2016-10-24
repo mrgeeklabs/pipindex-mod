@@ -8,10 +8,10 @@
 	"line3": "No se pierda esta oportunidad de entrar en el sorteo de &#163;10.000 para celebrar nuestra nueva asociaci&#243;n existente y como ya sabe, a partir de ahora tambi&#233;n recibir&#225; un bono m&#225;s grande, m&#225;s mercados y mucho m&#225;s apoyo. Invierta de forma sencilla.",
 	"line4": "PipIndex y Academy of Financial Trading esperan continuar ofreci&#233;ndole su soporte",
 	"line5": "&#161;Feliz aprendizaje y pr&#243;spero trading!",
-	"line6": "Su Equipo de Trading",
+	"line6": "Su Equipo de Trading y soporte",
 	"targetFileName":"live_nfu.html",	
 	"cta":{
-		"link": "https://clients.etxcapital.com/Login/ResetPassword"
+		"link": "http://www.pipindex.com/extension/offer-nfu.php?email={!Lead.Email}&lang=es"
 	},
 	"footer": {
 		"en": [
