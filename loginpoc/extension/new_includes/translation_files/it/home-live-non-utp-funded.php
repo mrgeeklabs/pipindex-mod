@@ -38,7 +38,9 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
                 "please_contact_us" => "CONTATTACI PER FAVORE",
                 "table_header_deposite" => "DEPOSITO ",
                 "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "BONUS DI Novembre",
+                                "table_header_october_bonus" => "BONUS DI Novembre",
+                "minutes" => "minuti",
+                "hours" => "ore",
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(

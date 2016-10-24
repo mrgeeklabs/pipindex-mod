@@ -23,6 +23,8 @@
                 "table_header_october_bonus" => "BONO DE NOVIEMBRE",
                 "minutes" => "Minutos",
                 "hours" => "Horas",
+                "minutes" => "Minutos",
+                "hours" => "Horas",
                 "placeholder_name"=>"Su nombre",
                 "placeholder_phone"=>"Número de teléfono",
                 "placeholder_email"=>"Email"

@@ -33,6 +33,8 @@ Sólo se aplica a los clientes PipIndex Capital Markets que transfieren el saldo
                 "table_header_deposite" => "DEPOSITAR ",
                 "table_header_bonus" => "BONO",
                 "table_header_october_bonus" => "BONO DE NOVIEMBRE",
+                "minutes" => "Minutos",
+                "hours" => "Horas",
             ),
             "title"=>"Inicio | PipIndex Capital Markets",
             "banner_right"=> array(

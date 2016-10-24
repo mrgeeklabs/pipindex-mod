@@ -21,6 +21,8 @@
                 "table_header_deposite" => "Pfand ",
                 "table_header_bonus" => "Bonus",
                 "table_header_october_bonus" => "Bonus November",
+"minutes" => "Minuten",
+"hours" => "Stunden",
             ),
             "have-query" => array(
                 "Haben Sie Fragen? ",

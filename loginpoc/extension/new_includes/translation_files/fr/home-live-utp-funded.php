@@ -28,7 +28,9 @@ Uniquement applicable aux clients de PipIndex Capital Markets qui transfèreront
                 "please_contact_us" => "CONTACTEZ-NOUS S'IL VOUS PLAIT",
                 "table_header_deposite" => "DÉPÔT ",
                 "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "BONUS d’NOVEMBRE",
+                                "table_header_october_bonus" => "BONUS d’NOVEMBER",
+                "minutes" => "minutes",
+                "hours" => "heures",
             ),
             "title"=>"Accueil | PipIndex Capital Markets",
             "banner_right"=> array(

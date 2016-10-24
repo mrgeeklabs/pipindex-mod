@@ -35,6 +35,8 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
                 "table_header_deposite" => "DEPÓSITO ",
                 "table_header_bonus" => "BÔNUS",
                 "table_header_october_bonus" => "BÔNUS DE Novembro",
+                "minutes" => "minutos",
+                "hours" => "horas",
             ),
             "title"=>"Início | PipIndex Capital Markets",
             "banner_right"=> array(

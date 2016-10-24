@@ -36,6 +36,8 @@ AVISO LEGAL: QUAISQUER OPINIÕES, NOTÍCIAS, INVESTIGAÇÃO, ANÁLISE, PREÇOS, 
                 "table_header_october_bonus" => "BÔNUS DE Novembro",
                 "minutes" => "minutos",
                 "hours" => "horas",
+                "minutes" => "minutos",
+                "hours" => "horas",
                 "placeholder_name"=>"Seu Nome",
                 "placeholder_phone"=>"Número de Telefone",
                 "placeholder_email"=>"Endereço eletrônico E-mail"

@@ -35,6 +35,8 @@ Nur anwendbar für Kunden von PipIndex Capital Markets, die die Bilanzen Ihrer T
                 "table_header_deposite" => "Pfand ",
                 "table_header_bonus" => "Bonus",
                 "table_header_october_bonus" => "Bonus November",
+"minutes" => "Minuten",
+"hours" => "Stunden",
             ),
             "title"=>"Home | PipIndex Capital Markets",
             "banner_right"=> array(
