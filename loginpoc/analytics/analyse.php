@@ -98,12 +98,30 @@ function exportToCSV($data) {
 
 function exportToSalesforce($data) {
     $count =0;
+    $missed = array(
+        'john219global@gmail.com',
+        'arman.tahmassebi@gmail.com',
+        'inggladysh@gmail.com',
+        'hendrik.note@googlemail.com',
+        'tom.daly@shawacademy.com',
+        'manuelruben2016@gmail.com',
+        'john219global@gmail.com',
+        'amunfut@gmail.com',
+        'xafarjabasa@gmail.com',
+        'sergio@airoperators.es',
+        'guidobenedicto@gmail.com',
+        'ricardoximenis@hotmail.com',
+        'tinoravida@alice.it',
+        'mike.palis@googlemail.com',
+        'aaronmcevoy2011@hotmail.com',
+        'claudiosalgarella@yahoo.it'
+    );
     foreach ($data as $key => $fields) {
         array_unshift($fields, $key);
         $fields['Consent__c'] = isset($fields['Agreed_T_C_Time__c']) ? true : false;
 
         unset($fields[0]);
-        if ($count > 982) {
+        if (in_array($key, $missed)) {
             try {
                 updateInSalesforce($fields, $key);
             } catch (Exception $e) {
