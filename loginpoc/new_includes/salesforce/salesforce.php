@@ -25,7 +25,7 @@ class SalseforceHelper {
     private function GetAuthorization() {
         try {
             // Get values from config
-            require_once( '../new_includes/salesforce/config.php');
+            require_once( $_SERVER['DOCUMENT_ROOT'] . '/new_includes/salesforce/config.php');
 
             $token_url = SALESFORCE_LOGIN_URI . "/services/oauth2/token";
 
