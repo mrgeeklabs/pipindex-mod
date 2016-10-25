@@ -72,8 +72,8 @@ if ($lines)
         $collection['eventType=page-load&pageId=terms'],
         $collection['eventType=accept-terms']
     );
-    exportToCSV($ready);
-    //exportToSalesforce($ready);
+    //exportToCSV($ready);
+    exportToSalesforce($ready);
 
 } else
 {
@@ -104,7 +104,11 @@ function exportToSalesforce($data) {
 
         unset($fields[0]);
         if ($count > 982) {
-            updateInSalesforce($fields, $key);
+            try {
+                updateInSalesforce($fields, $key);
+            } catch (Exception $e) {
+                error_log("\n" . $e->getMessage(), 3, "output.log");
+            }
         }
         $count++;
     }
