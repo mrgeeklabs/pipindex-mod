@@ -50,7 +50,7 @@ Warnung eines hohen Risikos: Devisen-, Futures- und Optionenhandel haben großes
                 "vollständig kostenlos von der Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Eröffnen Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 21. November 2016 und erhalten Sie",
+                "Eröffnen Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 31. Oktober 2016 und erhalten Sie",
                 "+ kostenloses Ultimate Traders Programme",
                 "++ Neuen November-Account-Bonus",
                 "Nehmen Sie an der Verlosung von 10.000 £ teil"
@@ -76,7 +76,7 @@ Warnung eines hohen Risikos: Devisen-, Futures- und Optionenhandel haben großes
             "prize-container" => array(
                 "Erster Trading-Preis",
                 "Um an dieser Verlosung teilzunehmen, platzieren Sie einfach einen Trade.",
-                "Der Gewinner wird am Montag, den 21. November 2016 um 18 Uhr BST gezogen."
+                "Der Gewinner wird am Montag, den 31. Oktober 2016 um 18 Uhr BST gezogen."
             ),
             "new-bonus-title"=> "+ Neuer-Account-Bonus",
             "features-container" => array(

@@ -38,7 +38,7 @@
         	),
         	"thankyou-footer" => array(
         		"From everyone here at PipIndex we would like to thank you for your custom and look forward to further supporting your educational needs.",
-        		"As a parting gift, don’t forget to place that first trade by Monday, 24th October 2016 2pm BST, to be in with a chance to win <span>£ 10,000</span>"
+        		"As a parting gift, don’t forget to place that first trade by Monday, 31st OCTOBER 2016 2pm BST, to be in with a chance to win <span>£ 10,000</span>"
         	),
         	"contact-text"=>"In the meantime should you have any questions or queries do feel free to contact us directly at ETX for further support:"
         )

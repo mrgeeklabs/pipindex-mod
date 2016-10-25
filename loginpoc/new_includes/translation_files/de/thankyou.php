@@ -20,7 +20,9 @@
                 "please_contact_us" => "Bitte kontaktieren Sie uns",
                 "table_header_deposite" => "Pfand ",
                 "table_header_bonus" => "Bonus",
-                "table_header_october_bonus" => "Bonus Oktober",
+                "table_header_october_bonus" => "Bonus November",
+"minutes" => "Minuten",
+"hours" => "Stunden",
             ),
             "have-query" => array(
                 "Haben Sie Fragen? ",
@@ -43,7 +45,7 @@
             ),
             "thankyou-footer" => array(
                 "Alle hier von PipIndex möchten sich bei Ihnen für Ihr Vertrauen und die Zusammenarbeit bedanken und wir freuen uns darauf Sie weiter bei Ihren Ausbildungsbedürfnissen zu unterstützen",
-                "Vergessen Sie nicht unser Abschiedsgeschenk und Ihren ersten Trade bis Montag, den 24.10.2016 um 14 Uhr BST zu platzieren um eine Chance zu haben 10.000£ zu gewinnen"
+                "Vergessen Sie nicht unser Abschiedsgeschenk und Ihren ersten Trade bis Montag, den 31.10.2016 um 14 Uhr BST zu platzieren um eine Chance zu haben 10.000£ zu gewinnen"
             ),
             "contact-text"=>"Sollten Sie in der Zwischenzeit irgendwelche Fragen oder Anliegen haben, kontaktieren Sie uns gerne direkt bei ETX für weiteren Support:"
         )

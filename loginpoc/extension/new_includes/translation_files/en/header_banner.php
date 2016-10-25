@@ -2,7 +2,7 @@
     $translationsHeader = array(
         "en"=>array(
             "OFFER EXPIRES",
-            "MONDAY 21st NOVEMBER"
+            "MONDAY 31st OCTOBER"
         )
     );
 ?>

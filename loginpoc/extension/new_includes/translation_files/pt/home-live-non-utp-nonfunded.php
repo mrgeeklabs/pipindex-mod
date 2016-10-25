@@ -46,7 +46,7 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
                 "Ative sua conta abaixo e receba o ULTIMATE TRADERS PROGRAMME completamente grátis da Academy of Financial Trading",
             ),
             "update-account"=> array(
-                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 21 de Novembro de 2016 e concorra a um prêmio de &pound;10,000 em dinheiro",
+                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 31 DE Outubro de 2016 e concorra a um prêmio de &pound;10,000 em dinheiro",
                 "ULTIMATE TRADERS PROGRAMME completamente gratuito",
                 "+ Novo Bônus Conta Novembro"
             ),
@@ -71,7 +71,7 @@ Termos e Condições do prêmio de £ 10.000: aplicável apenas aos clientes Pip
             "prize-container" => array(
                 "PRIMEIRO PRÊMIO TRADE",
                 "Para participar, simplesmente faça um trade.",
-                "O vencedor será escolhido na segunda-feira, 21 de Novembro, às 18 horas (horário BST)"
+                "O vencedor será escolhido na segunda-feira, 31 DE Outubro, às 18 horas (horário BST)"
             ),
             "new-bonus-title"=> "+ Bônus de Contas Novas",
             "features-container" => array(

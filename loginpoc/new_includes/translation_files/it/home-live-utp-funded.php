@@ -42,7 +42,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
                 "Migliora il tuo trading con costi più’ bassi di transazione sui mercati più popolari ed una maggiore gamma di mercati, su più’ piattaforme, con un supporto ineguagliabile."
             ),
             "update-account"=> array(
-                "Apri il Tuo Conto e Piazza 1 Trade entro lunedì 24 ottobre 2016 e parteciperai al sorteggio per vincere",
+                "Apri il Tuo Conto e Piazza 1 Trade entro lunedì 31 OTTOBRE 2016 e parteciperai al sorteggio per vincere",
                 "10,000 Sterline in contanti!",
                 "+ Corso Ultimate Traders Programme Gratuito"
             ),
@@ -63,7 +63,7 @@ Applicabile solo ai clienti PipIndex Capital Markets che trasferiscono i fondi d
             "prize-container" => array(
                 "PREMIO DEL PRIMO TRADE",
                 "Per far parte di questo sorteggio, è sufficiente posizionare un trade.",
-                "Il vincitore verrà estratto entro lunedì 24 ottobre alle 18:00 BST"
+                "Il vincitore verrà estratto entro lunedì 31 OTTOBRE alle 18:00 BST"
             ),
             "features-container" => array(
                 "Spread a partire da 0,8 ",

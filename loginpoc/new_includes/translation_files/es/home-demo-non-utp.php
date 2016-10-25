@@ -32,7 +32,9 @@
                 "please_contact_us" => "POR FAVOR CONTACTENOS",
                 "table_header_deposite" => "DEPOSITAR ",
                 "table_header_bonus" => "BONO",
-                "table_header_october_bonus" => "BONO DE OCTUBRE",
+                "table_header_october_bonus" => "BONO DE NOVIEMBRE",
+                "minutes" => "Minutos",
+                "hours" => "Horas",
                 "minutes" => "Minutos",
                 "hours" => "Horas",
                 "placeholder_name"=>"Su nombre",
@@ -48,9 +50,9 @@
                 "Completamente gratis por Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Abra una cuenta y realice la primer operación/trade antes del Lunes 24 de Octubre de 2016 y recibe",
+                "Abra una cuenta y realice la primer operación/trade antes del Lunes 31 DE OCTUBRE de 2016 y recibe",
                 "+Ultimate Traders Programme gratuito",
-                "++ Bono para las nuevas cuentas de Octubre",
+                "++ Bono para las nuevas cuentas de Noviembre",
                 "+++ Ingreso al sorteo de los £10.000"
             ),
             "update-steps-container"=> array(
@@ -74,7 +76,7 @@
             "prize-container" => array(
                 "PREMIO A LA PRIMERA OPERACIÓN",
                 "Para entrar en este sorteo, simplemente coloque su primera operación/trade.",
-                "El ganador será elegido el lunes 24 de octubre del 2016a las 18:00 BST"
+                "El ganador será elegido el lunes 31 DE OCTUBRE del 2016a las 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bono de Nueva Cuenta",
             "features-container" => array(

@@ -32,7 +32,9 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
                 "please_contact_us" => "CONTACTEZ-NOUS S'IL VOUS PLAIT",
                 "table_header_deposite" => "DÉPÔT ",
                 "table_header_bonus" => "BONUS",
-                "table_header_october_bonus" => "BONUS d’octobre",
+                                "table_header_october_bonus" => "BONUS d’NOVEMBER",
+                "minutes" => "minutes",
+                "hours" => "heures",
                 "minutes" => "minutes",
                 "hours" => "heures",
                 "placeholder_name"=>"votre nom",
@@ -48,9 +50,9 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
                 "Complètement gratuit de l’Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 24e Octobre 2016 et recevez",
+                "Ouvrez votre compte et Placer 1 Trade d'ici le lundi 31e OCTOBRE 2016 et recevez",
                 "+ Programme ultime Traders gratuit",
-                "+++Nouveau BONUS d’octobre",
+                "+++Nouveau BONUS d’NOVEMBRE",
                 "+++ Rentrez dans le tirage au sort des £ 10000"
             ),
             "update-steps-container"=> array(
@@ -74,7 +76,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
             "prize-container" => array(
                 "PREMIER PRIX DU TRADE",
                 "Pour accéder à ce tirage au sort, il suffit de placer un Trade.",
-                "Le gagnant sera tiré au plus tard le lundi 24 Octobre à 18:00 BST"
+                "Le gagnant sera tiré au plus tard le lundi 31 OCTOBRE à 18:00 BST"
             ),
             "new-bonus-title"=> "+ Nouveau Compte Bonus",
             "features-container" => array(

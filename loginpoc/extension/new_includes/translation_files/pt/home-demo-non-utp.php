@@ -51,7 +51,7 @@ AVISO LEGAL: QUAISQUER OPINIÕES, NOTÍCIAS, INVESTIGAÇÃO, ANÁLISE, PREÇOS, 
                 "completamente grátis da Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 21 de Novembro de 2016 e receba",
+                "Abra Sua Conta e Realize 1 Trade até segunda-feira, 31 DE Outubro de 2016 e receba",
                 "+ ULTIMATE TRADERS PROGRAMME completamente gratuito",
                 "++ Novo Bônus Conta Novembro",
                 "+++Concorra a um prêmio em dinheiro de £10,000"
@@ -77,7 +77,7 @@ AVISO LEGAL: QUAISQUER OPINIÕES, NOTÍCIAS, INVESTIGAÇÃO, ANÁLISE, PREÇOS, 
             "prize-container" => array(
                 "PRIMEIRO PRÊMIO TRADE",
                 "Para participar, simplesmente faça um trade.",
-                "O vencedor será escolhido na segunda-feira, 21 de Novembro, às 18 horas (horário BST)"
+                "O vencedor será escolhido na segunda-feira, 31 DE Outubro, às 18 horas (horário BST)"
             ),
             "new-bonus-title"=> "+ Bônus de Contas Novas",
             "features-container" => array(

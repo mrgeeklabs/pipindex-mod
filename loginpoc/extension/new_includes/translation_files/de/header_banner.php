@@ -2,7 +2,7 @@
     $translationsHeader = array(
         "de"=>array(
             "ANGEBOT LÄUFT AM",
-            "MONTAG 21.11 AB"
+            "MONTAG 31.10 AB"
         )
     );
 ?>

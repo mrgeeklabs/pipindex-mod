@@ -20,7 +20,9 @@
                 "please_contact_us" => "POR FAVOR, ENTRE EM CONTATO CONOSCO",
                 "table_header_deposite" => "DEPÓSITO ",
                 "table_header_bonus" => "BÔNUS",
-                "table_header_october_bonus" => "BÔNUS DE OUTUBRO",
+                "table_header_october_bonus" => "BÔNUS DE Novembro",
+                "minutes" => "minutos",
+                "hours" => "horas",
                 "minutes" => "minutos",
                 "hours" => "horas",
                 "placeholder_name"=>"Seu Nome",
@@ -49,7 +51,7 @@
             "thankyou-footer" => array(
                 "Acessar novos e mais diversificados mercados, a um custo menor e com mais suporte.
 Nós da PipIndex gostaríamos de lhe agradecer e estamos à disposição para orientá-los e prover todo o suporte na área educacional.",
-                "Como presente de despedida, não se esqueça de colocar seu primeiro trade até segunda-feira, 24 de Outubro, às 14 horas (horário BST) para concorrer a ganhar o prêmio de £ 10.000 em dinheiro em sua conta bancária."
+                "Como presente de despedida, não se esqueça de colocar seu primeiro trade até segunda-feira, 31 DE Outubro, às 14 horas (horário BST) para concorrer a ganhar o prêmio de £ 10.000 em dinheiro em sua conta bancária."
             ),
             "contact-text"=>"Caso surjam dúvidas ou quaisquer outras questões, não hesite em entrar em contato diretamente com a ETX para obter suporte."
         )

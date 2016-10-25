@@ -50,7 +50,7 @@
         	),
         	"thankyou-footer" => array(
         		"A Pipindex nous aimerions vous remercier et espérons vous soutenir davantage vos besoins éducatifs",
-        		"Comme cadeau d'adieu, n’oubliez pas de placer cette première opération avant le lundi 21 NOVEMBRE 2016 à 14 heures BST afin d’avoir une chance de gagner £ 10,000"
+        		"Comme cadeau d'adieu, n’oubliez pas de placer cette première opération avant le lundi 31 OCTOBRE 2016 à 14 heures BST afin d’avoir une chance de gagner £ 10,000"
         	),
         	"contact-text"=>"En attendant, si vous avez des questions ou requêtes n’hésitez pas à nous contacter directement à ETX pour un soutien supplémentaire :"
         )

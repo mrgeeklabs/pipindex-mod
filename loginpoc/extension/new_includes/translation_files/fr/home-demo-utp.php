@@ -43,7 +43,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
                 "Améliorer votre trading à moindre coût sur les instruments populaires et un large éventail de marchés, à travers de multiples plateformes, avec un soutien inégalé."
             ),
             "update-account"=> array(
-                "Ouvrez votre compte et Placez un 1er Trade d'ici le lundi 21e NOVEMBRE 2016 et recevez",
+                "Ouvrez votre compte et Placez un 1er Trade d'ici le lundi 31e OCTOBRE 2016 et recevez",
                 "Bonus nouveau compte d’NOVEMBRE",
                 "++ Soyez dans le tirage au sort des 10.000 en £"
             ),
@@ -68,7 +68,7 @@ Avertissement de Risque Elevé: les échanges de Devises, Futurs, et Options peu
             "prize-container" => array(
                 "PRIX DU PREMIER TRADE",
                 "Pour accéder à ce tirage au sort, il suffit de placer un Trade.",
-                "Le gagnant sera tiré au plus tard le lundi 21 NOVEMBRE à 18:00 BST"
+                "Le gagnant sera tiré au plus tard le lundi 31 OCTOBRE à 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bonus du nouveau compte",
             "features-container" => array(

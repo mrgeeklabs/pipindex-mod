@@ -32,7 +32,9 @@ Sólo se aplica a los clientes PipIndex Capital Markets que transfieren el saldo
                 "please_contact_us" => "POR FAVOR CONTACTENOS",
                 "table_header_deposite" => "DEPOSITAR ",
                 "table_header_bonus" => "BONO",
-                "table_header_october_bonus" => "BONO DE OCTUBRE",
+                "table_header_october_bonus" => "BONO DE NOVIEMBRE",
+                "minutes" => "Minutos",
+                "hours" => "Horas",
             ),
             "title"=>"Inicio | PipIndex Capital Markets",
             "banner_right"=> array(
@@ -43,7 +45,7 @@ Sólo se aplica a los clientes PipIndex Capital Markets que transfieren el saldo
                 "Completamente gratis por Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Abra una cuenta y realice la primer operación/trade antes del Lunes 24 de Octubre de 2016 y",
+                "Abra una cuenta y realice la primer operación/trade antes del Lunes 31 DE OCTUBRE de 2016 y",
                 "tenga la posibilidad de ganar &pound;10.000 en efectivo!",
                 "+Ultimate Traders Programme gratuito"
             ),
@@ -68,7 +70,7 @@ Sólo se aplica a los clientes PipIndex Capital Markets que transfieren el saldo
             "prize-container" => array(
                 "PREMIO A LA PRIMERA OPERACIÓN",
                 "Para entrar en este sorteo, simplemente coloque su primera operación/trade.",
-                "El ganador será elegido el lunes 24 de octubre del 2016a las 18:00 BST"
+                "El ganador será elegido el lunes 31 DE OCTUBRE del 2016a las 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bono de Nueva Cuenta",
             "features-container" => array(

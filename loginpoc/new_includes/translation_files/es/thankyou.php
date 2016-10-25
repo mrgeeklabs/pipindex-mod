@@ -20,7 +20,9 @@
                 "please_contact_us" => "POR FAVOR CONTACTENOS",
                 "table_header_deposite" => "DEPOSITAR ",
                 "table_header_bonus" => "BONO",
-                "table_header_october_bonus" => "BONO DE OCTUBRE",
+                "table_header_october_bonus" => "BONO DE NOVIEMBRE",
+                "minutes" => "Minutos",
+                "hours" => "Horas",
                 "minutes" => "Minutos",
                 "hours" => "Horas",
                 "placeholder_name"=>"Su nombre",
@@ -48,7 +50,7 @@
             ),
             "thankyou-footer" => array(
                 "De todas los que formamos parte de Pipindex nos gustaría darle las gracias,  y esperamos haber cubierto sus necesidades educativas.",
-                "Como regalo de despedida, no se olvide de realizar esa primera operación antes de las 14hs BST del lunes 24 de octubre de 2016 para tener la posibilidad de ganar <span>£ 10,000</span>"
+                "Como regalo de despedida, no se olvide de realizar esa primera operación antes de las 14hs BST del lunes 31 DE OCTUBRE de 2016 para tener la posibilidad de ganar <span>£ 10,000</span>"
             ),
             "contact-text"=>"Mientras tanto, en caso de tener alguna duda o consulta no dude en ponerse en contacto con nosotros directamente en ETX para obtener soporte adicional:"
         )

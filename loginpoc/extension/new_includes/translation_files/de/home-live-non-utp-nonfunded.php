@@ -48,7 +48,7 @@ Nur anwendbar für Kunden von PipIndex Capital Markets, die die Bilanzen Ihrer T
                 "vollständig kostenfrei von der Academy of Financial Trading"
             ),
             "update-account"=> array(
-                "Eröffnen Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 21. November 2016 um 10,000 £ zu gewinnen!",
+                "Eröffnen Sie Ihren Account und platzieren Sie 1 Trade bis Montag, den 31. Oktober 2016 um 10,000 £ zu gewinnen!",
                 "+ Kostenloses Ultimate Traders Programme",
                 "++ Neuer November-Bonus",
             ),
@@ -73,7 +73,7 @@ Nur anwendbar für Kunden von PipIndex Capital Markets, die die Bilanzen Ihrer T
             "prize-container" => array(
                 "Erster Trading-Preis",
                 "Um an dieser Verlosung teilzunehmen, platzieren Sie einfach einen Trade.",
-                "Der Gewinner wird am Montag, den 21. November 2016 um 18 Uhr BST gezogen."
+                "Der Gewinner wird am Montag, den 31. Oktober 2016 um 18 Uhr BST gezogen."
             ),
             "new-bonus-title"=> "+ Neuer-Account-Bonus",
             "features-container" => array(

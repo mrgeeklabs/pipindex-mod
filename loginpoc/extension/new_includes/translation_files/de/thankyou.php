@@ -45,7 +45,7 @@
             ),
             "thankyou-footer" => array(
                 "Alle hier von PipIndex möchten sich bei Ihnen für Ihr Vertrauen und die Zusammenarbeit bedanken und wir freuen uns darauf Sie weiter bei Ihren Ausbildungsbedürfnissen zu unterstützen",
-                "Vergessen Sie nicht unser Abschiedsgeschenk und Ihren ersten Trade bis Montag, den 21.11.2016 um 14 Uhr BST zu platzieren um eine Chance zu haben 10.000£ zu gewinnen"
+                "Vergessen Sie nicht unser Abschiedsgeschenk und Ihren ersten Trade bis Montag, den 31.10.2016 um 14 Uhr BST zu platzieren um eine Chance zu haben 10.000£ zu gewinnen"
             ),
             "contact-text"=>"Sollten Sie in der Zwischenzeit irgendwelche Fragen oder Anliegen haben, kontaktieren Sie uns gerne direkt bei ETX für weiteren Support:"
         )

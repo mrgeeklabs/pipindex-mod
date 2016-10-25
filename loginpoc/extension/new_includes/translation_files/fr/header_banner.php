@@ -2,7 +2,7 @@
     $translationsHeader = array(
         "fr"=>array(
             "L'OFFRE EXPIRE LE",
-            "LUNDI 21 NOVEMBRE"
+            "LUNDI 31 OCTOBRE"
         )
     );
 ?>

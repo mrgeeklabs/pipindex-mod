@@ -43,7 +43,7 @@
                 "Mejore su trading en una gama más amplia de mercados  y con menores costes en los instrumentos más populares, a través de múltiples plataformas, con un soporte incomparable."
             ),
             "update-account"=> array(
-                "Abra una cuenta y realice la primer operación/trade antes del Lunes 21 de Noviembre de 2016 y recibe ",
+                "Abra una cuenta y realice la primer operación/trade antes del Lunes 31 DE OCTUBRE de 2016 y recibe ",
                 "+Bono para las nuevas cuentas de Noviembre",
                 "++Ingreso al sorteo de los £10.000"
             ),
@@ -68,7 +68,7 @@
             "prize-container" => array(
                 "PREMIO A LA PRIMERA OPERACIÓN",
                 "Para entrar en este sorteo, simplemente coloque su primera operación/trade.",
-                "El ganador será elegido el lunes 21 de NOVIEMBRE del 2016a las 18:00 BST"
+                "El ganador será elegido el lunes 31 DE OCTUBRE del 2016a las 18:00 BST"
             ),
             "new-bonus-title"=> "+ Bono de Nueva Cuenta",
             "features-container" => array(
