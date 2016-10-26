@@ -146,6 +146,11 @@ function updateInSalesforce($row, $inboundEmail) {
         return;
     }
 
+    $consentMarker = $emailExists['records'][0]['Consent__c'];
+    if ($consentMarker == 'true' || $consentMarker == true) {
+        unset($row['Consent__c']);
+    }
+
     $salesforce->UpdateLead($emailExists['records'][0]['Id'], $row);
     $succ = "Updated data for email: " . $inboundEmail;
     error_log("\n" . $succ . ' => OK', 3, "output.log");
