@@ -1,6 +1,5 @@
 <?php
 
-require_once ('../new_includes/salesforce/config.php');
 require_once('../new_includes/salesforce/salesforce.php');
 
 ini_set('memory_limit', -1);
@@ -74,7 +73,7 @@ if ($lines)
         $collection['eventType=accept-terms']
     );
     exportToCSV($ready);
-    //exportToSalesforce($ready);
+    exportToSalesforce($ready);
 
 } else
 {
@@ -104,7 +103,7 @@ function exportToSalesforce($data) {
         $fields['Consent__c'] = isset($fields['Agreed_T_C_Time__c']) ? true : false;
 
         unset($fields[0]);
-        if ($count > 982) {
+        if ($count > 3440) {
             try {
                 updateInSalesforce($fields, $key);
             } catch (Exception $e) {
