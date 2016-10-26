@@ -1,5 +1,6 @@
 <?php
 
+require_once ('../new_includes/salesforce/config.php');
 require_once('../new_includes/salesforce/salesforce.php');
 
 ini_set('memory_limit', -1);
@@ -72,8 +73,8 @@ if ($lines)
         $collection['eventType=page-load&pageId=terms'],
         $collection['eventType=accept-terms']
     );
-    //exportToCSV($ready);
-    exportToSalesforce($ready);
+    exportToCSV($ready);
+    //exportToSalesforce($ready);
 
 } else
 {
