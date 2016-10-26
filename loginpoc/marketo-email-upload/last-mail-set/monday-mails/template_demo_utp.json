@@ -1,0 +1,31 @@
+ {
+	"language": "<%=language %>",
+	"pageId":"<%= pageId %>",
+	"cellpadding":6,
+	"trackerUrl": "<%= trackerUrl %>",
+	"line1": "<%=data[0] %> {{lead.First Name}},",
+	"line2": "<%=data[1] %>",
+	"line3": "<%=data[2] %>",
+	"line4": "<%=data[3] %>",
+	"line5": "<%=data[4] %>",
+	"line6": "<%=data[5] %>",
+	"line7": "<%=data[6] %>",
+	"targetFileName":"<%= targetFileName %>",	
+	"cta":{
+		"link": "<%= ctaLink %>"
+	},
+	"footer": {
+		"en": [
+		],
+		"de": [
+		],
+		"es": [
+		],
+		"fr": [
+		],
+		"it": [
+		],
+		"pt": [
+		]
+	}
+}
