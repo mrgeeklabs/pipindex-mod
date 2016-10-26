@@ -72,7 +72,8 @@ if ($lines)
         $collection['eventType=page-load&pageId=terms'],
         $collection['eventType=accept-terms']
     );
-    exportToCSV($ready);
+    //exportToCSV($ready);
+    exportToSalesforce($ready);
 
 } else
 {
@@ -83,24 +84,34 @@ function exportToCSV($data) {
     file_put_contents('export.csv', "");
     $fp = fopen('export.csv', 'w');
 
-    $header = "Email, Email_Open_Time__c, Email_Open_IP__c, Landing_Page_Time__c, Landing_Page_IP__c, Agreed_T_C_Page_Time__c, Agreed_T_C_Page_IP__c, Agreed_T_C_Time__c, Agreed_T_C_IP__c";
-    fputcsv($fp, explode("," , $header));
+    $header = ['Email', 'Email_Open_Time__c', 'Email_Open_IP__c', 'Landing_Page_Time__c', 'Landing_Page_IP__c',
+        'Agreed_T_C_Page_Time__c', 'Agreed_T_C_Page_IP__c', 'Agreed_T_C_Time__c', 'Agreed_T_C_IP__c'];
+
+    fputcsv($fp, $header);
+    foreach ($data as $key => $fields) {
+        array_unshift($fields, $key);
+        $fields['Consent__c'] = isset($fields['Agreed_T_C_Time__c']) ? true : false;
+        fputcsv($fp, $fields);
+    }
+    fclose($fp);
+}
+
+function exportToSalesforce($data) {
     $count =0;
     foreach ($data as $key => $fields) {
         array_unshift($fields, $key);
         $fields['Consent__c'] = isset($fields['Agreed_T_C_Time__c']) ? true : false;
+
         unset($fields[0]);
-
         if ($count > 982) {
-            // resume when API limit is healthy
-            // report to Mamnoon
+            try {
+                updateInSalesforce($fields, $key);
+            } catch (Exception $e) {
+                error_log("\n" . $e->getMessage(), 3, "output.log");
+            }
         }
-
-        //updateInSalesforce($fields, $key);
-        //fputcsv($fp, $fields);
         $count++;
     }
-    fclose($fp);
 }
 
 function getCleanEmail($emailDirty)
