@@ -3,7 +3,7 @@
 require_once('../new_includes/salesforce/salesforce.php');
 
 ini_set('memory_limit', -1);
-$lines = gzfile('/Users/aligajani/Desktop/pipindex.com-Oct-2016.gz');
+$lines = gzfile('/Users/aligajani/Dropbox/pipindex.com-Oct-2016.gz');
 file_put_contents('output.log', "");
 
 // This is for efficency purposes
@@ -103,7 +103,7 @@ function exportToSalesforce($data) {
         $fields['Consent__c'] = isset($fields['Agreed_T_C_Time__c']) ? true : false;
 
         unset($fields[0]);
-        if ($count > 3440) {
+        if ($count > 3540) {
             try {
                 updateInSalesforce($fields, $key);
             } catch (Exception $e) {
